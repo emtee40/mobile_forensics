@@ -1,0 +1,231 @@
+01-01 00:52:02:179 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:52:04:393 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:52:57:201 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:52:58:616 PlusGestureDetector : Horizontal line detected174.55966796899452
+01-01 00:52:58:616 PlusGestureDetector : mState = State.STATE_FIRST_STROKE
+01-01 00:52:58:715 Utils : isWifiOnly() : false
+01-01 00:52:58:715 Utils : isDataOnly_Sim : false
+01-01 00:52:58:715 Utils : isLTE(context) : true
+01-01 00:52:58:729 Utils : telephonyManager.getPhoneType() : 1
+01-01 00:52:58:733 Utils : telephonyManager.getSimState() : 1
+01-01 00:52:58:733 Utils : isSimMissing : true
+01-01 00:52:58:734 Utils : INFO : isSimMissingToastRequired : true
+01-01 00:52:58:761 IntroLanguageActivity : Timeout alarm pending event canceled
+01-01 00:52:58:762 WizardScriptManager : Current actionId : sec_welcome
+01-01 00:52:58:764 WizardScriptManager : getNextIntentFromWizardScript actionId : sec_eula
+01-01 00:52:58:764 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 1
+01-01 00:52:59:474 EULAPPMainActivity : Call from setupWizard false
+01-01 00:52:59:514 Utils : isAntiMalwareDisabled : false
+01-01 00:52:59:518 Utils : DMA version code :531401000
+01-01 00:52:59:519 Utils : Anti-malware is not supported
+01-01 00:52:59:520 ReactivationUtils : readKillSwitchONFlag, result : 2
+01-01 00:52:59:520 ReactivationUtils : readKillSwitchONFlag, valueIsGoogleFrpSupported : 2
+01-01 00:52:59:526 ReactivationUtils : readKillSwitchONFlag : false
+01-01 00:53:01:852 Utils : setupwizard provider : true
+01-01 00:53:02:079 EULAPPMainActivity : EULA is saved
+01-01 00:53:02:109 EULAPPMainActivity : PP is saved
+01-01 00:53:02:111 EULAPPMainActivity : [DB-LOG] put samsung_eula_agree_hqm DB to 1
+01-01 00:53:02:113 Utils : setupwizard provider : true
+01-01 00:53:02:137 EULAPPMainActivity : DIAG is saved
+01-01 00:53:02:147 Utils : sendBroadcastForEulaAgreement is Done
+01-01 00:53:02:149 ReactivationUtils : isSupportLMM, result : 2
+01-01 00:53:02:149 ReactivationUtils : isSupportLMM, valueIsSamsungReactiveServiceSupported : 1
+01-01 00:53:02:149 ReactivationUtils : isSupportLMM, valueIsSamsungGoogleReactiveServicesSupported : 3
+01-01 00:53:02:149 ReactivationUtils : isSupportLMM : false
+01-01 00:53:02:150 WizardScriptManager : Current actionId : sec_eula
+01-01 00:53:02:150 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:53:02:150 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:53:02:151 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:53:02:151 Utils : isVanillaStep : false
+01-01 00:53:02:151 WizardScriptManager : getNextIntentFromWizardScript actionId : sec_wifi_setup
+01-01 00:53:02:151 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 501
+01-01 00:53:02:254 SecWifiSetupWrapper : onCreate() SecWifiSetupWrapper
+01-01 00:53:02:255 SecWifiSetupWrapper : Start WIFI...
+01-01 00:53:02:255 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:53:02:256 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:53:02:265 KmeManager :  isB2bDeviceBeforeFactoryReset false
+01-01 00:53:02:266 ReactivationUtils : isSupportGoogleFRP, result : 2
+01-01 00:53:02:266 ReactivationUtils : isSupportGoogleFRP, valueIsGoogleFrpSupported : 2
+01-01 00:53:02:267 ReactivationUtils : isSupportGoogleFRP : feature is supported
+01-01 00:53:02:267 ReactivationUtils : isSupportGoogleFRP : true
+01-01 00:53:02:268 ReactivationUtils : readKillSwitchONFlag, result : 2
+01-01 00:53:02:268 ReactivationUtils : readKillSwitchONFlag, valueIsGoogleFrpSupported : 2
+01-01 00:53:02:278 ReactivationUtils : readKillSwitchONFlag : false
+01-01 00:53:02:278 SecWifiSetupWrapper : [googleFRPFlag] = false
+01-01 00:53:02:438 WifiSetupWizard : onCreate
+01-01 00:53:03:618 PlusGestureDetector : Timeout called, invalidate points
+01-01 00:53:03:619 PlusGestureDetector : invalidatePoints mState = State.STATE_INIT
+10-07 02:31:09:984 WifiSetupWizard : onClick MainAction isKmeSupported=true isWifiNetworkConnected()=true isNetworkAvailable()=true mUseSprintNewSetupWizard =false
+10-07 02:31:10:073 B2bDeviceCheckActivity : KME_Analysis: B2B check dialog: onCreatetrue
+10-07 02:31:10:073 B2bDeviceCheckActivity : KME_Analysis: B2B check dialog: onCreatecom.sec.android.app.secsetupwizard.B2B_CHECK_PROGRESS
+10-07 02:31:10:092 class com.sec.android.app.SecSetupWizard.kme.B2bDeviceCheckActivity$B2bCheckPoller : Step: 1
+10-07 02:31:10:092 class com.sec.android.app.SecSetupWizard.kme.B2bDeviceCheckActivity$B2bCheckPoller : poller started
+10-07 02:31:10:092 KmeManager : Adding listener: B2bDeviceCheckActivity
+10-07 02:31:10:093 KmeManager : Starting b2b device check ...
+10-07 02:31:10:097 B2bDeviceCheckActivity : KME_Analysis: B2B check dialog:Start Elapsed Time : 213040
+10-07 02:31:10:098 KmeManager : isNetworkAvailable: true
+10-07 02:31:10:099 KmeManager : KME_Analysis: startEnrollmentCheck() Elapsed Time: 213042
+10-07 02:31:10:361 KmeManager : KME_Analysis: onEnrollmentStatusReceived: false mSwipeEnrollStatus =false Elapsed Time: 213304
+10-07 02:31:10:361 KmeManager : KME_Analysis: updateB2BDeviceStatus: false mSwipeEnrollStatus =false
+10-07 02:31:10:362 B2bDeviceCheckActivity : Receiving result: NOT_B2B_DEVICE from class com.sec.android.app.SecSetupWizard.kme.B2bDeviceCheckActivity
+10-07 02:31:10:362 class com.sec.android.app.SecSetupWizard.kme.B2bDeviceCheckActivity$B2bCheckPoller : poller stopped
+10-07 02:31:10:364 B2bDeviceCheckActivity : Value shown for ethernet is false
+10-07 02:31:10:364 KmeManager : KME_Analysis: updateB2BDeviceStatus: false mSwipeEnrollStatus =false
+10-07 02:31:10:365 KmeManager : Removing listener: B2bDeviceCheckActivity
+10-07 02:31:10:562 SecWifiSetupWrapper : onActivityResult : 22
+10-07 02:31:10:563 SecWifiSetupWrapper : onActivityResult finishAction
+10-07 02:31:10:579 SecWifiSetupWrapper : call com.android.wizard.NEXT and finish
+10-07 02:31:10:579 WizardScriptManager : Current actionId : sec_wifi_setup
+10-07 02:31:10:580 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+10-07 02:31:10:581 KmeManager : KME_Analysis: Binding to KmeService Elapsed Time: 213524 mIsBoundToKmeService = true
+10-07 02:31:10:582 ReactivationUtils : isSupportGoogleFRP, result : 2
+10-07 02:31:10:583 ReactivationUtils : isSupportGoogleFRP, valueIsGoogleFrpSupported : 2
+10-07 02:31:10:583 ReactivationUtils : isSupportGoogleFRP : feature is supported
+10-07 02:31:10:583 ReactivationUtils : isSupportGoogleFRP : true
+10-07 02:31:10:585 ReactivationUtils : readKillSwitchONFlag, result : 2
+10-07 02:31:10:585 ReactivationUtils : readKillSwitchONFlag, valueIsGoogleFrpSupported : 2
+10-07 02:31:10:592 ReactivationUtils : readKillSwitchONFlag : false
+10-07 02:31:10:601 WizardScriptManager : getNextIntentFromWizardScript actionId : restore_with_account_flow
+10-07 02:31:10:601 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 1
+10-07 02:31:10:691 B2bDeviceCheckActivity : KME_Analysis: B2B check dialog: Stop
+10-07 02:31:11:747 WifiSetupWizard : onClick MainAction isKmeSupported=true isWifiNetworkConnected()=true isNetworkAvailable()=true mUseSprintNewSetupWizard =false
+10-06 21:31:58:864 SecLockSetupWrapper : onCreate() SecLockSetupWrapper
+10-06 21:31:58:865 SecLockSetupWrapper : Start LockScreen...
+10-06 21:32:02:200 SecLockSetupWrapper : onActivityResult : 11
+10-06 21:32:02:201 SecLockSetupWrapper : onActivityResult finishAction
+10-06 21:32:02:201 SecLockSetupWrapper : call com.android.wizard.NEXT and finish
+10-06 21:32:02:201 WizardScriptManager : Current actionId : Default
+10-06 21:32:02:202 WizardScriptManager : getNextIntentFromWizardScript use default intent
+10-06 21:32:02:268 GooglePAIWrapper : onCreate() GooglePAIWrapper
+10-06 21:32:02:270 Utils : isEnablePAIConfigMode is true, packageName : android.autoinstalls.config.samsung
+10-06 21:32:02:270 GooglePAIWrapper : Start Google PAI...
+10-06 21:32:02:270 Utils : isIntentAvailable() Intent not available : Intent { cmp=com.android.vending/com.google.android.finsky.setup.VpaSelectionOptionalStepActivity }
+10-06 21:32:02:271 GooglePAIWrapper : Use new PAI activity
+10-06 21:32:05:087 GooglePAIWrapper : onActivityResult : -1
+10-06 21:32:05:088 GooglePAIWrapper : onActivityResult finishAction
+10-06 21:32:05:088 GooglePAIWrapper : set_google_pai_completed flag = true
+10-06 21:32:05:088 GooglePAIWrapper : call com.android.wizard.NEXT and finish
+10-06 21:32:05:089 WizardScriptManager : Current actionId : Default
+10-06 21:32:05:089 WizardScriptManager : getNextIntentFromWizardScript use default intent
+10-06 21:32:08:235 SequenceList : sequence list is made
+10-06 21:32:08:244 WizardFlowManager : ===== start WizardFlowManager =====
+10-06 21:32:08:248 SecSetupWizardActivity : onCreate: User is Unlocked
+10-06 21:32:08:248 SecSetupWizardActivity : ===== start with directboot or WizardFlowManager =====
+10-06 21:32:08:249 SecSetupWizardActivity : startSecSetupWizard: mSetupWizardUseWizardScript true, isSupportSingleSku false, isSingleSkuActivated false
+10-06 21:32:08:251 ReactivationUtils : isSupportLMM, result : 2
+10-06 21:32:08:252 ReactivationUtils : isSupportLMM, valueIsSamsungReactiveServiceSupported : 1
+10-06 21:32:08:252 ReactivationUtils : isSupportLMM, valueIsSamsungGoogleReactiveServicesSupported : 3
+10-06 21:32:08:252 ReactivationUtils : isSupportLMM : false
+10-06 21:32:08:252 SecSetupWizardActivity : startSecSetupWizard: mIsOwner true, setupwizard google_setup
+10-06 21:32:08:253 SecSetupWizardActivity : checkingAECondition dpm.getUserProvisioningState() :  0
+10-06 21:32:08:254 SecSetupWizardActivity : onCreate: getLength 2, current start, property google_setup
+10-06 21:32:08:263 Utils : checkAndGrantSamsungAccountPermissions
+10-06 21:32:08:264 Utils : grantRuntimePermission - pkgName : com.samsung.android.mobileservice, permissionName : android.permission.READ_EXTERNAL_STORAGE
+10-06 21:32:08:282 Utils : grantRuntimePermission - pkgName : com.samsung.android.mobileservice, permissionName : android.permission.WRITE_EXTERNAL_STORAGE
+10-06 21:32:08:291 Utils : grantRuntimePermission - pkgName : com.samsung.android.mobileservice, permissionName : android.permission.CAMERA
+10-06 21:32:08:294 Utils : grantRuntimePermission - pkgName : com.samsung.android.mobileservice, permissionName : android.permission.SEND_SMS
+10-06 21:32:08:296 SecSetupWizardActivity : isRLChallengeRequried : false
+10-06 21:32:08:296 Utils : makeReplacedSequenceList: SalesCode ATT, IsOwner true
+10-06 21:32:08:297 Utils : SetupWizard_ConfigStepSequenceType : 
+10-06 21:32:08:297 Utils : isCommon : false
+10-06 21:32:08:297 Utils : SetupWizard_ConfigStepSequenceType : 
+10-06 21:32:08:297 Utils : isVanillaStep : false
+10-06 21:32:08:299 Utils : SetupWizard hasSmartSwitchFeature true
+10-06 21:32:08:300 Utils : isSupportTips : false
+10-06 21:32:08:300 Utils : isSupportNotice : false
+10-06 21:32:08:301 Utils : SetupWizard_ConfigStepSequenceType : 
+10-06 21:32:08:301 Utils : isBeyond2OlympicEdition : false
+10-06 21:32:08:301 Utils : SetupWizard_ConfigStepSequenceType : 
+10-06 21:32:08:301 Utils : isBlackpinkEdition : false
+10-06 21:32:08:303 SecSetupWizardActivity : insert in list : r2g_setup
+10-06 21:32:08:305 SecSetupWizardActivity : insert in list : restore_data
+10-06 21:32:08:307 SecSetupWizardActivity : insert in list : omc_agent_setup
+10-06 21:32:08:308 SecSetupWizardActivity : insert in list : sec_account_setup
+10-06 21:32:08:309 Utils : isIntentAvailable() Intent not available : com.samsung.android.spay.signin.setupwizard
+10-06 21:32:08:327 SecSetupWizardActivity : insert in list : sec_backup_setup
+10-06 21:32:08:329 SecSetupWizardActivity : insert in list : outro
+10-06 21:32:08:330 SecSetupWizardActivity : getNext: nextItem Intent { act=com.synchronoss.att.r2g.launchOOBE (has extras) }, mList.getCurrent() r2g_setup
+10-06 21:32:08:331 SecSetupWizardActivity : startActivityForResult, current: r2g_setup
+10-06 21:32:08:383 WizardFlowManager : try to connect GSA service
+10-06 21:32:08:394 WizardFlowManager : bind SSB_SERVICE
+10-06 21:32:08:434 WizardFlowManager : SSB_SERVICE connected
+10-06 21:32:08:434 WizardFlowManager : SSB_SERVICE message sent
+10-06 21:32:53:634 SecSetupWizardActivity : onActivityResult: requestCode 1010, resultCode -1 of r2g_setup
+10-06 21:32:53:639 SecSetupWizardActivity : checkingAECondition dpm.getUserProvisioningState() :  0
+10-06 21:32:53:642 SecSetupWizardActivity : getNext: nextItem Intent { cmp=com.sec.android.app.SecSetupWizard/.UI.RestoreDataActivity (has extras) }, mList.getCurrent() restore_data
+10-06 21:32:53:643 SecSetupWizardActivity : startActivityForResult, current: restore_data
+10-06 21:32:53:734 RestoreDataActivity : Call from setupWizard true
+10-06 21:32:55:782 KmeManager : KME_Analysis: Binding to KmeService Elapsed Time: 318725 mIsBoundToKmeService = true
+10-06 21:32:55:808 SecSetupWizardActivity : onActivityResult: requestCode 1010, resultCode 7 of restore_data
+10-06 21:32:55:809 SecSetupWizardActivity : checkingAECondition dpm.getUserProvisioningState() :  0
+10-06 21:32:55:810 SecSetupWizardActivity : getNext: nextItem Intent { act=com.samsung.omcagent.intent.action.OMC_SETUPWIZARD (has extras) }, mList.getCurrent() omc_agent_setup
+10-06 21:32:55:810 SecSetupWizardActivity : startActivityForResult, current: omc_agent_setup
+10-06 21:32:57:134 SecSetupWizardActivity : onActivityResult: requestCode 1010, resultCode 1010 of omc_agent_setup
+10-06 21:32:57:137 SecSetupWizardActivity : checkingAECondition dpm.getUserProvisioningState() :  0
+10-06 21:32:57:138 SecSetupWizardActivity : getNext: nextItem Intent { act=com.sems.app.signin.action.SAMSUNG_ACCOUNT_SETUPWIZARD (has extras) }, mList.getCurrent() sec_account_setup
+10-06 21:32:57:138 SecSetupWizardActivity : startActivityForResult, current: sec_account_setup
+10-06 21:33:01:610 SecSetupWizardActivity : onActivityResult: requestCode 1010, resultCode 7 of sec_account_setup
+10-06 21:33:01:620 SecSetupWizardActivity : checkingAECondition dpm.getUserProvisioningState() :  0
+10-06 21:33:01:622 SecSetupWizardActivity : skip, sec backup: true
+10-06 21:33:01:624 ReactivationUtils : readReactivationFlag, result : 2
+10-06 21:33:01:625 ReactivationUtils : readReactivationFlag, valueIsSamsungReactiveServiceSupported : 1
+10-06 21:33:01:625 ReactivationUtils : readReactivationFlag, valueIsSamsungGoogleReactiveServicesSupported : 3
+10-06 21:33:01:625 ReactivationUtils : readReactivationFlag : feature is not supported
+10-06 21:33:01:625 SecSetupWizardActivity : getNext: nextItem Intent { cmp=com.sec.android.app.SecSetupWizard/.UI.OutroActivity (has extras) }, mList.getCurrent() outro
+10-06 21:33:01:625 SecSetupWizardActivity : getNext: nextItem Intent { cmp=com.sec.android.app.SecSetupWizard/.UI.OutroActivity (has extras) }, mList.getCurrent() outro
+10-06 21:33:01:626 SecSetupWizardActivity : startActivityForResult, current: outro
+10-06 21:33:01:738 OutroActivity : start Outro page
+10-06 21:33:01:739 Utils : isSupportTips : false
+10-06 21:33:01:764 Utils : isSupportTips : false
+10-06 21:33:01:772 Utils : SetupWizard_ConfigStepSequenceType : 
+10-06 21:33:01:772 Utils : isBeyond2OlympicEdition : false
+10-06 21:33:01:772 Utils : SetupWizard_ConfigStepSequenceType : 
+10-06 21:33:01:772 Utils : isBlackpinkEdition : false
+10-06 21:33:02:071 Utils : isSupportTips : false
+10-06 21:33:03:046 Utils : isSupportTips : false
+10-06 21:33:04:109 Utils : SetupWizard_ConfigStepSequenceType : 
+10-06 21:33:04:110 Utils : isBeyond2OlympicEdition : false
+10-06 21:33:04:110 Utils : SetupWizard_ConfigStepSequenceType : 
+10-06 21:33:04:110 Utils : isBlackpinkEdition : false
+10-06 21:33:05:485 SecSetupWizardActivity : onActivityResult: requestCode 1010, resultCode 14 of outro
+10-06 21:33:05:486 SecSetupWizardActivity : checkingAECondition dpm.getUserProvisioningState() :  0
+10-06 21:33:05:487 SecSetupWizardActivity : setupComplete : mSetupWizardUseWizardScript true
+10-06 21:33:05:491 WizardSystemBarHelper : enableNotifications - mStatusBarManager is not null So enable Notifications
+10-06 21:33:05:494 Utils : revokeSamsungAccountPermissions
+10-06 21:33:05:495 Utils : revokeRuntimePermission - pkgName : com.samsung.android.mobileservice, permissionName : android.permission.READ_EXTERNAL_STORAGE
+10-06 21:33:05:511 Utils : revokeRuntimePermission - pkgName : com.samsung.android.mobileservice, permissionName : android.permission.WRITE_EXTERNAL_STORAGE
+10-06 21:33:05:517 Utils : revokeRuntimePermission - pkgName : com.samsung.android.mobileservice, permissionName : android.permission.CAMERA
+10-06 21:33:05:523 Utils : revokeRuntimePermission - pkgName : com.samsung.android.mobileservice, permissionName : android.permission.SEND_SMS
+10-06 21:33:05:535 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+10-06 21:33:05:543 TAG : One UI Home Package name : com.sec.android.app.launcher.activities.LauncherActivity
+10-06 21:33:05:544 TAG :  Package name : com.android.settings.FallbackHome
+10-06 21:33:05:549 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+10-06 21:33:05:549 SecSetupWizardActivity : KME stop with Thread
+10-06 21:33:05:551 SecSetupWizardActivity : disable SecureInterceptActivity
+10-06 21:33:05:551 Utils : LOG:SetupWizard end time :328494
+10-06 21:33:05:551 KmeManager : KME_Analysis: Unbinding from BulkEnrollmentCheckService Elapsed Time: 328494 mIsBoundToKmeService = true
+10-06 21:33:05:560 Utils : SetupWizard hasSmartSwitchFeature true
+10-06 21:33:05:562 WizardScriptManager : Current actionId : complete
+10-06 21:33:05:563 WizardScriptManager : getNextIntentFromWizardScript actionId : exit
+10-06 21:33:05:563 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 1
+10-06 21:33:05:581 SecSetupWizardActivity : [BR] sendBroadcast - com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE
+10-06 21:33:05:582 SecSetupWizardActivity : setupComplete() - reset UseWizardScript's pref value as : false
+10-06 21:33:07:040 WizardFlowManager : unbind SSB_SERVICE
+10-14 18:53:19:840 SetupWiwzardApplication : onCreate setConfiguration
+10-14 18:53:19:921 Utils : setupwizard provider : true
+11-05 02:46:13:413 SetupWiwzardApplication : onCreate setConfiguration
+11-05 02:46:13:476 Utils : setupwizard provider : true
+11-28 22:20:09:206 SetupWiwzardApplication : onCreate setConfiguration
+11-28 22:20:09:274 Utils : setupwizard provider : true
+11-29 05:42:37:746 SetupWiwzardApplication : onCreate setConfiguration
+11-29 05:42:37:789 Utils : setupwizard provider : true
+01-12 14:13:57:892 SetupWiwzardApplication : onCreate setConfiguration
+01-12 14:13:57:931 Utils : setupwizard provider : true
+01-16 03:18:51:265 SetupWiwzardApplication : onCreate setConfiguration
+01-16 03:18:51:298 Utils : setupwizard provider : true
+01-16 03:59:28:299 SetupWiwzardApplication : onCreate setConfiguration
+01-16 03:59:28:342 Utils : setupwizard provider : true
+01-16 04:02:15:221 SetupWiwzardApplication : onCreate setConfiguration
+01-16 04:02:15:268 Utils : setupwizard provider : true
+01-16 21:21:37:877 SetupWiwzardApplication : onCreate setConfiguration
+01-16 21:21:37:916 Utils : setupwizard provider : true

@@ -1,0 +1,890 @@
+SSREQCTL.
+Cur Time : 4211.545000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.170150	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash f14edc4 func_name ss_diag_manager_pre_init
+11.170158	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 9826e54 func_name ss_cb_init
+11.170163	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 9826e54 func_name ss_cb_init
+11.170171	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash b367da2 func_name dlpager
+11.170172	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash b367da2 func_name dlpager
+11.170180	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7561 func_name npa
+11.170645	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7561 func_name npa
+11.170654	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7923 func_name rlc
+11.170667	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7923 func_name rlc
+11.170675	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 9998704 func_name timer_drv_init
+11.171051	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 9998704 func_name timer_drv_init
+11.171059	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 75839b func_name timer_slave2_task
+11.171233	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 6a53802 task_name tmr_slave2
+11.171249	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 75839b func_name timer_slave2_task
+11.171257	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 85839b func_name timer_slave1_task
+11.171401	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 6a53801 task_name tmr_slave1
+11.171415	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 85839b func_name timer_slave1_task
+11.171423	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash a5839b func_name timer_slave3_task
+11.171587	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 6a53803 task_name tmr_slave3
+11.171601	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash a5839b func_name timer_slave3_task
+11.171609	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash c8118ab func_name timer_task
+11.171756	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 7b03c2 task_name timer
+11.171822	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash c8118ab func_name timer_task
+11.171830	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash a136e64 func_name npa_timer_init
+11.171835	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash a136e64 func_name npa_timer_init
+11.171843	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 6e304b func_name glink
+11.171873	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 6e304b func_name glink
+11.171882	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 69a161d func_name xport_rpm
+11.172009	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 69a161d func_name xport_rpm
+11.172017	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 796d func_name rpm
+11.172248	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 796d func_name rpm
+11.172256	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7a3bd func_name smem
+11.172511	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7a3bd func_name smem
+11.172519	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 1c804a2 func_name ssinitsmemvendor
+11.172548	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 1c804a2 func_name ssinitsmemvendor
+11.172557	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 3c366f7 func_name smem_log
+11.172574	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 3c366f7 func_name smem_log
+11.172582	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 76d func_name pm
+11.182794	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 76d func_name pm
+11.182803	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7ca920 func_name vcs_0
+11.183566	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7ca920 func_name vcs_0
+11.183575	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 3c81ca9 func_name timer_qdi
+11.183579	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 3c81ca9 func_name timer_qdi
+11.183587	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash c825534 func_name timer_init
+11.183608	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash c825534 func_name timer_init
+11.183616	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7a4390 func_name smp2p
+11.183754	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7a4390 func_name smp2p
+11.183763	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 156f844 func_name sys_m_smsm_init
+11.183764	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 156f844 func_name sys_m_smsm_init
+11.183772	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash d7d2da0 func_name clk_regime_0
+11.189300	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash d7d2da0 func_name clk_regime_0
+11.189306	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 6a72 func_name cpr
+11.252319	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 6a72 func_name cpr
+11.252325	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7ca3 func_name vcs
+11.252345	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7ca3 func_name vcs
+11.252350	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 68d7d25 func_name clk_regime
+11.252351	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 68d7d25 func_name clk_regime
+11.252356	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 74e100 func_name q6zip
+11.252393	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 74e100 func_name q6zip
+11.252398	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 86f6dfd func_name smem_spin_lock_stm
+11.252521	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 86f6dfd func_name smem_spin_lock_stm
+11.252527	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash cdad222 func_name smp2p_qdi_driver
+11.252530	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash cdad222 func_name smp2p_qdi_driver
+11.252536	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash c1a18ab func_name utimer_task
+11.252547	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash c1a18ab func_name utimer_task
+11.252552	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 3c1aca9 func_name utimer_qdi
+11.252554	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 3c1aca9 func_name utimer_qdi
+11.252560	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 932c844 func_name utimer_client
+11.252563	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 932c844 func_name utimer_client
+11.252568	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 5134c77 func_name glink_diag
+11.252571	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 5134c77 func_name glink_diag
+11.252576	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash f231834 func_name ssm_parser_init
+11.252594	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash f231834 func_name ssm_parser_init
+11.252600	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 2b36184 func_name dog_hal_root
+11.252642	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 2b36184 func_name dog_hal_root
+11.252648	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash b5d67c9 func_name dog_qdi
+11.252660	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash b5d67c9 func_name dog_qdi
+11.252665	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash e7e6cd func_name perf_pre_stm
+11.252666	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash e7e6cd func_name perf_pre_stm
+11.252671	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 6f98882 func_name icbarb
+11.253788	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 6f98882 func_name icbarb
+11.253793	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 68b5cd5 func_name core_cpu
+11.254296	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 68b5cd5 func_name core_cpu
+11.254302	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 6b9d func_name dsm
+11.254657	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 6b9d func_name dsm
+11.254663	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 6794 func_name abt
+11.254751	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 6794 func_name abt
+11.254757	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash fb5cd24 func_name awake_until_init
+11.254824	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash fb5cd24 func_name awake_until_init
+11.254829	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 9a174dd func_name xport_smem
+11.255027	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 9a174dd func_name xport_smem
+11.255033	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 79ff func_name sio
+11.256496	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 79ff func_name sio
+11.256502	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 691cc52 func_name ipc_router
+11.256602	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 691cc52 func_name ipc_router
+11.256608	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 783f5d7 func_name qmi_fw
+11.256616	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 783f5d7 func_name qmi_fw
+11.256621	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash c46ac53 func_name remotefs
+11.256622	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash c46ac53 func_name remotefs
+11.256628	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash aef43e4 func_name system_db_init
+11.256628	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash aef43e4 func_name system_db_init
+11.256634	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 3cd32b func_name utimetick
+11.256655	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 3cd32b func_name utimetick
+11.256661	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 902703e func_name perf_shutdown
+11.256709	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 902703e func_name perf_shutdown
+11.256715	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 603ec4 func_name nvruim_init
+11.257307	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 603ec4 func_name nvruim_init
+11.257313	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 8d971a3 func_name spmiclkstatus
+11.257314	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 8d971a3 func_name spmiclkstatus
+11.257320	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 813e034 func_name prng_mutex_init
+11.257320	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 813e034 func_name prng_mutex_init
+11.257325	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7ccf1a4 func_name rf_group_0_init
+11.257326	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7ccf1a4 func_name rf_group_0_init
+11.257332	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 34cefa4 func_name pd_dump_root
+11.257334	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 34cefa4 func_name pd_dump_root
+11.257340	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 6503424 func_name pd_mon_root
+11.257376	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 6503424 func_name pd_mon_root
+11.257381	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7d5b7b3 func_name softwareswitches
+11.257400	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7d5b7b3 func_name softwareswitches
+11.257406	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash e2eba54 func_name dog_hb_init
+11.257420	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash e2eba54 func_name dog_hb_init
+11.257425	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 510492 func_name glink_ssr
+11.257430	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 510492 func_name glink_ssr
+11.257436	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash a59f334 func_name ss_nv_util_init
+11.257448	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash a59f334 func_name ss_nv_util_init
+11.257454	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 6325594 func_name sys_m_init
+11.257455	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 6325594 func_name sys_m_init
+11.257461	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7dea95d func_name uimage_rpm
+11.257473	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7dea95d func_name uimage_rpm
+11.257479	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash db1cfe3 func_name image_vers
+11.257489	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash db1cfe3 func_name image_vers
+11.257494	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash db1c884 func_name image_uuid
+11.257497	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash db1c884 func_name image_uuid
+11.257503	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 8835bf6 func_name bam_drv
+11.257527	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 8835bf6 func_name bam_drv
+11.257532	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash d813304 func_name prng_qdi_init
+11.257534	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash d813304 func_name prng_qdi_init
+11.257540	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 246c827 func_name ftm_pmic_diag
+11.257541	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 246c827 func_name ftm_pmic_diag
+11.257547	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash ab9e8f2 func_name techarb
+11.257626	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash ab9e8f2 func_name techarb
+11.257632	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 6d9663 func_name fs_os
+11.257637	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 6d9663 func_name fs_os
+11.257642	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 9c9d8c7 func_name servreg
+11.257787	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 9c9d8c7 func_name servreg
+11.257793	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash dd3bf92 func_name aostlm_driver
+11.257795	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash dd3bf92 func_name aostlm_driver
+11.257801	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 98f0c22 func_name smem_qdi_driver
+11.257803	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 98f0c22 func_name smem_qdi_driver
+11.257808	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 5107cf func_name glink_sio
+11.257962	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash d53b8eb task_name glink_sio_task
+11.257984	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 5107cf func_name glink_sio
+11.257990	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 7d46d func_name vmpm
+11.258386	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 7d46d func_name vmpm
+11.258392	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash 77ba3 func_name qdss
+11.258619	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash 77ba3 func_name qdss
+11.258624	rcinit_init_root.c	rcinit_worker	103	function enter group 0 func_hash d19db35 func_name tracer_simple
+11.258659	rcinit_init_root.c	rcinit_worker	128	function exit group 0 func_hash d19db35 func_name tracer_simple
+11.258736	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 9631d39 task_name sys_m_qmi
+11.258777	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 631340d task_name sys_m_smsm
+11.258785	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 9631d39 task_name sys_m_qmi
+11.258824	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 6b5d5e2 task_name dog_hb
+11.258927	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 756 task_name nv
+11.258943	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 756 task_name nv
+11.258981	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 3b67d3 task_name time_ipc
+11.259003	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 3b67d3 task_name time_ipc
+11.259074	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 5c1639c task_name ss_nv_util
+11.259082	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 5c1639c task_name ss_nv_util
+11.259129	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 61a252c task_name ssreq_svc_poll
+11.259136	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 61a252c task_name ssreq_svc_poll
+11.259185	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 79295c task_name rlc_l
+11.259192	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 79295c task_name rlc_l
+11.259237	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 792953 task_name rlc_c
+11.259244	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 792953 task_name rlc_c
+11.259290	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 792962 task_name rlc_r
+11.259297	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 792962 task_name rlc_r
+11.259341	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 35d584 task_name memshare_qmiclient
+11.259348	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 35d584 task_name memshare_qmiclient
+11.259431	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 8001702 task_name sleepsolver
+11.259456	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 6eb7a12 task_name ss_diag_manager
+11.259463	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 6eb7a12 task_name ss_diag_manager
+11.259554	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 6d3 task_name fs
+11.259597	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 6d3 task_name fs
+11.259613	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash c2de491 task_name sr_remote_req
+11.259874	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 784963 task_name qmrpc
+11.259881	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 784963 task_name qmrpc
+11.259926	rcinit_rex.c	TASK_ENTRY	180	task begins group 0 task_hash 7a9d task_name ssm
+11.259933	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash 7a9d task_name ssm
+11.259962	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 0 task_hash c610e14 task_name sleep_test
+11.260021	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 3c425f3 func_name ss_members
+11.260022	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 3c425f3 func_name ss_members
+11.260028	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 686ab2d func_name aostlm
+11.260030	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 686ab2d func_name aostlm
+11.260036	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 84f69c2 func_name island_mgr
+11.260088	nvim.c	nvimnv_task_start	4242	start
+11.260094	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 84f69c2 func_name island_mgr
+11.260099	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash c69ef67 func_name diag_f3_trace_devcfg
+11.260108	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash c69ef67 func_name diag_f3_trace_devcfg
+11.260113	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash ad99ba7 func_name diag_f3_trace_nvcfg
+11.370833	ssreq_svc_poll_client.c	ssreq_svc_poll_task	146	succesed connection
+11.635680	nvim.c	nvimnv_task_start	4250	done
+11.635826	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash ad99ba7 func_name diag_f3_trace_nvcfg
+11.635836	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 39c5265 func_name diag_f3_trace
+11.635838	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 39c5265 func_name diag_f3_trace
+11.635843	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 77956 func_name prof
+11.635844	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 77956 func_name prof
+11.635850	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash a3c1375 func_name qmi_fw_service
+11.635895	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash a3c1375 func_name qmi_fw_service
+11.635900	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 779c7c4 func_name crypto_sleep_init
+11.635919	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 779c7c4 func_name crypto_sleep_init
+11.635925	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash c6267b4 func_name sleep_init
+11.638129	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash c6267b4 func_name sleep_init
+11.638135	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash ca95ba3 func_name vcs_efs
+11.638154	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash ca95ba3 func_name vcs_efs
+11.638160	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 34dc986 func_name clk_regime_init_nv
+11.638185	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 34dc986 func_name clk_regime_init_nv
+11.638191	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash a95dc3c func_name qdss_ctrl
+11.638202	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash a95dc3c func_name qdss_ctrl
+11.638207	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash f3e120c func_name qdss_control
+11.638217	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash f3e120c func_name qdss_control
+11.638223	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 98603c4 func_name err_init
+11.638243	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 98603c4 func_name err_init
+11.638249	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash c3c8374 func_name err_qdi_init
+11.638269	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash c3c8374 func_name err_qdi_init
+11.638275	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 63146f4 func_name sys_m_root
+11.638334	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 63146f4 func_name sys_m_root
+11.638340	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash a903a1c func_name vcs_thermal
+11.638377	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash a903a1c func_name vcs_thermal
+11.638383	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash f7c0574 func_name xpuinit
+11.638391	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash f7c0574 func_name xpuinit
+11.638397	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 66f167 func_name aostlm_qdi_diag
+11.638399	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 66f167 func_name aostlm_qdi_diag
+11.638404	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 60cbd5b func_name modem_sec_rollback
+11.638410	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 60cbd5b func_name modem_sec_rollback
+11.638415	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash ba95be2 func_name qdss_err
+11.638416	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash ba95be2 func_name qdss_err
+11.638421	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash ac31de3 func_name modem_sec
+11.638491	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash ac31de3 func_name modem_sec
+11.638496	rcinit_init_root.c	rcinit_worker	103	function enter group 1 func_hash 94fdc54 func_name secgps_server_start
+11.638533	rcinit_init_root.c	rcinit_worker	128	function exit group 1 func_hash 94fdc54 func_name secgps_server_start
+11.638610	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash a36ae2b task_name dsm_task
+11.638619	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash a36ae2b task_name dsm_task
+11.638669	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash a923f64 task_name fs_async_put
+11.638719	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash a923f64 task_name fs_async_put
+11.638733	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash a1f625 task_name fs_qmi_service
+11.638822	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash aec930c task_name thermal
+11.638864	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash a1f625 task_name fs_qmi_service
+11.638981	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash 79b3 task_name sec
+11.639002	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash 79b3 task_name sec
+11.639132	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash a7e112d task_name seccryptarm
+11.639149	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash a7e112d task_name seccryptarm
+11.639284	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash 6af77 task_name diag
+11.639292	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash 6af77 task_name diag
+11.639371	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash 9ed4b52 task_name npascheduler
+11.639513	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash aec930c task_name thermal
+11.639528	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash 79ba944 task_name secrnd
+11.639536	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash 79ba944 task_name secrnd
+11.639582	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash 7898 task_name qsh
+11.639673	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash 7a00 task_name sip
+11.639680	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash 7a00 task_name sip
+11.639732	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash 78d3 task_name rfs
+11.639745	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash 78d3 task_name rfs
+11.639821	rcinit_rex.c	TASK_ENTRY	180	task begins group 1 task_hash 6a7c45e task_name daemon
+11.639829	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash 6a7c45e task_name daemon
+11.639968	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash 7898 task_name qsh
+11.640066	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 1 task_hash 9ed4b52 task_name npascheduler
+11.640114	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 9780f54 func_name ssm_parser_post_init
+11.640117	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 9780f54 func_name ssm_parser_post_init
+11.640123	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 67ba76d func_name adsppm
+11.640164	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 67ba76d func_name adsppm
+11.640170	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 7751c09 func_name adsppm_qdi
+11.640205	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 7751c09 func_name adsppm_qdi
+11.640211	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 83f698c func_name qmi_sil
+11.640213	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 83f698c func_name qmi_sil
+11.640218	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash eb6e6f4 func_name sys_m_diag_init
+11.640236	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash eb6e6f4 func_name sys_m_diag_init
+11.640242	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 67a3 func_name adc
+11.640777	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 67a3 func_name adc
+11.640784	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash a95a907 func_name adc_diag
+11.640810	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash a95a907 func_name adc_diag
+11.640816	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 37849c4 func_name hwevent_init
+11.640817	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 37849c4 func_name hwevent_init
+11.640823	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 7861d16 func_name apr_kdrv
+11.640967	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 7861d16 func_name apr_kdrv
+11.640973	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 8aa50f4 func_name product_info_init
+11.640974	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 8aa50f4 func_name product_info_init
+11.640980	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 96dfb64 func_name timer_post_init
+11.641017	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 96dfb64 func_name timer_post_init
+11.641024	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash dad7502 func_name dlpager_lpr
+11.641128	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash dad7502 func_name dlpager_lpr
+11.641134	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 69a742 func_name ccpmr
+11.641528	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 69a742 func_name ccpmr
+11.641534	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash fbb4714 func_name ulog_backend
+11.641536	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash fbb4714 func_name ulog_backend
+11.641541	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 5e6eb7b func_name integrity_check
+11.641557	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 5e6eb7b func_name integrity_check
+11.641563	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash d707bdb func_name perf_shutdown_crash_hook
+11.641578	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash d707bdb func_name perf_shutdown_crash_hook
+11.641584	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 6cdd092 func_name glink_lb_server
+11.641707	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 6cdd092 func_name glink_lb_server
+11.641713	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash ae071a4 func_name err_inject_crash_init
+11.641728	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash ae071a4 func_name err_inject_crash_init
+11.641734	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 41b9374 func_name ssm_och_delayed_init
+11.642902	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 41b9374 func_name ssm_och_delayed_init
+11.642909	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 59216b7 func_name tsens_diag
+11.642993	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 59216b7 func_name tsens_diag
+11.642999	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 8e95be func_name time_init_config_function
+11.644070	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 8e95be func_name time_init_config_function
+11.644077	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash 979d7d4 func_name modem_cfg_init
+11.644154	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash 979d7d4 func_name modem_cfg_init
+11.644160	rcinit_init_root.c	rcinit_worker	103	function enter group 2 func_hash c359a34 func_name vmem_init
+11.644236	rcinit_init_root.c	rcinit_worker	128	function exit group 2 func_hash c359a34 func_name vmem_init
+11.644339	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 2 task_hash 93d1d2 task_name adsppm_asyncmgr
+11.644355	rcinit_rex.c	TASK_ENTRY	180	task begins group 2 task_hash 3b6d26 task_name time_srv
+11.644492	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 2 task_hash 3b6d26 task_name time_srv
+11.644684	rcinit_rex.c	TASK_ENTRY	180	task begins group 2 task_hash ac32d97 task_name modem_cfg
+11.644752	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 2 task_hash 7d3bd task_name vmem
+11.644793	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 2 task_hash a775222 task_name adsppm_cb
+11.672551	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 2 task_hash ac32d97 task_name modem_cfg
+11.672610	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash c791a84 func_name mm_extern_init
+11.672695	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash c791a84 func_name mm_extern_init
+11.672700	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash de75af4 func_name mmgsdi_slot2_init
+11.672842	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash de75af4 func_name mmgsdi_slot2_init
+11.672848	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 2b2d41e func_name rf_task_init_function
+11.672890	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 2b2d41e func_name rf_task_init_function
+11.672896	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash a7caff4 func_name ipc_task_init
+11.672916	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash a7caff4 func_name ipc_task_init
+11.672922	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 6959f04 func_name sipc_init
+11.672923	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 6959f04 func_name sipc_init
+11.672928	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash bdcae64 func_name oemapimaininit
+11.672930	oemapi_main.c	oemapi_main_init	106	register sipc cb 1
+11.672931	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash bdcae64 func_name oemapimaininit
+11.672936	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 73a6d func_name mcpm
+11.675860	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 73a6d func_name mcpm
+11.675869	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 2c3c794 func_name mcs_modem_init
+11.676071	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 2c3c794 func_name mcs_modem_init
+11.676077	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 7472d func_name mplm
+11.676198	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 7472d func_name mplm
+11.676203	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 412afe4 func_name ciq_task_init
+11.676204	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 412afe4 func_name ciq_task_init
+11.676210	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash dd75af4 func_name mmgsdi_slot1_init
+11.676228	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash dd75af4 func_name mmgsdi_slot1_init
+11.676233	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash fab1e23 func_name efs_rcinit_group_3_func
+11.676236	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash fab1e23 func_name efs_rcinit_group_3_func
+11.676242	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 7c5b2f4 func_name hwio_cap_init
+11.676256	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 7c5b2f4 func_name hwio_cap_init
+11.676262	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 6a3869 func_name cmapi
+11.676266	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 6a3869 func_name cmapi
+11.676273	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 7a6a5d func_name spcom
+11.676322	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 7a6a5d func_name spcom
+11.676328	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 4823fb4 func_name vstmr_init
+11.676350	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 4823fb4 func_name vstmr_init
+11.676355	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash c859a94 func_name wci2_init
+11.678496	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash c859a94 func_name wci2_init
+11.678503	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash c60b7f4 func_name ss_qmi_server_start
+11.678573	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash c60b7f4 func_name ss_qmi_server_start
+11.678579	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 7cbff73 func_name ss_diag_init3
+11.678595	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 7cbff73 func_name ss_diag_init3
+11.678601	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 68f3b94 func_name fws_rcinit
+11.679169	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 68f3b94 func_name fws_rcinit
+11.679178	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash af5ab94 func_name gsdi_init
+11.679763	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash af5ab94 func_name gsdi_init
+11.679769	rcinit_init_root.c	rcinit_worker	103	function enter group 3 func_hash 6959f34 func_name slpc_init
+11.679827	rcinit_init_root.c	rcinit_worker	128	function exit group 3 func_hash 6959f34 func_name slpc_init
+11.680152	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 7063 task_name ipc
+11.680161	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 7063 task_name ipc
+11.680182	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 336dceb task_name mplm_task
+11.680259	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 675adc task_name ipa_ctl
+11.680410	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 8c58703 task_name rf_apps
+11.680418	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 8c58703 task_name rf_apps
+11.680497	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 70676bc task_name ipa_ul
+11.680538	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 70676bc task_name ipa_ul
+11.680558	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash e2d2f36 task_name dsmsgr_recv
+11.680580	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash a3692f8 task_name slpc_1x
+11.680588	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash a3692f8 task_name slpc_1x
+11.680868	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 78c21 task_name rf_1
+11.680927	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 3695912 task_name slpc_hdr
+11.680935	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 3695912 task_name slpc_hdr
+11.680985	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 78c21 task_name rf_1
+11.681012	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 675adc task_name ipa_ctl
+11.681211	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 78c22 task_name rf_2
+11.681257	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 78c22 task_name rf_2
+11.681270	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 96a3a51 task_name slpc_wcdma
+11.681277	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 96a3a51 task_name slpc_wcdma
+11.681324	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 6a3a5d2 task_name slpc_wcdma2
+11.681331	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 6a3a5d2 task_name slpc_wcdma2
+11.681472	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 78c5f3 task_name rf_ic
+11.681480	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 78c5f3 task_name rf_ic
+11.681748	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 786 task_name rf
+11.784289	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 786 task_name rf
+11.784346	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 3696d13 task_name slpc_tds
+11.784354	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 3696d13 task_name slpc_tds
+11.784500	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash ab22bb5 task_name rflte_core
+11.784514	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash ab22bb5 task_name rflte_core
+11.784649	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 6dad task_name ftm
+11.784658	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 6dad task_name ftm
+11.784702	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 3696405 task_name slpc_lte
+11.784709	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 3696405 task_name slpc_lte
+11.784751	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 7e6a3fc task_name ota_firewall
+11.784789	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 369593d task_name slpc_gsm
+11.784796	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 369593d task_name slpc_gsm
+11.784937	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash c5dee20 task_name rf_fwrsp
+11.784948	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash c5dee20 task_name rf_fwrsp
+11.785086	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 642 task_name a2
+11.785173	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 70675ac task_name ipa_dl
+11.785215	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash c75d927 task_name rfa_fwsw
+11.785224	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash c75d927 task_name rfa_fwsw
+11.785231	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 70675ac task_name ipa_dl
+11.785370	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 677170 task_name ipa_zip
+11.785385	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 677170 task_name ipa_zip
+11.785457	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 6486357 task_name a2_log
+11.785475	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 6486357 task_name a2_log
+11.785514	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 6959433 task_name slpc_gsm3
+11.785521	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 6959433 task_name slpc_gsm3
+11.785556	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 642 task_name a2
+11.785569	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 6959432 task_name slpc_gsm2
+11.785577	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 6959432 task_name slpc_gsm2
+11.785722	rcinit_rex.c	TASK_ENTRY	180	task begins group 3 task_hash 6a01 task_name ciq
+11.785786	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 821ded8 task_name vstmr_epoch
+11.785839	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 6de3 task_name fws
+11.785878	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 3 task_hash 6a01 task_name ciq
+11.786021	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash fada974 func_name wl2_ul_1_init
+11.786026	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash fada974 func_name wl2_ul_1_init
+11.786031	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 2724534 func_name uim_1_init
+11.786051	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 2724534 func_name uim_1_init
+11.786057	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 19016c4 func_name tds_l2_ul_init
+11.786070	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 19016c4 func_name tds_l2_ul_init
+11.786075	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash bfb5da4 func_name hdrdec_init
+11.786084	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash bfb5da4 func_name hdrdec_init
+11.786090	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 98b420e func_name gsm_rlc_ul_2_fn
+11.786126	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 98b420e func_name gsm_rlc_ul_2_fn
+11.786132	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 65ea2 func_name gsm_llc_fn_t_2
+11.786138	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 65ea2 func_name gsm_llc_fn_t_2
+11.786144	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash fbda974 func_name wl2_ul_0_init
+11.786147	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash fbda974 func_name wl2_ul_0_init
+11.786153	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 7c98c8e func_name gsm_rlc_ul_fn
+11.786208	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 7c98c8e func_name gsm_rlc_ul_fn
+11.786214	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 65ea1 func_name gsm_llc_fn_t_1
+11.786218	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 65ea1 func_name gsm_llc_fn_t_1
+11.786224	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 3933094 func_name hdrmc_init
+11.786906	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 3933094 func_name hdrmc_init
+11.786914	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 3aa0184 func_name uimqmi_init
+11.787182	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 3aa0184 func_name uimqmi_init
+11.787193	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 29016f4 func_name tds_l2_dl_init
+11.787197	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 29016f4 func_name tds_l2_dl_init
+11.787204	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash be60574 func_name tx_init
+11.787416	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash be60574 func_name tx_init
+11.787424	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash e0eabb4 func_name simlock_task_init
+11.787435	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash e0eabb4 func_name simlock_task_init
+11.787442	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash f3e7394 func_name tds_rrc_init
+11.787507	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash f3e7394 func_name tds_rrc_init
+11.787513	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash f2f5e54 func_name tds_l1_init
+11.787557	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash f2f5e54 func_name tds_l1_init
+11.787563	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash ae5adc4 func_name auth_init
+11.787627	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash ae5adc4 func_name auth_init
+11.787634	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash c76af9b func_name iva_task
+11.788308	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash c76af9b func_name iva_task
+11.788317	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 6565209 func_name pm_comm_qdi
+11.788320	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 6565209 func_name pm_comm_qdi
+11.788326	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 9e33094 func_name hdrrx_init
+11.788344	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 9e33094 func_name hdrrx_init
+11.788351	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash f4e7f84 func_name hdrsrch_init
+11.788594	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash f4e7f84 func_name hdrsrch_init
+11.788600	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash b3bac64 func_name tds_mac_hs_dl_init
+11.788601	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash b3bac64 func_name tds_mac_hs_dl_init
+11.788607	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash ae60564 func_name dh_init
+11.788658	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash ae60564 func_name dh_init
+11.788664	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash be59ef4 func_name rxtx_init
+11.788776	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash be59ef4 func_name rxtx_init
+11.788783	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash fbdc074 func_name wl2_dl_0_init
+11.788787	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash fbdc074 func_name wl2_dl_0_init
+11.788793	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 9e59f84 func_name srch_init
+11.788930	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 9e59f84 func_name srch_init
+11.788938	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash a8b423e func_name gsm_rlc_dl_2_fn
+11.788963	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash a8b423e func_name gsm_rlc_dl_2_fn
+11.788969	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash fadc074 func_name wl2_dl_1_init
+11.788977	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash fadc074 func_name wl2_dl_1_init
+11.788983	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 7fa8c8e func_name gsm_rlc_dl_fn
+11.789001	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 7fa8c8e func_name gsm_rlc_dl_fn
+11.789007	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 22a6e44 func_name policyman_init
+11.789071	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 22a6e44 func_name policyman_init
+11.789077	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash f38d3a4 func_name trm_taskinit
+11.789137	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash f38d3a4 func_name trm_taskinit
+11.789143	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 2c4756e func_name mcs_modem_main
+11.790270	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 2c4756e func_name mcs_modem_main
+11.790276	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 92c0d9e func_name mcs_modem_run
+11.790278	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 92c0d9e func_name mcs_modem_run
+11.790284	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 2824534 func_name uim_2_init
+11.790296	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 2824534 func_name uim_2_init
+11.790303	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 6783e6e func_name sp_initialization
+11.790306	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 6783e6e func_name sp_initialization
+11.790312	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 9e60574 func_name rx_init
+11.790331	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 9e60574 func_name rx_init
+11.790337	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 3960574 func_name mc_init
+11.790767	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 3960574 func_name mc_init
+11.790775	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash be33094 func_name hdrtx_init
+11.790933	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash be33094 func_name hdrtx_init
+11.790939	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 962e804 func_name wcdma_l1_1_init
+11.790980	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 962e804 func_name wcdma_l1_1_init
+11.790989	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash eb82954 func_name tcxomgr_taskinit
+11.790993	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash eb82954 func_name tcxomgr_taskinit
+11.790999	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 972e804 func_name wcdma_l1_0_init
+11.791115	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 972e804 func_name wcdma_l1_0_init
+11.791123	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash b15aba4 func_name gstk_init
+11.791258	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash b15aba4 func_name gstk_init
+11.791264	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash 74b0f84 func_name hitapp_init
+11.791265	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash 74b0f84 func_name hitapp_init
+11.791270	rcinit_init_root.c	rcinit_worker	103	function enter group 4 func_hash b72aff4 func_name lpa_task_init
+11.791300	rcinit_init_root.c	rcinit_worker	128	function exit group 4 func_hash b72aff4 func_name lpa_task_init
+11.791568	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash a363181 task_name gsm_mac1
+11.791577	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash a363181 task_name gsm_mac1
+11.791667	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash a363182 task_name gsm_mac2
+11.791674	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash a363182 task_name gsm_mac2
+11.791724	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash cde76c4 task_name wfw_eulstrt
+11.791732	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash cde76c4 task_name wfw_eulstrt
+11.791898	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6da0ecc task_name lte_pdcp_dl
+11.792028	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 798921 task_name rrc_1
+11.792115	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 798921 task_name rrc_1
+11.792393	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 798920 task_name rrc_0
+11.792401	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 798920 task_name rrc_0
+11.792455	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7b8 task_name tx
+11.792507	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7b8 task_name tx
+11.792620	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 5876d60 task_name wmac_hs_dl0
+11.792628	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 5876d60 task_name wmac_hs_dl0
+11.792707	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6a8 task_name dh
+11.792728	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6a8 task_name dh
+11.792777	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 68ca8 task_name auth
+11.793044	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 3e6f6ac task_name tds_mac_hs_dl
+11.793052	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3e6f6ac task_name tds_mac_hs_dl
+11.793384	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 3723091 task_name wcdma_l1_1
+11.793396	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3723091 task_name wcdma_l1_1
+11.793563	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 3634782 task_name gsm_llc_2
+11.793580	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3634782 task_name gsm_llc_2
+11.793590	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 3634781 task_name gsm_llc_1
+11.793597	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3634781 task_name gsm_llc_1
+11.793614	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 68ca8 task_name auth
+11.793624	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash aaf6392 task_name tcxomgr
+11.793634	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6f0a870 task_name hitapp
+11.793640	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash aaf6392 task_name tcxomgr
+11.793648	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6f0a870 task_name hitapp
+11.793660	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash d6e1be7 task_name ss_audio_log
+11.793668	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash f86c7f0 task_name wl2_ul_0
+11.793676	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash d6e1be7 task_name ss_audio_log
+11.793683	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash f86c7f0 task_name wl2_ul_0
+11.793694	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 75d9bfd task_name nvruim
+11.793703	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7b8d task_name trm
+11.793714	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7b8d task_name trm
+11.793725	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash f86c7f1 task_name wl2_ul_1
+11.793732	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash f86c7f1 task_name wl2_ul_1
+11.793840	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 2fa941e task_name policyman
+11.793863	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash ead2104 task_name wfwsw_evt
+11.793871	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash ead2104 task_name wfwsw_evt
+11.793954	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 4f0e511 task_name gsm_msgr_t1
+11.793962	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 4f0e511 task_name gsm_msgr_t1
+11.793983	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 75d9bfd task_name nvruim
+11.794016	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 798 task_name rx
+11.794108	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6eb9b8 task_name hdrtx
+11.794117	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6eb9b8 task_name hdrtx
+11.794125	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 798 task_name rx
+11.794178	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash f85b7f1 task_name wl2_dl_1
+11.794186	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash f85b7f1 task_name wl2_dl_1
+11.794233	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 2fa941e task_name policyman
+11.794245	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash f85b7f0 task_name wl2_dl_0
+11.794254	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash f85b7f0 task_name wl2_dl_0
+11.794394	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 788882 task_name qrarb
+11.794503	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 908c904 task_name tds_fwsw_evt
+11.794511	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 908c904 task_name tds_fwsw_evt
+11.794679	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7734 task_name plt
+11.794795	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 788882 task_name qrarb
+11.794812	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6944112 task_name gsm_rlcu_2
+11.794823	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6944112 task_name gsm_rlcu_2
+11.794843	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash eac0ca4 task_name lte_pdcpoffload
+11.794900	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7734 task_name plt
+11.794937	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6944111 task_name gsm_rlcu_1
+11.794945	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6944111 task_name gsm_rlcu_1
+11.795035	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7401b56 task_name cxm_qsock_recv
+11.795043	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7401b56 task_name cxm_qsock_recv
+11.795096	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 4f0e512 task_name gsm_msgr_t2
+11.795104	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 4f0e512 task_name gsm_msgr_t2
+11.795174	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 3723090 task_name wcdma_l1_0
+11.795185	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3723090 task_name wcdma_l1_0
+11.795341	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 79fb8 task_name rxtx
+11.795424	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 79fb8 task_name rxtx
+11.795647	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash ab969f3 task_name tds_rrc
+11.795691	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 5876d61 task_name wmac_hs_dl1
+11.795700	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 5876d61 task_name wmac_hs_dl1
+11.795785	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6e9a9 task_name gsdi
+11.795886	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 3e9aa61 task_name mmgsdi_1
+11.796017	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3e9aa61 task_name mmgsdi_1
+11.796036	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 3e9aa62 task_name mmgsdi_2
+11.796076	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3e9aa62 task_name mmgsdi_2
+11.796101	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6aed task_name cxm
+11.796112	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6aed task_name cxm
+11.796196	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6947412 task_name gsm_rlcd_2
+11.796204	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6947412 task_name gsm_rlcd_2
+11.796239	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6e9a9 task_name gsdi
+11.796257	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7c0322 task_name uim_2
+11.796294	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7c0322 task_name uim_2
+11.796349	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6947411 task_name gsm_rlcd_1
+11.796356	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6947411 task_name gsm_rlcd_1
+11.796497	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7ab9f task_name tdso
+11.796587	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7ab9f task_name tdso
+11.796604	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 40bf0e2 task_name limitsmgr
+11.796650	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6eb998 task_name hdrrx
+11.796658	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6eb998 task_name hdrrx
+11.796736	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash eb9a8f8 task_name hdrsrch
+11.796744	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash eb9a8f8 task_name hdrsrch
+11.796796	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 69c9d task_name cfcm
+11.796946	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 5d6cdcc task_name log_util
+11.796954	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 5d6cdcc task_name log_util
+11.797028	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7a898 task_name srch
+11.797062	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 630cf1c task_name lte_mac_dl
+11.797131	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash ed6eaf0 task_name cxm_wlan_endp
+11.797139	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash ed6eaf0 task_name cxm_wlan_endp
+11.797327	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6eaab task_name gstk
+11.797421	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash a0435eb task_name simlock
+11.797490	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6ea35f2 task_name gsm_l2
+11.797499	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6ea35f2 task_name gsm_l2
+11.797521	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash a0435eb task_name simlock
+11.797552	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 95f1c0c task_name tds_l2_ul
+11.797560	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 95f1c0c task_name tds_l2_ul
+11.797708	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 662efde task_name ml1_sm_fscan
+11.797731	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7c04839 task_name uimqmi
+11.797861	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash cf1dbc task_name lte_mac_ctrl
+11.798178	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6ea3692 task_name gsm_rr
+11.798182	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 69c9d task_name cfcm
+11.798189	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6ea3692 task_name gsm_rr
+11.798287	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 6eb8ab3 task_name hdrdec
+11.798295	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6eb8ab3 task_name hdrdec
+11.798299	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7bfd task_name uim
+11.798388	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7bfd task_name uim
+11.798438	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7c04839 task_name uimqmi
+11.798474	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 5f18411 task_name gsm_l1_t_1
+11.798482	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 5f18411 task_name gsm_l1_t_1
+11.798529	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 55f1d3c task_name lte_tlb_ctrl
+11.798701	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 95f1f1c task_name tds_l2_dl
+11.798708	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 95f1f1c task_name tds_l2_dl
+11.798858	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash a0f0490 task_name lte_pdcp_comp
+11.798971	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 5f18412 task_name gsm_l1_t_2
+11.798979	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 5f18412 task_name gsm_l1_t_2
+11.799144	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 5c0e214 task_name ml1_offload
+11.799398	rcinit_rex.c	TASK_ENTRY	180	task begins group 4 task_hash 7ab95f1 task_name tds_l1
+11.800026	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7ab95f1 task_name tds_l1
+11.800055	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 630cc0c task_name lte_mac_ul
+11.800062	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 695cf1c task_name lte_rlc_dl
+11.802338	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3ab69f3 task_name lte_rrc
+11.804336	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 695cc0c task_name lte_rlc_ul
+11.805572	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 7a898 task_name srch
+11.805828	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash ab969f3 task_name tds_rrc
+11.809332	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 6eaab task_name gstk
+11.814600	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 3f76392 task_name ml1_mgr
+11.814604	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 73f75dd task_name ml1_gm
+11.816648	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 4 task_hash 40bf0e2 task_name limitsmgr
+11.818527	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 9360464 func_name pbm_init
+11.818826	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 9360464 func_name pbm_init
+11.818835	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 9359d74 func_name rabm_init
+11.818905	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 9359d74 func_name rabm_init
+11.818911	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash a960574 func_name tc_init
+11.818989	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash a960574 func_name tc_init
+11.819001	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash a360574 func_name sm_init
+11.819157	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash a360574 func_name sm_init
+11.819166	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash f116f84 func_name imstask_init
+11.819297	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash f116f84 func_name imstask_init
+11.819303	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 4360574 func_name mm_init
+11.819307	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 4360574 func_name mm_init
+11.819315	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 1df65e4 func_name dswcsd_dl_init
+11.819362	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 1df65e4 func_name dswcsd_dl_init
+11.819370	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 99603a4 func_name dcc_init
+11.819521	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 99603a4 func_name dcc_init
+11.819527	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash b61374 func_name qmi_pbm_init
+11.819637	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash b61374 func_name qmi_pbm_init
+11.819643	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 49604e4 func_name wms_init
+11.820307	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 49604e4 func_name wms_init
+11.820317	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 561c2a4 func_name mn_cnm_init
+11.820363	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 561c2a4 func_name mn_cnm_init
+11.820369	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash a360564 func_name cm_init
+11.820756	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash a360564 func_name cm_init
+11.820762	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 2df65d4 func_name dswcsd_ul_init
+11.820824	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 2df65d4 func_name dswcsd_ul_init
+11.820830	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 1db59e4 func_name qvp_rtp_task_init
+11.827886	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 1db59e4 func_name qvp_rtp_task_init
+11.827896	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash fbe7394 func_name ds_sig_init
+11.827917	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash fbe7394 func_name ds_sig_init
+11.827923	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 9e3c724 func_name qmi_modem_init
+11.828115	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 9e3c724 func_name qmi_modem_init
+11.828121	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 9a60574 func_name sd_init
+12.075015	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 9a60574 func_name sd_init
+12.075025	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash f3cbaa4 func_name ds_gcsd_init
+12.075349	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash f3cbaa4 func_name ds_gcsd_init
+12.075357	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 31613e4 func_name qmi_wms_init
+12.075451	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 31613e4 func_name qmi_wms_init
+12.075459	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 9329e64 func_name ps_rm_init
+12.075473	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 9329e64 func_name ps_rm_init
+12.075479	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash bd60484 func_name reg_init
+12.075574	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash bd60484 func_name reg_init
+12.075581	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 5959144 func_name mmoc_init
+12.075863	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 5959144 func_name mmoc_init
+12.075869	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash b960564 func_name ds_init
+12.077839	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash b960564 func_name ds_init
+12.077849	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 9860564 func_name cb_init
+12.077880	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 9860564 func_name cb_init
+12.077886	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 963c2d4 func_name qmi_mmode_init
+12.078050	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 963c2d4 func_name qmi_mmode_init
+12.078056	rcinit_init_root.c	rcinit_worker	103	function enter group 5 func_hash 7960574 func_name ps_init
+12.084146	rcinit_init_root.c	rcinit_worker	128	function exit group 5 func_hash 7960574 func_name ps_init
+12.084368	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 6e795d3 task_name gps_fs
+12.084439	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 6b969f7 task_name ds_sig
+12.084449	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 6b969f7 task_name ds_sig
+12.084585	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash daa0d1c task_name dswcsd_ul
+12.084653	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash daa0d1c task_name dswcsd_ul
+12.084774	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 69d task_name cm
+12.085119	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash bae025 task_name loc_middleware
+12.085708	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash a643c00 task_name pdcommtcp
+12.085731	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 694 task_name cd
+12.086246	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash a643ce3 task_name pdcommwms
+12.086421	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 69d task_name cm
+12.086437	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 83f6e33 task_name qmi_wms
+12.086446	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 83f6e33 task_name qmi_wms
+12.086461	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 692 task_name cb
+12.086503	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 6e79cd4 task_name gpsfft
+12.086538	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 692 task_name cb
+12.086722	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7a36ad task_name sm_tm
+12.086865	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 773 task_name ps
+12.086955	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7445a4d task_name mn_cnm
+12.087120	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 53c460c task_name wwanmectrl
+12.087216	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7a3 task_name tc
+12.087341	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 53c460c task_name wwanmectrl
+12.087345	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7a3 task_name tc
+12.087361	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7e43 task_name wms
+12.088017	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7445a4d task_name mn_cnm
+12.088354	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7a36ad task_name sm_tm
+12.088710	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash bae025 task_name loc_middleware
+12.088762	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash a643ce3 task_name pdcommwms
+12.088788	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 5a96f50 task_name gnss_sdp
+12.088906	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 5a96f50 task_name gnss_sdp
+12.088973	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7e43 task_name wms
+12.088989	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 746 task_name nf
+12.089272	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 746 task_name nf
+12.089452	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash a643c00 task_name pdcommtcp
+12.089467	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash daa0e0c task_name dswcsd_dl
+12.089491	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash daa0e0c task_name dswcsd_dl
+12.089571	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 6eb933 task_name hdrmc
+12.089605	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 694 task_name cd
+12.089765	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7043 task_name ims
+12.089853	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 78b7 task_name reg
+12.090089	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 78b7 task_name reg
+12.090270	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 6eb933 task_name hdrmc
+12.090383	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7043 task_name ims
+12.090568	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7b25 task_name tle
+12.090680	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 83f66fd task_name qmi_pbm
+12.090749	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 83f66fd task_name qmi_pbm
+12.090839	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 6a640 task_name comp
+12.090874	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 6a640 task_name comp
+12.090981	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 6e795d3 task_name gps_fs
+12.091003	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 6a93 task_name dcc
+12.091011	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 6a93 task_name dcc
+12.091394	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 6e79cd4 task_name gpsfft
+12.091478	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 8d669c0 task_name qvp_rtp
+12.091637	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 8d669c0 task_name qvp_rtp
+12.091662	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 74453 task_name mmoc
+12.091721	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 77968d task_name ps_rm
+12.091729	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 77968d task_name ps_rm
+12.091771	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 74453 task_name mmoc
+12.091816	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 76d9 task_name pgi
+12.091921	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 76d9 task_name pgi
+12.091977	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 6b3 task_name ds
+12.092169	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 72d task_name lm
+12.092371	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7a35dd task_name sm_gm
+12.092377	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 72d task_name lm
+12.092454	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7a35dd task_name sm_gm
+12.092643	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 733 task_name mc
+12.092939	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash f645d95 task_name qmi_mmode
+12.092949	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash f645d95 task_name qmi_mmode
+12.093219	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 73d task_name mm
+12.093402	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 73d task_name mm
+12.093589	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash a9627b2 task_name gnss_msgr
+12.093745	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash a9627b2 task_name gnss_msgr
+12.093760	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash d853da0 task_name wwanmemp
+12.093940	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash d853da0 task_name wwanmemp
+12.093971	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash f64228d task_name qmi_modem
+12.093979	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash f64228d task_name qmi_modem
+12.094066	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 73e733 task_name mgpmc
+12.094217	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 73e733 task_name mgpmc
+12.094411	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7b9 task_name ui
+12.094508	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7b9 task_name ui
+12.095082	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 7e2d task_name wlm
+12.095343	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 79d task_name sm
+12.095514	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7e2d task_name wlm
+12.095574	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 768d task_name pbm
+12.095591	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash b95daf4 task_name ds_gcsd
+12.095611	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash b95daf4 task_name ds_gcsd
+12.095673	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 768d task_name pbm
+12.095767	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 79d task_name sm
+12.095833	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 7b25 task_name tle
+12.095937	rcinit_rex.c	TASK_ENTRY	180	task begins group 5 task_hash 794 task_name sd
+12.095947	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 794 task_name sd
+12.100466	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 733 task_name mc
+12.101770	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 773 task_name ps
+12.130116	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 5 task_hash 6b3 task_name ds
+12.130692	rcinit_init_root.c	rcinit_worker	103	function enter group 6 func_hash 6a2d func_name clm
+12.131051	rcinit_init_root.c	rcinit_worker	128	function exit group 6 func_hash 6a2d func_name clm
+12.131058	rcinit_init_root.c	rcinit_worker	103	function enter group 6 func_hash 57f113b func_name voiceinit_task
+12.134217	ds_qmux.c	qmux_init	502	Enter qmux_init()
+12.138335	rcinit_init_root.c	rcinit_worker	128	function exit group 6 func_hash 57f113b func_name voiceinit_task
+12.138346	rcinit_init_root.c	rcinit_worker	103	function enter group 6 func_hash fcd5262 func_name overlaymanager
+12.138427	rcinit_init_root.c	rcinit_worker	128	function exit group 6 func_hash fcd5262 func_name overlaymanager
+12.138434	rcinit_init_root.c	rcinit_worker	103	function enter group 6 func_hash 6aad3 func_name dcvs
+12.139918	rcinit_init_root.c	rcinit_worker	128	function exit group 6 func_hash 6aad3 func_name dcvs
+12.139928	rcinit_init_root.c	rcinit_worker	103	function enter group 6 func_hash 592afe4 func_name gba_task_init
+12.139938	rcinit_init_root.c	rcinit_worker	128	function exit group 6 func_hash 592afe4 func_name gba_task_init
+12.139944	rcinit_init_root.c	rcinit_worker	103	function enter group 6 func_hash 6310a04 func_name spcom_test
+12.139979	rcinit_init_root.c	rcinit_worker	128	function exit group 6 func_hash 6310a04 func_name spcom_test
+12.139988	rcinit_init_root.c	rcinit_worker	103	function enter group 6 func_hash f1bfdf2 func_name sec_debug_subsys_save_prior_err
+12.139989	rcinit_init_root.c	rcinit_worker	128	function exit group 6 func_hash f1bfdf2 func_name sec_debug_subsys_save_prior_err
+12.140383	rcinit_rex.c	TASK_ENTRY	180	task begins group 6 task_hash 6d81 task_name gba
+12.140785	rcinit_rex.c	TASK_ENTRY	180	task begins group 6 task_hash adc75e2 task_name heap_analyzer
+12.140862	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 6 task_hash adc75e2 task_name heap_analyzer
+12.140901	rcinit_rex.c	TASK_ENTRY	180	task begins group 6 task_hash 79ba073 task_name secips
+12.140970	rcinit_rex.c	TASK_ENTRY	180	task begins group 6 task_hash 7361 task_name lpa
+12.141032	rcinit_rex.c	TASK_ENTRY	180	task begins group 6 task_hash 79baa9c task_name secssl
+12.141035	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 6 task_hash 6d81 task_name gba
+12.141070	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 6 task_hash 7361 task_name lpa
+12.141071	rcinit_rex.c	TASK_ENTRY	180	task begins group 6 task_hash 6f45e task_name hmon
+12.141081	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 6 task_hash 6f45e task_name hmon
+12.144618	ds_qmux.c	qmux_init	590	Exit qmux_init()
+12.146854	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 6 task_hash 79ba073 task_name secips
+12.149265	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 6 task_hash 79baa9c task_name secssl
+12.149319	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash 92c5c54 func_name ss_qsh_ext_init
+12.149322	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash 92c5c54 func_name ss_qsh_ext_init
+12.149328	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash e47d9c4 func_name sclap_cpcop_init
+12.149340	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash e47d9c4 func_name sclap_cpcop_init
+12.149346	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash 2d3e6a4 func_name sclap_cmmo_init
+12.149385	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash 2d3e6a4 func_name sclap_cmmo_init
+12.149391	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash 279339b func_name proximity_inittask
+12.149394	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash 279339b func_name proximity_inittask
+12.149400	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash 36614e3 func_name rdm_opens
+12.149441	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash 36614e3 func_name rdm_opens
+12.149447	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash 3bda634 func_name sclap_ssc_init
+12.149457	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash 3bda634 func_name sclap_ssc_init
+12.149463	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash 2aa5c94 func_name ss_system_profiling_init
+12.149463	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash 2aa5c94 func_name ss_system_profiling_init
+12.149470	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash 36f72a4 func_name ss_clm_init
+12.149490	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash 36f72a4 func_name ss_clm_init
+12.149496	rcinit_init_root.c	rcinit_worker	103	function enter group 7 func_hash 6aa9 func_name cti
+12.149679	rcinit_init_root.c	rcinit_worker	128	function exit group 7 func_hash 6aa9 func_name cti
+12.150419	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash 7a95d3 task_name ss_fs
+12.150438	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 5f0c465 task_name rflm_lna_update
+12.150464	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 7a95d3 task_name ss_fs
+12.150702	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash f191dc2 task_name ss_startup_helper
+12.150711	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash f191dc2 task_name ss_startup_helper
+12.157274	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash 1476729 task_name ss_proximity
+12.157284	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 1476729 task_name ss_proximity
+12.157308	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash 69c24f2 task_name ss_sensor
+12.157316	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 69c24f2 task_name ss_sensor
+12.157333	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash 7a95a2d task_name ss_clm
+12.157342	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 7a95a2d task_name ss_clm
+12.157362	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash 623cce0 task_name sclap_cpcop
+12.157377	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 623cce0 task_name sclap_cpcop
+12.157419	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash 89bf594 task_name ss_qsh_ext
+12.157427	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 89bf594 task_name ss_qsh_ext
+12.157445	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash 8621a1f task_name sclap_cmmo
+12.157464	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 8621a1f task_name sclap_cmmo
+12.157481	rcinit_rex.c	TASK_ENTRY	180	task begins group 7 task_hash 2861333 task_name sclap_ssc
+12.157490	rcinit_init_root.c	rcinit_handshake_init	254	handshake group 7 task_hash 2861333 task_name sclap_ssc
+12.157513	ss_startup_helper.c	ss_startup_helper_task	41	wait for ipc_is_activated
+12.165640	ds_qmi_dpm.c	qmi_dpmi_open_port	633	Recived open port Req!: s/w data=0, h/w data=1, ctrl=0
+12.165673	ds_qmi_dpm.c	qmi_dpmi_open_port	714	Recived h/w Data port open req!
+12.165814	ds_qmux.c	qmux_add_data_port	3727	Adding Data port : sio_port=0x0, ep_id=0x4000001, consumer_pipe_num=3, producer_pipe_num=16, phys_xport_buffer_info=-1012343672
+12.362236	qmi_ssctl_ser_v02.c	ssctl_v02_ser_connect	308	ssctl_v02:Connect client
+12.362275	qmi_ssctl_ser_v02.c	ssctl_v02_ser_process_req	253	ssctl_v02:: SSUBSYS_EVENT = before_powerup
+12.372927	qmi_ssctl_ser_v02.c	ssctl_v02_ser_process_req	253	ssctl_v02:: SSUBSYS_EVENT = before_powerup
+12.459071	qmi_ssctl_ser_v02.c	ssctl_v02_ser_process_req	253	ssctl_v02:: SSUBSYS_EVENT = after_powerup
+12.553300	qmi_ssctl_ser_v02.c	ssctl_v02_ser_process_req	253	ssctl_v02:: SSUBSYS_EVENT = before_powerup
+13.519117	ss_startup_helper.c	ss_startup_helper_task	52	call BigdataCrash
+13.519124	ss_startup_helper.c	ss_startup_helper_task	52	call BigdataMipi
+13.519147	ss_startup_helper.c	ss_startup_helper_task	60	end
+18.563893	qmi_ssctl_ser_v02.c	ssctl_v02_ser_process_req	253	ssctl_v02:: SSUBSYS_EVENT = before_powerup
+20.103897	qmi_ssctl_ser_v02.c	ssctl_v02_ser_process_req	253	ssctl_v02:: SSUBSYS_EVENT = before_powerup
+21.816048	oemapi_misc.c	oemapi_misc_debug_level_cfg_event	2450	DBG LVL: AP(0), CP(0)
+
+------------------------------------------------------
+Used msg ram =  95.453125 %
+Time :  11.170150 ~  21.816048 sec, Total =  10.645898 sec
+Elapsed time for making this log =   0.194000 sec
+------------------------------------------------------

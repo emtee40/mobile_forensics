@@ -1,0 +1,15 @@
+DEVICE_EVENT.
+Cur Time : 87.614000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	STRING
+21.818876	[SCREEN] 1
+21.846506	[SCREEN] 1
+21.863196	[SCREEN] 1
+32.116487	[SCREEN] 1
+
+------------------------------------------------------
+Used msg ram =   0.390625 %
+Time :  21.818876 ~  32.116487 sec, Total =  10.297611 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

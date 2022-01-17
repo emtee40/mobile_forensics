@@ -1,0 +1,5 @@
+audit(1.009:1): initialized
+audit(1493037211.849:2): policy loaded auid=4294967295 ses=4294967295
+audit(1493037211.889:3): avc:  denied  { create } for  pid=1 comm="init" name="cgroup.procs" scontext=u:r:init:s0 tcontext=u:object_r:rootfs:s0 tclass=file permissive=0
+audit(1493037214.079:4): avc:  denied  { setattr } for  pid=1 comm="init" name="d" dev="rootfs" ino=16839 scontext=u:r:init:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=0
+audit(1493037214.079:5): avc:  denied  { setattr } for  pid=1 comm="init" name="d" dev="rootfs" ino=16839 scontext=u:r:init:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=0

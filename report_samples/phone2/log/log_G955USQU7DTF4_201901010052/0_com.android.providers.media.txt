@@ -1,0 +1,366 @@
+01-01 00:02:19.202 10055 14429 Database upgraded from version 0 to 904 in 0 seconds
+01-01 00:02:19.467 10205 14463 Database upgraded from version 0 to 904 in 0 seconds
+01-01 00:02:22.389 10055 14429 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-01 00:02:22.517 10055 15027 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:02:22.538 10055 15027 INSERT, none/media_scanner
+01-01 00:02:22.542 10055 15027 INSERT, none/media_scanner
+01-01 00:02:22.563 10055 15027 INSERT, 
+01-01 00:02:22.590 10055 15027 INSERT, external
+01-01 00:02:23.377 10055 15027 BULKINSERT, external/file?mediascan=1
+01-01 00:02:23.400 10055 15027 BULKINSERT, external/file?mediascan=1 count: 4
+01-01 00:02:23.412 10055 15027 BULKINSERT, external/audio/media?mediascan=1
+01-01 00:02:23.468 10055 15027 INSERT, external/audio/genres
+01-01 00:02:23.479 10055 15027 INSERT, external/audio/genres/1
+01-01 00:02:23.526 10055 15027 INSERT, external/audio/genres/1/members
+01-01 00:02:23.546 10055 15027 INSERT, external/audio/genres/1/members/1
+01-01 00:02:23.600 10055 15027 BULKINSERT, external/audio/media?mediascan=1 count: 1
+01-01 00:02:23.659 10055 15027 Checked Files:1 Dirs:13, I:5, U:0, D:0, MP3_1_589 (time: 1046ms)
+01-01 00:02:23.834 10055 15027 !@done scanning volume external
+01-01 00:02:26.595 5004 15759 DELETE, external/sec/media
+01-01 00:02:39.370 10055 14429 android.intent.action.BOOT_COMPLETED
+01-01 00:02:39.495 10055 16537 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:02:39.497 10055 16537 INSERT, none/media_scanner
+01-01 00:02:39.498 10055 16537 INSERT, none/media_scanner
+01-01 00:02:39.516 10055 16537 DELETE, internal/file
+01-01 00:02:39.520 10055 16537 DELETE, internal/file count: 0
+01-01 00:02:41.385 10055 16537 BULKINSERT, internal/file?mediascan=1
+01-01 00:02:41.395 10055 16537 BULKINSERT, internal/file?mediascan=1 count: 2
+01-01 00:02:41.480 10055 16537 BULKINSERT, internal/audio/media?mediascan=1
+01-01 00:02:41.562 10055 16537 BULKINSERT, internal/audio/media?mediascan=1 count: 25
+01-01 00:02:41.564 10055 16537 INSERT, internal/audio/media
+01-01 00:02:41.577 10055 16537 INSERT, internal/audio/media/30
+01-01 00:02:41.681 10055 16537 notification_sound content://media/internal/audio/media/30
+01-01 00:02:43.319 10055 16537 BULKINSERT, internal/file?mediascan=1
+01-01 00:02:43.324 10055 16537 BULKINSERT, internal/file?mediascan=1 count: 1
+01-01 00:02:43.326 10055 16537 BULKINSERT, internal/audio/media?mediascan=1
+01-01 00:02:43.397 10055 16537 BULKINSERT, internal/audio/media?mediascan=1 count: 20
+01-01 00:02:43.401 10055 16537 INSERT, internal/audio/media
+01-01 00:02:43.423 10055 16537 INSERT, internal/audio/media/52
+01-01 00:02:43.461 10055 16537 alarm_alert content://media/internal/audio/media/52
+01-01 00:02:43.726 10055 16537 BULKINSERT, internal/audio/media?mediascan=1
+01-01 00:02:43.736 10055 16537 BULKINSERT, internal/audio/media?mediascan=1 count: 2
+01-01 00:02:43.738 10055 16537 INSERT, internal/audio/media
+01-01 00:02:43.759 10055 16537 INSERT, internal/audio/media/55
+01-01 00:02:43.810 10055 16537 ringtone content://media/internal/audio/media/55
+01-01 00:02:47.533 10055 16537 BULKINSERT, internal/file?mediascan=1
+01-01 00:02:47.551 10055 16537 BULKINSERT, internal/file?mediascan=1 count: 8
+01-01 00:02:47.553 10055 16537 BULKINSERT, internal/file?mediascan=1
+01-01 00:02:47.569 10055 16537 BULKINSERT, internal/file?mediascan=1 count: 24
+01-01 00:02:47.571 10055 16537 BULKINSERT, internal/audio/media?mediascan=1
+01-01 00:02:47.681 10055 16537 BULKINSERT, internal/audio/media?mediascan=1 count: 68
+01-01 00:02:47.683 10055 16537 Checked Files:142 Dirs:11, I:153, U:0, D:0, OGG_118_7306 (time: 8170ms)
+01-01 00:02:47.688 10055 16537 !@done scanning volume internal
+01-01 00:46:08.795 10055 4412 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-01 00:46:08.930 10055 4619 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:46:08.939 10055 4619 INSERT, none/media_scanner
+01-01 00:46:08.953 10055 4619 INSERT, none/media_scanner
+01-01 00:46:08.958 10055 4619 INSERT, 
+01-01 00:46:08.988 10055 4619 INSERT, external
+01-01 00:46:09.197 10055 4619 UPDATE, external/file/13
+01-01 00:46:09.222 10055 4619 UPDATE, external/file/13 count: 1
+01-01 00:46:09.266 10055 4619 BULKINSERT, external/file?mediascan=1
+01-01 00:46:09.305 10055 4619 BULKINSERT, external/file?mediascan=1 count: 3
+01-01 00:46:09.317 10055 4619 Checked Files:1 Dirs:16, I:3, U:1, D:0 (time: 254ms)
+01-01 00:46:09.364 10055 4619 !@done scanning volume external
+01-01 00:46:10.941 10055 4412 android.intent.action.BOOT_COMPLETED
+01-01 00:46:11.048 10055 5015 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:46:11.051 10055 5015 INSERT, none/media_scanner
+01-01 00:46:11.052 10055 5015 INSERT, none/media_scanner
+01-01 00:46:11.058 10055 5015 DELETE, internal/file
+01-01 00:46:11.084 10055 5015 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 2 count: 1
+01-01 00:46:11.149 10055 5015 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 93ms)
+01-01 00:46:11.154 10055 5015 !@done scanning volume internal
+01-01 00:46:12.342 5004 4617 DELETE, external/sec/media
+01-01 00:46:16.111 10049 4617 INSERT, external/images/media
+01-01 00:46:16.153 10049 4617 INSERT, external/images/media/19
+01-01 00:46:32.516 5004 4451 INSERT, external/cmh/scene?callingPkg=cmh
+01-01 00:46:32.526 5004 4451 INSERT, external/cmh/scene/1?callingPkg=cmh
+01-01 00:46:32.653 5004 5763 UPDATE, external/sec/media/cmh/update?callingPkg=cmh
+01-01 00:46:38.765 5004 7661 UPDATE, external/cmh/faces?callingPkg=cmh
+01-01 00:46:39.195 5004 7661 UPDATE, external/sec/media/cmh/update?callingPkg=cmh
+01-01 00:49:01.904 10055 4412 android.intent.action.LOCALE_CHANGED
+01-01 00:49:02.026 10055 9401 locale:  -> en_US
+01-01 00:49:02.115 10055 9401 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:49:02.117 10055 9401 INSERT, none/media_scanner
+01-01 00:49:02.118 10055 9401 INSERT, none/media_scanner
+01-01 00:49:02.122 10055 9401 INSERT, 
+01-01 00:49:02.127 10055 9401 INSERT, external
+01-01 00:49:02.187 10055 9401 UPDATE, external/file/9
+01-01 00:49:02.192 10055 9401 UPDATE, external/file/9 count: 1
+01-01 00:49:02.410 10055 9401 UPDATE, external/audio/media/14
+01-01 00:49:02.434 10055 9401 INSERT, external/audio/genres
+01-01 00:49:02.436 10055 9401 INSERT, external/audio/genres/1
+01-01 00:49:02.439 10055 9401 INSERT, external/audio/genres/1/members
+01-01 00:49:02.444 10055 9401 INSERT, external/audio/genres/1/members/1
+01-01 00:49:02.445 10055 9401 UPDATE, external/audio/media/14 count: 1
+01-01 00:49:02.450 10055 9401 BULKINSERT, external/file?mediascan=1
+01-01 00:49:02.457 10055 9401 BULKINSERT, external/file?mediascan=1 count: 1
+01-01 00:49:02.461 10055 9401 Checked Files:2 Dirs:18, I:1, U:2, D:0, MP3_1_206 (time: 330ms)
+01-01 00:49:02.477 10055 9401 !@done scanning volume external
+01-01 00:49:02.482 10055 9401 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:49:02.483 10055 9401 INSERT, none/media_scanner
+01-01 00:49:02.484 10055 9401 INSERT, none/media_scanner
+01-01 00:49:02.490 10055 9401 DELETE, internal/file
+01-01 00:49:02.496 10055 9401 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-01 00:49:02.544 10055 9401 UPDATE, internal/audio/media/5
+01-01 00:49:02.569 10055 9401 UPDATE, internal/audio/media/5 count: 1
+01-01 00:49:02.610 10055 9401 UPDATE, internal/audio/media/6
+01-01 00:49:02.616 10055 9401 UPDATE, internal/audio/media/6 count: 1
+01-01 00:49:02.644 10055 9401 UPDATE, internal/audio/media/7
+01-01 00:49:02.660 10055 9401 UPDATE, internal/audio/media/7 count: 1
+01-01 00:49:02.677 10055 9401 UPDATE, internal/audio/media/8
+01-01 00:49:02.684 10055 9401 UPDATE, internal/audio/media/8 count: 1
+01-01 00:49:02.712 10055 9401 UPDATE, internal/audio/media/9
+01-01 00:49:02.721 10055 9401 UPDATE, internal/audio/media/9 count: 1
+01-01 00:49:02.738 10055 9401 UPDATE, internal/audio/media/10
+01-01 00:49:02.745 10055 9401 UPDATE, internal/audio/media/10 count: 1
+01-01 00:49:02.767 10055 9401 UPDATE, internal/audio/media/11
+01-01 00:49:02.774 10055 9401 UPDATE, internal/audio/media/11 count: 1
+01-01 00:49:02.810 10055 9401 UPDATE, internal/audio/media/12
+01-01 00:49:02.830 10055 9401 UPDATE, internal/audio/media/12 count: 1
+01-01 00:49:02.862 10055 9401 UPDATE, internal/audio/media/13
+01-01 00:49:02.868 10055 9401 UPDATE, internal/audio/media/13 count: 1
+01-01 00:49:02.889 10055 9401 UPDATE, internal/audio/media/14
+01-01 00:49:02.902 10055 9401 UPDATE, internal/audio/media/14 count: 1
+01-01 00:49:02.927 10055 9401 UPDATE, internal/audio/media/15
+01-01 00:49:02.932 10055 9401 UPDATE, internal/audio/media/15 count: 1
+01-01 00:49:02.959 10055 9401 UPDATE, internal/audio/media/16
+01-01 00:49:02.968 10055 9401 UPDATE, internal/audio/media/16 count: 1
+01-01 00:49:02.988 10055 9401 UPDATE, internal/audio/media/17
+01-01 00:49:02.993 10055 9401 UPDATE, internal/audio/media/17 count: 1
+01-01 00:49:03.009 10055 9401 UPDATE, internal/audio/media/18
+01-01 00:49:03.013 10055 9401 UPDATE, internal/audio/media/18 count: 1
+01-01 00:49:03.043 10055 9401 UPDATE, internal/audio/media/19
+01-01 00:49:03.049 10055 9401 UPDATE, internal/audio/media/19 count: 1
+01-01 00:49:03.071 10055 9401 UPDATE, internal/audio/media/20
+01-01 00:49:03.075 10055 9401 UPDATE, internal/audio/media/20 count: 1
+01-01 00:49:03.104 10055 9401 UPDATE, internal/audio/media/21
+01-01 00:49:03.115 10055 9401 UPDATE, internal/audio/media/21 count: 1
+01-01 00:49:03.133 10055 9401 UPDATE, internal/audio/media/22
+01-01 00:49:03.149 10055 9401 UPDATE, internal/audio/media/22 count: 1
+01-01 00:49:03.173 10055 9401 UPDATE, internal/audio/media/23
+01-01 00:49:03.179 10055 9401 UPDATE, internal/audio/media/23 count: 1
+01-01 00:49:03.235 10055 9401 UPDATE, internal/audio/media/24
+01-01 00:49:03.241 10055 9401 UPDATE, internal/audio/media/24 count: 1
+01-01 00:49:03.292 10055 9401 UPDATE, internal/audio/media/25
+01-01 00:49:03.302 10055 9401 UPDATE, internal/audio/media/25 count: 1
+01-01 00:49:03.348 10055 9401 UPDATE, internal/audio/media/26
+01-01 00:49:03.356 10055 9401 UPDATE, internal/audio/media/26 count: 1
+01-01 00:49:03.394 10055 9401 UPDATE, internal/audio/media/27
+01-01 00:49:03.400 10055 9401 UPDATE, internal/audio/media/27 count: 1
+01-01 00:49:03.424 10055 9401 UPDATE, internal/audio/media/28
+01-01 00:49:03.430 10055 9401 UPDATE, internal/audio/media/28 count: 1
+01-01 00:49:03.463 10055 9401 UPDATE, internal/audio/media/29
+01-01 00:49:03.480 10055 9401 UPDATE, internal/audio/media/29 count: 1
+01-01 00:49:03.611 10055 9401 UPDATE, internal/audio/media/30
+01-01 00:49:03.648 10055 9401 UPDATE, internal/audio/media/30 count: 1
+01-01 00:49:03.720 10055 9401 UPDATE, internal/audio/media/32
+01-01 00:49:03.755 10055 9401 UPDATE, internal/audio/media/32 count: 1
+01-01 00:49:03.803 10055 9401 UPDATE, internal/audio/media/33
+01-01 00:49:03.839 10055 9401 UPDATE, internal/audio/media/33 count: 1
+01-01 00:49:03.896 10055 9401 UPDATE, internal/audio/media/34
+01-01 00:49:03.930 10055 9401 UPDATE, internal/audio/media/34 count: 1
+01-01 00:49:03.982 10055 9401 UPDATE, internal/audio/media/35
+01-01 00:49:04.014 10055 9401 UPDATE, internal/audio/media/35 count: 1
+01-01 00:49:04.073 10055 9401 UPDATE, internal/audio/media/36
+01-01 00:49:04.095 10055 9401 UPDATE, internal/audio/media/36 count: 1
+01-01 00:49:04.142 10055 9401 UPDATE, internal/audio/media/37
+01-01 00:49:04.169 10055 9401 UPDATE, internal/audio/media/37 count: 1
+01-01 00:49:04.225 10055 9401 UPDATE, internal/audio/media/38
+01-01 00:49:04.248 10055 9401 UPDATE, internal/audio/media/38 count: 1
+01-01 00:49:04.315 10055 9401 UPDATE, internal/audio/media/39
+01-01 00:49:04.334 10055 9401 UPDATE, internal/audio/media/39 count: 1
+01-01 00:49:04.380 10055 9401 UPDATE, internal/audio/media/40
+01-01 00:49:04.393 10055 9401 UPDATE, internal/audio/media/40 count: 1
+01-01 00:49:04.427 10055 9401 UPDATE, internal/audio/media/41
+01-01 00:49:04.439 10055 9401 UPDATE, internal/audio/media/41 count: 1
+01-01 00:49:04.535 10055 9401 UPDATE, internal/audio/media/42
+01-01 00:49:04.575 10055 9401 UPDATE, internal/audio/media/42 count: 1
+01-01 00:49:04.644 10055 9401 UPDATE, internal/audio/media/43
+01-01 00:49:04.697 10055 9401 UPDATE, internal/audio/media/43 count: 1
+01-01 00:49:04.784 10055 9401 UPDATE, internal/audio/media/44
+01-01 00:49:04.801 10055 9401 UPDATE, internal/audio/media/44 count: 1
+01-01 00:49:04.924 10055 9401 UPDATE, internal/audio/media/45
+01-01 00:49:04.978 10055 9401 UPDATE, internal/audio/media/45 count: 1
+01-01 00:49:05.084 10055 9401 UPDATE, internal/audio/media/46
+01-01 00:49:05.107 10055 9401 UPDATE, internal/audio/media/46 count: 1
+01-01 00:49:05.227 10055 9401 UPDATE, internal/audio/media/47
+01-01 00:49:05.277 10055 9401 UPDATE, internal/audio/media/47 count: 1
+01-01 00:49:05.423 10055 9401 UPDATE, internal/audio/media/48
+01-01 00:49:05.440 10055 9401 UPDATE, internal/audio/media/48 count: 1
+01-01 00:49:05.513 10055 9401 UPDATE, internal/audio/media/49
+01-01 00:49:05.519 10055 9401 UPDATE, internal/audio/media/49 count: 1
+01-01 00:49:05.590 10055 9401 UPDATE, internal/audio/media/50
+01-01 00:49:05.595 10055 9401 UPDATE, internal/audio/media/50 count: 1
+01-01 00:49:05.648 10055 9401 UPDATE, internal/audio/media/51
+01-01 00:49:05.657 10055 9401 UPDATE, internal/audio/media/51 count: 1
+01-01 00:49:05.699 10055 9401 UPDATE, internal/audio/media/52
+01-01 00:49:05.718 10055 9401 UPDATE, internal/audio/media/52 count: 1
+01-01 00:49:05.746 10055 9401 UPDATE, internal/audio/media/53
+01-01 00:49:05.754 10055 9401 UPDATE, internal/audio/media/53 count: 1
+01-01 00:49:05.778 10055 9401 UPDATE, internal/audio/media/54
+01-01 00:49:05.783 10055 9401 UPDATE, internal/audio/media/54 count: 1
+01-01 00:49:05.835 10055 9401 UPDATE, internal/audio/media/55
+01-01 00:49:05.840 10055 9401 UPDATE, internal/audio/media/55 count: 1
+01-01 00:49:05.875 10055 9401 UPDATE, internal/audio/media/91
+01-01 00:49:05.880 10055 9401 UPDATE, internal/audio/media/91 count: 1
+01-01 00:49:05.906 10055 9401 UPDATE, internal/audio/media/92
+01-01 00:49:05.912 10055 9401 UPDATE, internal/audio/media/92 count: 1
+01-01 00:49:05.956 10055 9401 UPDATE, internal/audio/media/93
+01-01 00:49:05.966 10055 9401 UPDATE, internal/audio/media/93 count: 1
+01-01 00:49:05.995 10055 9401 UPDATE, internal/audio/media/94
+01-01 00:49:06.001 10055 9401 UPDATE, internal/audio/media/94 count: 1
+01-01 00:49:06.029 10055 9401 UPDATE, internal/audio/media/95
+01-01 00:49:06.035 10055 9401 UPDATE, internal/audio/media/95 count: 1
+01-01 00:49:06.055 10055 9401 UPDATE, internal/audio/media/96
+01-01 00:49:06.061 10055 9401 UPDATE, internal/audio/media/96 count: 1
+01-01 00:49:06.094 10055 9401 UPDATE, internal/audio/media/97
+01-01 00:49:06.112 10055 9401 UPDATE, internal/audio/media/97 count: 1
+01-01 00:49:06.174 10055 9401 UPDATE, internal/audio/media/98
+01-01 00:49:06.183 10055 9401 UPDATE, internal/audio/media/98 count: 1
+01-01 00:49:06.207 10055 9401 UPDATE, internal/audio/media/99
+01-01 00:49:06.219 10055 9401 UPDATE, internal/audio/media/99 count: 1
+01-01 00:49:06.247 10055 9401 UPDATE, internal/audio/media/100
+01-01 00:49:06.260 10055 9401 UPDATE, internal/audio/media/100 count: 1
+01-01 00:49:06.281 10055 9401 UPDATE, internal/audio/media/101
+01-01 00:49:06.291 10055 9401 UPDATE, internal/audio/media/101 count: 1
+01-01 00:49:06.333 10055 9401 UPDATE, internal/audio/media/102
+01-01 00:49:06.338 10055 9401 UPDATE, internal/audio/media/102 count: 1
+01-01 00:49:06.360 10055 9401 UPDATE, internal/audio/media/103
+01-01 00:49:06.366 10055 9401 UPDATE, internal/audio/media/103 count: 1
+01-01 00:49:06.401 10055 9401 UPDATE, internal/audio/media/104
+01-01 00:49:06.405 10055 9401 UPDATE, internal/audio/media/104 count: 1
+01-01 00:49:06.422 10055 9401 UPDATE, internal/audio/media/105
+01-01 00:49:06.425 10055 9401 UPDATE, internal/audio/media/105 count: 1
+01-01 00:49:06.451 10055 9401 UPDATE, internal/audio/media/106
+01-01 00:49:06.461 10055 9401 UPDATE, internal/audio/media/106 count: 1
+01-01 00:49:06.490 10055 9401 UPDATE, internal/audio/media/107
+01-01 00:49:06.504 10055 9401 UPDATE, internal/audio/media/107 count: 1
+01-01 00:49:06.524 10055 9401 UPDATE, internal/audio/media/108
+01-01 00:49:06.532 10055 9401 UPDATE, internal/audio/media/108 count: 1
+01-01 00:49:06.555 10055 9401 UPDATE, internal/audio/media/109
+01-01 00:49:06.561 10055 9401 UPDATE, internal/audio/media/109 count: 1
+01-01 00:49:06.581 10055 9401 UPDATE, internal/audio/media/110
+01-01 00:49:06.600 10055 9401 UPDATE, internal/audio/media/110 count: 1
+01-01 00:49:06.624 10055 9401 UPDATE, internal/audio/media/111
+01-01 00:49:06.629 10055 9401 UPDATE, internal/audio/media/111 count: 1
+01-01 00:49:06.650 10055 9401 UPDATE, internal/audio/media/112
+01-01 00:49:06.664 10055 9401 UPDATE, internal/audio/media/112 count: 1
+01-01 00:49:06.688 10055 9401 UPDATE, internal/audio/media/113
+01-01 00:49:06.695 10055 9401 UPDATE, internal/audio/media/113 count: 1
+01-01 00:49:06.707 10055 9401 UPDATE, internal/audio/media/114
+01-01 00:49:06.711 10055 9401 UPDATE, internal/audio/media/114 count: 1
+01-01 00:49:06.778 10055 9401 UPDATE, internal/audio/media/115
+01-01 00:49:06.796 10055 9401 UPDATE, internal/audio/media/115 count: 1
+01-01 00:49:06.823 10055 9401 UPDATE, internal/audio/media/116
+01-01 00:49:06.827 10055 9401 UPDATE, internal/audio/media/116 count: 1
+01-01 00:49:06.848 10055 9401 UPDATE, internal/audio/media/117
+01-01 00:49:06.882 10055 9401 UPDATE, internal/audio/media/117 count: 1
+01-01 00:49:06.904 10055 9401 UPDATE, internal/audio/media/118
+01-01 00:49:06.919 10055 9401 UPDATE, internal/audio/media/118 count: 1
+01-01 00:49:06.938 10055 9401 UPDATE, internal/audio/media/119
+01-01 00:49:06.945 10055 9401 UPDATE, internal/audio/media/119 count: 1
+01-01 00:49:07.038 10055 9401 UPDATE, internal/audio/media/120
+01-01 00:49:07.079 10055 9401 UPDATE, internal/audio/media/120 count: 1
+01-01 00:49:07.178 10055 9401 UPDATE, internal/audio/media/121
+01-01 00:49:07.183 10055 9401 UPDATE, internal/audio/media/121 count: 1
+01-01 00:49:07.224 10055 9401 UPDATE, internal/audio/media/122
+01-01 00:49:07.248 10055 9401 UPDATE, internal/audio/media/122 count: 1
+01-01 00:49:07.265 10055 9401 UPDATE, internal/audio/media/123
+01-01 00:49:07.274 10055 9401 UPDATE, internal/audio/media/123 count: 1
+01-01 00:49:07.303 10055 9401 UPDATE, internal/audio/media/124
+01-01 00:49:07.310 10055 9401 UPDATE, internal/audio/media/124 count: 1
+01-01 00:49:07.333 10055 9401 UPDATE, internal/audio/media/125
+01-01 00:49:07.342 10055 9401 UPDATE, internal/audio/media/125 count: 1
+01-01 00:49:07.366 10055 9401 UPDATE, internal/audio/media/126
+01-01 00:49:07.382 10055 9401 UPDATE, internal/audio/media/126 count: 1
+01-01 00:49:07.410 10055 9401 UPDATE, internal/audio/media/127
+01-01 00:49:07.424 10055 9401 UPDATE, internal/audio/media/127 count: 1
+01-01 00:49:07.445 10055 9401 UPDATE, internal/audio/media/128
+01-01 00:49:07.452 10055 9401 UPDATE, internal/audio/media/128 count: 1
+01-01 00:49:07.480 10055 9401 UPDATE, internal/audio/media/129
+01-01 00:49:07.488 10055 9401 UPDATE, internal/audio/media/129 count: 1
+01-01 00:49:07.509 10055 9401 UPDATE, internal/audio/media/130
+01-01 00:49:07.530 10055 9401 UPDATE, internal/audio/media/130 count: 1
+01-01 00:49:07.573 10055 9401 UPDATE, internal/audio/media/131
+01-01 00:49:07.580 10055 9401 UPDATE, internal/audio/media/131 count: 1
+01-01 00:49:07.626 10055 9401 UPDATE, internal/audio/media/132
+01-01 00:49:07.634 10055 9401 UPDATE, internal/audio/media/132 count: 1
+01-01 00:49:07.653 10055 9401 UPDATE, internal/audio/media/133
+01-01 00:49:07.659 10055 9401 UPDATE, internal/audio/media/133 count: 1
+01-01 00:49:07.725 10055 9401 UPDATE, internal/audio/media/134
+01-01 00:49:07.730 10055 9401 UPDATE, internal/audio/media/134 count: 1
+01-01 00:49:07.786 10055 9401 UPDATE, internal/audio/media/135
+01-01 00:49:07.800 10055 9401 UPDATE, internal/audio/media/135 count: 1
+01-01 00:49:07.823 10055 9401 UPDATE, internal/audio/media/136
+01-01 00:49:07.829 10055 9401 UPDATE, internal/audio/media/136 count: 1
+01-01 00:49:07.847 10055 9401 UPDATE, internal/audio/media/137
+01-01 00:49:07.864 10055 9401 UPDATE, internal/audio/media/137 count: 1
+01-01 00:49:07.891 10055 9401 UPDATE, internal/audio/media/138
+01-01 00:49:07.898 10055 9401 UPDATE, internal/audio/media/138 count: 1
+01-01 00:49:07.916 10055 9401 UPDATE, internal/audio/media/139
+01-01 00:49:07.924 10055 9401 UPDATE, internal/audio/media/139 count: 1
+01-01 00:49:07.948 10055 9401 UPDATE, internal/audio/media/140
+01-01 00:49:07.953 10055 9401 UPDATE, internal/audio/media/140 count: 1
+01-01 00:49:07.970 10055 9401 UPDATE, internal/audio/media/141
+01-01 00:49:07.980 10055 9401 UPDATE, internal/audio/media/141 count: 1
+01-01 00:49:07.998 10055 9401 UPDATE, internal/audio/media/142
+01-01 00:49:08.003 10055 9401 UPDATE, internal/audio/media/142 count: 1
+01-01 00:49:08.018 10055 9401 UPDATE, internal/audio/media/143
+01-01 00:49:08.025 10055 9401 UPDATE, internal/audio/media/143 count: 1
+01-01 00:49:08.049 10055 9401 UPDATE, internal/audio/media/144
+01-01 00:49:08.054 10055 9401 UPDATE, internal/audio/media/144 count: 1
+01-01 00:49:08.075 10055 9401 UPDATE, internal/audio/media/145
+01-01 00:49:08.081 10055 9401 UPDATE, internal/audio/media/145 count: 1
+01-01 00:49:08.103 10055 9401 UPDATE, internal/audio/media/146
+01-01 00:49:08.108 10055 9401 UPDATE, internal/audio/media/146 count: 1
+01-01 00:49:08.126 10055 9401 UPDATE, internal/audio/media/147
+01-01 00:49:08.143 10055 9401 UPDATE, internal/audio/media/147 count: 1
+01-01 00:49:08.165 10055 9401 UPDATE, internal/audio/media/148
+01-01 00:49:08.173 10055 9401 UPDATE, internal/audio/media/148 count: 1
+01-01 00:49:08.192 10055 9401 UPDATE, internal/audio/media/149
+01-01 00:49:08.196 10055 9401 UPDATE, internal/audio/media/149 count: 1
+01-01 00:49:08.228 10055 9401 UPDATE, internal/audio/media/150
+01-01 00:49:08.234 10055 9401 UPDATE, internal/audio/media/150 count: 1
+01-01 00:49:08.268 10055 9401 UPDATE, internal/audio/media/151
+01-01 00:49:08.273 10055 9401 UPDATE, internal/audio/media/151 count: 1
+01-01 00:49:08.300 10055 9401 UPDATE, internal/audio/media/152
+01-01 00:49:08.304 10055 9401 UPDATE, internal/audio/media/152 count: 1
+01-01 00:49:08.327 10055 9401 UPDATE, internal/audio/media/153
+01-01 00:49:08.331 10055 9401 UPDATE, internal/audio/media/153 count: 1
+01-01 00:49:08.363 10055 9401 UPDATE, internal/audio/media/154
+01-01 00:49:08.370 10055 9401 UPDATE, internal/audio/media/154 count: 1
+01-01 00:49:08.425 10055 9401 UPDATE, internal/audio/media/155
+01-01 00:49:08.432 10055 9401 UPDATE, internal/audio/media/155 count: 1
+01-01 00:49:08.462 10055 9401 UPDATE, internal/audio/media/156
+01-01 00:49:08.471 10055 9401 UPDATE, internal/audio/media/156 count: 1
+01-01 00:49:08.505 10055 9401 UPDATE, internal/audio/media/157
+01-01 00:49:08.527 10055 9401 UPDATE, internal/audio/media/157 count: 1
+01-01 00:49:08.597 10055 9401 UPDATE, internal/audio/media/158
+01-01 00:49:08.610 10055 9401 UPDATE, internal/audio/media/158 count: 1
+01-01 00:49:08.612 10055 9401 Checked Files:142 Dirs:11, I:0, U:118, D:0, OGG_118_3962 (time: 6124ms)
+01-01 00:49:08.619 10055 9401 !@done scanning volume internal
+01-01 00:50:09.732 10055 3576 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-01 00:50:09.854 10055 4526 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:50:09.862 10055 4526 INSERT, none/media_scanner
+01-01 00:50:09.863 10055 4526 INSERT, none/media_scanner
+01-01 00:50:09.869 10055 4526 INSERT, 
+01-01 00:50:09.940 10055 4526 INSERT, external
+01-01 00:50:10.197 10055 4526 Checked Files:2 Dirs:18, I:0, U:0, D:0 (time: 195ms)
+01-01 00:50:10.260 10055 4526 !@done scanning volume external
+01-01 00:50:11.856 10055 3576 android.intent.action.BOOT_COMPLETED
+01-01 00:50:11.964 10055 4988 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:50:11.967 10055 4988 INSERT, none/media_scanner
+01-01 00:50:11.967 10055 4988 INSERT, none/media_scanner
+01-01 00:50:11.979 10055 4988 DELETE, internal/file
+01-01 00:50:11.991 10055 4988 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-01 00:50:12.050 10055 4988 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 80ms)
+01-01 00:50:12.062 10055 4988 !@done scanning volume internal
+01-01 00:50:12.979 10055 5065 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+01-01 00:50:12.984 10055 5065 INSERT, none/media_scanner
+01-01 00:50:12.985 10055 5065 INSERT, none/media_scanner
+01-01 00:50:13.023 10055 5065 INSERT, 
+01-01 00:50:13.052 10055 5065 INSERT, external
+01-01 00:50:13.157 10055 5065 Checked Files:2 Dirs:18, I:0, U:0, D:0 (time: 85ms)
+01-01 00:50:13.180 10055 5065 !@done scanning directories
+01-01 00:50:13.385 5004 3597 DELETE, external/sec/media

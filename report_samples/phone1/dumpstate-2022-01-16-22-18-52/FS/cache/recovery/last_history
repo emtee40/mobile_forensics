@@ -1,0 +1,28 @@
++ [vO | 2020/01/24 04:49:16 | G991USQU4BUKF]
+--wipe_data
+--requested_time=2021/01/01 00:00:08.961
+--reason=FactoryApp,2021-01-01T00:00:08Z
+--locale=en-US
+NP
+reboot_reason=Reboot:722 RecoverySystemFactoryApp,2021-01-01T00:00:08Z
++ [wh | 2020/01/24 05:01:40 | G991USQU4BUKF]
+--update_package=@/cache/recovery/block.map
+--locale=en-US
+--carry_out=att_fota
+--update_org_package=/data/fota/update.zip
+NP
+reboot_reason=com.ws.dm:2573 RecoverySystem installPackage: --update_package=@/cache/recovery/bloc
++ [xu | 2020/01/24 05:15:10 | G991USQS4BUKK]
+--wipe_data
+--requested_time=2021/01/01 00:00:13.224
+--reason=FactoryApp,2021-01-01T00:00:13Z
+--locale=en-US
+NP
+reboot_reason=Reboot:29959 RecoverySystemFactoryApp,2021-01-01T00:00:13Z
++ [Gt | 2020/01/24 05:18:17 | G991USQS4BUKK]
+--wipe_data
+--requested_time=2021/01/01 00:00:24.819
+--reason=FactoryApp,2021-01-01T00:00:24Z
+--locale=en-US
+NP
+reboot_reason=Reboot:18981 RecoverySystemFactoryApp,2021-01-01T00:00:24Z

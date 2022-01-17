@@ -1,0 +1,582 @@
+MCFG.
+Cur Time : 4211.111000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	LINE	STRING
+11.644950	mcfg_task.c	285	Modem Config task-START
+11.645328	mcfg_map.c	1177	mcfg_map_read_config_map: Unable to open MCFG Image file (2)
+11.645537	mcfg_map.c	1103	mcfg_map_read_factory_config_map: factory config doesn't exist
+11.645632	mcfg_map.c	1220	mcfg_map_read_config_map: index 0 sig 4D634667
+11.645634	mcfg_map.c	1222	mcfg_map_read_config_map: index 0 id_len 20
+11.645635	mcfg_map.c	1233	mcfg_map_read_config_map: set active id with len 20
+11.645677	mcfg_map.c	1220	mcfg_map_read_config_map: index 1 sig 4D634667
+11.645678	mcfg_map.c	1222	mcfg_map_read_config_map: index 1 id_len 20
+11.645680	mcfg_map.c	1242	mcfg_map_read_config_map: set pending id with len 20
+11.645683	mcfg_map.c	1220	mcfg_map_read_config_map: index 2 sig 4D636667
+11.645684	mcfg_map.c	1222	mcfg_map_read_config_map: index 2 id_len 20
+11.645685	mcfg_map.c	1251	mcfg_map_read_config_map: add id with len 20
+11.645780	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 1
+11.646090	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_swCC2443C8A73C103BF7D045A94ED731EF/mbn
+11.646094	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.646100	mcfg_map.c	1220	mcfg_map_read_config_map: index 3 sig 4D636667
+11.646101	mcfg_map.c	1222	mcfg_map_read_config_map: index 3 id_len 20
+11.646102	mcfg_map.c	1251	mcfg_map_read_config_map: add id with len 20
+11.646108	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 2
+11.646195	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_sw16EAB15771CD9BAC45E7113AF1D45214/mbn
+11.646198	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.646201	mcfg_map.c	1220	mcfg_map_read_config_map: index 4 sig 4D636667
+11.646202	mcfg_map.c	1222	mcfg_map_read_config_map: index 4 id_len 20
+11.646203	mcfg_map.c	1251	mcfg_map_read_config_map: add id with len 20
+11.646206	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 3
+11.646286	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_sw66D993A8A185F7DD12629D5CAAAD7AF1/mbn
+11.646289	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.646292	mcfg_map.c	1220	mcfg_map_read_config_map: index 5 sig 4D636667
+11.646293	mcfg_map.c	1222	mcfg_map_read_config_map: index 5 id_len 20
+11.646294	mcfg_map.c	1251	mcfg_map_read_config_map: add id with len 20
+11.646298	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 4
+11.646393	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_sw391F6422717DD645CA59C88278AD5D82/mbn
+11.646396	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.646402	mcfg_map.c	1220	mcfg_map_read_config_map: index 6 sig 4D636667
+11.646403	mcfg_map.c	1222	mcfg_map_read_config_map: index 6 id_len 20
+11.646404	mcfg_map.c	1251	mcfg_map_read_config_map: add id with len 20
+11.646408	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 5
+11.646498	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_sw5D4EBFE7F8AD2F6E356E212DDBA26E81/mbn
+11.646500	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.646506	mcfg_map.c	1220	mcfg_map_read_config_map: index 7 sig 4D636667
+11.646507	mcfg_map.c	1222	mcfg_map_read_config_map: index 7 id_len 20
+11.646508	mcfg_map.c	1251	mcfg_map_read_config_map: add id with len 20
+11.646512	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 6
+11.646616	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_swB4CE4011A18F7359A396404473BECF14/mbn
+11.646619	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.646623	mcfg_map.c	1220	mcfg_map_read_config_map: index 8 sig 4D636667
+11.646625	mcfg_map.c	1222	mcfg_map_read_config_map: index 8 id_len 20
+11.646625	mcfg_map.c	1251	mcfg_map_read_config_map: add id with len 20
+11.646629	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 7
+11.646717	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_swD756B68DBD707F3DF31285739CC42EB1/mbn
+11.646719	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.646722	mcfg_map.c	1220	mcfg_map_read_config_map: index 9 sig 4D634667
+11.646723	mcfg_map.c	1222	mcfg_map_read_config_map: index 9 id_len 2415919104
+11.646724	mcfg_map.c	1268	mcfg_map_read_config_map: set active id with len 0 sub 1
+11.646727	mcfg_map.c	1220	mcfg_map_read_config_map: index 10 sig 4D634667
+11.646728	mcfg_map.c	1222	mcfg_map_read_config_map: index 10 id_len 2684354560
+11.646729	mcfg_map.c	1268	mcfg_map_read_config_map: set active id with len 0 sub 2
+11.646733	mcfg_map.c	1220	mcfg_map_read_config_map: index 11 sig 4D634667
+11.646734	mcfg_map.c	1222	mcfg_map_read_config_map: index 11 id_len 2952790016
+11.646735	mcfg_map.c	1268	mcfg_map_read_config_map: set active id with len 0 sub 3
+11.646738	mcfg_map.c	1220	mcfg_map_read_config_map: index 12 sig 4D634667
+11.646739	mcfg_map.c	1222	mcfg_map_read_config_map: index 12 id_len 3221225472
+11.646740	mcfg_map.c	1268	mcfg_map_read_config_map: set active id with len 0 sub 4
+11.646742	mcfg_map.c	1220	mcfg_map_read_config_map: index 13 sig 4D634667
+11.646743	mcfg_map.c	1222	mcfg_map_read_config_map: index 13 id_len 268435456
+11.646744	mcfg_map.c	1278	mcfg_map_read_config_map: set pending id with len 0 sub 1
+11.646747	mcfg_map.c	1220	mcfg_map_read_config_map: index 14 sig 4D634667
+11.646748	mcfg_map.c	1222	mcfg_map_read_config_map: index 14 id_len 536870912
+11.646749	mcfg_map.c	1278	mcfg_map_read_config_map: set pending id with len 0 sub 2
+11.646754	mcfg_map.c	1220	mcfg_map_read_config_map: index 15 sig 4D634667
+11.646755	mcfg_map.c	1222	mcfg_map_read_config_map: index 15 id_len 805306368
+11.646755	mcfg_map.c	1278	mcfg_map_read_config_map: set pending id with len 0 sub 3
+11.646758	mcfg_map.c	1220	mcfg_map_read_config_map: index 16 sig 4D634667
+11.646759	mcfg_map.c	1222	mcfg_map_read_config_map: index 16 id_len 1073741824
+11.646760	mcfg_map.c	1278	mcfg_map_read_config_map: set pending id with len 0 sub 4
+11.646763	mcfg_map.c	1220	mcfg_map_read_config_map: index 17 sig 4D634667
+11.646764	mcfg_map.c	1222	mcfg_map_read_config_map: index 17 id_len 0
+11.646764	mcfg_map.c	1294	mcfg_map_read_config_map: check termination with len 0
+11.646768	mcfg_map.c	1662	mcfg_map_update_record:update config weight 65535
+11.647311	mcfg_utils.c	917	Config: ROW
+11.647312	mcfg_utils.c	921	Config ROW
+11.647319	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 8
+11.647404	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_swD756B68DBD707F3DF31285739CC42EB1/mbn
+11.647405	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.647407	mcfg_map.c	1683	mcfg_free, mcfg_heap_blocks 7
+11.647409	mcfg_map.c	1662	mcfg_map_update_record:update config weight 65535
+11.647585	mcfg_utils.c	917	Config: ROW
+11.647586	mcfg_utils.c	921	Config ROW
+11.647591	mcfg_map.c	1729	mcfg_malloc, mcfg_heap_blocks 8
+11.647671	mcfg_efs.c	1222	mcfg_efs_config_present_local: config present in local efs /nvm/mcfg/cfg_01/mcfg_swD756B68DBD707F3DF31285739CC42EB1/mbn
+11.647673	mcfg_map.c	1746	mcfg_map_add_record_in_map
+11.647675	mcfg_map.c	1683	mcfg_free, mcfg_heap_blocks 7
+11.647799	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.647829	mcfg_nv.c	601	mcfg_nv_read status 5
+11.647831	mcfg_utils.c	2418	Default power down reason...Unsucessful to read the nv...mcfg_power_down_reason : 0x0
+11.647854	mcfg_utils.c	2431	deleted MCFG_NV_ITEM_MCFG_POWER_DOWN_REASON: status 0
+11.647855	mcfg_task.c	289	mcfg_power_down_reason is ...0x0
+11.647892	mcfg_uim.c	1957	Starting MCFG_UIM initialization
+11.647894	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 0
+11.647934	mcfg_uim.c	303	autoselect_nv 0xde for slot 0
+11.647936	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.647970	mcfg_nv.c	601	mcfg_nv_read status 0
+11.647971	mcfg_uim.c	251	read_autoselect_nv sloti0 NV=0
+11.648009	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+11.648010	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 1
+11.648011	mcfg_uim.c	303	autoselect_nv 0xde for slot 1
+11.648017	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.648042	mcfg_nv.c	601	mcfg_nv_read status 5
+11.648043	mcfg_uim.c	251	read_autoselect_nv sloti1 NV=0
+11.648044	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+11.648051	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.648074	mcfg_nv.c	601	mcfg_nv_read status 5
+11.648079	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.648101	mcfg_nv.c	601	mcfg_nv_read status 5
+11.648140	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.648167	mcfg_nv.c	601	mcfg_nv_read status 5
+11.648168	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 0
+11.648169	mcfg_uim.c	303	autoselect_nv 0x00 for slot 0
+11.648170	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+11.648171	mcfg_uim.c	518	mcfg_uim_nv_imsiselect_enabled for sloti 0
+11.648173	mcfg_uim.c	529	imsiselect_nv 0x00 for slot 0
+11.648174	mcfg_uim.c	546	mcfg_uim_nv_imsiselect_enabled NV=0
+11.648175	mcfg_uim.c	381	nv_flexmap_enabled 0 NV=0
+11.648177	mcfg_uim.c	432	mcfg_refresh_enabled sloti 0
+11.648183	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.648206	mcfg_nv.c	601	mcfg_nv_read status 5
+11.648207	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 1
+11.648208	mcfg_uim.c	303	autoselect_nv 0x00 for slot 1
+11.648208	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+11.648209	mcfg_uim.c	518	mcfg_uim_nv_imsiselect_enabled for sloti 1
+11.648210	mcfg_uim.c	529	imsiselect_nv 0x00 for slot 1
+11.648211	mcfg_uim.c	546	mcfg_uim_nv_imsiselect_enabled NV=0
+11.648212	mcfg_uim.c	381	nv_flexmap_enabled 0 NV=0
+11.648213	mcfg_uim.c	432	mcfg_refresh_enabled sloti 1
+11.648248	mcfg_setting.c	127	Unexpected condition!
+11.648249	mcfg_diag.c	290	====  Registering MCFG Diag cmds ==== 
+11.648396	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 0
+11.648397	mcfg_uim.c	303	autoselect_nv 0x00 for slot 0
+11.648398	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+11.648425	mcfg_utils.c	2578	[DEBUG] mcfg_utils_mcfg_list [0 0]
+11.648428	mcfg_map.c	942	mcfg_print: loaded config list
+11.648430	mcfg_map.c	926	mcfg_print: type 1 sub 0 active len 20 id:C0~1A
+11.648615	mcfg_utils.c	917	Config: ROW
+11.648616	mcfg_utils.c	921	Config ROW
+11.648618	mcfg_map.c	936	mcfg_print: type 1 sub 0 pendng len 20 id:C0~1A
+11.648789	mcfg_utils.c	917	Config: ROW
+11.648789	mcfg_utils.c	921	Config ROW
+11.648791	mcfg_map.c	942	mcfg_print: loaded config list
+11.648970	mcfg_utils.c	917	Config: ROW
+11.648970	mcfg_utils.c	921	Config ROW
+11.649152	mcfg_utils.c	917	Config: WRD
+11.649152	mcfg_utils.c	921	Config WRD
+11.649325	mcfg_utils.c	917	Config: VZW
+11.649326	mcfg_utils.c	921	Config VZW
+11.649506	mcfg_utils.c	917	Config: USC
+11.649506	mcfg_utils.c	921	Config USC
+11.649675	mcfg_utils.c	917	Config: SPR
+11.649675	mcfg_utils.c	921	Config SPR
+11.649847	mcfg_utils.c	917	Config: ATT
+11.649847	mcfg_utils.c	921	Config ATT
+11.650032	mcfg_utils.c	917	Config: FirstNet
+11.650032	mcfg_utils.c	921	Config Fir
+11.650225	mcfg_utils.c	2613	[DEBUG] MBN[1] : ROW
+11.650227	mcfg_utils.c	2619	[DEBUG] Matched index 0 - ROW
+11.650229	mcfg_task.c	337	[tndn] Active MBN based on SaleCode(where, uim_nv_autoselect off), MBN : 0
+11.650230	mcfg_utils.c	2578	[DEBUG] mcfg_utils_mcfg_list [2 0]
+11.650233	mcfg_utils.c	2642	[DEBUG] Already using correct config
+11.650328	mcfg_proc.c	573	====  Starting modem_cfg_process ==== 
+11.650330	mcfg_proc.c	342	====  Starting modem_cfg_process_single 0 ==== 
+11.650331	mcfg_proc.c	343	refresh_type 2 
+11.650408	mcfg_default.c	560	==== mcfg_default_config_process for type 0 ==== 
+11.650411	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.650445	mcfg_nv.c	601	mcfg_nv_read status 5
+11.650446	mcfg_default.c	113	default enabled nv for 0 is not available
+11.650449	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.650472	mcfg_nv.c	601	mcfg_nv_read status 5
+11.650472	mcfg_default.c	113	default enabled nv for 0 is not available
+11.650520	mcfg_utils.c	2136	mcfg_utils_get_default_config: type 0 size 808
+11.650522	mcfg_utils.c	2530	mcfg_format_ver_num is : 0x4 
+11.650522	mcfg_utils.c	2535	====  isMbnWithDigest returned true ==== 
+11.650524	mcfg_default.c	587	default_config_digest_available  = 1
+11.650526	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.650554	mcfg_nv.c	601	mcfg_nv_read status 5
+11.650556	mcfg_default.c	113	default enabled nv for 0 is not available
+11.650559	mcfg_utils.c	2136	mcfg_utils_get_default_config: type 0 size 808
+11.650563	mcfg_utils.c	2197	get_default_config_info type(0) status(1)
+11.650569	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.650603	mcfg_nv.c	601	mcfg_nv_read status 0
+11.650605	mcfg_default.c	428	Update default config digest for type 0 
+11.650606	mcfg_default.c	607	Default config digest update not required for type(0)!
+11.650607	mcfg_proc.c	359	mcfg default config not required for cfg type 0x0,
+11.650611	mcfg_load.c	417	modem_cfg_load_and_auth_mcfg 5 - err 4109
+11.650613	mcfg_proc.c	380	mcfg_load_and_auth_seg fail for cfg type 0, status = 4109, subs_id = 0
+11.650614	mcfg_utils.c	614	Unexpected NULL pointer!
+11.650616	mcfg_proc.c	342	====  Starting modem_cfg_process_single 0 ==== 
+11.650617	mcfg_proc.c	343	refresh_type 2 
+11.650618	mcfg_default.c	560	==== mcfg_default_config_process for type 1 ==== 
+11.650619	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.650643	mcfg_nv.c	601	mcfg_nv_read status 5
+11.650644	mcfg_default.c	113	default enabled nv for 1 is not available
+11.650645	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.650668	mcfg_nv.c	601	mcfg_nv_read status 5
+11.650669	mcfg_default.c	113	default enabled nv for 1 is not available
+11.650673	mcfg_utils.c	2136	mcfg_utils_get_default_config: type 1 size 2156
+11.650674	mcfg_utils.c	2530	mcfg_format_ver_num is : 0x4 
+11.650675	mcfg_utils.c	2535	====  isMbnWithDigest returned true ==== 
+11.650676	mcfg_default.c	587	default_config_digest_available  = 1
+11.650678	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.650703	mcfg_nv.c	601	mcfg_nv_read status 5
+11.650705	mcfg_default.c	113	default enabled nv for 1 is not available
+11.650708	mcfg_utils.c	2136	mcfg_utils_get_default_config: type 1 size 2156
+11.650710	mcfg_utils.c	2197	get_default_config_info type(1) status(1)
+11.650713	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.650746	mcfg_nv.c	601	mcfg_nv_read status 0
+11.650747	mcfg_default.c	428	Update default config digest for type 1 
+11.650748	mcfg_default.c	607	Default config digest update not required for type(1)!
+11.650749	mcfg_proc.c	359	mcfg default config not required for cfg type 0x1,
+11.650752	mcfg_load.c	395	modem_cfg_load_and_auth_mcfg - 1 
+11.650826	mcfg_load.c	399	modem_cfg_load_and_auth_mcfg - 2, size=14660
+11.650829	mcfg_utils.c	575	mcfg_malloc, mcfg_heap_blocks 1
+11.650831	mcfg_load.c	402	modem_cfg_load_and_auth_mcfg - 3, config_addr=0x76912620
+11.650947	mcfg_efs.c	526	mcfg_efs_get_config: compresses config len 3866
+11.650949	mcfg_utils.c	2970	mcfg_utils_check_config_header(): first 2 bytes of config, 0x78, 0x9c
+11.650950	mcfg_utils.c	3038	check_and_update_config: received config is a zlib compressed file
+11.650953	mcfg_utils.c	3039	mcfg_malloc, mcfg_heap_blocks 2
+11.650959	mcfg_utils.c	2922	uncompress_wrapper(): first 2 bytes of source (compressed), 0x78, 0x9c 
+11.651293	mcfg_utils.c	2938	uncompress_wrapper(): first 2 bytes of dest (uncompresses), 0x7f, 0x45 
+11.651294	mcfg_utils.c	2970	mcfg_utils_check_config_header(): first 2 bytes of config, 0x7f, 0x45
+11.651295	mcfg_utils.c	3073	check_and_update_config: comp_config_len 3866, comp_status 2
+11.651338	mcfg_auth.c	145	mcfg_auth_verify_hash() sig_offset 0x1000, data_offset 0x3000 size 2372
+11.651555	mcfg_auth.c	215	mcfg_auth_verify_hash() hash matches!!
+11.661428	mcfg_auth.c	317	mcfg_auth_img_verify() is Successful!!
+11.661434	mcfg_auth.c	145	mcfg_auth_verify_hash() sig_offset 0x1000, data_offset 0x3000 size 2372
+11.661577	mcfg_auth.c	215	mcfg_auth_verify_hash() hash matches!!
+11.671438	mcfg_auth.c	317	mcfg_auth_img_verify() is Successful!!
+11.671439	mcfg_load.c	406	modem_cfg_load_and_auth_mcfg - 4, 0
+11.671440	mcfg_load.c	417	modem_cfg_load_and_auth_mcfg 5 - err 0
+11.671480	mcfg_utils.c	2530	mcfg_format_ver_num is : 0x4 
+11.671481	mcfg_utils.c	2535	====  isMbnWithDigest returned true ==== 
+11.671483	mcfg_proc.c	407	mcfg_digest_available  = 1
+11.671487	mcfg_proc.c	1060	mcfg_malloc, mcfg_heap_blocks 1
+11.671489	mcfg_proc.c	1085	validate_mcfg_header mcfg_ver_compare_result=1
+11.671490	mcfg_proc.c	1086	validate_mcfg_header mcfg_hdr->mcfg_muxd_carrier_index_info=8
+11.671538	mcfg_proc.c	3386	mcfg_compare_w_muxd_version subs_id=0 carrier_index=8
+11.671546	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.671583	mcfg_nv.c	601	mcfg_nv_read status 0
+11.671585	mcfg_proc.c	3393	mcfg_compare_w_muxd_version nv_read_status=0
+11.671586	mcfg_proc.c	3396	mcfg_compare_w_muxd_version mcfg_version=8010808
+11.671587	mcfg_proc.c	3397	mcfg_compare_w_muxd_version local_mcfg_info=8010808
+11.671588	mcfg_proc.c	1096	validate_mcfg_header mcfg_ver_compare_result=0
+11.671592	mcfg_proc.c	1124	mcfg_free, mcfg_heap_blocks 0
+11.671595	mcfg_proc.c	1444	mcfg_malloc, mcfg_heap_blocks 1
+11.671597	mcfg_proc.c	1469	mcfg_free, mcfg_heap_blocks 0
+11.671641	mcfg_proc.c	3814	MCFG SW- carrier major version = 0x8 sys_type= 0x1
+11.671642	mcfg_proc.c	1572	inside mcfg_update_required_based_on_digest ..cfg_type is...(1)
+11.671644	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.671680	mcfg_nv.c	601	mcfg_nv_read status 0
+11.671682	mcfg_proc.c	1591	prev_mcfg_digest_version read success  for cfg_type : (1)!
+11.671877	mcfg_proc.c	1627	prev and curr mcfg digest version is same for cfg_type : (1)!
+11.671881	mcfg_utils.c	1477	set_active_config 00c079
+11.672058	mcfg_utils.c	917	Config: ROW
+11.672058	mcfg_utils.c	921	Config ROW
+11.672061	mcfg_map.c	149	mcfg_map_is_config_id_unique:ID found
+11.672319	mcfg_utils.c	616	mcfg_free, mcfg_heap_blocks 1
+11.672321	mcfg_utils.c	621	mcfg_free, mcfg_heap_blocks 0
+11.672322	mcfg_proc.c	342	====  Starting modem_cfg_process_single 1 ==== 
+11.672323	mcfg_proc.c	343	refresh_type 2 
+11.672325	mcfg_default.c	560	==== mcfg_default_config_process for type 1 ==== 
+11.672327	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.672356	mcfg_nv.c	601	mcfg_nv_read status 5
+11.672357	mcfg_default.c	113	default enabled nv for 1 is not available
+11.672359	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.672381	mcfg_nv.c	601	mcfg_nv_read status 5
+11.672382	mcfg_default.c	113	default enabled nv for 1 is not available
+11.672391	mcfg_utils.c	2136	mcfg_utils_get_default_config: type 1 size 2156
+11.672392	mcfg_utils.c	2530	mcfg_format_ver_num is : 0x4 
+11.672393	mcfg_utils.c	2535	====  isMbnWithDigest returned true ==== 
+11.672394	mcfg_default.c	587	default_config_digest_available  = 1
+11.672396	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.672420	mcfg_nv.c	601	mcfg_nv_read status 5
+11.672421	mcfg_default.c	113	default enabled nv for 1 is not available
+11.672424	mcfg_utils.c	2136	mcfg_utils_get_default_config: type 1 size 2156
+11.672427	mcfg_utils.c	2197	get_default_config_info type(1) status(1)
+11.672435	mcfg_nv.c	559	mcfg_nv_build_path status 0
+11.672467	mcfg_nv.c	601	mcfg_nv_read status 0
+11.672469	mcfg_default.c	428	Update default config digest for type 1 
+11.672470	mcfg_default.c	607	Default config digest update not required for type(1)!
+11.672471	mcfg_proc.c	359	mcfg default config not required for cfg type 0x1,
+11.672473	mcfg_load.c	417	modem_cfg_load_and_auth_mcfg 5 - err 4109
+11.672474	mcfg_proc.c	380	mcfg_load_and_auth_seg fail for cfg type 1, status = 4109, subs_id = 1
+11.672475	mcfg_utils.c	614	Unexpected NULL pointer!
+11.672477	mcfg_task.c	369	Modem Config Processing Error 0x100d
+11.672477	mcfg_task.c	371	Modem Config Processing -DONE
+11.672607	qmi_pdc_svc.c	4075	pdc_default_load_config_cache(): cache is now reset
+11.673058	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 1
+11.673061	mcfg_task.c	695	task cmd_id 5 queued with delay of 10000 ms
+11.673063	mcfg_task.c	696	mcfg_malloc, mcfg_heap_blocks 2
+11.786447	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.787361	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 1
+11.787432	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d0d9a770
+11.787436	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+11.829774	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.830515	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 2
+11.830741	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb c17007f8
+11.830747	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+11.831995	mcfg_uim.c	1920	Starting MCFG_UIM MMGSDI initialization
+11.834396	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.834407	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 3
+11.834412	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d07a3b24
+11.834414	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+11.838259	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.838273	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 4
+11.838276	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d0a9fb68
+11.838278	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+11.845441	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.845453	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 5
+11.845457	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb c0a65d98
+11.845460	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+11.854847	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.854877	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 6
+11.854880	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d0be8204
+11.854884	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+11.856555	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.856567	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 7
+11.856569	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d0801914
+11.856571	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+11.857822	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.857832	mcfg_uim.c	2484	Processing MMGSDI cnf 0
+11.857874	mcfg_uim.c	1677	Successfully allocated MMGSDI client ID
+11.857876	mcfg_uim.c	1700	Opening ext session with mask 3F
+11.857884	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+11.858011	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+11.858017	mcfg_uim.c	2429	mcfg_malloc, mcfg_heap_blocks 1
+11.858020	mcfg_uim.c	2484	Processing MMGSDI cnf 65
+11.858022	mcfg_uim.c	2551	Successfully open card ext sessions with 6 session(s)
+11.858024	mcfg_uim.c	2557	Open session index 0 slot_id 2147483647 session_id 1b session_type 0
+11.858027	mcfg_uim.c	2630	Sub 0 session gw/1x 0 type 0 id 1b app_type 27
+11.858028	mcfg_uim.c	2557	Open session index 1 slot_id 2147483647 session_id 1c session_type 0
+11.858030	mcfg_uim.c	2630	Sub 1 session gw/1x 0 type 2 id 1c app_type 28
+11.858031	mcfg_uim.c	2557	Open session index 2 slot_id 2147483647 session_id 1d session_type 0
+11.858032	mcfg_uim.c	2630	Sub 0 session gw/1x 1 type 1 id 1d app_type 29
+11.858034	mcfg_uim.c	2557	Open session index 3 slot_id 2147483647 session_id 1e session_type 0
+11.858035	mcfg_uim.c	2630	Sub 1 session gw/1x 1 type 3 id 1e app_type 30
+11.858036	mcfg_uim.c	2557	Open session index 4 slot_id 1 session_id 1f session_type 0
+11.858037	mcfg_uim.c	2617	Slot 0 session type 6 id 1f
+11.858039	mcfg_uim.c	2226	Not ready to query ICCID 0: waiting on card inserted event
+11.858040	mcfg_uim.c	2557	Open session index 5 slot_id 2 session_id 20 session_type 0
+11.858041	mcfg_uim.c	2617	Slot 1 session type 7 id 20
+11.858042	mcfg_uim.c	2226	Not ready to query ICCID 1: waiting on card inserted event
+11.858044	mcfg_uim.c	2643	mcfg_free, mcfg_heap_blocks 0
+11.858046	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.066626	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.066639	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 8
+12.066642	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb c115a684
+12.066644	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.071815	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.071848	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 9
+12.071851	mcfg_refresh.c	1538	mcfg_refresh_add_client order 3 cb d01510e4
+12.071853	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.086913	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.086928	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 10
+12.086932	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d04705cc
+12.086935	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.087699	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.088329	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 4
+12.089052	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 11
+12.089055	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb c104c5cc
+12.089058	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 3
+12.089062	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 12
+12.089063	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb c104c5cc
+12.089065	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.089249	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.089343	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 13
+12.089346	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d0f01878
+12.089498	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.097949	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.097964	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 14
+12.097967	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d0ce6908
+12.097969	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.099172	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.099184	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 15
+12.099186	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb c14341e8
+12.099189	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.130842	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.130913	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 4
+12.133184	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 5
+12.133554	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 16
+12.133558	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d01c0450
+12.133561	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 4
+12.133565	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 17
+12.133566	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d029dbf4
+12.133569	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 3
+12.133571	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 18
+12.133573	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d00a49d4
+12.133575	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.136443	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.139138	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 4
+12.141519	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 19
+12.141524	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d017e48c
+12.141527	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 3
+12.141530	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 20
+12.141532	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d00b1c50
+12.141533	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.142921	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.143120	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 21
+12.143123	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d0844bf8
+12.143126	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.156379	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.156395	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 22
+12.156398	mcfg_refresh.c	1538	mcfg_refresh_add_client order 7 cb d04dcd34
+12.156400	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.163294	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.163308	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 23
+12.163311	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb d0f5edd8
+12.163313	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.183128	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.183450	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 24
+12.183512	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb c0caba08
+12.183515	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+12.193241	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+12.193266	mcfg_refresh.c	1523	mcfg_malloc, mcfg_heap_blocks 25
+12.193269	mcfg_refresh.c	1538	mcfg_refresh_add_client order 5 cb c0cc9a0c
+12.193272	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+16.097992	mcfg_uim.c	1768	Got card event 1 on slot index 0; sending cmd
+16.098183	mcfg_task.c	584	mcfg_malloc, mcfg_heap_blocks 3
+16.098365	mcfg_uim.c	1818	Processing MMGSDI event 1 for session ca4b9736
+16.098461	mcfg_uim.c	1852	Card is not available slot 1 index 0
+16.098464	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 2
+21.673276	mcfg_task.c	515	mcfg_free, mcfg_heap_blocks 1
+21.691353	mcfg_remote.c	1045	inside mcfg_remote_update_required
+21.691412	mcfg_nv.c	559	mcfg_nv_build_path status 0
+21.691476	mcfg_nv.c	601	mcfg_nv_read status 0
+21.691477	mcfg_remote.c	1054	inside mcfg_remote_update_required after reading prev rfs digest version
+21.691529	mcfg_remote.c	1061	digest_path_info: /readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig
+21.698892	mcfg_remote.c	1071	mcfg_remote_update_required: success in opening the file : /readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig
+21.698900	mcfg_remote.c	95	rfs_seek ret 0
+21.704675	mcfg_remote.c	101	rfs_read ret 32
+21.704693	mcfg_remote.c	1079	mcfg_remote_update_required: curr_mcfg_remote_digest after reading file : ã°ÄB˜üšûôÈ™o¹$'®Aäd›“L¤•™xR¸U
+21.704695	mcfg_remote.c	1083	prev and curr remote digest version is same for cfg_type : (0)!
+21.704752	mcfg_remote.c	1164	mcfg_remote_discover: update not required for cfg type 0 
+21.704753	mcfg_remote.c	1045	inside mcfg_remote_update_required
+21.704756	mcfg_nv.c	559	mcfg_nv_build_path status 0
+21.704809	mcfg_nv.c	601	mcfg_nv_read status 0
+21.704811	mcfg_remote.c	1054	inside mcfg_remote_update_required after reading prev rfs digest version
+21.704821	mcfg_remote.c	1061	digest_path_info: /readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig
+21.711077	mcfg_remote.c	1071	mcfg_remote_update_required: success in opening the file : /readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig
+21.711082	mcfg_remote.c	95	rfs_seek ret 0
+21.724408	mcfg_remote.c	101	rfs_read ret 32
+21.724426	mcfg_remote.c	1079	mcfg_remote_update_required: curr_mcfg_remote_digest after reading file : ø†æSF·(§°Z§ó^ÍÑZy‰i9•Ž2J/·µ
+21.724428	mcfg_remote.c	1083	prev and curr remote digest version is same for cfg_type : (1)!
+21.724430	mcfg_remote.c	1164	mcfg_remote_discover: update not required for cfg type 1 
+21.724432	mcfg_remote.c	1264	mcfg_remote_discover: success 
+21.724541	mcfg_utils.c	2235	check pending_config_available type 0 sub 0
+21.724703	mcfg_utils.c	2241	No selected config for type 0 sub 0
+21.724790	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 0
+21.724794	mcfg_uim.c	303	autoselect_nv 0x00 for slot 0
+21.724796	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+21.724797	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 1
+21.724798	mcfg_uim.c	303	autoselect_nv 0x00 for slot 1
+21.724799	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+21.724801	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 0
+21.724802	mcfg_uim.c	303	autoselect_nv 0x00 for slot 0
+21.724803	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+21.724804	mcfg_uim.c	292	mcfg_uim_nv_autoselect_enabled for sloti 1
+21.724805	mcfg_uim.c	303	autoselect_nv 0x00 for slot 1
+21.724806	mcfg_uim.c	320	mcfg_uim_nv_autoselect_enabled NV=0
+21.724808	mcfg_remote.c	1373	ss_check_mfcg_cnt :  ==== mcfg count check - start ====
+21.724810	mcfg_remote.c	994	inside mcfg_remote_customized_list_file...
+21.726866	mcfg_remote.c	1005	mcfg_remote_customized_list_file: Failed to open file for cust_path_info with err_no: -1
+21.726880	mcfg_remote.c	1395	ss_check_mfcg_cnt: path_info is /readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.txt 
+21.763248	mcfg_remote.c	1410	ss_check_mfcg_cnt: stat.st_size is 326 
+21.763253	mcfg_remote.c	1412	mcfg_malloc, mcfg_heap_blocks 1
+21.763258	mcfg_remote.c	95	rfs_seek ret 0
+21.774813	mcfg_remote.c	101	rfs_read ret 326
+21.774816	mcfg_remote.c	1429	ss_check_mfcg_cnt: line_offset before while loop starts is 0  and stat.st_size is 326 
+21.774883	mcfg_utils.c	3149	read_one_line bufsize 327 offset 0
+21.774885	mcfg_utils.c	3169	read_one_line complete at offset 0 ~ 43
+21.774892	mcfg_utils.c	3181	read_one_line mcfg_sw/generic/na/att/firstnet/mcfg_sw.mbn
+21.774909	mcfg_remote.c	1432	ss_check_mfcg_cnt: line read is : mcfg_sw/generic/na/att/firstnet/mcfg_sw.mbn and  and line_offset is 43 :
+21.774913	mcfg_utils.c	3149	read_one_line bufsize 327 offset 43
+21.774914	mcfg_utils.c	3161	read_one_line skip \r & \n 43
+21.774915	mcfg_utils.c	3161	read_one_line skip \r & \n 44
+21.774917	mcfg_utils.c	3169	read_one_line complete at offset 45 ~ 85
+21.774922	mcfg_utils.c	3181	read_one_line mcfg_sw/generic/na/att/volte/mcfg_sw.mbn
+21.774940	mcfg_remote.c	1432	ss_check_mfcg_cnt: line read is : mcfg_sw/generic/na/att/volte/mcfg_sw.mbn and  and line_offset is 85 :
+21.774946	mcfg_utils.c	3149	read_one_line bufsize 327 offset 85
+21.774947	mcfg_utils.c	3161	read_one_line skip \r & \n 85
+21.774948	mcfg_utils.c	3161	read_one_line skip \r & \n 86
+21.774950	mcfg_utils.c	3169	read_one_line complete at offset 87 ~ 133
+21.774955	mcfg_utils.c	3181	read_one_line mcfg_sw/generic/na/sprint/commerci/mcfg_sw.mbn
+21.774971	mcfg_remote.c	1432	ss_check_mfcg_cnt: line read is : mcfg_sw/generic/na/sprint/commerci/mcfg_sw.mbn and  and line_offset is 133 :
+21.774976	mcfg_utils.c	3149	read_one_line bufsize 327 offset 133
+21.774977	mcfg_utils.c	3161	read_one_line skip \r & \n 133
+21.774977	mcfg_utils.c	3161	read_one_line skip \r & \n 134
+21.774979	mcfg_utils.c	3169	read_one_line complete at offset 135 ~ 179
+21.774983	mcfg_utils.c	3181	read_one_line mcfg_sw/generic/na/uscc/commerci/mcfg_sw.mbn
+21.774999	mcfg_remote.c	1432	ss_check_mfcg_cnt: line read is : mcfg_sw/generic/na/uscc/commerci/mcfg_sw.mbn and  and line_offset is 179 :
+21.775004	mcfg_utils.c	3149	read_one_line bufsize 327 offset 179
+21.775005	mcfg_utils.c	3161	read_one_line skip \r & \n 179
+21.775006	mcfg_utils.c	3161	read_one_line skip \r & \n 180
+21.775008	mcfg_utils.c	3169	read_one_line complete at offset 181 ~ 226
+21.775013	mcfg_utils.c	3181	read_one_line mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn
+21.775029	mcfg_remote.c	1432	ss_check_mfcg_cnt: line read is : mcfg_sw/generic/na/verizon/hvolte/mcfg_sw.mbn and  and line_offset is 226 :
+21.775034	mcfg_utils.c	3149	read_one_line bufsize 327 offset 226
+21.775035	mcfg_utils.c	3161	read_one_line skip \r & \n 226
+21.775036	mcfg_utils.c	3161	read_one_line skip \r & \n 227
+21.775037	mcfg_utils.c	3169	read_one_line complete at offset 228 ~ 275
+21.775042	mcfg_utils.c	3181	read_one_line mcfg_sw/generic/common/row/gen_3gpp/mcfg_sw.mbn
+21.775057	mcfg_remote.c	1432	ss_check_mfcg_cnt: line read is : mcfg_sw/generic/common/row/gen_3gpp/mcfg_sw.mbn and  and line_offset is 275 :
+21.775061	mcfg_utils.c	3149	read_one_line bufsize 327 offset 275
+21.775062	mcfg_utils.c	3161	read_one_line skip \r & \n 275
+21.775063	mcfg_utils.c	3161	read_one_line skip \r & \n 276
+21.775064	mcfg_utils.c	3169	read_one_line complete at offset 277 ~ 326
+21.775069	mcfg_utils.c	3181	read_one_line mcfg_sw/generic/common/world/commerci/mcfg_sw.mbn
+21.775084	mcfg_remote.c	1432	ss_check_mfcg_cnt: line read is : mcfg_sw/generic/common/world/commerci/mcfg_sw.mbn and  and line_offset is 326 :
+21.775089	mcfg_remote.c	1441	mcfg_free, mcfg_heap_blocks 0
+21.775093	mcfg_map.c	942	mcfg_print: loaded config list
+21.775138	mcfg_map.c	926	mcfg_print: type 1 sub 0 active len 20 id:C0~1A
+21.775708	mcfg_utils.c	917	Config: ROW
+21.775708	mcfg_utils.c	921	Config ROW
+21.775711	mcfg_map.c	936	mcfg_print: type 1 sub 0 pendng len 20 id:C0~1A
+21.775894	mcfg_utils.c	917	Config: ROW
+21.775895	mcfg_utils.c	921	Config ROW
+21.775896	mcfg_map.c	942	mcfg_print: loaded config list
+21.776093	mcfg_utils.c	917	Config: ROW
+21.776094	mcfg_utils.c	921	Config ROW
+21.776288	mcfg_utils.c	917	Config: WRD
+21.776288	mcfg_utils.c	921	Config WRD
+21.776468	mcfg_utils.c	917	Config: VZW
+21.776469	mcfg_utils.c	921	Config VZW
+21.776650	mcfg_utils.c	917	Config: USC
+21.776650	mcfg_utils.c	921	Config USC
+21.776822	mcfg_utils.c	917	Config: SPR
+21.776823	mcfg_utils.c	921	Config SPR
+21.777002	mcfg_utils.c	917	Config: ATT
+21.777002	mcfg_utils.c	921	Config ATT
+21.777183	mcfg_utils.c	917	Config: FirstNet
+21.777184	mcfg_utils.c	921	Config Fir
+21.777198	mcfg_remote.c	1456	ss_check_mfcg_cnt :  ==== mcfg count check - end ====
+21.777203	mcfg_task.c	636	mcfg_free, mcfg_heap_blocks 0
+87.692341	mcfg_utils.c	2578	[DEBUG] mcfg_utils_mcfg_list [0 0]
+87.692345	mcfg_map.c	942	mcfg_print: loaded config list
+87.692347	mcfg_map.c	926	mcfg_print: type 1 sub 0 active len 20 id:C0~1A
+87.692578	mcfg_utils.c	917	Config: ROW
+87.692578	mcfg_utils.c	921	Config ROW
+87.692580	mcfg_map.c	936	mcfg_print: type 1 sub 0 pendng len 20 id:C0~1A
+87.692753	mcfg_utils.c	917	Config: ROW
+87.692754	mcfg_utils.c	921	Config ROW
+87.692755	mcfg_map.c	942	mcfg_print: loaded config list
+87.692929	mcfg_utils.c	917	Config: ROW
+87.692929	mcfg_utils.c	921	Config ROW
+87.693109	mcfg_utils.c	917	Config: WRD
+87.693109	mcfg_utils.c	921	Config WRD
+87.693287	mcfg_utils.c	917	Config: VZW
+87.693287	mcfg_utils.c	921	Config VZW
+87.693462	mcfg_utils.c	917	Config: USC
+87.693462	mcfg_utils.c	921	Config USC
+87.693631	mcfg_utils.c	917	Config: SPR
+87.693631	mcfg_utils.c	921	Config SPR
+87.693805	mcfg_utils.c	917	Config: ATT
+87.693805	mcfg_utils.c	921	Config ATT
+87.693984	mcfg_utils.c	917	Config: FirstNet
+87.693984	mcfg_utils.c	921	Config Fir
+87.694256	mcfg_utils.c	2613	[DEBUG] MBN[1] : ROW
+87.694433	mcfg_utils.c	2613	[DEBUG] MBN[2] : WRD
+87.694603	mcfg_utils.c	2613	[DEBUG] MBN[3] : VZW
+87.694772	mcfg_utils.c	2613	[DEBUG] MBN[4] : USC
+87.694934	mcfg_utils.c	2613	[DEBUG] MBN[5] : SPR
+87.695100	mcfg_utils.c	2613	[DEBUG] MBN[6] : ATT
+87.695274	mcfg_utils.c	2613	[DEBUG] MBN[7] : Fir
+87.695276	mcfg_utils.c	2675	[DEBUG] num_configs [7] 
+
+------------------------------------------------------
+Used msg ram =  24.029541 %
+Time :  11.644950 ~  87.695276 sec, Total =  76.050326 sec
+Elapsed time for making this log =   0.074000 sec
+------------------------------------------------------

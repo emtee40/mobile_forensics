@@ -1,0 +1,226 @@
+01-01 00:02:21:043 SetupWiwzardApplication : onCreate setConfiguration
+01-01 00:02:21:169 SetupWizardPreActionActivity : onCreate
+01-01 00:02:21:181 WizardSystemBarHelper : disableNotifications - mStatusBarManager is not null
+01-01 00:02:21:181 WizardSystemBarHelper : disableNotifications disable : 61276160
+01-01 00:02:21:187 SetupWizardPreActionActivity : [INFO] Already User Unlocked; let's go! =====
+01-01 00:02:21:187 SetupWizardPreActionActivity : ===== start pre actions =====
+01-01 00:02:21:190 SetupWizardPreActionActivity : ===== Enable Global Setup Wizard components =====
+01-01 00:02:21:226 SetupWizardPreActionActivity : [SET] disable com.sec.android.app.setupwizard.system.ExitHomeActivity
+01-01 00:02:21:227 SetupWizardPreActionActivity : [SET] disable com.sec.android.app.setupwizard.OemPostSetupActivity
+01-01 00:02:21:231 SetupWizardPreActionActivity : [SET] enable SecSetupWizardActivity
+01-01 00:02:21:239 SetupWizardPreActionActivity : [SET] enable WizardFlowManager
+01-01 00:02:21:243 SetupWizardPreActionActivity : [INFO] Timeout alarm pending event setted
+01-01 00:02:21:272 SetupWizardPreActionActivity : [SET] enable SecureInterceptActivity
+01-01 00:02:21:276 SetupWizardPreActionActivity : [SET] setDisableOperatorSetupWrapperComponents
+01-01 00:02:21:278 Utils : SetupWizard hasSmartSwitchFeature true
+01-01 00:02:21:289 Utils : [SET] enable RestoreDataActivity
+01-01 00:02:21:291 Utils : SetupWizard hasSmartSwitchFeature true
+01-01 00:02:21:302 Utils : LOG:SetupWizard start time :160034
+01-01 00:02:21:303 SetupWizardPreActionActivity : [DB] get mobile_data : true
+01-01 00:02:21:303 SetupWizardPreActionActivity : [DB] set device_provisioning_mobile_data to 1
+01-01 00:02:21:458 BleFunctionalityCheckingService : semIsBleEnabled is false
+01-01 00:02:22:167 SetupWizardPreActionActivity : call com.android.wizard.NEXT and finish
+01-01 00:02:22:168 WizardScriptManager : Current actionId : oem_pre_setup
+01-01 00:02:22:170 Utils : isSupportTssCarrierStep: false, currentList START
+01-01 00:02:22:171 WizardScriptManager : getNextIntentFromWizardScript actionId : sec_welcome
+01-01 00:02:22:171 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 1
+01-01 00:02:22:617 IntroLanguageActivity : start Intro page
+01-01 00:02:22:684 IntroLanguageActivity : Call from setupWizard false
+01-01 00:02:22:685 Utils : isSupportRecommendMainDisplay : false
+01-01 00:02:22:686 Utils : isSupportRecommendMainDisplay : false
+01-01 00:02:22:686 Utils : isSupportRecommendMainDisplay : false
+01-01 00:02:22:794 ReactivationUtils : readKillSwitchONFlag, result : 2
+01-01 00:02:22:794 ReactivationUtils : readKillSwitchONFlag, valueIsGoogleFrpSupported : 2
+01-01 00:02:22:803 ReactivationUtils : readKillSwitchONFlag : false
+01-01 00:02:22:805 ReactivationUtils : readReactivationFlag, result : 2
+01-01 00:02:22:805 ReactivationUtils : readReactivationFlag, valueIsSamsungReactiveServiceSupported : 1
+01-01 00:02:22:806 ReactivationUtils : readReactivationFlag, valueIsSamsungGoogleReactiveServicesSupported : 3
+01-01 00:02:22:808 ReactivationUtils : readReactivationFlag : feature is not supported
+01-01 00:02:22:809 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:02:22:809 Utils : isRemoveAccessibility : false
+01-01 00:02:22:810 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:02:22:810 Utils : isRemoveEmergencyCall : false
+01-01 00:02:22:810 Utils : SetupWizard isSupportEmergencyButton : true
+01-01 00:02:22:939 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:02:22:939 Utils : isDTVariantNoSimLock : false
+01-01 00:02:23:375 KmeManager :  checkDeviceSupportsKme true
+01-01 00:02:23:375 IntroLanguageActivity : IntroLanguageSpinnerActivity  KME bindToKmeService
+01-01 00:02:23:376 KmeManager : KME_Analysis: Binding to KmeService Elapsed Time: 162107 mIsBoundToKmeService = false
+01-01 00:02:23:378 KmeManager : Binding to KmeService: true
+01-01 00:02:23:379 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:02:23:379 IntroLanguageActivity : Initializing Plus Gesture Detector
+01-01 00:02:23:408 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:02:23:642 KmeManager : KME_Analysis: Connected to IEnrollmentCheckService Elapsed Time: 162374 mCurrentKmeStatus = CHECK_NOT_STARTED
+01-01 00:02:25:197 BleFunctionalityCheckingService : BLE state changed to ON, isMultipleAdvertisementSupported : true
+01-01 00:45:14:172 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:46:03:173 SetupWizardPreActionActivity : onCreate
+01-01 00:46:03:187 WizardSystemBarHelper : disableNotifications - mStatusBarManager is not null
+01-01 00:46:03:187 WizardSystemBarHelper : disableNotifications disable : 61276160
+01-01 00:46:05:512 SetupWiwzardApplication : setSALoggingConfiguration
+01-01 00:46:05:545 SetupWizardPreActionActivity : ===== start pre actions =====
+01-01 00:46:05:546 SetupWizardPreActionActivity : ===== Enable Global Setup Wizard components =====
+01-01 00:46:05:562 SetupWizardPreActionActivity : [SET] disable com.sec.android.app.setupwizard.system.ExitHomeActivity
+01-01 00:46:05:563 SetupWizardPreActionActivity : [SET] disable com.sec.android.app.setupwizard.OemPostSetupActivity
+01-01 00:46:05:568 SetupWizardPreActionActivity : [SET] enable SecSetupWizardActivity
+01-01 00:46:05:576 SetupWizardPreActionActivity : [SET] enable WizardFlowManager
+01-01 00:46:05:581 SetupWizardPreActionActivity : [INFO] Timeout alarm pending event setted
+01-01 00:46:05:604 SetupWizardPreActionActivity : [SET] enable SecureInterceptActivity
+01-01 00:46:05:606 SetupWizardPreActionActivity : [SET] setDisableOperatorSetupWrapperComponents
+01-01 00:46:05:609 Utils : SetupWizard hasSmartSwitchFeature true
+01-01 00:46:05:616 Utils : [SET] enable RestoreDataActivity
+01-01 00:46:05:618 Utils : SetupWizard hasSmartSwitchFeature true
+01-01 00:46:05:631 Utils : LOG:SetupWizard start time :20954
+01-01 00:46:05:633 SetupWizardPreActionActivity : [DB] get mobile_data : true
+01-01 00:46:05:633 SetupWizardPreActionActivity : [DB] set device_provisioning_mobile_data to 1
+01-01 00:46:05:708 BleFunctionalityCheckingService : semIsBleEnabled is false
+01-01 00:46:06:476 SetupWizardPreActionActivity : call com.android.wizard.NEXT and finish
+01-01 00:46:06:477 WizardScriptManager : Current actionId : oem_pre_setup
+01-01 00:46:06:478 Utils : isSupportTssCarrierStep: false, currentList START
+01-01 00:46:06:478 WizardScriptManager : getNextIntentFromWizardScript actionId : sec_welcome
+01-01 00:46:06:479 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 1
+01-01 00:46:06:756 IntroLanguageActivity : start Intro page
+01-01 00:46:06:815 IntroLanguageActivity : Call from setupWizard false
+01-01 00:46:06:817 Utils : isSupportRecommendMainDisplay : false
+01-01 00:46:06:817 Utils : isSupportRecommendMainDisplay : false
+01-01 00:46:06:818 Utils : isSupportRecommendMainDisplay : false
+01-01 00:46:06:897 ReactivationUtils : readKillSwitchONFlag, result : 2
+01-01 00:46:06:898 ReactivationUtils : readKillSwitchONFlag, valueIsGoogleFrpSupported : 2
+01-01 00:46:06:911 ReactivationUtils : readKillSwitchONFlag : false
+01-01 00:46:06:913 ReactivationUtils : readReactivationFlag, result : 2
+01-01 00:46:06:913 ReactivationUtils : readReactivationFlag, valueIsSamsungReactiveServiceSupported : 1
+01-01 00:46:06:913 ReactivationUtils : readReactivationFlag, valueIsSamsungGoogleReactiveServicesSupported : 3
+01-01 00:46:06:914 ReactivationUtils : readReactivationFlag : feature is not supported
+01-01 00:46:06:914 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:46:06:914 Utils : isRemoveAccessibility : false
+01-01 00:46:06:915 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:46:06:915 Utils : isRemoveEmergencyCall : false
+01-01 00:46:06:915 Utils : SetupWizard isSupportEmergencyButton : true
+01-01 00:46:07:037 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:46:07:038 Utils : isDTVariantNoSimLock : false
+01-01 00:46:07:318 KmeManager :  checkDeviceSupportsKme true
+01-01 00:46:07:318 IntroLanguageActivity : IntroLanguageSpinnerActivity  KME bindToKmeService
+01-01 00:46:07:319 KmeManager : KME_Analysis: Binding to KmeService Elapsed Time: 22642 mIsBoundToKmeService = false
+01-01 00:46:07:321 KmeManager : Binding to KmeService: true
+01-01 00:46:07:321 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:46:07:322 IntroLanguageActivity : Initializing Plus Gesture Detector
+01-01 00:46:07:335 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:46:07:419 KmeManager : KME_Analysis: Connected to IEnrollmentCheckService Elapsed Time: 22742 mCurrentKmeStatus = CHECK_NOT_STARTED
+01-01 00:46:08:947 BleFunctionalityCheckingService : BLE state changed to ON, isMultipleAdvertisementSupported : true
+01-01 00:46:19:865 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:47:56:042 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:48:18:206 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:49:00:635 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:49:01:822 PlusGestureDetector : Vertical line detected116.56505117707799
+01-01 00:49:01:823 PlusGestureDetector : mState = State.STATE_FIRST_STROKE
+01-01 00:49:01:905 Utils : isWifiOnly() : false
+01-01 00:49:01:906 Utils : isDataOnly_Sim : false
+01-01 00:49:01:906 Utils : isLTE(context) : true
+01-01 00:49:01:916 Utils : telephonyManager.getPhoneType() : 1
+01-01 00:49:01:923 Utils : telephonyManager.getSimState() : 1
+01-01 00:49:01:924 Utils : isSimMissing : true
+01-01 00:49:01:924 Utils : INFO : isSimMissingToastRequired : true
+01-01 00:49:01:946 IntroLanguageActivity : Timeout alarm pending event canceled
+01-01 00:49:01:946 WizardScriptManager : Current actionId : sec_welcome
+01-01 00:49:01:948 WizardScriptManager : getNextIntentFromWizardScript actionId : sec_eula
+01-01 00:49:01:948 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 1
+01-01 00:49:02:737 EULAPPMainActivity : Call from setupWizard false
+01-01 00:49:02:785 Utils : isAntiMalwareDisabled : false
+01-01 00:49:02:789 Utils : DMA version code :531401000
+01-01 00:49:02:789 Utils : Anti-malware is not supported
+01-01 00:49:02:790 ReactivationUtils : readKillSwitchONFlag, result : 2
+01-01 00:49:02:791 ReactivationUtils : readKillSwitchONFlag, valueIsGoogleFrpSupported : 2
+01-01 00:49:02:797 ReactivationUtils : readKillSwitchONFlag : false
+01-01 00:49:06:824 PlusGestureDetector : Timeout called, invalidate points
+01-01 00:49:06:824 PlusGestureDetector : invalidatePoints mState = State.STATE_INIT
+01-01 00:49:08:921 Utils : setupwizard provider : true
+01-01 00:49:09:105 EULAPPMainActivity : EULA is saved
+01-01 00:49:09:126 EULAPPMainActivity : PP is saved
+01-01 00:49:09:128 EULAPPMainActivity : [DB-LOG] put samsung_eula_agree_hqm DB to 1
+01-01 00:49:09:132 Utils : setupwizard provider : true
+01-01 00:49:09:140 EULAPPMainActivity : DIAG is saved
+01-01 00:49:09:143 Utils : sendBroadcastForEulaAgreement is Done
+01-01 00:49:09:144 ReactivationUtils : isSupportLMM, result : 2
+01-01 00:49:09:144 ReactivationUtils : isSupportLMM, valueIsSamsungReactiveServiceSupported : 1
+01-01 00:49:09:144 ReactivationUtils : isSupportLMM, valueIsSamsungGoogleReactiveServicesSupported : 3
+01-01 00:49:09:144 ReactivationUtils : isSupportLMM : false
+01-01 00:49:09:145 WizardScriptManager : Current actionId : sec_eula
+01-01 00:49:09:146 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:49:09:146 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:49:09:147 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:49:09:147 Utils : isVanillaStep : false
+01-01 00:49:09:148 WizardScriptManager : getNextIntentFromWizardScript actionId : sec_wifi_setup
+01-01 00:49:09:148 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 501
+01-01 00:49:09:540 SecWifiSetupWrapper : onCreate() SecWifiSetupWrapper
+01-01 00:49:09:540 SecWifiSetupWrapper : Start WIFI...
+01-01 00:49:09:540 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:49:09:541 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:49:09:563 KmeManager :  isB2bDeviceBeforeFactoryReset false
+01-01 00:49:09:565 ReactivationUtils : isSupportGoogleFRP, result : 2
+01-01 00:49:09:566 ReactivationUtils : isSupportGoogleFRP, valueIsGoogleFrpSupported : 2
+01-01 00:49:09:566 ReactivationUtils : isSupportGoogleFRP : feature is supported
+01-01 00:49:09:566 ReactivationUtils : isSupportGoogleFRP : true
+01-01 00:49:09:567 ReactivationUtils : readKillSwitchONFlag, result : 2
+01-01 00:49:09:567 ReactivationUtils : readKillSwitchONFlag, valueIsGoogleFrpSupported : 2
+01-01 00:49:09:573 ReactivationUtils : readKillSwitchONFlag : false
+01-01 00:49:09:574 SecWifiSetupWrapper : [googleFRPFlag] = false
+01-01 00:49:09:687 WifiSetupWizard : onCreate
+01-01 00:49:11:667 WifiSetupWizard : onClick MainAction isKmeSupported=true isWifiNetworkConnected()=false isNetworkAvailable()=false mUseSprintNewSetupWizard =false
+01-01 00:49:14:756 SecWifiSetupWrapper : onActivityResult : 0
+01-01 00:49:14:756 SecWifiSetupWrapper : onActivityResult finish
+01-01 00:49:14:757 KmeManager : KME_Analysis: Binding to KmeService Elapsed Time: 210080 mIsBoundToKmeService = true
+01-01 00:49:14:769 EULAPPMainActivity : onActivityResult  requestCode :10000, resultCode : 0
+01-01 00:49:15:627 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:50:04:730 SetupWizardPreActionActivity : onCreate
+01-01 00:50:04:754 WizardSystemBarHelper : disableNotifications - mStatusBarManager is not null
+01-01 00:50:04:754 WizardSystemBarHelper : disableNotifications disable : 61276160
+01-01 00:50:06:611 SetupWiwzardApplication : setSALoggingConfiguration
+01-01 00:50:06:655 SetupWizardPreActionActivity : ===== start pre actions =====
+01-01 00:50:06:656 SetupWizardPreActionActivity : ===== Enable Global Setup Wizard components =====
+01-01 00:50:06:689 SetupWizardPreActionActivity : [SET] disable com.sec.android.app.setupwizard.system.ExitHomeActivity
+01-01 00:50:06:694 SetupWizardPreActionActivity : [SET] disable com.sec.android.app.setupwizard.OemPostSetupActivity
+01-01 00:50:06:698 SetupWizardPreActionActivity : [SET] enable SecSetupWizardActivity
+01-01 00:50:06:705 SetupWizardPreActionActivity : [SET] enable WizardFlowManager
+01-01 00:50:06:710 SetupWizardPreActionActivity : [INFO] Timeout alarm pending event setted
+01-01 00:50:06:735 SetupWizardPreActionActivity : [SET] enable SecureInterceptActivity
+01-01 00:50:06:742 SetupWizardPreActionActivity : [SET] setDisableOperatorSetupWrapperComponents
+01-01 00:50:06:744 Utils : SetupWizard hasSmartSwitchFeature true
+01-01 00:50:06:753 Utils : [SET] enable RestoreDataActivity
+01-01 00:50:06:754 Utils : SetupWizard hasSmartSwitchFeature true
+01-01 00:50:06:767 Utils : LOG:SetupWizard start time :21045
+01-01 00:50:06:768 SetupWizardPreActionActivity : [DB] get mobile_data : true
+01-01 00:50:06:768 SetupWizardPreActionActivity : [DB] set device_provisioning_mobile_data to 1
+01-01 00:50:06:834 BleFunctionalityCheckingService : semIsBleEnabled is false
+01-01 00:50:07:781 SetupWizardPreActionActivity : call com.android.wizard.NEXT and finish
+01-01 00:50:07:782 WizardScriptManager : Current actionId : oem_pre_setup
+01-01 00:50:07:783 Utils : isSupportTssCarrierStep: false, currentList START
+01-01 00:50:07:785 WizardScriptManager : getNextIntentFromWizardScript actionId : sec_welcome
+01-01 00:50:07:785 WizardScriptManager : getNextIntentFromWizardScript com.android.setupwizard.ResultCode  : 1
+01-01 00:50:08:054 IntroLanguageActivity : start Intro page
+01-01 00:50:08:114 IntroLanguageActivity : Call from setupWizard false
+01-01 00:50:08:115 Utils : isSupportRecommendMainDisplay : false
+01-01 00:50:08:115 Utils : isSupportRecommendMainDisplay : false
+01-01 00:50:08:115 Utils : isSupportRecommendMainDisplay : false
+01-01 00:50:08:208 ReactivationUtils : readKillSwitchONFlag, result : 2
+01-01 00:50:08:208 ReactivationUtils : readKillSwitchONFlag, valueIsGoogleFrpSupported : 2
+01-01 00:50:08:215 ReactivationUtils : readKillSwitchONFlag : false
+01-01 00:50:08:216 ReactivationUtils : readReactivationFlag, result : 2
+01-01 00:50:08:217 ReactivationUtils : readReactivationFlag, valueIsSamsungReactiveServiceSupported : 1
+01-01 00:50:08:217 ReactivationUtils : readReactivationFlag, valueIsSamsungGoogleReactiveServicesSupported : 3
+01-01 00:50:08:217 ReactivationUtils : readReactivationFlag : feature is not supported
+01-01 00:50:08:217 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:50:08:218 Utils : isRemoveAccessibility : false
+01-01 00:50:08:218 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:50:08:219 Utils : isRemoveEmergencyCall : false
+01-01 00:50:08:219 Utils : SetupWizard isSupportEmergencyButton : true
+01-01 00:50:08:374 Utils : SetupWizard_ConfigStepSequenceType : 
+01-01 00:50:08:374 Utils : isDTVariantNoSimLock : false
+01-01 00:50:08:620 KmeManager :  checkDeviceSupportsKme true
+01-01 00:50:08:620 IntroLanguageActivity : IntroLanguageSpinnerActivity  KME bindToKmeService
+01-01 00:50:08:620 KmeManager : KME_Analysis: Binding to KmeService Elapsed Time: 22898 mIsBoundToKmeService = false
+01-01 00:50:08:623 KmeManager : Binding to KmeService: true
+01-01 00:50:08:623 KmeManager :  checkDeviceSupportsKme already mKmeInitialized=true
+01-01 00:50:08:624 IntroLanguageActivity : Initializing Plus Gesture Detector
+01-01 00:50:08:647 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0
+01-01 00:50:08:738 KmeManager : KME_Analysis: Connected to IEnrollmentCheckService Elapsed Time: 23016 mCurrentKmeStatus = CHECK_NOT_STARTED
+01-01 00:50:10:174 BleFunctionalityCheckingService : BLE state changed to ON, isMultipleAdvertisementSupported : true
+01-01 00:51:40:258 IntroLanguageActivity : checkingAfwCondition dpm.getUserProvisioningState() :  0

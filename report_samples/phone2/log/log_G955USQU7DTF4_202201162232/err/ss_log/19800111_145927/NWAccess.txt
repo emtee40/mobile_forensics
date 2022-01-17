@@ -1,0 +1,29 @@
+NWAccess.
+Cur Time : 4211.841000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(Sys)	TIME(Diag)	FILE	LINE	STRING
+ 33.229000 13:49:51.586	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(758) Sleep(14737) Rx(4224) Tx(0)
+ 89.904000 13:50:48.261	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(2805) Sleep(51439) Rx(2432) Tx(0)
+132.962000 13:51:31.320	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(936) Sleep(40484) Rx(1638) Tx(0)
+145.949000 13:51:44.306	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(67) Sleep(12187) Rx(732) Tx(0)
+507.468000 13:57:45.826	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(907) Sleep(346348) Rx(14265) Tx(0)
+518.066000 13:57:56.424	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(36) Sleep(10130) Rx(432) Tx(0)
+691.971000 14:00:50.329	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(507) Sleep(166646) Rx(6752) Tx(0)
+1145.335000 14:08:23.693	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(1442) Sleep(431689) Rx(20233) Tx(0)
+1155.391000 14:08:33.749	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(108) Sleep(8938) Rx(1010) Tx(0)
+1862.281000 14:20:20.638	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(1963) Sleep(668747) Rx(36885) Tx(0)
+2744.189000 14:35:02.546	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(1336) Sleep(839104) Rx(41468) Tx(0)
+3678.665000 14:50:37.022	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(1523) Sleep(866990) Rx(65963) Tx(0)
+3848.171000 14:53:26.529	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(368) Sleep(154416) Rx(14723) Tx(0)
+3861.449000 14:53:39.806	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(122) Sleep(13007) Rx(148) Tx(0)
+4084.213000 14:57:22.571	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(812) Sleep(210407) Rx(11546) Tx(0)
+4084.997000 14:57:23.354	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(812) Sleep(210407) Rx(11546) Tx(0)
+4094.260000 14:57:32.617	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(50) Sleep(9688) Rx(309) Tx(0)
+4200.138000 14:59:18.496	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(461) Sleep(99777) Rx(5640) Tx(0)
+
+------------------------------------------------------
+Used msg ram =   1.098633 %
+Time :  33.229000 ~ 4200.138000 sec, Total = 4166.909000 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

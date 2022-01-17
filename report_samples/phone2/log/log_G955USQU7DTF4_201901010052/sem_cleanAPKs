@@ -1,0 +1,5 @@
+01-Jan-2019 00:00 installd sem_cleanAPKs start
+01-Jan-2019 00:00 installd salescodepath: /system/omc/ATT/etc
+01-Jan-2019 00:00 installd enforcedeletepackage path : /system/omc/ATT/etc/enforcedeletepackage.txt
+01-Jan-2019 00:00 installd Failed to open file /system/omc/ATT/etc/enforcedeletepackage.txt
+01-Jan-2019 00:00 installd sem_cleanAPKs end

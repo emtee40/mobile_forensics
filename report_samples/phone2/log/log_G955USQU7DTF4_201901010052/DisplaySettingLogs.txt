@@ -1,0 +1,15 @@
+01-01 00:02:56.639 : [DisplayLog] ----------------------StartLogs-------------------------
+01-01 00:02:56.642 : [Rune] supportSreenMode : true [condition] true / 0 / true / false / false / false
+01-01 00:02:56.671 : [Rune] isSupportPocketMode : true
+01-01 00:02:56.672 : [Rune] supportSreenMode : true [condition] true / 0 / true / false / false / false
+01-01 00:02:56.680 : [Rune] isSupportPocketMode : true
+01-01 00:46:20.332 : [DisplayLog] ----------------------StartLogs-------------------------
+01-01 00:46:20.333 : [Rune] supportSreenMode : true [condition] true / 0 / true / false / false / false
+01-01 00:46:20.341 : [Rune] isSupportPocketMode : true
+01-01 00:46:20.342 : [Rune] supportSreenMode : true [condition] true / 0 / true / false / false / false
+01-01 00:46:20.343 : [Rune] isSupportPocketMode : true
+01-01 00:50:22.312 : [DisplayLog] ----------------------StartLogs-------------------------
+01-01 00:50:22.313 : [Rune] supportSreenMode : true [condition] true / 0 / true / false / false / false
+01-01 00:50:22.318 : [Rune] isSupportPocketMode : true
+01-01 00:50:22.318 : [Rune] supportSreenMode : true [condition] true / 0 / true / false / false / false
+01-01 00:50:22.320 : [Rune] isSupportPocketMode : true

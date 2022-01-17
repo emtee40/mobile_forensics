@@ -1,0 +1,7 @@
+Start : 137984160, 4210.942390sec
+
+Interval : 2929.687500sec
+
+Time sclk	Time sec	Data
+
+End : 137984316, 4210.947160sec

@@ -1,0 +1,13 @@
+FACTORY.
+Cur Time : 87.482000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+41.637134	oem_factory.c	GetMsmHwId	564	GetMsmHwId hwtype 0
+41.684244	nvim.c	sfs_samsung_arrange	2271	sfs_samsung_arrange change? 0
+
+------------------------------------------------------
+Used msg ram =   0.244141 %
+Time :  41.637134 ~  41.684244 sec, Total =   0.047110 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

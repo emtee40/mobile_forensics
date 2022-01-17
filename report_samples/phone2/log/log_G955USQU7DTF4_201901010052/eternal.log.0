@@ -1,0 +1,31 @@
+01-01 00:02:22.098 EternalRemoteService : handleMessage() - 4096
+01-01 00:02:22.214 EternalController : fetchDefaultBackup()
+01-01 00:02:22.509 Eternal/EternalManager : get_value_all - UID = Accessibility / count = 221
+01-01 00:02:22.615 Eternal/EternalManager : get_value_all - UID = AOD / count = 8
+01-01 00:02:22.911 Eternal/EternalManager : get_value_all - UID = Settings / count = 60
+01-01 00:02:22.912 Eternal/DocumentInterpreter : generate : setSkipDefaultCheck = true
+01-01 00:02:23.204 Eternal/DocumentInterpreter : generate - /efs/sec_efs/SettingsBackup.xml, mSkipDefaultCheck = true
+01-01 00:02:23.206 Eternal/DocumentInterpreter : buildBackupDataElement() attribute value is null - key : /AOD/ClockType / attribute : compatContentType
+01-01 00:02:23.207 Eternal/DocumentInterpreter : buildBackupDataElement() attribute value is null - key : /AOD/WorldClockInfo / attribute : city_1buildBackupDataElement() attribute value is null - key : /AOD/WorldClockInfo / attribute : city_2buildBackupDataElement() attribute value is null - key : /AOD/WorldClockInfo / attribute : city_3buildBackupDataElement() attribute value is null - key : /AOD/WorldClockInfo / attribute : TimeZone_0buildBackupDataElement() attribute value is null - key : /AOD/WorldClockInfo / attribute : TimeZone_1buildBackupDataElement() attribute value is null - key : /AOD/WorldClockInfo / attribute : TimeZone_2buildBackupDataElement() attribute value is null - key : /AOD/WorldClockInfo / attribute : TimeZone_3
+01-01 00:02:23.208 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchNotification
+01-01 00:02:23.218 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchMoveToNextItem
+01-01 00:02:23.219 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/Default/AccessControlEnabled
+01-01 00:02:23.219 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchMoveToPreviousItem
+01-01 00:02:23.220 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchBack
+01-01 00:02:23.220 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchHome
+01-01 00:02:23.222 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SoundFeddback
+01-01 00:02:23.222 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchScrollBackward
+01-01 00:02:23.224 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchScrollForward
+01-01 00:02:23.226 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/Main/HideNotificaiton
+01-01 00:02:23.231 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchRecentApps
+01-01 00:02:23.232 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/VoiceAssistant/PrefQuickMenuNotificationkey
+01-01 00:02:23.235 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchIncreaseVolume
+01-01 00:02:23.238 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchQuickPanel
+01-01 00:02:23.246 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/VoiceAssistant/PrefSpeakPasswordsWithoutHeadphones
+01-01 00:02:23.247 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchDecreaseVolume
+01-01 00:02:23.247 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchTouchHold
+01-01 00:02:23.248 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchAutoScan
+01-01 00:02:23.250 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchSelectItem
+01-01 00:02:23.250 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Accessibility/UniversalSwitch/SwitchTap
+01-01 00:02:23.263 Eternal/DocumentInterpreter : buildBackupDataElement() value is null - key : /Settings/Accessibility/PreferredEngine
+01-01 00:02:23.425 EternalRemoteService : backupDefaultValues : Success

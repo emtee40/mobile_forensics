@@ -1,0 +1,30 @@
+SS_DIAGTASK.
+Cur Time : 4211.982000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+15.261597	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Sleep Observer func for 23 micro sec
+19.261561	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Calculate DataRate func for 1 micro sec
+25.122300	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : IPA Logging func for 29 micro sec
+26.403641	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Sleep Observer func for 131 micro sec
+30.246142	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Calculate DataRate func for 5 micro sec
+91.698828	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Calculate DataRate func for 15 micro sec
+127.538904	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Calculate DataRate func for 135 micro sec
+823.857703	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Sleep Observer func for 132 micro sec
+1083.705723	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : IPA Logging func for 30 micro sec
+1154.095921	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Sleep Observer func for 149 micro sec
+1247.527957	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Calculate DataRate func for 158 micro sec
+1278.253001	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : IPA Logging func for 156 micro sec
+1297.452866	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Sleep Observer func for 167 micro sec
+1582.893456	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Calculate DataRate func for 199 micro sec
+1695.533596	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : IPA Logging func for 160 micro sec
+2244.673220	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : IPA Logging func for 185 micro sec
+2280.513035	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : Sleep Observer func for 697 micro sec
+2979.375840	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : IPA Logging func for 241 micro sec
+3930.427565	ss_diag_manager_task.c	ss_diag_manager_task	357	high_water_mark : IPA Logging func for 444 micro sec
+
+------------------------------------------------------
+Used msg ram =  44.531250 %
+Time :  15.261597 ~ 3930.427565 sec, Total = 3915.165968 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

@@ -1,0 +1,17 @@
+HIST.
+Cur Time : 4211.912000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+86.931000	ss_history.c	ss_history_create	117	inited : /nvm/nv_update_history.txt, h=0xc46f9cd8
+86.960934	ss_history.c	ss_hist_saveToFile	973	rtn = 0
+86.960943	ss_history.c	ss_history_create	117	inited : /nvm/ssr_history.txt, h=0xc46f9bac
+86.981057	ss_history.c	ss_hist_saveToFile	973	rtn = 0
+4211.077450	ss_history.c	ss_hist_saveToFile	973	rtn = 0
+4211.091365	ss_history.c	ss_hist_saveToFile	973	rtn = 0
+
+------------------------------------------------------
+Used msg ram =  12.500000 %
+Time :  86.931000 ~ 4211.091365 sec, Total = 4124.160365 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

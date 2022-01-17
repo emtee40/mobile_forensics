@@ -1,0 +1,73 @@
+-------- TelephonyProvider --------
+2019-01-01 00:02:10.870Z D/TelephonyProvider: dbh.onCreate:+ db=SQLiteDatabase: /data/user_de/0/com.android.providers.telephony/databases/telephony.db
+2019-01-01 00:02:10.871Z D/TelephonyProvider: dbh.createSimInfoTable:+ siminfo
+2019-01-01 00:02:10.872Z D/TelephonyProvider: dbh.createSimInfoTable:-
+2019-01-01 00:02:10.876Z D/TelephonyProvider: dbh.createCarriersTable: carriers
+2019-01-01 00:02:10.878Z D/TelephonyProvider: dbh.createCarriersTable:-
+2019-01-01 00:02:10.879Z D/TelephonyProvider: dbh.onCreate: Apply apns from xml.
+2019-01-01 00:02:10.884Z D/TelephonyProvider: Get numeric items from MPS
+2019-01-01 00:02:10.888Z D/TelephonyProvider: [timelap] customerList + 1.3 remove duplicated
+2019-01-01 00:02:10.911Z D/TelephonyProvider: customerList path exist but permission error. Dir = /system/omc
+2019-01-01 00:02:10.932Z D/TelephonyProvider: This model is not for GCF. Do not apply GCF customer.xml
+2019-01-01 00:02:10.933Z D/TelephonyProvider: BST customer.xml path removed
+2019-01-01 00:02:10.933Z D/TelephonyProvider: SPR customer.xml path removed
+2019-01-01 00:02:10.933Z D/TelephonyProvider: VMU customer.xml path removed
+2019-01-01 00:02:10.933Z D/TelephonyProvider: XAS customer.xml path removed
+2019-01-01 00:02:10.934Z D/TelephonyProvider: final customerList path = [/system/omc/ACG/customer.xml, /system/omc/ATT/customer.xml, /system/omc/CCT/customer.xml, /system/omc/CHA/customer.xml, /system/omc/LRA/customer.xml, /system/omc/TFN/customer.xml, /system/omc/TMB/customer.xml, /system/omc/USC/customer.xml, /system/omc/VZW/customer.xml, /system/omc/XAA/customer.xml, /system/omc/FKR/customer.xml]
+2019-01-01 00:02:10.934Z D/TelephonyProvider: [timelap] customerList -
+2019-01-01 00:02:10.941Z E/TelephonyProvider: [TimeLap] createCarrier +
+2019-01-01 00:02:14.160Z E/TelephonyProvider: [TimeLap] createCarrier -
+2019-01-01 00:02:14.161Z E/TelephonyProvider: [TimeLap] doActionCarrierXML +
+2019-01-01 00:02:14.182Z E/TelephonyProvider: [TimeLap] doActionCarrierXML -
+2019-01-01 00:02:14.182Z E/TelephonyProvider: [TimeLap] getGlobalFdInfo +
+2019-01-01 00:02:14.186Z E/TelephonyProvider: [TimeLap] getGlobalFdInfo -
+2019-01-01 00:02:14.186Z D/TelephonyProvider: Set all numeric for comparison from MPS.
+2019-01-01 00:02:14.188Z D/TelephonyProvider: [timelap] loadNumeric +
+2019-01-01 00:02:14.204Z D/TelephonyProvider: [timelap] loadNumeric -
+2019-01-01 00:02:14.205Z D/TelephonyProvider: No APNs in OEM image = /oem/telephony/apns-conf.xml Load APNs from system image
+2019-01-01 00:02:14.206Z D/TelephonyProvider: No APNs in OEM image = /data/misc/apns/apns-conf.xml Load APNs from system image
+2019-01-01 00:02:14.206Z D/TelephonyProvider: confFile = /system/etc/apns-conf.xml
+2019-01-01 00:02:14.207Z D/TelephonyProvider: [timelap] loadApnsConfFile +
+2019-01-01 00:02:14.966Z D/TelephonyProvider: [timelap] loadApnsConfFile -
+2019-01-01 00:02:14.968Z D/TelephonyProvider: [timelap] loadMPS +
+2019-01-01 00:02:14.968Z D/TelephonyProvider: loadMPS+
+2019-01-01 00:02:14.969Z D/TelephonyProvider: loadMPS+ simSlot : 0
+2019-01-01 00:02:15.243Z D/TelephonyProvider: loadMPS-
+2019-01-01 00:02:15.244Z D/TelephonyProvider: [timelap] loadMPS -
+2019-01-01 00:02:15.244Z E/TelephonyProvider: [TimeLap] addApnInfo +
+2019-01-01 00:02:15.244Z E/TelephonyProvider: mDoc is null, make mDoc
+2019-01-01 00:02:15.245Z D/TelephonyProvider: mCarriers.size() :626
+2019-01-01 00:02:15.278Z E/TelephonyProvider: [TimeLap] addApnInfo -
+2019-01-01 00:02:15.279Z E/TelephonyProvider: [TimeLap] addFdInfo +
+2019-01-01 00:02:15.279Z E/TelephonyProvider: mFdDoc is null, make mFdDoc
+2019-01-01 00:02:15.279Z D/TelephonyProvider: mFdInfos.size() :58
+2019-01-01 00:02:15.280Z E/TelephonyProvider: [TimeLap] addFdInfo -
+2019-01-01 00:02:15.280Z E/TelephonyProvider: [TimeLap] createApnInfoXml +
+2019-01-01 00:02:15.284Z D/TelephonyProvider: changePermission/data/user_de/0/com.android.providers.telephony/databases
+2019-01-01 00:02:15.284Z D/TelephonyProvider: getInfoPath : need to make file
+2019-01-01 00:02:15.285Z D/TelephonyProvider: getInfoPath : make file succeed
+2019-01-01 00:02:15.746Z E/TelephonyProvider: [TimeLap] createApnInfoXml -
+2019-01-01 00:02:15.747Z D/TelephonyProvider: [TimeLap] createFastDormancyXml +
+2019-01-01 00:02:15.747Z D/TelephonyProvider: changePermission/data/user_de/0/com.android.providers.telephony/databases
+2019-01-01 00:02:15.748Z D/TelephonyProvider: getInfoPath : need to make file
+2019-01-01 00:02:15.748Z D/TelephonyProvider: getInfoPath : make file succeed
+2019-01-01 00:02:15.762Z D/TelephonyProvider: [TimeLap] createFastDormancyXml -
+2019-01-01 00:02:15.762Z D/TelephonyProvider: [TimeLap] saveOriginalTelephony +
+2019-01-01 00:02:15.762Z D/TelephonyProvider: dbh.createCarriersTable: original
+2019-01-01 00:02:15.764Z D/TelephonyProvider: dbh.createCarriersTable:-
+2019-01-01 00:02:15.764Z D/TelephonyProvider: saveOriginalTelephony remove original data items for insert new items. Count = 0
+2019-01-01 00:02:15.793Z D/TelephonyProvider: dbh.onOpen: ok, queried table=original
+2019-01-01 00:02:15.796Z D/TelephonyProvider: [TimeLap] saveOriginalTelephony -
+2019-01-01 00:02:15.796Z D/TelephonyProvider: customerList path exist but permission error. Dir = /system/omc
+2019-01-01 00:02:15.798Z D/TelephonyProvider: BST customer.xml path removed
+2019-01-01 00:02:15.798Z D/TelephonyProvider: SPR customer.xml path removed
+2019-01-01 00:02:15.798Z D/TelephonyProvider: VMU customer.xml path removed
+2019-01-01 00:02:15.798Z D/TelephonyProvider: XAS customer.xml path removed
+2019-01-01 00:02:15.816Z D/TelephonyProvider: isFotaOriginatedFromO : false, from P os
+2019-01-01 00:02:15.816Z D/TelephonyProvider: getUserApn E
+2019-01-01 00:02:15.817Z D/TelephonyProvider: skip getUserApn because file doesn't exist
+2019-01-01 00:02:15.817Z D/TelephonyProvider: getUserApn : FileNotFoundException
+2019-01-01 00:02:15.818Z D/TelephonyProvider: loadPersistentApnData : ret=false
+2019-01-01 00:02:15.820Z D/TelephonyProvider: dbh.onCreate:- db=SQLiteDatabase: /data/user_de/0/com.android.providers.telephony/databases/telephony.db
+2019-01-01 00:02:15.820Z D/TelephonyProvider: stop logging
+2019-01-01 00:02:15.820Z D/TelephonyProvider: log file saved

@@ -1,0 +1,20 @@
+SS_SMEM.
+Cur Time : 87.551000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.172530	ss_smem_param.c	SSInitSmemVendor	171	SMEM_ID_VENDOR1 addr = 0x203828, size = 232
+11.172532	ss_smem_param.c	SSInitSmemVendor	218	Found - SMEM_ID_VENDOR1 ver = 4
+11.172537	ss_smem_param.c	SSInitSmemVendor	233	SMEM_ID_VENDOR0 addr = 0x2037c8, size = 96
+11.172537	ss_smem_param.c	SSInitSmemVendor	262	Found - SMEM_ID_VENDOR0 ver = 2
+11.172543	ss_smem_err.c	sec_debug_subsys_smem_init	187	Found - SMEM_ID_VENDOR2 size = 17696
+11.172543	ss_smem_err.c	sec_debug_subsys_smem_init	191			subsys_all = 0x206a20, subsys_all->modem = 0x86008fa0
+11.172545	ss_smem_err.c	sec_debug_subsys_smem_init	210			subsys_all(phy) = 0x86006a20, smem_vendor2_offset = 0xFFFFFFFF7A200000
+11.172546	ss_smem_err.c	sec_debug_subsys_smem_init	215			Ssubsys_all->modem = 0x86008fa0, subsys_all->modem->magic = 0x0
+11.811045	ss_smem_param.c	GetHwVersionSmem	117	Changed Sub Index = 12
+
+------------------------------------------------------
+Used msg ram =  19.921875 %
+Time :  11.172530 ~  11.811045 sec, Total =   0.638515 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

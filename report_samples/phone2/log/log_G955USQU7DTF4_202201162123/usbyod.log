@@ -1,0 +1,33 @@
+2019-01-01 00:52:59:758	(9582 9582) com.samsung.usbyod.receiver.LocaleBroadcastReceiver [INFO]: On Broadcast Received : android.intent.action.LOCALE_CHANGED
+2019-01-01 00:52:59:761	(9582 9582) com.samsung.usbyod.receiver.LocaleBroadcastReceiver [INFO]: No active notifications
+2021-10-11 03:20:21:288	(20855 20855) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 0
+2021-10-14 18:53:01:582	(2807 2807) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2021-10-14 18:53:01:587	(2807 2807) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2021-10-14 18:53:06:478	(2807 2807) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2021-10-15 00:04:44:577	(20429 20429) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 0
+2021-11-05 02:45:56:390	(2801 2801) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2021-11-05 02:45:56:394	(2801 2801) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2021-11-05 02:46:01:214	(2801 2801) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2018-12-31 18:00:14:917	(2810 2810) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2018-12-31 18:00:14:920	(2810 2810) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2018-12-31 18:00:19:271	(2810 2810) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2021-11-29 05:42:21:930	(2793 2793) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2021-11-29 05:42:21:933	(2793 2793) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2021-11-29 05:42:26:118	(2793 2793) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2022-01-12 14:13:41:044	(2786 2786) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2022-01-12 14:13:41:046	(2786 2786) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2022-01-12 14:13:45:758	(2786 2786) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2022-01-16 03:18:35:606	(2789 2789) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2022-01-16 03:18:35:626	(2789 2789) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2022-01-16 03:18:39:648	(2789 2789) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2022-01-16 03:20:18:703	(12626 12626) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 0
+2022-01-16 03:59:08:928	(2776 2776) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2022-01-16 03:59:08:933	(2776 2776) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2022-01-16 03:59:13:805	(2776 2776) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2022-01-16 04:01:59:592	(2746 2746) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2022-01-16 04:01:59:598	(2746 2746) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2022-01-16 04:02:03:996	(2746 2746) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2022-01-16 04:56:43:161	(16277 16277) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 0
+2022-01-16 21:21:19:704	(2789 2789) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2022-01-16 21:21:19:708	(2789 2789) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2022-01-16 21:21:24:702	(2789 2789) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast

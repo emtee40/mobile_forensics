@@ -1,0 +1,17 @@
+[01-01 00:02:08.534] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[01-01 00:02:08.538] load_model_obj : success to load_model_obj(org.json) in 0.003
+[01-01 00:02:08.539] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[01-01 00:02:08.539] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[01-01 00:02:10.418] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[01-01 00:02:10.445] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[01-01 00:02:22.470] EVENT_CONNECT_NETWORK_START: , nid: 0, uid: 1000, pName: android, current network state: DISCONNECTED
+[01-01 00:45:26.705] WIFI OFF event, timestamp =1546303526705: , edgeflag = false, old AP=null, PN = null
+[01-01 00:45:59.703] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[01-01 00:45:59.708] load_model_obj : success to load_model_obj(org.json) in 0.002
+[01-01 00:45:59.708] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[01-01 00:45:59.709] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[01-01 00:49:39.191] WIFI OFF event, timestamp =1546303779191: , edgeflag = false, old AP=null, PN = null
+[01-01 00:50:01.332] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[01-01 00:50:01.338] load_model_obj : success to load_model_obj(org.json) in 0.004
+[01-01 00:50:01.339] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[01-01 00:50:01.339] setDefaultQAI(RFLInterface intf): Default QAI was set 3

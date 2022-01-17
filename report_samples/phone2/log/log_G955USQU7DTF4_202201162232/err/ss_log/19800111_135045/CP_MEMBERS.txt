@@ -1,0 +1,12 @@
+CP_MEMBERS.
+Cur Time : 87.602000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(Sys)	TIME(Diag)	FILE	LINE	STRING
+ 15.668000 13:49:34.026	qmi_nas.c	24745	[SUB_1] Send QMI_NAS_SYS_INFO_IND, old(0) to new(1) G(0),W(0),L(1),T(0),C(0),H(0)
+
+------------------------------------------------------
+Used msg ram =   0.085449 %
+Time :  15.668000 ~  15.668000 sec, Total =   0.000000 sec
+Elapsed time for making this log =   0.001000 sec
+------------------------------------------------------

@@ -1,0 +1,22 @@
+01-01 00:02:13.023 : 
+01-01 00:02:13.024 : mProgressTimeoutRunnable started
+01-01 00:02:17.171 : onReceive [Intent { act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras) }]
+01-01 00:02:17.171 : User unlocked and real home found; let's do preloadInstaller!
+01-01 00:02:17.192 : setPrefCurrentContext to : com.sec.android.preloadinstaller.SN2006231832.PreloadInstallerActivity@9a0879c
+01-01 00:02:17.193 : disableNotifications
+01-01 00:02:17.224 : persist.sys.storage_preload : 
+01-01 00:02:17.224 : getFotaFlag from SharedPreference : false
+01-01 00:02:17.224 : previously, Somthing's wrong.. mounting hidden as firstbooting
+01-01 00:02:18.236 : setPrefFotaUpgrade to : false
+01-01 00:02:18.253 : PreloadInstaller Start : Fota=false
+01-01 00:02:18.256 : omcEtcPath : /system/omc/ATT/etc/uninstall_preloadpkg.lst
+01-01 00:02:18.257 : ActivityManager.getCurrentUser() = 0
+01-01 00:02:18.257 : cscCode : ATT
+01-01 00:02:18.257 : apk count is 0. call  setDisabled();
+01-01 00:02:18.261 : write-Set package state to disabled
+01-01 00:02:18.417 : call resetApplicationPreferences
+01-01 00:02:18.417 : grantPermission file path : /system/omc/ATT/etc/grantpermissionslist.txt
+01-01 00:02:18.417 : call setGrantPermissions
+01-01 00:02:18.467 : write-Intent.CATEGORY_HOME is called.
+01-01 00:02:18.467 : enableNotifications
+01-01 00:02:18.479 : write-finish() is called.

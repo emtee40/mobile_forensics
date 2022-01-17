@@ -1,0 +1,86 @@
+-- Slot1 General Information --
+ slot 1 No SIM or Error
+ Specific card error as below
+ (2)No_ATR_Max_Voltage
+----------------------
+ First_inst_class : UMTS
+-- Slot1 QMI status Information --
+ ACTIVE SLOT : SLOT 1
+ CARD_STATE : Error
+ CARD_ERROR : No_Atr_Received
+ APP_TYPE : NONE
+ APP_STATE : Unknown
+ APP_STATE ILLEGAL? : NO
+ PERSO_STATE : Unknown
+ PERSO_FEATURE : NW
+ PIN1_STATE : Not_Initialized
+ pin1_num(0), puk1_num(0)
+ PIN2_STATE : Not_Initialized
+ pin2_num(0), puk2_num(0)
+ No eps storage on 4G sim : NO
+ Debugging card type: None
+ Debugging card more info: 0 0
+ slot1 - IMEI Certi: PASS
+ slot1 - MEID Certi: PASS
+----------------------
+ FINAL IMEI Certi: PASS
+-- Send APDU to card Information --
+ slot1 send apdu ins history:
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-- SIM Proactive CMD Information --
+ slot1 Proactive CMD :
+00 00 00 00 00 00 00 00 00 00 
+Slot1 Setup menu title :
+ None
+-- SIM ATR Information --
+-- slot1 PPS information --
+ PPS SIZE : 00
+ PPS RAW DATA : 
+--slot1 SIM TP Information  --
+  TP RAW DATA : 0000000000000000000000000000000000000000000000000000000000000000000000
+----------------------
+HW VERSION SMEM by ap: 12
+Region[128], Group[11], STR[ATT]
+----------------------
+-- UIM_NV information --
+-- RTRE information --
+ SIM based
+-- FTM information --
+ Online Mode
+-- ENS information --
+ Enabled
+ Proactive cfg : BIP enabled!
+-- SHA 256 NV read fail --
+-- UIM_SELECT_DEFAULT_USIM_APP information --
+Auto Provisiooning is ON
+IMSI replacement is disabled
+PBKDF2 OFF, E-NCK OFF
+-- UIM_HOTSWAP information --
+-- HOTSWAP Configuration --
+num_of_sample_for_insertion = 0x0
+num_of_sample_for_removal = 0x5
+maximum_debounce_retry_counter = 0x2
+-- Slot1 information --
+enableUimHotswap = 1
+uimHotswapPolarity = ACTIVE_LOW
+uimCardDetectGpioPullSetting = NO_PULL
+hotswap.hotswap_notify_card_removed = FALSE
+hotswap.card_status = UIM_CARD_INSERTED
+Single Tray for Dual SIM : unsupported
+HOTSWAP detect instead of sim detect : unsupported
+-- Slot1 Tray_DET UIM Controller Config--
+UART_DM_UIM_CFG - 0x543
+nUIMCFG - 0x543
+-- HOTSWAP history info('R' is removed and 'I' is inserted) --
+[Slot1]HOTSWAP (insert or remove) history values 0, accumul-cnt 16
+-- UIM_DRIVER debug information --
+Total number of active uim interfaces : 1
+Single Slot By NV_UIM_SELECT_DEFAULT_USIM_APP_I NV
+-- Slot1 information --
+tot_idle_bytes_count = 0x0
+tot_parity_error_count = 0x0
+tot_overrun_error_count = 0x0
+tot_rx_break_error_count = 0x0
+tot_recovery_count = 0x0
+last_sent_apdu = 0x0 0x0 0x0 0x0 0x0
+-- UIM_AUTO_SUBSCRIPTION : unsupported --

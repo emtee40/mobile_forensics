@@ -1,0 +1,82 @@
+System version(9), Protocol version(59)
+Operation mode(5)
+Policy Manager Info : feature_mode(0)
+ SUB[1] scan_mode:2, sub_feature:0, ue_operation_mode:0, VoiceDomain:3, volte_enable:2
+
+SUB1 : 3gpp(0) 3gpp2(0)
+EFS:1VoiceDomain:3 
+CSC(ATT), NET1()
+AP INFO: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+IMS(No IPC) : Use_ipc(0) Reg(5) Feature(0) network(10) ecmp(2)
+Debugcreen - Sub 1
+cur_sim : 000-000 , cur_serve : 310-410
+ehplmn : 
+ HPLMN(0-0) sim_state(0)
+ Serving PLMN(310-410) - LTE
+ NW sel mode : Auto
+ EMM(deRegi-6) TAC(29447)
+ LTE RRC:IDLE BAND:2 BW:15
+ Earfcn: 1125, PCI: 0
+ RSRP:-115 RSRQ:-20 SNR:-12.4
+ Tx Pwr : -- dBm
+ paging_cycle : 1280 ms
+ CA-Not Config 0 0
+ PA STATE:0(ET),HDET:0
+ FINAL IMEI Certi: PASS
+Unknown 0
+ MIPI TEST SUCCESS
+ ASDiv : NOT SUPPORTED
+ EMM: SPEC_ver(0x82),  SRVCC(1), L2gSRVCC(1), ISR(1)
+ sib8_available(0),  lte_cs_capability(-1)
+ TIMER_T34:10(STOP) 11(STOP) 12(STOP) 16(STOP) 20(STOP) 30(STOP) 02(STOP) T3346(STOP)
+ TIMER_T32:10(STOP) 11(STOP) 12(STOP) 13(STOP) 20(STOP) 30(STOP) 40(STOP)
+
+SUB 1 SW MBN List  - Select Mode(0)
+ [1] ROW - Activated
+ [2] WRD
+ [3] VZW
+ [4] USC
+ [5] SPR
+ [6] ATT
+ [7] FirstNet
+ MM Reject Information List 
+1. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+2. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+3. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+4. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+5. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+ GMM Reject Information List 
+1. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+2. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+3. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+4. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+5. Time:  1M 6D  0h00m00s Type:0,Cause:0  000-000,G,ds0
+
+RF Information : Cal Date(2017.04.13) / CAL Done w SS PGM
+
+[HW]  CGW : 0x00020000 0x0ef84387   LTE : 0x00c221e0 0x3b0f18df   TDS : 0x00000021   MODE(0x0a3c): 
+[NV]  CGW : 0x00020000 0x06e80380   LTE : 0x000221e0 0x380e08df   TDS : 0x00000021   MODE(0x0a28): 
+[PM-1]CGW : 0x00020000 0x06e80380   LTE : 0x000221e0 0x380e08df   TDS : 0x00000021   MODE(0x0228):  , MAX_CAP(0x0a28): 
+[CM]  CGW : 0xffffffff 0xbfffffff   LTE : 0x04c227ff 0xffdf3fff   TDS : 0x0000003f   MODE SUB1(62)
+
+ --------- Key Items in EFS ---------
+ mcfg_test(0) test_mode(0) hw_test(0) mcfg_sel_db.xml(0) mcc_lte_band_list(0) device_config.xml(1) post.xml(0) slot1-carrier_policy.xml(1) locked(0) device_mode(0)
+ ------------------------------------
+
+MOB_SW_VER: MPSS.AT.2.0.c5-00769-8998_GEN_PACK-1
+-- OMC Feature List  --
+
+Slot1 GID1: 0x0 0x0
+
+Forbidden PLMN information
+Slot1 FPLMN READ ERROR
+
+Preferred PLMN information
+Slot1 PPLMN READ ERROR
+
+Forbidden TAI information
+Slot1 Forbidden TAI list (length = 0)
+
+Forbidden LAI information
+Slot1 Forbidden LAI list (length = 0)
+

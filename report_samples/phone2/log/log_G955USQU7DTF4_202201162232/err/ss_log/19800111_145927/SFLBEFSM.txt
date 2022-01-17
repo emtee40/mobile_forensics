@@ -1,0 +1,21 @@
+SFLBEFSM.
+Cur Time : 4211.866000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+16.283436	ss_filtered_log_buffer.c	sflb_load_mask_in_efs	314	error rtn = 0xffffffff
+16.283441	ss_filtered_log_buffer.c	sflb_load_mask_in_efs	314	error rtn = 0xffffffff
+16.283453	ss_filtered_log_buffer.c	sflb_load_mask_in_efs	314	error rtn = 0xffffffff
+16.283454	ss_filtered_log_buffer.c	sflb_init_mask_config	373	ram size = 1048496, sel = 0
+16.283510	log_api.c	sflb_remove_all_log_listener	1867	Remove all log mask
+16.283521	ss_filtered_log_buffer.c	sflb_set_log_mask_sets	524	setting done : log mask = 0
+16.283523	event_api.c	sflb_remove_all_event_listener	1299	Remove all event mask
+16.283542	ss_filtered_log_buffer.c	sflb_set_event_mask_sets	571	setting done : event mask = 0
+16.283551	msg_api.c	sflb_remove_all_f3_listener	6891	Remove all f3 mask
+16.283562	ss_filtered_log_buffer.c	sflb_set_f3_mask_sets	623	setting done : f3 mask = 0
+
+------------------------------------------------------
+Used msg ram =  18.750000 %
+Time :  16.283436 ~  16.283562 sec, Total =   0.000126 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

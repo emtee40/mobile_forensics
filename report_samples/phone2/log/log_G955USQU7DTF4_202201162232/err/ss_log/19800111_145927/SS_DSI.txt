@@ -1,0 +1,41 @@
+SS_DSI.
+Cur Time : 4211.945000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+21.962660	ss_log_dsi.c	ss_dsi_input	9	msg_id 1
+21.962662	ss_log_dsi.c	ss_dsi_input_key	14	rcvd_qmi_dsi 1024, rcvd_qmi_comp_key 0, rcvd_qmi_validity_field 1,sar_efs_check_if_key_present 1,sar_efs_get_comp_key 0
+21.962667	ss_log_dsi.c	ss_dsi_aol_event_scenario	36	AOL new_scenario=40
+21.962682	ss_log_dsi.c	ss_dsi_before_check_priority	19	Before Check priority dsi_map 1024
+21.962685	ss_log_dsi.c	ss_dsi_after_check_priority	24	After Check priority dsi_map 0
+21.994932	ss_log_dsi.c	ss_dsi_input	9	msg_id 1
+21.994934	ss_log_dsi.c	ss_dsi_input_key	14	rcvd_qmi_dsi 1024, rcvd_qmi_comp_key 0, rcvd_qmi_validity_field 1,sar_efs_check_if_key_present 1,sar_efs_get_comp_key 0
+21.994938	ss_log_dsi.c	ss_dsi_aol_event_scenario	36	AOL new_scenario=40
+21.994948	ss_log_dsi.c	ss_dsi_before_check_priority	19	Before Check priority dsi_map 1024
+21.994951	ss_log_dsi.c	ss_dsi_after_check_priority	24	After Check priority dsi_map 0
+1145.331192	ss_log_dsi.c	ss_dsi_input	9	msg_id 1
+1145.331196	ss_log_dsi.c	ss_dsi_input_key	14	rcvd_qmi_dsi 0, rcvd_qmi_comp_key 0, rcvd_qmi_validity_field 1,sar_efs_check_if_key_present 1,sar_efs_get_comp_key 0
+1145.331205	ss_log_dsi.c	ss_dsi_aol_event_scenario	36	AOL new_scenario=0
+1145.331274	ss_log_dsi.c	ss_dsi_before_check_priority	19	Before Check priority dsi_map 0
+1145.331280	ss_log_dsi.c	ss_dsi_after_check_priority	24	After Check priority dsi_map 0
+3848.167389	ss_log_dsi.c	ss_dsi_input	9	msg_id 1
+3848.167395	ss_log_dsi.c	ss_dsi_input_key	14	rcvd_qmi_dsi 1024, rcvd_qmi_comp_key 0, rcvd_qmi_validity_field 1,sar_efs_check_if_key_present 1,sar_efs_get_comp_key 0
+3848.167403	ss_log_dsi.c	ss_dsi_aol_event_scenario	36	AOL new_scenario=40
+3848.167432	ss_log_dsi.c	ss_dsi_before_check_priority	19	Before Check priority dsi_map 1024
+3848.167437	ss_log_dsi.c	ss_dsi_after_check_priority	24	After Check priority dsi_map 0
+4084.199110	ss_log_dsi.c	ss_dsi_input	9	msg_id 1
+4084.199114	ss_log_dsi.c	ss_dsi_input_key	14	rcvd_qmi_dsi 0, rcvd_qmi_comp_key 0, rcvd_qmi_validity_field 1,sar_efs_check_if_key_present 1,sar_efs_get_comp_key 0
+4084.199122	ss_log_dsi.c	ss_dsi_aol_event_scenario	36	AOL new_scenario=0
+4084.199150	ss_log_dsi.c	ss_dsi_before_check_priority	19	Before Check priority dsi_map 0
+4084.199155	ss_log_dsi.c	ss_dsi_after_check_priority	24	After Check priority dsi_map 0
+4084.876100	ss_log_dsi.c	ss_dsi_input	9	msg_id 1
+4084.876104	ss_log_dsi.c	ss_dsi_input_key	14	rcvd_qmi_dsi 1024, rcvd_qmi_comp_key 0, rcvd_qmi_validity_field 1,sar_efs_check_if_key_present 1,sar_efs_get_comp_key 0
+4084.876112	ss_log_dsi.c	ss_dsi_aol_event_scenario	36	AOL new_scenario=40
+4084.876138	ss_log_dsi.c	ss_dsi_before_check_priority	19	Before Check priority dsi_map 1024
+4084.876142	ss_log_dsi.c	ss_dsi_after_check_priority	24	After Check priority dsi_map 0
+
+------------------------------------------------------
+Used msg ram =  67.968750 %
+Time :  21.962660 ~ 4084.876142 sec, Total = 4062.913483 sec
+Elapsed time for making this log =   0.004000 sec
+------------------------------------------------------

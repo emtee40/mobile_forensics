@@ -1,0 +1,215 @@
++
+--update_package=CACHE:recovery/sec_omc.zip
+--carry_out=csc_factory
+--data_resizing
+--amazon_link
+--delete_apn_changes
+--hwr_symlink
+--omc_binary_download
+-
++
+--wipe_data
+--reason=MasterClearConfirm
+--locale=en_US
+-
++
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++ [<log_prefix>]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++ [<log_prefix>]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_US-
++ [<log_prefix>]
+--update_package=@/cache/recovery/block.map
+--carry_out=vzw_fota
+--locale=en_US
+--update_org_package=/data/fota/update.zip-
++ [Iu]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [Ee]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [bH]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [oM]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [Ip]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [_s]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [Q]]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [ga]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [Tm]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [Wd]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [VJ]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : UNKNOWN 
+-
++ [cx]
+--update_package=@/cache/recovery/block.map
+--carry_out=vzw_fota
+--locale=en_US
+--update_org_package=/data/fota/update.zipreboot reason : UNKNOWN 
+-
++ [uj : 2017/4/12 15:3:22]
+--update_package=@/cache/recovery/block.map
+--carry_out=vzw_fota
+--locale=en_US
+--update_org_package=/data/fota/update.zipreboot reason : com.samsung.sdm:23451 FOTA MnoDmClient fotaRestart 
+-
++ [kb : 2017/5/19 1:35:34]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : com.samsung.sdm:6397 FOTA MnoDmClient fotaRestart 
+-
++ [ty : 2017/6/16 1:59:18]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : com.samsung.sdm:25173 FOTA MnoDmClient fotaRestart 
+-
++ [`c : 2017/7/13 0:33:4]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : com.samsung.sdm:22728 FOTA MnoDmClient fotaRestart 
+-
++ [RL : 2017/9/16 19:52:13]
+--wipe_data
+--reason=MasterClearConfirm
+--locale=en-US
+reboot reason : Reboot:25704 RecoverySystemMasterClearConfirm 
+-
++ [se : 2017/9/16 19:57:22]
+--wipe_data
+--reason=MasterClearConfirm
+--locale=en-US
+reboot reason : Reboot:24694 RecoverySystemMasterClearConfirm 
+-
++ [XM : 2017/9/16 20:4:14]
+--wipe_data
+--reason=MasterClearConfirm
+--locale=en-US
+reboot reason : Reboot:26666 RecoverySystemMasterClearConfirm 
+-
++ [Hu : 2017/5/18 7:57:7]
+--update_package=@/cache/recovery/block.map
+--carry_out=vzw_fota
+--locale=en_US
+--update_org_package=/data/fota/update.zipreboot reason : com.samsung.sdm:7829 FOTA MnoDmClient fotaRestart 
+-
++ [g^ : 2017/5/18 8:20:36]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : com.samsung.sdm:15581 FOTA MnoDmClient fotaRestart 
+-
++ [sW : 2017/5/18 8:39:33]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : com.samsung.sdm:15448 FOTA MnoDmClient fotaRestart 
+-
++ [Ou : 2017/5/18 8:56:46]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : com.samsung.sdm:15054 FOTA MnoDmClient fotaRestart 
+-
++ [Ke : 2017/5/18 9:4:49]
+--update_package=/cache/fota/update.zip
+--carry_out=vzw_fota
+--locale=en_USreboot reason : com.samsung.sdm:15249 FOTA MnoDmClient fotaRestart 
+-
++ [Ko : 2017/6/7 16:52:52]
+--wipe_data
+--reason=MasterClearConfirm
+--locale=en-US
+reboot reason : Reboot:15034 RecoverySystemMasterClearConfirm 
+-
++ [Kv : 2017/6/7 17:41:7]
+--wipe_data
+--reason=FactoryApp
+--locale=en-US
+reboot reason : Reboot:25156 RecoverySystemFactoryApp 
+-
++ [][ : 2017/4/2 9:3:34]
+--just_exit
+--locale=
+--reason=SIMBasedChangeCSC
+reboot reason : Reboot:14699 RecoverySystemSIMBasedChangeCSC 
+-
++ [Ql : 2017/2/26 18:18:32]
+--wipe_data
+--reason=DevicePolicyManager.wipeDataWithReason() from com.Darcom.device.admin/.DeviceAdminDemo
+--locale=en-US
+reboot reason : Binder:1416_B:2500 RecoverySystemDevicePolicyManager.wipeDataWithReason() from com.D 
+-
++ [P_ : 2017/4/24 12:33:34]
+--wipe_data
+--reason=MasterClearConfirm
+--locale=en-US
+reboot reason : Reboot:23992 RecoverySystemMasterClearConfirm 
+-

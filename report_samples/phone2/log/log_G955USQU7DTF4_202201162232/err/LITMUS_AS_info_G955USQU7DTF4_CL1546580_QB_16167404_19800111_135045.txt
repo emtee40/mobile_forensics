@@ -1,0 +1,23 @@
+
+ >>>LTE EFS DUMP
+ [File Name] /nv/item_files/modem/lte/rrc/csp/band_priority_list_v2 :  [Size] 20 bytes   >>>   0c 00 11 00 02 00 05 00 04 00 1e 00 42 00 30 00 47 00 2e 00 
+ [File Name] /nv/item_files/modem/lte/rrc/csp/use_prx_only :  [Size] 1 bytes   >>>   00 
+ [File Name] /nv/item_files/modem/lte/ML1/ard_config_sp :  [Size] 128 bytes   >>>   00 00 01 00 01 00 00 00 00 00 00 00 05 00 13 00 16 00 00 00 00 00 00 00 32 00 14 00 46 00 32 00 00 00 05 00 10 00 13 00 00 00 00 00 00 00 32 00 14 00 46 00 32 00 1e 00 14 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+ [File Name] /nv/item_files/modem/lte/ML1/dc_offsets :  [Size] 15404 bytes   >>>   [ *SKIP* ] Due to Size 
+ [File Name] /nv/item_files/modem/lte/ML1/disable_if_otdoa :  [Size] 1 bytes   >>>   00 
+ [File Name] /nv/item_files/modem/lte/rrc/cap/diff_fdd_tdd_fgi_enable :  [Size] 1 bytes   >>>   01 
+ [File Name] /nv/item_files/modem/lte/rrc/cap/disable_cap_ies :  [Size] 8 bytes   >>>   00 00 00 00 00 00 00 00 
+ [File Name] /nv/item_files/modem/lte/rrc/cap/fdd_cap_r11 :  [Size] 4 bytes   >>>   00 10 80 00 
+ [File Name] /nv/item_files/modem/lte/rrc/cap/fgi :  [Size] 4 bytes   >>>   bb fc 0f 7f 
+ [File Name] /nv/item_files/modem/lte/rrc/cap/prune_ca_combos :  [Size] 1444 bytes   >>>   [ *SKIP* ] Refer to Prune information @bandinfoXX File 
+ [File Name] /nv/item_files/modem/lte/rrc/cap/tdd_cap_r11 :  [Size] 4 bytes   >>>   00 10 80 00 
+ [File Name] /nv/item_files/modem/lte/rrc/cep/conn_control_barring_optmz_enable :  [Size] 2 bytes   >>>   01 00 
+ [File Name] /nv/item_files/modem/lte/rrc/cep/conn_control_param_cfg :  [Size] 4 bytes   >>>   05 06 3c 00 
+
+ >>> LTE CAP Summary
+     UL_64_QAM :ON
+     DL_256QAM :ON
+     UL_CA :ON
+     4*4 MIMO :ON
+     HORxD :ON
+ >>> Refer to lte_rrc_cap_ies_e`s definition @Lte_rrc_ext_api.h <<<

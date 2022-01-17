@@ -1,0 +1,46 @@
+ mApnContexts size=15
+{mApnType=xcap mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=mcx mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=fota mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=supl mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=bip mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=emergency mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=ent1 mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=hipri mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=ims mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=mms mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=default mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=cbs mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=ia mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=foc mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]
+{mApnType=dun mState=IDLE mWaitingApns={null} mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+[Release NetworkRequest list]
+[Current NetworkRequest list]

@@ -1,0 +1,6 @@
+[ Modem Capability TLV list ]
+
+[1] SUPPORTED : FALSE
+
+[2] TLV List : NO information
+

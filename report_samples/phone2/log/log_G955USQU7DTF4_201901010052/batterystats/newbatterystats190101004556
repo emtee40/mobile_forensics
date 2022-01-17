@@ -1,0 +1,25 @@
+Battery History (0% used, 300 used of 512KB, 5 strings using 310):
+                    0 (14) RESET:TIME: 2019-01-01-00-45-17
+                    0 (2) 100 status=discharging health=good plug=none temp=253 volt=4209 current=0 ap_temp=26 pst_temp=25 bat_temp=25 chg_temp=26 pa_temp=25 -tx_share misc_event=65536 online=1 current_event=64 charge=3500 +running +wake_lock +audio +screen phone_state=emergency phone_signal_strength=moderate brightness=medium +wifi_running +wifi top=1000:"com.sec.android.app.SecSetupWizard"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+               +485ms (2) 100 +wifi_scan stats=0:"wakelock-change"
+             +3s578ms (2) 100 -wifi_scan -audio
+             +3s705ms (2) 100 +wifi_scan +audio
+             +4s797ms (2) 100 +tmpwhitelist=u0a34:"broadcast:u0a34:com.google.android.intent.action.GCM_RECONNECT"
+             +6s127ms (2) 100 -audio
+             +6s196ms (2) 100 +audio
+             +7s435ms (2) 100 -wifi_scan -audio
+             +7s564ms (3) 100 +audio stats=0:"shutdown"
+             +8s289ms (12) SHUTDOWN
+             +8s293ms (12) START
+             +8s293ms (14) TIME: 2019-01-01-00-45-54
+
+Total cpu time reads: 1
+Batched cpu time reads: 0
+Batching Duration (min): 0
+All UID cpu time reads since the later of device start or stats reset: 8
+UIDs removed since the later of device start or stats reset: 0
+KernelUidCpuTimeReader Exception :
+
+

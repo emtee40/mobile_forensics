@@ -1,0 +1,177 @@
+
+	Curr UpTime : 86.983000sec
+	Curr Diag Time = 1980/01/11 13:50:45 341
+=============================================
+Module Name : MCFG
+
+Allocatd Memmory = 65536 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  22.631836 %
+=============================================
+Module Name : DIAGSTAT
+
+Allocatd Memmory = 16384 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   0.854492 %
+=============================================
+Module Name : QMUXTXRX
+
+Allocatd Memmory = 49152 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  37.744141 %
+=============================================
+Module Name : SLBM_LOG
+
+Allocatd Memmory = 16384 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   1.049805 %
+=============================================
+Module Name : SS_QCSI
+
+Allocatd Memmory = 4096 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  48.632813 %
+=============================================
+Module Name : SSREQCTL
+
+Allocatd Memmory = 25600 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  95.453125 %
+=============================================
+Module Name : UIM
+
+Allocatd Memmory = 32768 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   2.075195 %
+=============================================
+Module Name : PROTOCOL
+
+Allocatd Memmory = 98304 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   3.100586 %
+=============================================
+Module Name : SM
+
+Allocatd Memmory = 32768 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   7.666016 %
+=============================================
+Module Name : NWAccess
+
+Allocatd Memmory = 65536 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   0.061035 %
+=============================================
+Module Name : FACTORY
+
+Allocatd Memmory = 16384 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   0.244141 %
+=============================================
+Module Name : FATAL_T
+
+Allocatd Memmory = 512 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   3.125000 %
+=============================================
+Module Name : SFLBEFSM
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  18.750000 %
+=============================================
+Module Name : sflbF3
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   2.343750 %
+=============================================
+Module Name : OBD
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  31.250000 %
+=============================================
+Module Name : DYNMHEAP
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  11.718750 %
+=============================================
+Module Name : HIST
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   8.593750 %
+=============================================
+Module Name : SS_SMEM
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  19.921875 %
+=============================================
+Module Name : EFS_SYNC
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  45.703125 %
+=============================================
+Module Name : SS_DSI
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  22.656250 %
+=============================================
+Module Name : MIPI_TEST
+
+Allocatd Memmory = 4096 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  73.046875 %
+=============================================
+Module Name : SS_DIAGTASK
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  11.718750 %
+=============================================
+Module Name : SEC
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =  19.140625 %
+=============================================
+Module Name : CP_MEMBERS
+
+Allocatd Memmory = 65536 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   0.085449 %
+=============================================
+Module Name : CIQ
+
+Allocatd Memmory = 8192 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   0.244141 %
+=============================================
+Module Name : DEVICE_EVENT
+
+Allocatd Memmory = 20480 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   0.390625 %
+=============================================
+Module Name : CALL_EVENT
+
+Allocatd Memmory = 8192 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   0.195313 %
+=============================================
+Module Name : LOCALTIME
+
+Allocatd Memmory = 1024 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   6.640625 %
+=============================================
+Module Name : SS_NV_UTIL
+
+Allocatd Memmory = 8192 byte
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+Used msg ram =   6.250000 %

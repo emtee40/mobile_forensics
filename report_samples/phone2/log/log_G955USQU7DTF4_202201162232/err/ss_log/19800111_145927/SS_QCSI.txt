@@ -1,0 +1,79 @@
+SS_QCSI.
+Cur Time : 4211.514000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.678553	ss_qmi_server.c	ss_qmi_server_new	847	successed - ref_count=1
+11.678573	ss_qmi_server.c	ss_qmi_server_start_server	1025	rc=0
+11.678760	ss_qmi_server.c	ss_qmi_server_register	969	successed
+12.145917	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(9) to shim : err = 0x0
+12.146394	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(3) to shim : err = 0x0
+12.146935	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(12) to shim : err = 0x0
+12.147659	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(10) to shim : err = 0x0
+12.151117	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(11) to shim : err = 0x0
+12.154109	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(1) to shim : err = 0x0
+12.154359	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(4) to shim : err = 0x0
+12.154694	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(26) to shim : err = 0x0
+12.154979	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(7) to shim : err = 0x0
+12.155231	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(8) to shim : err = 0x0
+12.155500	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(29) to shim : err = 0x0
+12.162186	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_process_reg	659	Reg service(5) to shim : err = 0x0
+12.771015	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x9, client_handle = 0xa, cl_id=1 for Qmux, rc=0x0
+12.771130	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x3, client_handle = 0xb, cl_id=1 for Qmux, rc=0x0
+12.773431	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0xc, cl_id=1 for Qmux, rc=0x0
+12.777092	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0xd, cl_id=2 for Qmux, rc=0x0
+12.778683	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0xe, cl_id=3 for Qmux, rc=0x0
+12.783632	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0xf, cl_id=1 for Qmux, rc=0x0
+12.786471	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x10, cl_id=2 for Qmux, rc=0x0
+12.790511	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x11, cl_id=4 for Qmux, rc=0x0
+12.791504	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x12, cl_id=5 for Qmux, rc=0x0
+12.793376	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x13, cl_id=3 for Qmux, rc=0x0
+12.794666	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x14, cl_id=4 for Qmux, rc=0x0
+12.796759	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x15, cl_id=6 for Qmux, rc=0x0
+12.797574	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x16, cl_id=7 for Qmux, rc=0x0
+12.807693	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x17, cl_id=5 for Qmux, rc=0x0
+12.809081	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x18, cl_id=6 for Qmux, rc=0x0
+12.811017	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x19, cl_id=8 for Qmux, rc=0x0
+12.811932	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x1a, cl_id=9 for Qmux, rc=0x0
+12.814948	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x1b, cl_id=7 for Qmux, rc=0x0
+12.819549	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x1c, cl_id=8 for Qmux, rc=0x0
+12.821365	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x1d, cl_id=10 for Qmux, rc=0x0
+12.822245	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x1e, cl_id=11 for Qmux, rc=0x0
+12.824541	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x1f, cl_id=9 for Qmux, rc=0x0
+12.825779	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x20, cl_id=10 for Qmux, rc=0x0
+12.827317	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x21, cl_id=12 for Qmux, rc=0x0
+12.828377	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x22, cl_id=13 for Qmux, rc=0x0
+12.830666	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x23, cl_id=11 for Qmux, rc=0x0
+12.832538	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x24, cl_id=12 for Qmux, rc=0x0
+12.833780	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x25, cl_id=14 for Qmux, rc=0x0
+12.835037	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x26, cl_id=15 for Qmux, rc=0x0
+12.836679	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x27, cl_id=13 for Qmux, rc=0x0
+12.838362	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x28, cl_id=14 for Qmux, rc=0x0
+12.841480	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x29, cl_id=16 for Qmux, rc=0x0
+12.842351	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1, client_handle = 0x2a, cl_id=17 for Qmux, rc=0x0
+12.844679	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x2b, cl_id=15 for Qmux, rc=0x0
+12.846935	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x4, client_handle = 0x2c, cl_id=16 for Qmux, rc=0x0
+12.848555	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1a, client_handle = 0x2d, cl_id=1 for Qmux, rc=0x0
+12.849176	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_disconnect_cb	954	disconnect_cb: Releasing clid=1 from Svc=0x1a err=0 retval=0
+12.861448	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x1a, client_handle = 0x2e, cl_id=1 for Qmux, rc=0x0
+12.861935	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_disconnect_cb	954	disconnect_cb: Releasing clid=1 from Svc=0x1a err=0 retval=0
+13.505235	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x5, client_handle = 0x2f, cl_id=1 for Qmux, rc=0x0
+13.510377	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0xb, client_handle = 0x31, cl_id=1 for Qmux, rc=0x0
+13.511676	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0xc, client_handle = 0x32, cl_id=1 for Qmux, rc=0x0
+13.512240	ss_qmi_server.c	ss_qmi_server_connect	589	Connecting~!
+13.512243	ss_qmi_server.c	ss_qmi_server_connect	623	Connected : client_index=0, client_handle=51, clid=1
+13.512258	ss_qmi_server.c	ss_qmi_ipc_req_v01_handler	318	Rcevied Req 72 69 6c 64 33
+13.512261	ss_qmi_server.c	ss_qmi_ipc_req_v01_handler	367	Recived client Name : Inst_Id=1, client_handle=51, rlid=2, rild_name : rild3
+13.512554	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x9, client_handle = 0x34, cl_id=2 for Qmux, rc=0x0
+13.513330	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0xa, client_handle = 0x35, cl_id=1 for Qmux, rc=0x0
+13.515563	ss_qmi_server.c	ss_qmi_server_connect	589	Connecting~!
+13.515566	ss_qmi_server.c	ss_qmi_server_connect	623	Connected : client_index=1, client_handle=56, clid=2
+13.515574	ss_qmi_server.c	ss_qmi_ipc_req_v01_handler	318	Rcevied Req 72 69 6c 64 30
+13.515576	ss_qmi_server.c	ss_qmi_ipc_req_v01_handler	367	Recived client Name : Inst_Id=1, client_handle=56, rlid=0, rild_name : rild0
+18.127218	ds_qmux_qcsi_shim.c	qmux_qcsi_shim_svc_connect_cb	798	connect_cb: Svc=0x8, client_handle = 0x39, cl_id=1 for Qmux, rc=0x0
+
+------------------------------------------------------
+Used msg ram =  48.632813 %
+Time :  11.678553 ~  18.127218 sec, Total =   6.448665 sec
+Elapsed time for making this log =   0.018000 sec
+------------------------------------------------------

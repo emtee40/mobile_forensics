@@ -1,0 +1,146 @@
+21/10/11 03:20:16
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:407)
+	at com.android.server.BatteryService$14.run(BatteryService.java:1352)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at com.android.server.SystemServer.run(SystemServer.java:804)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+03:20:22  2021-10-11 03:20:22 | SHUTDOWN |       | REASON: no power
+03:20:22  init sync() start
+03:20:22  init sync() end
+03:20:22  remount_ro start
+2021-10-14 18:53:15 |NP|
+21/10/15 00:04:41
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:407)
+	at com.android.server.BatteryService$14.run(BatteryService.java:1352)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at com.android.server.SystemServer.run(SystemServer.java:804)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+00:04:46  2021-10-15 00:04:46 | SHUTDOWN |       | REASON: no power
+00:04:46  init sync() start
+00:04:46  init sync() end
+00:04:46  remount_ro start
+2021-11-05 02:46:09 |NP|
+21/11/12 06:32:44
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:407)
+	at com.android.server.BatteryService$14.run(BatteryService.java:1352)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at com.android.server.SystemServer.run(SystemServer.java:804)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+06:32:50  2021-11-12 06:32:50 | SHUTDOWN |       | REASON: no power
+06:32:50  init sync() start
+06:32:50  init sync() end
+06:32:50  remount_ro start
+2018-12-31 18:00:27 |NP|
+21/12/06 10:09:42
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:407)
+	at com.android.server.BatteryService$14.run(BatteryService.java:1352)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at com.android.server.SystemServer.run(SystemServer.java:804)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+10:09:49  2021-12-06 10:09:49 | SHUTDOWN |       | REASON: no power
+10:09:49  init sync() start
+10:09:49  init sync() end
+10:09:49  remount_ro start
+2021-11-29 05:42:33 |NP|
+22/01/12 14:13:04
+reason : userrequested
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:407)
+	at com.android.server.statusbar.StatusBarManagerService.lambda$shutdown$1(StatusBarManagerService.java:1316)
+	at com.android.server.statusbar.-$$Lambda$StatusBarManagerService$izMbpkX9bmZwnjh3sH07yuoJPNY.run(Unknown Source:0)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at com.android.server.SystemServer.run(SystemServer.java:804)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+14:13:10  2022-01-12 14:13:10 | SHUTDOWN |       | REASON: userrequested
+14:13:10  init sync() start
+14:13:10  init sync() end
+14:13:10  remount_ro start
+2022-01-12 14:13:53 |NP|
+03:17:18  2022-01-16 03:17:18 |  REBOOT  |       | REASON: download
+03:17:18  init sync() start
+03:17:18  init sync() end
+03:17:18  remount_ro start
+2022-01-16 03:18:47 |MP|
+22/01/16 03:20:15
+reason : userrequested
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:407)
+	at com.android.server.statusbar.StatusBarManagerService.lambda$shutdown$1(StatusBarManagerService.java:1316)
+	at com.android.server.statusbar.-$$Lambda$StatusBarManagerService$izMbpkX9bmZwnjh3sH07yuoJPNY.run(Unknown Source:0)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at com.android.server.SystemServer.run(SystemServer.java:804)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+03:20:20  2022-01-16 03:20:20 | SHUTDOWN |       | REASON: userrequested
+03:20:20  init sync() start
+03:20:20  init sync() end
+03:20:20  remount_ro start
+2022-01-16 03:59:23 |NP|
+04:00:50  2022-01-16 04:00:50 |  REBOOT  |       | REASON: download
+04:00:50  init sync() start
+04:00:50  init sync() end
+04:00:50  remount_ro start
+2022-01-16 04:02:11 |MP|
+22/01/16 04:56:40
+reason : userrequested
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:407)
+	at com.android.server.statusbar.StatusBarManagerService.lambda$shutdown$1(StatusBarManagerService.java:1316)
+	at com.android.server.statusbar.-$$Lambda$StatusBarManagerService$izMbpkX9bmZwnjh3sH07yuoJPNY.run(Unknown Source:0)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at com.android.server.SystemServer.run(SystemServer.java:804)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+04:56:45  2022-01-16 04:56:45 | SHUTDOWN |       | REASON: userrequested
+04:56:45  init sync() start
+04:56:45  init sync() end
+04:56:45  remount_ro start
+2022-01-16 21:21:33 |NP|

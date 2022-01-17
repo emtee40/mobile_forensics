@@ -1,0 +1,12 @@
+CALL_EVENT.
+Cur Time : 4212.034000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	STRING
+11.824735	ss_audio_log_task start
+
+------------------------------------------------------
+Used msg ram =   0.195313 %
+Time :  11.824735 ~  11.824735 sec, Total =   0.000000 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

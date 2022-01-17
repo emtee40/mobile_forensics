@@ -1,0 +1,300 @@
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent critical error MEDIAPRST absent, not to handle eventPath : /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:0/block/sda
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent critical error MEDIAPRST absent, not to handle eventPath : /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:1/block/sdb
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent critical error MEDIAPRST absent, not to handle eventPath : /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:2/block/sdc
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent critical error MEDIAPRST absent, not to handle eventPath : /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:3/block/sdd
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:603 (null) created DirEncryptionManager
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:603 vold security.mdf: Ready
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEventThrow out event : partition
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:616 vold ----------------
+2017/01/02-06:41:42(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:42(GMT)  603:617 Ext4Crypt e4crypt_unlock_user_key 0 serial=0 token_present=0
+2017/01/02-06:41:42(GMT)  603:617 Ext4Crypt Failed to chmod /data/system_ce/0: No such file or directory
+2017/01/02-06:41:42(GMT)  603:617 Ext4Crypt Failed to chmod /data/misc_ce/0: No such file or directory
+2017/01/02-06:41:42(GMT)  603:617 Ext4Crypt Failed to chmod /data/media/0: No such file or directory
+2017/01/02-06:41:43(GMT)  603:617 vold mountDefaultEncrypted
+2017/01/02-06:41:43(GMT)  603:779 vold [libfs_mgr]fs_mgr_read_fstab(): cannot open file: '/fstab.qcom': No such file or directory
+2017/01/02-06:41:43(GMT)  603:779 vold [libfs_mgr]fs_mgr_read_fstab(): cannot open file: '/fstab.qcom': No such file or directory
+2017/01/02-06:41:43(GMT)  603:779 vold List of Keymaster HALs found:
+2017/01/02-06:41:43(GMT)  603:779 vold Keymaster HAL #1: SoftwareWrappedKeymaster1Device from Google SecurityLevel: TRUSTED_ENVIRONMENT HAL: android.hardware.keymaster@3.0::IKeymasterDevice/default
+2017/01/02-06:41:44(GMT)  603:616 vold ----------------
+2017/01/02-06:41:44(GMT)  603:616 vold handleBlockEvent with action 1
+2017/01/02-06:41:44(GMT)  603:616 vold ----------------
+2017/01/02-06:41:44(GMT)  603:616 vold handleBlockEvent with action 3
+2017/01/02-06:41:44(GMT)  603:616 vold Disk at 254:1 changed
+2017/01/02-06:41:44(GMT)  603:779 vold [libfs_mgr]fs_mgr_read_fstab(): cannot open file: '/fstab.qcom': No such file or directory
+2017/01/02-06:41:44(GMT)  603:779 vold [libfs_mgr]superblock s_max_mnt_count:23,/dev/block/dm-1
+2017/01/02-06:41:44(GMT)  603:779 vold [libfs_mgr]Running /system/bin/e2fsck on /dev/block/dm-1
+2017/01/02-06:41:44(GMT)  603:779 vold [libfs_mgr]__mount(source=/dev/block/dm-1,target=/data,type=ext4)=0: Success
+2017/01/02-06:41:44(GMT)  603:779 vold [libfs_mgr]__mount return 0(source=dm-1,target=/data,type=ext4,flags=406,options=noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic)
+2017/01/02-06:41:44(GMT)  603:779 vold [libfs_mgr]restorecon_sec_sysfsreadlink return : /dev/block/sda25
+2017/01/02-00:41:44(CST)  603:620 vold initUser0
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt e4crypt_init_user0
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 1
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt Preparing: /data/system/users/0
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt Preparing: /data/misc/profiles/cur/0
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt Preparing: /data/system_de/0
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt Preparing: /data/misc_de/0
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt Preparing: /data/vendor_de/0
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt Preparing: /data/user_de/0
+2017/01/02-00:41:44(CST)  603:620 vold  : /system/bin/vold_prepare_subdirs
+2017/01/02-00:41:44(CST)  603:620 vold  prepare
+2017/01/02-00:41:44(CST)  603:620 vold  
+2017/01/02-00:41:44(CST)  603:620 vold  0
+2017/01/02-00:41:44(CST)  603:620 vold  1
+2017/01/02-00:41:44(CST)  603:620 Ext4Crypt e4crypt_unlock_user_key 0 serial=0 token_present=0
+2017/01/02-00:41:44(CST)  603:779 vold isEmergencyReset++
+2017/01/02-00:41:44(CST)  603:779 vold 
+2017/01/02-00:41:44(CST)  603:779 vold precondition_check_mounted /efs 1sec
+2017/01/02-00:41:44(CST)  603:779 vold [libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/platform/soc/1da4000.ufshc/by-name/system -> /system
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/bootdevice/by-name/userdata -> /data
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/zram0 -> none
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/bootdevice/by-name/misc -> /misc
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/bootdevice/by-name/cache -> /cache
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/bootdevice/by-name/efs -> /efs
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/bootdevice/by-name/hidden -> /preload
+2017/01/02-00:41:44(CST)  603:779 vold /devices/soc/c0a4900.sdhci/mmc_host/mmc* -> auto
+2017/01/02-00:41:44(CST)  603:779 vold /devices/soc/a800000.ssusb/a800000.dwc3/xhci-hcd.0.auto/usb* -> auto
+2017/01/02-00:41:44(CST)  603:779 vold rootfs -> /
+2017/01/02-00:41:44(CST)  603:779 vold tmpfs -> /dev
+2017/01/02-00:41:44(CST)  603:779 vold devpts -> /dev/pts
+2017/01/02-00:41:44(CST)  603:779 vold proc -> /proc
+2017/01/02-00:41:44(CST)  603:779 vold sysfs -> /sys
+2017/01/02-00:41:44(CST)  603:779 vold selinuxfs -> /sys/fs/selinux
+2017/01/02-00:41:44(CST)  603:779 vold tmpfs -> /mnt
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/dm-0 -> /system
+2017/01/02-00:41:44(CST)  603:779 vold none -> /acct
+2017/01/02-00:41:44(CST)  603:779 vold none -> /dev/memcg
+2017/01/02-00:41:44(CST)  603:779 vold debugfs -> /sys/kernel/debug
+2017/01/02-00:41:44(CST)  603:779 vold none -> /dev/stune
+2017/01/02-00:41:44(CST)  603:779 vold none -> /config
+2017/01/02-00:41:44(CST)  603:779 vold tmpfs -> /mnt/secure
+2017/01/02-00:41:44(CST)  603:779 vold tmpfs -> /mnt/secure/asec
+2017/01/02-00:41:44(CST)  603:779 vold none -> /dev/cpuctl
+2017/01/02-00:41:44(CST)  603:779 vold none -> /dev/cpuset
+2017/01/02-00:41:44(CST)  603:779 vold cg2_bpf -> /dev/cg2_bpf
+2017/01/02-00:41:44(CST)  603:779 vold pstore -> /sys/fs/pstore
+2017/01/02-00:41:44(CST)  603:779 vold tracefs -> /sys/kernel/debug/tracing
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/bootdevice/by-name/cache -> /cache
+2017/01/02-00:41:44(CST)  603:779 vold /dev/block/bootdevice/by-name/efs -> /efs
+2017/01/02-00:41:44(CST)  603:779 vold find : /dev/block/bootdevice/by-name/efs -> /efs
+2017/01/02-00:41:44(CST)  603:779 vold precondition_check_mounted /efs succeed
+2017/01/02-00:41:44(CST)  603:779 vold There is no file : It is not emergency reset
+2017/01/02-00:41:44(CST)  603:779 vold 
+2017/01/02-00:41:44(CST)  603:779 vold isEmergencyReset--
+2017/01/02-00:41:44(CST)  603:779 vold 
+2022/01/12-14:13:36(CST)  603:620 vold fdeGetField(SystemLocale)
+2022/01/12-14:13:36(CST)  603:620 vold fdeGetField(FooterAudioInfo) to 16
+2022/01/12-14:13:38(CST)  603:620 vold mounting device wide partitions
+2022/01/12-14:13:38(CST)  603:620 vold unlockUserKey(0)
+2022/01/12-14:13:38(CST)  603:620 Ext4Crypt e4crypt_unlock_user_key 0 serial=0 token_present=0
+2022/01/12-14:13:38(CST)  603:620 vold VolumeBase::destroy()++ 
+2022/01/12-14:13:38(CST)  603:620 vold VolumeBase::destroy()-- 
+2022/01/12-14:13:38(CST)  603:620 vold VolumeBase::create()++
+2022/01/12-14:13:38(CST)  603:620 vold VolumeBase::mount()++
+2022/01/12-14:13:38(CST)  603:620 vold EmulatedVolume::doMount()++
+2022/01/12-14:13:38(CST)  603:620 vold EmulatedVolume::Waiting for FUSE to spin up...
+2022/01/12-14:13:38(CST)  603:620 vold EmulatedVolume::doMount()--

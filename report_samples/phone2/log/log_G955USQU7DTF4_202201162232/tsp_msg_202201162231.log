@@ -1,0 +1,442 @@
+[    1.218356] fts_touch 8-0049 : fts_probe: FTS Driver [700132]
+[    1.218623] fts_touch 8-0049 : fts_parse_dt: Failed to get tsp-icid gpio
+[    1.219302] fts_touch 8-0049 : fts_parse_dt: TSP_ID : 1
+[    1.219571] fts_touch 8-0049 : fts_parse_dt: skipped to get device-id gpio
+[    1.219911] fts_touch 8-0049 : fts_parse_dt: Failed to get device_num property
+[    1.220192] fts_touch 8-0049 : fts_parse_dt: lcdtype 0x00911013
+[    1.220678] fts_touch 8-0049 : fts_parse_dt: irq :121, irq_type: 0x2008, max[x,y]: [1439,2959], project/model_name: Dream2/G955, pat_function(2), panel_revision: 1, gesture: 0, device_num: 0, dex: 1 pressure:Y
+[    1.221014] fts_touch 8-0049 : fts_setup_drv_data: Not support Hover Event
+[    1.228286] fts_touch 8-0049 : fts_power_ctrl: on: avdd:on, dvdd:on
+[    1.250301] fts_touch 8-0049 : fts_wait_for_ready: 10, 00, 00, 00, 00, 26, 0D, 01
+[    1.250747] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[    1.251273] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x00].
+[    1.252140] fts_touch 8-0049 : fts_command: (AA), ret = 1
+[    1.253663] fts_touch 8-0049 : fts_get_version_info: [IC] product id: 0x01, Firmware Ver: 0x2176, Config Ver: 0x0D26, Main Ver: 0x9D9A
+[    1.254463] fts_touch 8-0049 : fts_read_chip_id: B60004 = 36 70 01 00 76 21
+[    1.254685] fts_touch 8-0049 : fts_read_chip_id: 36 70
+[    1.255260] fts_touch 8-0049 : fts_fw_update_on_probe: Load firmware : tsp_stm/fts8cd56_dream2.fw, TSP_ID : 1007
+[    1.255627] fts_touch 8-0049 : fts_fw_update_on_probe: [BIN] Firmware Ver: 0x2176, Config Ver: 0x0D26, Main Ver: 0x9D9A
+[    1.255903] fts_touch 8-0049 : fts_fw_update_on_probe: skip fw update & nv read
+[    1.256134] fts_touch 8-0049 : fts_interrupt_set: Disable
+[    1.256894] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    1.257998] fts_touch 8-0049 : fts_interrupt_set: Enable
+[    1.258561] fts_touch 8-0049 : fts_init: Sense(32) Force(16)
+[    1.259044] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    1.269250] fts_touch 8-0049 : fts_command: (93), ret = 1
+[    1.269432] fts_touch 8-0049 : fts_command: (9C), ret = 1
+[    1.269606] fts_touch 8-0049 : fts_command: (A2), ret = 1
+[    1.269669] fts_touch 8-0049 : fts_interrupt_set: Enable
+[    1.270212] fts_touch 8-0049 : fts_init: ReadStatus(0x84) : 00 00 00 00
+[    1.270950] fts_touch 8-0049 : fts_init: resolution:(IC)8F0B9F05, (DT)x:1439,y:2959
+[    1.271001] fts_touch 8-0049 : fts_init: Initialized
+[    1.271137] fts_touch 8-0049 : fts_input_open: not probe
+[    1.272225] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 23 00 01 00 00 00
+[    1.272305] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    1.273182] fts_touch 8-0049 : fts_check_custom_library: (2) 7604 G955
+[    1.273465] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[    1.273689] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x40].
+[    1.273757] fts_touch 8-0049 : fts_check_custom_library: use SPONGE
+[    1.273813] fts_touch 8-0049 : fts_probe: done
+[    1.273814] FIX LOG!
+[    1.306114] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 23 00 00 00 00 00
+[    1.306374] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    1.320037] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 01 00 00 00
+[    1.320355] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    1.321532] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 23 00 00 00 00 00
+[    1.321834] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    1.328741] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 00 00 00 00 00 00
+[    1.328999] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    4.533936] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 0B 00 00 00
+[    4.534020] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    4.582103] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 23 00 00 00 00 00
+[    4.582173] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    5.170946] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 0B 00 00 00
+[    5.171017] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    5.206988] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[    5.207059] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    6.290397] fts_touch 8-0049 : fts_command: (92), ret = 1
+[    6.340115] fts_touch 8-0049 : fts_interrupt_set: Disable
+[    6.340471] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.371097] fts_touch 8-0049 : get_nvm_data: 0x5C, 0x1F, 0x01, 0x06, 0x00, 0x00, 0x99, 0x00
+[    6.371523] fts_touch 8-0049 : get_nvm_data: [2][4] (0x00), 0x02, 0x9D, 0x90, 0x00, 0x00, 0x00, 0x00
+[    6.371698] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.381909] fts_touch 8-0049 : fts_command: (93), ret = 1
+[    6.382075] fts_touch 8-0049 : fts_command: (9C), ret = 1
+[    6.382128] fts_touch 8-0049 : fts_interrupt_set: Enable
+[    6.382381] fts_touch 8-0049 : fts_get_calibration_information: pat count:2, version:9D90
+[    6.382974] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 23 00 01 00 00 00
+[    6.383053] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    6.383183] fts_touch 8-0049 : fts_command: (92), ret = 1
+[    6.418168] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 23 00 00 00 00 00
+[    6.418242] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    6.420123] fts_touch 8-0049 : fts_interrupt_set: Disable
+[    6.420504] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.451005] fts_touch 8-0049 : get_nvm_data: 0x5C, 0x1F, 0x01, 0x06, 0x00, 0x00, 0x99, 0x00
+[    6.451405] fts_touch 8-0049 : get_nvm_data: [6][4] (0x00), 0x02, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00
+[    6.451573] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.470199] fts_touch 8-0049 : fts_command: (93), ret = 1
+[    6.470358] fts_touch 8-0049 : fts_command: (9C), ret = 1
+[    6.470406] fts_touch 8-0049 : fts_interrupt_set: Enable
+[    6.470743] fts_touch 8-0049 : fts_get_factory_debug_information: pressure base:2, delta:1, crc fail count:0
+[    6.471332] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 23 00 01 00 00 00
+[    6.471391] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    6.471610] fts_touch 8-0049 : fts_command: (92), ret = 1
+[    6.505874] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 23 00 00 00 00 00
+[    6.505941] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    6.510123] fts_touch 8-0049 : fts_interrupt_set: Disable
+[    6.510498] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.540911] fts_touch 8-0049 : get_nvm_data: 0x5C, 0x1F, 0x01, 0x06, 0x00, 0x00, 0x99, 0x00
+[    6.541251] fts_touch 8-0049 : get_nvm_data: [1][2] (0x00), 0x99, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+[    6.541425] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.551665] fts_touch 8-0049 : fts_command: (93), ret = 1
+[    6.551839] fts_touch 8-0049 : fts_command: (9C), ret = 1
+[    6.551893] fts_touch 8-0049 : fts_interrupt_set: Enable
+[    6.552145] fts_touch 8-0049 : fts_read_info_work: test result:99, cal: 02, fix ver:9D90
+[    6.552758] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 23 00 01 00 00 00
+[    6.552824] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    6.552921] fts_touch 8-0049 : fts_command: (92), ret = 1
+[    6.587278] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 23 00 00 00 00 00
+[    6.587356] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    6.590106] fts_touch 8-0049 : fts_interrupt_set: Disable
+[    6.590474] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.620909] fts_touch 8-0049 : get_nvm_data: 0x5C, 0x1F, 0x01, 0x06, 0x00, 0x00, 0x99, 0x00
+[    6.621226] fts_touch 8-0049 : get_nvm_data: [5][1] (0x00), 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+[    6.621388] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.631582] fts_touch 8-0049 : fts_command: (93), ret = 1
+[    6.631736] fts_touch 8-0049 : fts_command: (9C), ret = 1
+[    6.631780] fts_touch 8-0049 : fts_interrupt_set: Enable
+[    6.632124] fts_touch 8-0049 : fts_command: (92), ret = 1
+[    6.632711] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 23 00 01 00 00 00
+[    6.632773] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    6.667235] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 23 00 00 00 00 00
+[    6.667304] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    6.670128] fts_touch 8-0049 : fts_interrupt_set: Disable
+[    6.670527] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.702091] fts_touch 8-0049 : get_nvm_data: 0x5C, 0x1F, 0x01, 0x06, 0x00, 0x00, 0x99, 0x00
+[    6.703137] fts_touch 8-0049 : get_nvm_data: [3][32] (0x00), 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF
+[    6.703292] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.713638] fts_touch 8-0049 : fts_command: (93), ret = 1
+[    6.713811] fts_touch 8-0049 : fts_command: (9C), ret = 1
+[    6.713865] fts_touch 8-0049 : fts_interrupt_set: Enable
+[    6.714127] fts_touch 8-0049 : fts_read_info_work: [pressure][index:2]: 0, 663, 0
+[    6.714722] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 23 00 01 00 00 00
+[    6.714801] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    6.725417] fts_touch 8-0049 : fts_wait_for_ready: 10, 00, 00, 00, 00, 26, 0D, 01
+[    6.725701] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[    6.725925] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x40].
+[    6.725982] fts_touch 8-0049 : fts_interrupt_set: Disable
+[    6.726319] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.726484] fts_touch 8-0049 : fts_command: (A7), ret = 1
+[    6.942116] fts_touch 8-0049 : fts_wait_for_ready: 10, 00, 00, 00, 00, 26, 0D, 01
+[    6.942401] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[    6.942658] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x40].
+[    6.942833] fts_touch 8-0049 : fts_command: (A1), ret = 1
+[    6.953068] fts_touch 8-0049 : fts_command: (93), ret = 1
+[    6.953235] fts_touch 8-0049 : fts_command: (9C), ret = 1
+[    6.953288] fts_touch 8-0049 : fts_interrupt_set: Enable
+[    6.953542] fts_touch 8-0049 : fts_read_info_work: [ito] 00, 00, 00, 00
+[    6.954150] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 23 00 01 00 00 00
+[    6.954228] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    6.989642] fts_touch 8-0049 : fts_read_frame: [Baseline Data : 0xD0236C]
+[    6.989832] fts_touch 8-0049 :    Rx00 Rx01 Rx02 Rx03 Rx04 Rx05 Rx06 Rx07 Rx08 Rx09 Rx10 Rx11 Rx12 Rx13 Rx14 Rx15 Rx16 Rx17 Rx18 Rx19 Rx20 Rx21 Rx22 Rx23 Rx24 Rx25 Rx26 Rx27 Rx28 Rx29 Rx30 Rx31 
+[    6.989955] fts_touch 8-0049 :  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+[    6.990124] fts_touch 8-0049 : Tx00 | 2490 2484 2568 2544 2551 2536 2572 2499 2501 2434 2604 2525 2601 2449 2503 2431 2573 2559 2586 2537 2396 1920 2021 2336 2402 1434 1900 2519 2649 2490 2534 2609
+[    6.990154] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 23 00 00 00 00 00
+[    6.990322] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    6.990325] fts_touch 8-0049 : Tx01 | 2648 2553 2553 2584 2580 2600 2610 2685 2630 2619 2606 2522 2590 2619 2472 2497 2646 2684 2569 2572 2665 2630 2585 2655 2525 2269 2488 2539 2608 2648 2571 2638
+[    6.990436] fts_touch 8-0049 : Tx02 | 2618 2672 2606 2635 2653 2663 2681 2638 2501 2632 2669 2538 2485 2571 2534 2494 2689 2503 2551 2570 2665 2647 2656 2539 2486 2569 2466 2616 2567 2468 2603 2625
+[    6.990545] fts_touch 8-0049 : Tx03 | 2641 2598 2608 2589 2616 2593 2659 2585 2522 2592 2669 2602 2609 2501 2496 2567 2684 2550 2547 2622 2638 2524 2476 2533 2460 2602 2528 2606 2551 2633 2618 2544
+[    6.990657] fts_touch 8-0049 : Tx04 | 2669 2701 2697 2714 2694 2531 2624 2606 2597 2522 2568 2539 2623 2605 2635 2650 2541 2583 2564 2632 2560 2584 2650 2572 2488 2501 2489 2457 2591 2465 2486 2447
+[    6.990852] fts_touch 8-0049 : Tx05 | 2659 2649 2618 2613 2646 2676 2581 2576 2525 2590 2550 2530 2609 2645 2515 2603 2579 2626 2557 2634 2602 2619 2581 2465 2482 2569 2566 2517 2512 2535 2605 2589
+[    6.990976] fts_touch 8-0049 : Tx06 | 2584 2554 2561 2611 2625 2562 2666 2651 2661 2651 2592 2635 2535 2609 2560 2542 2569 2588 2499 2555 2652 2529 2612 2495 2550 2519 2461 2585 2631 2597 2528 2446
+[    6.991106] fts_touch 8-0049 : Tx07 | 2623 2637 2645 2672 2639 2713 2599 2575 2588 2591 2550 2570 2597 2628 2488 2574 2607 2648 2489 2594 2517 2619 2556 2514 2578 2471 2436 2552 2424 2513 2513 2544
+[    6.991236] fts_touch 8-0049 : Tx08 | 2761 2702 2585 2576 2648 2643 2586 2644 2672 2534 2643 2653 2518 2570 2630 2677 2597 2603 2494 2622 2515 2557 2553 2478 2583 2440 2490 2601 2476 2581 2514 2468
+[    6.991359] fts_touch 8-0049 : Tx09 | 2644 2604 2649 2591 2700 2674 2720 2585 2631 2675 2556 2604 2522 2668 2582 2595 2484 2497 2624 2581 2527 2581 2465 2559 2503 2450 2478 2457 2609 2543 2503 2530
+[    6.991466] fts_touch 8-0049 : Tx10 | 2700 2724 2552 2726 2562 2589 2618 2639 2553 2669 2652 2515 2586 2601 2677 2599 2561 2589 2613 2500 2646 2595 2475 2603 2562 2449 2491 2541 2471 2602 2532 2462
+[    6.991573] fts_touch 8-0049 : Tx11 | 2706 2604 2692 2729 2720 2677 2622 2602 2604 2587 2605 2662 2552 2538 2577 2688 2542 2598 2612 2525 2593 2613 2513 2486 2615 2569 2473 2615 2468 2443 2560 2421
+[    6.991682] fts_touch 8-0049 : Tx12 | 2610 2634 2598 2606 2609 2650 2536 2698 2545 2620 2647 2530 2638 2629 2551 2574 2601 2537 2473 2548 2649 2487 2556 2578 2584 2511 2550 2498 2603 2507 2461 2462
+[    6.991788] fts_touch 8-0049 : Tx13 | 2612 2709 2691 2604 2628 2542 2576 2646 2645 2571 2559 2653 2562 2561 2641 2529 2640 2485 2554 2500 2550 2638 2611 2598 2452 2626 2552 2553 2576 2537 2537 2556
+[    6.991912] fts_touch 8-0049 : Tx14 | 2700 2686 2618 2706 2717 2704 2590 2644 2629 2558 2679 2577 2411 2387 2330 2492 2504 2589 2652 2590 2634 2510 2612 2605 2559 2590 2452 2454 2488 2546 2562 2453
+[    6.992038] fts_touch 8-0049 : Tx15 | 2664 2658 2703 2561 2625 2541 2583 2673 2686 2555 2615 2644 2350 1818 1974 2091 2392 2595 2647 2588 2527 2555 2506 2465 2630 2452 2459 2585 2523 2518 2436 2517
+[    6.992049] FIX LOG!
+[    7.003402] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 01 00 00 00
+[    7.003485] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    7.012012] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 00 00 00 00 00 00
+[    7.012096] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    7.366465] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 0C 00 00 00
+[    7.366541] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    7.405164] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[    7.405248] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    7.544596] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 0B 00 00 00
+[    7.544705] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    7.581749] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[    7.581822] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    7.779583] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 0B 00 00 00
+[    7.779661] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    7.816247] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[    7.816331] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    8.045308] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 0B 00 00 00
+[    8.045389] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    8.082093] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[    8.082178] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    8.291106] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 17 00 00 00
+[    8.291193] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[    8.327915] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[    8.328033] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[    9.782741] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 CC 00 00 00 00 00 00
+[   10.158217] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 17 00 00 00
+[   10.158299] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[   10.192332] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[   10.192404] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[   13.413326] fts_touch 8-0049 : set_pressure_setting_mode_enable: disabled
+[   13.765462] fts_touch 8-0049 : fts_set_grip_data_to_ic: flag: 01 (clr,lan,nor,edg,han)
+[   13.766319] fts_touch 8-0049 : fts_set_grip_data_to_ic: 0x30 00,00,00,00
+[   13.792128] fts_touch 8-0049 : not_support_cmd: NA
+[   13.823376] fts_touch 8-0049 : read_support_feature: 2
+[   13.824312] fts_touch 8-0049 : read_support_feature: 2
+[   13.825026] fts_touch 8-0049 : fts_set_cover_type: 0
+[   13.825273] fts_touch 8-0049 : fts_enable_feature: Disable (C2 07), ret = 1
+[   13.825435] fts_touch 8-0049 : fts_command: (9C), ret = 1
+[   13.825478] fts_touch 8-0049 : clear_cover_mode: OK
+[   13.826454] fts_touch 8-0049 : pressure_enable_store: caller_id[3]
+[   13.826759] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[   13.826979] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x40].
+[   13.827277] fts_touch 8-0049 : read_support_feature: 2
+[   13.860722] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 33 00 00 00 00 00
+[   13.860792] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[   13.932542] fts_touch 8-0049 : read_support_feature: 2
+[   14.956911] fts_touch 8-0049 : not_support_cmd: NA
+[   14.973375] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[   14.973715] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x44].
+[   14.973765] fts_touch 8-0049 : aod_enable: OK
+[   14.974721] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[   14.975026] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x4C].
+[   14.975078] fts_touch 8-0049 : singletap_enable: OK
+[   17.278647] fts_touch 8-0049 : not_support_cmd: NA
+[   17.395488] fts_touch 8-0049 : read_support_feature: 2
+[   18.069134] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   18.128579] fts_touch 8-0049 : [R] tID:0 mc:6 tc:0 f:3 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   18.136596] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   18.295945] fts_touch 8-0049 : read_support_feature: 2
+[   18.681093] fts_touch 8-0049 : [P] tID:1 tc:2 tm:0
+[   19.235122] fts_touch 8-0049 : [R] tID:1 mc:61 tc:1 f:3 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   19.236405] fts_touch 8-0049 : read_support_feature: 2
+[   19.373028] fts_touch 8-0049 : [R] tID:0 mc:141 tc:0 f:3 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   20.120446] fts_touch 8-0049 : fts_set_grip_data_to_ic: flag: 06 (clr,lan,nor,edg,han)
+[   20.120779] fts_touch 8-0049 : fts_set_grip_data_to_ic: 0x31 00,3C
+[   20.121077] fts_touch 8-0049 : fts_set_grip_data_to_ic: 0x32 0A,20,03,78
+[   20.779591] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   21.085621] fts_touch 8-0049 : [R] tID:0 mc:34 tc:0 f:1 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   21.865701] fts_touch 8-0049 : fts_set_grip_data_to_ic: flag: 06 (clr,lan,nor,edg,han)
+[   21.866506] fts_touch 8-0049 : fts_set_grip_data_to_ic: 0x31 00,28
+[   21.867160] fts_touch 8-0049 : fts_set_grip_data_to_ic: 0x32 0A,0A,00,00
+[   23.012713] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   23.228863] fts_touch 8-0049 : [R] tID:0 mc:25 tc:0 f:1 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   23.681620] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 0D 00 00 00
+[   23.681706] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[   23.718921] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[   23.719052] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[   23.904555] fts_touch 8-0049 : fts_set_grip_data_to_ic: flag: 06 (clr,lan,nor,edg,han)
+[   23.905402] fts_touch 8-0049 : fts_set_grip_data_to_ic: 0x31 00,3C
+[   23.907259] fts_touch 8-0049 : fts_set_grip_data_to_ic: 0x32 0A,20,03,78
+[   23.979127] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   24.119267] fts_touch 8-0049 : [R] tID:0 mc:16 tc:0 f:23 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   24.982923] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   25.197941] fts_touch 8-0049 : [R] tID:0 mc:25 tc:0 f:1 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   26.872035] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   26.976143] fts_touch 8-0049 : [R] tID:0 mc:11 tc:0 f:2 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   27.777893] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   27.943522] fts_touch 8-0049 : [R] tID:0 mc:19 tc:0 f:2 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   28.994605] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   29.109372] fts_touch 8-0049 : [R] tID:0 mc:13 tc:0 f:3 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   39.754052] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   39.787401] fts_touch 8-0049 : [R] tID:0 mc:3 tc:0 f:2 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[   43.827972] fts_touch 8-0049 : read_support_feature: 2
+[   47.409499] fts_touch 8-0049 : read_support_feature: 2
+[   48.866948] fts_touch 8-0049 : get_chip_name: /fts8cd56
+[   48.869333] fts_touch 8-0049 : get_chip_vendor: STM
+[   48.872248] fts_touch 8-0049 : not_support_cmd: NA
+[   49.110353] fts_touch 8-0049 : get_chip_name: /fts8cd56
+[   49.111990] fts_touch 8-0049 : get_chip_vendor: STM
+[   49.113583] fts_touch 8-0049 : not_support_cmd: NA
+[   49.118046] fts_touch 8-0049 : get_chip_vendor: STM
+[   81.905440] fts_touch 8-0049 : fts_secure_touch_enable_store: secure_touch is not enabled, pending:0
+[   89.487309] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[   89.544708] fts_touch 8-0049 : [R] tID:0 mc:6 tc:0 f:6 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[  104.096678] fts_touch 8-0049 : Failed to Sponge LP log 44895
+[  338.792048] fts_touch 8-0049 : read_ito_check_show: 00000000
+[  338.792375] fts_touch 8-0049 : read_multi_count_show: 0
+[  338.792751] fts_touch 8-0049 : clear_multi_count_store: clear
+[  338.792974] fts_touch 8-0049 : read_wet_mode_show: 0
+[  338.793341] fts_touch 8-0049 : clear_wet_mode_store: clear
+[  338.793969] fts_touch 8-0049 : read_comm_err_count_show: 0
+[  338.794291] fts_touch 8-0049 : clear_comm_err_count_store: clear
+[  338.794855] fts_touch 8-0049 : read_checksum_show: crc fail count in NV: 0
+[  338.795153] fts_touch 8-0049 : clear_checksum_store
+[  338.795360] fts_touch 8-0049 : read_holding_time_show: 1
+[  338.795651] fts_touch 8-0049 : clear_holding_time_store: clear
+[  338.795869] fts_touch 8-0049 : read_all_touch_count_show: touch:12, force:0, aod:0, spay:0
+[  338.796528] fts_touch 8-0049 : clear_all_touch_count_store: clear
+[  338.796736] fts_touch 8-0049 : read_z_value_show: max:1, min:0, sum:1
+[  338.797189] fts_touch 8-0049 : clear_z_value_store: clear
+[  338.798843] fts_touch 8-0049 : read_ambient_info_show: max: 2761(8,0), min: 1434(0,25)
+[  338.800737] fts_touch 8-0049 : read_ambient_channel_info_show: "TAMB_TX00":"2429","TAMB_TX01":"2583","TAMB_TX02":"2587","TAMB_TX03":"2580","TAMB_TX04":"2580","TAMB_TX05":"2581","TAMB_TX06":"2575","TAMB_TX07":"2570","TAMB_TX08":"2581","TAMB_TX09":"2574","TAMB_TX10":"2582","TAMB_TX11":"2587","TAMB_TX12":"2571","TAMB_TX13":"2584","TAMB_TX14":"2569","TAMB_TX15":"2504","TAMB_RX00":"2645","TAMB_RX01":"2635","TAMB_RX02":"2621","TAMB_RX03":"2628","TAMB_RX04":"2638","TAMB_RX05":"2618","TAMB_RX06":"2613","TAMB_RX07":"2621","TAMB_RX08":"2593","TAM[  338.803252] fts_touch 8-0049 : read_ambient_channel_delta_show: "TCDT00":"1215","TCDT01":"416","TCDT02":"223","TCDT03":"224","TCDT04":"267","TCDT05":"211","TCDT06":"220","TCDT07":"289","TCDT08":"321","TCDT09":"270","TCDT10":"277","TCDT11":"308","TCDT12":"237","TCDT13":"257","TCDT14":"387","TCDT15":"885","TCDR00":"271","TCDR01":"240","TCDR02":"151","TCDR03":"185","TCDR04":"169","TCDR05":"182","TCDR06":"184","TCDR07":"199","TCDR08":"185","TCDR09":"241","TCDR10":"129","TCDR11":"147","TCDR12":"288","TCDR13":"850","TCDR14":"703","TCDR15":"59[  344.780695] fts_touch 8-0049 : read_support_feature: 2
+[  484.164214] fts_touch 8-0049 : Failed to Sponge LP log 44895
+[ 1102.897718] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[ 1103.464236] fts_touch 8-0049 : [R] tID:0 mc:67 tc:0 f:1 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[ 1141.589359] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 CD 00 00 00 00 00 00
+[ 1172.491129] fts_touch 8-0049 : fts_stop_device
+[ 1172.491195] fts_touch 8-0049 : fts_stop_device: lowpower flag:76
+[ 1172.491523] fts_touch 8-0049 : fts_enable_feature: Enable (C1 0B), ret = 1
+[ 1172.491711] fts_touch 8-0049 : fts_command: (AD), ret = 1
+[ 1172.492024] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1172.492105] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1172.492186] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 300
+[ 1172.492296] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x4C].
+[ 1172.492954] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 04 00 01 00 00 00
+[ 1172.493027] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[ 1172.513235] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1172.513310] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 300
+[ 1172.513989] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 04 00 00 00 00 00
+[ 1172.514072] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[ 1172.799563] fts_touch 8-0049 : read_support_feature: 2
+[ 1172.902406] fts_touch 8-0049 : read_support_feature: 2
+[ 1173.230083] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1173.230693] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x00].
+[ 1192.870675] fts_touch 8-0049 : fts_secure_touch_enable_store: secure_touch is not enabled, pending:0
+[ 1252.994567] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1253.021435] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 298
+[ 1253.022868] fts_touch 8-0049 : fts_event_handler_type_b: [String] 80 00 00 00 00 00 00 00 || 3001: 08
+[ 1253.023743] fts_touch 8-0049 : fts_event_handler_type_b: SINGLE_TAP[8]
+[ 1253.100639] fts_touch 8-0049 : fts_scrub_position: 8 1246 2883
+[ 1253.497940] fts_touch 8-0049 : read_support_feature: 2
+[ 1253.504260] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1253.505785] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x44].
+[ 1253.505900] fts_touch 8-0049 : singletap_enable: OK
+[ 1253.997754] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1253.998335] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8A].
+[ 1254.699308] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1254.699640] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8A].
+[ 1254.712152] fts_touch 8-0049 : read_support_feature: 2
+[ 1257.442533] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1257.452831] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x4C].
+[ 1257.453086] fts_touch 8-0049 : singletap_enable: OK
+[ 1257.478158] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1257.483326] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x00].
+[ 1307.209393] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1307.241430] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 297
+[ 1307.243181] fts_touch 8-0049 : fts_event_handler_type_b: [String] 80 00 00 00 00 00 00 00 || 3001: 08
+[ 1307.243724] fts_touch 8-0049 : fts_event_handler_type_b: SINGLE_TAP[8]
+[ 1307.343278] fts_touch 8-0049 : fts_scrub_position: 8 1044 2883
+[ 1307.532852] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1307.533640] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x44].
+[ 1307.533756] fts_touch 8-0049 : singletap_enable: OK
+[ 1307.781663] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1307.782195] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8A].
+[ 1308.552134] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1308.552567] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8A].
+[ 1312.388889] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1312.389465] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x4C].
+[ 1312.389607] fts_touch 8-0049 : singletap_enable: OK
+[ 1312.404845] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1312.405986] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x00].
+[ 1428.191084] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1428.215310] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 298
+[ 1428.217244] fts_touch 8-0049 : fts_event_handler_type_b: [String] 80 00 00 00 00 00 00 00 || 3001: 08
+[ 1428.217823] fts_touch 8-0049 : fts_event_handler_type_b: SINGLE_TAP[8]
+[ 1428.281731] fts_touch 8-0049 : fts_scrub_position: 8 946 2315
+[ 1428.427360] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1428.428063] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x44].
+[ 1428.428156] fts_touch 8-0049 : singletap_enable: OK
+[ 1428.628212] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1428.630011] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8B].
+[ 1429.327463] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1429.328003] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8B].
+[ 1431.943141] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1431.943776] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x4C].
+[ 1431.943879] fts_touch 8-0049 : singletap_enable: OK
+[ 1431.948005] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1431.948489] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x00].
+[ 1432.971751] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1433.004776] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 297
+[ 1433.006703] fts_touch 8-0049 : fts_event_handler_type_b: [String] 80 00 00 00 00 00 00 00 || 3001: 08
+[ 1433.007300] fts_touch 8-0049 : fts_event_handler_type_b: SINGLE_TAP[8]
+[ 1433.087283] fts_touch 8-0049 : fts_scrub_position: 8 1072 1748
+[ 1433.261229] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1433.261390] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 300
+[ 1433.264086] fts_touch 8-0049 : fts_event_handler_type_b: [String] 80 00 00 00 00 00 00 00 || 3001: 08
+[ 1433.264903] fts_touch 8-0049 : fts_event_handler_type_b: SINGLE_TAP[8]
+[ 1433.266007] fts_touch 8-0049 : fts_scrub_position: 8 884 1754
+[ 1433.277187] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1433.277644] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x44].
+[ 1433.277755] fts_touch 8-0049 : singletap_enable: OK
+[ 1433.511262] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1433.512522] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8B].
+[ 1434.271565] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1434.272205] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8B].
+[ 1441.868533] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1441.868948] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8B].
+[ 1443.188302] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1443.189619] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x4C].
+[ 1443.189872] fts_touch 8-0049 : singletap_enable: OK
+[ 1443.211679] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1443.227273] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x00].
+[ 1447.645465] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1447.645628] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 300
+[ 1447.648159] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 CC 00 00 00 00 00 00
+[ 1453.216892] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1453.216986] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 300
+[ 1453.218124] fts_touch 8-0049 : fts_event_handler_type_b: [String] 80 00 00 00 00 00 00 00 || 3001: 08
+[ 1453.218603] fts_touch 8-0049 : fts_event_handler_type_b: SINGLE_TAP[8]
+[ 1453.219692] fts_touch 8-0049 : fts_scrub_position: 8 777 2615
+[ 1453.341001] fts_touch 8-0049 : fts_secure_touch_enable_store: secure_touch is not enabled, pending:0
+[ 1453.342374] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1453.342674] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x44].
+[ 1453.342747] fts_touch 8-0049 : singletap_enable: OK
+[ 1453.541576] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1453.541803] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8B].
+[ 1454.025838] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1454.028049] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x8B].
+[ 1456.540916] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler
+[ 1456.541027] fts_touch 8-0049 : fts_interrupt_handler: run LPM interrupt handler, 300
+[ 1456.541815] fts_touch 8-0049 : fts_event_handler_type_b: [Sponge] 81 40 58 e1 2b  0  0  0
+[ 1456.542122] fts_touch 8-0049 : fts_event_handler_type_b: PRESSURE[12]
+[ 1456.740672] fts_touch 8-0049 : fts_start_device: exit low power mode TP
+[ 1456.740950] fts_touch 8-0049 : fts_interrupt_set: Disable
+[ 1456.741738] fts_touch 8-0049 : fts_command: (AC), ret = 1
+[ 1456.769950] fts_touch 8-0049 : fts_fw_wait_for_event: 16, 5,23, 0
+[ 1456.801447] fts_touch 8-0049 : fts_interrupt_set: Enable
+[ 1456.801958] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1456.803440] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x44].
+[ 1456.803506] fts_touch 8-0049 : fts_wirelesscharger_mode: Set W-Charger Status CMD[C2]
+[ 1456.849121] fts_touch 8-0049 : fts_event_handler_type_b: [Sponge] 81 80 56 e8 2b  0  0  0
+[ 1456.849205] fts_touch 8-0049 : fts_event_handler_type_b: PRESSURE[13]
+[ 1456.849913] fts_touch 8-0049 : fts_scrub_position: 13 744 2902
+[ 1456.857422] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 17 00 00 00
+[ 1456.857504] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[ 1456.898886] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 04 00 16 00 00 00
+[ 1456.898985] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[ 1456.904213] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1456.904503] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x00].
+[ 1456.937928] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 05 00 00 0B 00 00 00
+[ 1456.938018] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration trigger Event
+[ 1456.946530] fts_touch 8-0049 : fts_write_to_string: string command is OK.
+[ 1456.946879] fts_touch 8-0049 : fts_write_to_string: string notify is OK[0x4C].
+[ 1456.946932] fts_touch 8-0049 : singletap_enable: OK
+[ 1456.974721] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 06 22 00 00 00 00 00
+[ 1456.974817] fts_touch 8-0049 : fts_event_handler_type_b: Received Force Calibration finished Event
+[ 1457.472220] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[ 1457.529990] fts_touch 8-0049 : [R] tID:0 mc:6 tc:0 f:0 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[ 1458.152566] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[ 1458.351901] fts_touch 8-0049 : [R] tID:0 mc:23 tc:0 f:1 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[ 1463.815939] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[ 1463.882208] fts_touch 8-0049 : [R] tID:0 mc:7 tc:0 f:3 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[ 1683.865675] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 CD 00 00 00 00 00 00
+[ 1684.343321] fts_touch 8-0049 : fts_debug_msg_event_handler: 16 CC 00 00 00 00 00 00
+[ 1708.234242] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[ 1708.291762] fts_touch 8-0049 : [R] tID:0 mc:6 tc:0 f:1 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[ 1730.548570] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[ 1730.947435] fts_touch 8-0049 : [R] tID:0 mc:47 tc:0 f:5 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[ 1823.872305] fts_touch 8-0049 : [P] tID:0 tc:1 tm:0
+[ 1823.905723] fts_touch 8-0049 : [R] tID:0 mc:3 tc:0 f:0 lp:(4c/3) Ver[019D9A|0] P02T9D90[99] F0201, C00
+[ 1833.669356] fts_touch 8-0049 : get_lp_dump: DEBUG current_index = 892

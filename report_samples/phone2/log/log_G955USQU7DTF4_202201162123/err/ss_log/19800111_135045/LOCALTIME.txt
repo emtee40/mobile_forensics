@@ -1,0 +1,13 @@
+LOCALTIME.
+Cur Time : 87.639000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.678594	ss_diag_misc_init.c	ss_diag_make_default_time_log	10	LocalTime 1980-01-11 13:49:30,TimeZone 0
+86.762688	ss_log_util.c	ss_log_set_timestr	1161	Time sync,none,0x01CB85F80
+
+------------------------------------------------------
+Used msg ram =   6.640625 %
+Time :  11.678594 ~  86.762688 sec, Total =  75.084094 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

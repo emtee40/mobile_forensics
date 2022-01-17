@@ -1,0 +1,14 @@
+Battery History (0% used, 352 used of 512KB, 2 strings using 98):
+                    0 (82) RESET:TIME: 2019-01-01-00-45-17
+                    0 (2) 100 status=full health=good plug=ac temp=259 volt=4291 current=0 ap_temp=26 pst_temp=25 bat_temp=25 chg_temp=26 pa_temp=25 -tx_share misc_event=65536 online=3 current_event=64 charge=3500 +running +wake_lock +audio +screen +plugged phone_state=emergency phone_signal_strength=moderate brightness=medium +wifi_running +wifi +charging top=1000:"com.sec.android.app.SecSetupWizard"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+
+Total cpu time reads: 83
+Batched cpu time reads: 906
+Batching Duration (min): 18
+All UID cpu time reads since the later of device start or stats reset: 48
+UIDs removed since the later of device start or stats reset: 4
+KernelUidCpuTimeReader Exception :
+
+

@@ -1,0 +1,364 @@
+01-01 00:00:10:614 SettingsProvider : onCreate (com.android.providers.settings.SettingsProvider@f8d6f41) java.lang.Exception
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:426)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1940)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1915)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:6765)
+	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6312)
+	at android.app.ActivityThread.installSystemProviders(ActivityThread.java:6952)
+	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:16235)
+	at com.android.server.SystemServer.startOtherServices(SystemServer.java:1430)
+	at com.android.server.SystemServer.run(SystemServer.java:764)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+
+01-01 00:00:10:638 SettingsProvider : DatabaseHelper is created
+01-01 00:00:10:640 SettingsProvider : key: volume_music / value: 7
+01-01 00:00:10:641 SettingsProvider : key: volume_ring / value: 11
+01-01 00:00:10:641 SettingsProvider : key: volume_system / value: 6
+01-01 00:00:10:641 SettingsProvider : key: volume_voice / value: 4
+01-01 00:00:10:642 SettingsProvider : key: volume_alarm / value: 11
+01-01 00:00:10:642 SettingsProvider : key: volume_notification / value: 11
+01-01 00:00:10:642 SettingsProvider : key: volume_bluetooth_sco / value: 7
+01-01 00:00:10:642 SettingsProvider : key: volume_bixby / value: 7
+01-01 00:00:10:642 SettingsProvider : key: volume_music_headset / value: 8
+01-01 00:00:10:642 SettingsProvider : key: volume_music_headphone / value: 8
+01-01 00:00:10:643 SettingsProvider : key: volume_music_bt_a2dp / value: 8
+01-01 00:00:10:643 SettingsProvider : key: volume_music_remote_submix / value: 15
+01-01 00:00:10:643 SettingsProvider : key: mode_ringer_streams_affected / value: 166
+01-01 00:00:10:643 SettingsProvider : key: mute_streams_affected / value: 47
+01-01 00:00:10:644 SettingsProvider : key: vibrate_when_ringing / value: 0
+01-01 00:00:10:644 SettingsProvider : key: dim_screen / value: 1
+01-01 00:00:10:645 SettingsProvider : key: screen_off_timeout / value: 30000
+01-01 00:00:10:645 SettingsProvider : key: dtmf_tone_type / value: 0
+01-01 00:00:10:645 SettingsProvider : key: default_vibration_pattern / value: content://com.android.settings.personalvibration.PersonalVibrationProvider/1
+01-01 00:00:10:645 SettingsProvider : key: hearing_aid / value: 0
+01-01 00:00:10:646 SettingsProvider : key: all_sound_off / value: 0
+01-01 00:00:10:646 SettingsProvider : key: access_control_power_button / value: 1
+01-01 00:00:10:646 SettingsProvider : key: access_control_volume_button / value: 1
+01-01 00:00:10:646 SettingsProvider : key: access_control_keyboard_block / value: 0
+01-01 00:00:10:646 SettingsProvider : key: access_control_time_set_hour / value: 0
+01-01 00:00:10:647 SettingsProvider : key: access_control_time_set_min / value: 0
+01-01 00:00:10:647 SettingsProvider : key: torch_light / value: 0
+01-01 00:00:10:647 SettingsProvider : key: personal_mode_enabled / value: 0
+01-01 00:00:10:647 SettingsProvider : key: add_info_music_control / value: 1
+01-01 00:00:10:647 SettingsProvider : key: flash_notification / value: 0
+01-01 00:00:10:648 SettingsProvider : key: adaptive_brightness / value: 1
+01-01 00:00:10:648 SettingsProvider : key: screen_notification / value: 0
+01-01 00:00:10:648 SettingsProvider : key: hover_zoom_magnifier_size / value: 2
+01-01 00:00:10:648 SettingsProvider : key: hover_zoom_value / value: 1
+01-01 00:00:10:648 SettingsProvider : key: background_location_noti_enable / value: 1
+01-01 00:00:10:649 SettingsProvider : key: reduce_animations / value: 0
+01-01 00:00:10:649 SettingsProvider : key: remove_animations / value: 0
+01-01 00:00:10:652 SettingsProvider : key: master_motion / value: 1
+01-01 00:00:10:653 SettingsProvider : key: motion_engine / value: 1
+01-01 00:00:10:653 SettingsProvider : key: motion_pick_up / value: 1
+01-01 00:00:10:653 SettingsProvider : key: motion_pick_up_to_call_out / value: 1
+01-01 00:00:10:653 SettingsProvider : key: motion_merged_mute_pause / value: 1
+01-01 00:00:10:654 SettingsProvider : key: motion_overturn / value: 1
+01-01 00:00:10:654 SettingsProvider : key: surface_palm_touch / value: 1
+01-01 00:00:10:654 SettingsProvider : key: surface_palm_swipe / value: 1
+01-01 00:00:10:654 SettingsProvider : key: db_popup_view_shortcut / value: 0
+01-01 00:00:10:655 SettingsProvider : key: db_split_screen_view_shortcut / value: 0
+01-01 00:00:10:655 SettingsProvider : key: enable_smart_capture / value: 1
+01-01 00:00:10:655 SettingsProvider : key: aod_mode / value: 1
+01-01 00:00:10:655 SettingsProvider : key: aod_mode_before_psm / value: 1
+01-01 00:00:10:656 SettingsProvider : key: hdr_effect / value: 0
+01-01 00:00:10:656 SettingsProvider : key: hdr_effect_intensity / value: 1
+01-01 00:00:10:656 SettingsProvider : key: lockscreen_minimizing_notification / value: 1
+01-01 00:00:10:656 SettingsProvider : key: screen_off_pocket / value: 1
+01-01 00:00:10:656 SettingsProvider : key: double_tab_to_wake_up / value: 1
+01-01 00:00:10:657 SettingsProvider : key: tty_mode / value: 0
+01-01 00:00:10:657 SettingsProvider : key: screen_brightness / value: 128
+01-01 00:00:10:657 SettingsProvider : mAutomaticAvailable= true, config_val= true
+01-01 00:00:10:657 SettingsProvider : key: screen_brightness_mode / value: 1
+01-01 00:00:10:658 SettingsProvider : key: short_press_app / value: com.sec.activemode/com.sec.activemode.MainActivity
+01-01 00:00:10:658 SettingsProvider : key: long_press_app / value: com.sec.android.app.music/com.sec.android.app.music.common.activity.MusicMainActivity
+01-01 00:00:10:659 SettingsProvider : key: lock_application_shortcut / value: 1;com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity;1;com.sec.android.app.camera/com.sec.android.app.camera.Camera
+01-01 00:00:10:659 SettingsProvider : def_accelerometer_rotation : 1
+01-01 00:00:10:659 SettingsProvider : key: accelerometer_rotation / value: 1
+01-01 00:00:10:659 SettingsProvider : key: accelerometer_rotation / value: 1
+01-01 00:00:10:660 SettingsProvider : key: any_screen_enabled / value: 0
+01-01 00:00:10:660 SettingsProvider : key: one_handed_op_wakeup_type / value: 0
+01-01 00:00:10:660 SettingsProvider : key: one_handed_op_show_hard_keys / value: 0
+01-01 00:00:10:660 SettingsProvider : isCoinDcPMIC() : COINDC_PMIC_PATH doesn't exist. return false
+01-01 00:00:10:661 SettingsProvider : isCPTriggerIndex() : CP_TRIGGER_INDEX_PATH doesn't exist. return false
+01-01 00:00:10:661 SettingsProvider : isNultiFreq() : MULTI_FREQ_PATH file exist. return true
+01-01 00:00:10:661 SettingsProvider : key: VIB_FEEDBACK_MAGNITUDE / value: 2
+01-01 00:00:10:662 SettingsProvider : key: VIB_RECVCALL_MAGNITUDE / value: 5
+01-01 00:00:10:662 SettingsProvider : key: SEM_VIBRATION_NOTIFICATION_INTENSITY / value: 5
+01-01 00:00:10:662 SettingsProvider : key: SEM_VIBRATION_FORCE_TOUCH_INTENSITY / value: 4
+01-01 00:00:10:662 SettingsProvider : key: volume_waiting_tone / value: 2
+01-01 00:00:10:662 SettingsProvider : key: led_indicator_charing / value: 1
+01-01 00:00:10:663 SettingsProvider : key: led_indicator_low_battery / value: 1
+01-01 00:00:10:663 SettingsProvider : key: led_indicator_missed_event / value: 1
+01-01 00:00:10:663 SettingsProvider : key: led_indicator_voice_recording / value: 1
+01-01 00:00:10:663 SettingsProvider : Default BUTTON_KEY_LIGHT : 6000
+01-01 00:00:10:663 SettingsProvider : key: button_key_light / value: 6000
+01-01 00:00:10:664 SettingsProvider : key: simple_status_bar / value: 0
+01-01 00:00:10:664 SettingsProvider : key: display_battery_percentage / value: 0
+01-01 00:00:10:664 SettingsProvider : hasHaptic() : HAS_VIBRATOR_PATH file exist. return true
+01-01 00:00:10:664 SettingsProvider : isEnableIntensity() : ENABLE_INTENSITY_PATH file exist. return true
+01-01 00:00:10:665 SettingsProvider : key: haptic_feedback_enabled / value: 1
+01-01 00:00:10:665 SettingsProvider : key: notification_light_pulse / value: 1
+01-01 00:00:10:665 SettingsProvider : key: dtmf_tone / value: 1
+01-01 00:00:10:665 SettingsProvider : key: sound_effects_enabled / value: 1
+01-01 00:00:10:666 SettingsProvider : key: lockscreen_sounds_enabled / value: 1
+01-01 00:00:10:666 SettingsProvider : key: sound_alive_effect / value: 0
+01-01 00:00:10:666 SettingsProvider : key: k2hd_effect / value: 0
+01-01 00:00:10:666 SettingsProvider : key: tube_amp_effect / value: 0
+01-01 00:00:10:667 SettingsProvider : key: sip_key_feedback_sound / value: 1
+01-01 00:00:10:667 SettingsProvider : key: sip_key_feedback_vibration / value: 1
+01-01 00:00:10:667 SettingsProvider : key: pointer_speed / value: 0
+01-01 00:00:10:667 SettingsProvider : key: multi_window_enabled / value: 1
+01-01 00:00:10:667 SettingsProvider : key: country_code / value: 011
+01-01 00:00:10:668 SettingsProvider : key: easy_mode_switch / value: 1
+01-01 00:00:10:668 SettingsProvider : key: easy_mode_camera / value: 0
+01-01 00:00:10:668 SettingsProvider : key: easy_mode_contacts / value: 0
+01-01 00:00:10:668 SettingsProvider : key: easy_mode_email / value: 0
+01-01 00:00:10:668 SettingsProvider : key: easy_mode_gallery / value: 0
+01-01 00:00:10:669 SettingsProvider : key: easy_mode_internet / value: 0
+01-01 00:00:10:669 SettingsProvider : key: easy_mode_messages / value: 0
+01-01 00:00:10:669 SettingsProvider : key: easy_mode_music / value: 0
+01-01 00:00:10:669 SettingsProvider : key: easy_mode_splanner / value: 0
+01-01 00:00:10:669 SettingsProvider : key: easy_mode_video / value: 0
+01-01 00:00:10:670 SettingsProvider : key: default_app_selection_option / value: 1
+01-01 00:00:10:670 SettingsProvider : key: phone1_on / value: 1
+01-01 00:00:10:670 SettingsProvider : key: select_icon_1 / value: 0
+01-01 00:00:10:670 SettingsProvider : key: select_name_1 / value: SIM 1
+01-01 00:00:10:670 SettingsProvider : key: sim1_value / value: 0
+01-01 00:00:10:671 SettingsProvider : key: multisim_selective_popup / value: 0
+01-01 00:00:10:671 SettingsProvider : key: phone2_on / value: 1
+01-01 00:00:10:671 SettingsProvider : key: select_icon_2 / value: 1
+01-01 00:00:10:671 SettingsProvider : key: select_icon_3 / value: 2
+01-01 00:00:10:672 SettingsProvider : key: select_icon_4 / value: 3
+01-01 00:00:10:672 SettingsProvider : key: select_icon_5 / value: 4
+01-01 00:00:10:672 SettingsProvider : key: select_name_2 / value: SIM 2
+01-01 00:00:10:672 SettingsProvider : key: select_name_3 / value: SIM 3
+01-01 00:00:10:673 SettingsProvider : key: select_name_4 / value: SIM 4
+01-01 00:00:10:673 SettingsProvider : key: select_name_5 / value: SIM 5
+01-01 00:00:10:673 SettingsProvider : key: sim2_value / value: 0
+01-01 00:00:10:673 SettingsProvider : key: sim3_value / value: 0
+01-01 00:00:10:673 SettingsProvider : key: sim4_value / value: 0
+01-01 00:00:10:674 SettingsProvider : key: sim5_value / value: 0
+01-01 00:00:10:674 SettingsProvider : key: prefered_voice_call / value: 1
+01-01 00:00:10:674 SettingsProvider : key: wireless_fast_charging / value: 1
+01-01 00:00:10:674 SettingsProvider : key: adaptive_fast_charging / value: 1
+01-01 00:00:10:675 SettingsProvider : key: screen_transition_effect / value: 1
+01-01 00:00:10:675 SettingsProvider : key: set_shortcuts_mode / value: 1
+01-01 00:00:10:675 SettingsProvider : key: lock_adaptive_color / value: 1
+01-01 00:00:10:675 SettingsProvider : key: lockscreen_ripple_effect / value: 0
+01-01 00:00:10:676 SettingsProvider : key: show_password / value: 1
+01-01 00:00:10:676 SettingsProvider : key: lte_mode_switch / value: 1
+01-01 00:00:10:676 SettingsProvider : key: samsung_pay / value: 1
+01-01 00:00:10:676 SettingsProvider : key: people_stripe / value: 1
+01-01 00:00:10:677 SettingsProvider : key: turn_over_lighting / value: 1
+01-01 00:00:10:677 SettingsProvider : key: dualclock_menu_settings / value: 1
+01-01 00:00:10:677 SettingsProvider : key: lock_noticard_opacity / value: 45
+01-01 00:00:10:677 SettingsProvider : key: automatic_unlock / value: 1
+01-01 00:00:10:677 SettingsProvider : key: screen_mode_automatic_setting / value: 1
+01-01 00:00:10:678 SettingsProvider : key: settings_ui / value: 1
+01-01 00:00:10:678 SettingsProvider : key: psm_backup_haptic_feedback / value: -1
+01-01 00:00:10:678 SettingsProvider : key: show_button_background / value: 0
+01-01 00:00:10:678 SettingsProvider : key: notification_reminder_app_list / value: selectAll
+01-01 00:00:10:679 SettingsProvider : key: lock_to_app_enabled / value: 0
+01-01 00:00:10:679 SettingsProvider : key: high_brightness_mode_user_enable / value: 1
+01-01 00:00:10:679 SettingsProvider : key: high_brightness_mode_pms_enter / value: 0
+01-01 00:00:10:679 SettingsProvider : key: intelligent_sleep_mode / value: 0
+01-01 00:00:10:680 SettingsProvider : key: nearby_scanning_enabled / value: 1
+01-01 00:00:10:680 SettingsProvider : key: device_visibility_enabled / value: 0
+01-01 00:00:10:680 SettingsProvider : key: send_mms_block_list / value: 0
+01-01 00:00:10:680 SettingsProvider : key: blue_light_filter / value: 0
+01-01 00:00:10:680 SettingsProvider : key: blue_light_filter_opacity / value: 5
+01-01 00:00:10:681 SettingsProvider : key: blue_light_filter_scheduled / value: 0
+01-01 00:00:10:681 SettingsProvider : key: blue_light_filter_type / value: 2
+01-01 00:00:10:681 SettingsProvider : key: blue_light_filter_on_time / value: 1140
+01-01 00:00:10:681 SettingsProvider : key: blue_light_filter_off_time / value: 420
+01-01 00:00:10:681 SettingsProvider : key: display_night_theme / value: 0
+01-01 00:00:10:682 SettingsProvider : key: display_night_theme_scheduled / value: 0
+01-01 00:00:10:682 SettingsProvider : key: display_night_theme_scheduled_type / value: 2
+01-01 00:00:10:682 SettingsProvider : key: display_night_theme_on_time / value: 1140
+01-01 00:00:10:682 SettingsProvider : key: display_night_theme_off_time / value: 420
+01-01 00:00:10:683 SettingsProvider : key: font_scale / value: 1.1
+01-01 00:00:10:683 SettingsProvider : key: auto_adjust_touch / value: 0
+01-01 00:00:10:683 SettingsProvider : key: lock_screen_allow_rotation / value: 0
+01-01 00:00:10:683 SettingsProvider : key: location_providers_allowed / value: gps
+01-01 00:00:10:684 SettingsProvider : key: mock_location / value: 0
+01-01 00:00:10:684 SettingsProvider : key: backup_enabled / value: 0
+01-01 00:00:10:684 SettingsProvider : key: backup_transport / value: com.google.android.gms/.backup.BackupTransportService
+01-01 00:00:10:685 SettingsProvider : key: mount_play_not_snd / value: 1
+01-01 00:00:10:686 SettingsProvider : key: mount_ums_autostart / value: 0
+01-01 00:00:10:686 SettingsProvider : key: mount_ums_prompt / value: 1
+01-01 00:00:10:687 SettingsProvider : key: mount_ums_notify_enabled / value: 1
+01-01 00:00:10:687 SettingsProvider : key: long_press_timeout / value: 500
+01-01 00:00:10:688 SettingsProvider : key: touch_exploration_enabled / value: 0
+01-01 00:00:10:688 SettingsProvider : key: speak_password / value: 1
+01-01 00:00:10:689 SettingsProvider : key: accessibility_large_cursor / value: 2
+01-01 00:00:10:689 SettingsProvider : key: sm_connectivity_disable / value: 0
+01-01 00:00:10:690 SettingsProvider : key: sm_connectivity_time_id / value: 2
+01-01 00:00:10:690 SettingsProvider : key: lockscreen.disabled / value: 0
+01-01 00:00:10:691 SettingsProvider : key: lock_function_val / value: 1
+01-01 00:00:10:692 SettingsProvider : key: biometrics_auto_wakeup_enabled / value: 1
+01-01 00:00:10:692 SettingsProvider : key: screensaver_enabled / value: 0
+01-01 00:00:10:693 SettingsProvider : key: screensaver_activate_on_dock / value: 0
+01-01 00:00:10:694 SettingsProvider : key: screensaver_activate_on_sleep / value: 1
+01-01 00:00:10:695 SettingsProvider : key: screensaver_components / value: com.android.dreams.basic/com.android.dreams.basic.Colors
+01-01 00:00:10:696 SettingsProvider : key: screensaver_default_component / value: com.android.dreams.basic/com.android.dreams.basic.Colors
+01-01 00:00:10:696 SettingsProvider : key: accessibility_display_magnification_enabled / value: 0
+01-01 00:00:10:696 SettingsProvider : key: accessibility_display_magnification_scale / value: 2.0
+01-01 00:00:10:697 SettingsProvider : key: user_setup_complete / value: 0
+01-01 00:00:10:697 SettingsProvider : key: immersive_mode_confirmations / value: 
+01-01 00:00:10:697 SettingsProvider : key: install_non_market_apps / value: 0
+01-01 00:00:10:697 SettingsProvider : key: wake_gesture_enabled / value: 1
+01-01 00:00:10:698 SettingsProvider : key: lock_screen_lock_after_timeout / value: 5000
+01-01 00:00:10:698 SettingsProvider : key: sem_perfomance_mode / value: 0
+01-01 00:00:10:698 SettingsProvider : key: show_keyboard_button / value: 1
+01-01 00:00:10:698 SettingsProvider : key: autofill_service / value: com.samsung.android.samsungpassautofill/com.samsung.android.samsungpassautofill.AutofillServiceMain
+01-01 00:00:10:699 SettingsProvider : key: lock_screen_show_notifications / value: 1
+01-01 00:00:10:699 SettingsProvider : key: lock_screen_allow_private_notifications / value: 1
+01-01 00:00:10:699 SettingsProvider : key: sleep_timeout / value: -1
+01-01 00:00:10:699 SettingsProvider : key: notification_badging / value: 1
+01-01 00:00:10:700 SettingsProvider : key: badge_app_icon_type / value: 0
+01-01 00:00:10:700 SettingsProvider : key: accessibility_large_cursor / value: 2
+01-01 00:00:10:700 SettingsProvider : key: accessibility_hwkey_doubletap_enabled / value: 1
+01-01 00:00:10:700 SettingsProvider : key: sms_default_application / value: com.samsung.android.messaging
+01-01 00:00:10:701 SettingsProvider : key: auto_swipe_main_user / value: 0
+01-01 00:00:10:701 SettingsProvider : key: roam_guard_call_domestic / value: 0
+01-01 00:00:10:701 SettingsProvider : key: roam_guard_data_domestic / value: 0
+01-01 00:00:10:701 SettingsProvider : key: roam_guard_call_international / value: 1
+01-01 00:00:10:702 SettingsProvider : key: roam_guard_data_international / value: 0
+01-01 00:00:10:702 SettingsProvider : key: roam_guard_sms_international / value: 1
+01-01 00:00:10:702 SettingsProvider : key: roam_guard_data_lte / value: 0
+01-01 00:00:10:702 SettingsProvider : key: roam_guard_data_lte_international / value: 0
+01-01 00:00:10:702 SettingsProvider : key: roam_setting_call_domestic / value: 1
+01-01 00:00:10:703 SettingsProvider : key: roam_setting_data_domestic / value: 0
+01-01 00:00:10:703 SettingsProvider : key: roam_setting_call_international / value: 1
+01-01 00:00:10:703 SettingsProvider : key: roam_setting_data_international / value: 1
+01-01 00:00:10:703 SettingsProvider : key: roam_setting_data_lte / value: 0
+01-01 00:00:10:703 SettingsProvider : key: roam_setting_data_lte_international / value: 1
+01-01 00:00:10:704 SettingsProvider : key: airplane_mode_on / value: 0
+01-01 00:00:10:704 SettingsProvider : key: theater_mode_on / value: 0
+01-01 00:00:10:704 SettingsProvider : key: airplane_mode_radios / value: cell,bluetooth,wifi,nfc,wimax
+01-01 00:00:10:704 SettingsProvider : key: airplane_mode_toggleable_radios / value: bluetooth,wifi,nfc
+01-01 00:00:10:705 SettingsProvider : key: assisted_gps_enabled / value: 1
+01-01 00:00:10:705 SettingsProvider : key: auto_time / value: 1
+01-01 00:00:10:705 SettingsProvider : key: auto_time_zone / value: 1
+01-01 00:00:10:705 SettingsProvider : key: stay_on_while_plugged_in / value: 0
+01-01 00:00:10:705 SettingsProvider : key: wifi_sleep_policy / value: 2
+01-01 00:00:10:706 SettingsProvider : key: mode_ringer / value: 2
+01-01 00:00:10:706 SettingsProvider : key: window_animation_scale / value: 1.0
+01-01 00:00:10:706 SettingsProvider : key: transition_animation_scale / value: 1.0
+01-01 00:00:10:706 SettingsProvider : key: package_verifier_enable / value: 1
+01-01 00:00:10:707 SettingsProvider : key: wifi_on / value: 1
+01-01 00:00:10:707 SettingsProvider : key: wifi_networks_available_notification_on / value: 1
+01-01 00:00:10:707 SettingsProvider : key: bluetooth_on / value: 0
+01-01 00:00:10:707 SettingsProvider : key: cdma_cell_broadcast_sms / value: 1
+01-01 00:00:10:707 SettingsProvider : key: data_roaming / value: 0
+01-01 00:00:10:708 SettingsProvider : key: device_provisioned / value: 0
+01-01 00:00:10:708 SettingsProvider : key: mobile_data / value: 1
+01-01 00:00:10:708 SettingsProvider : key: netstats_enabled / value: 1
+01-01 00:00:10:708 SettingsProvider : key: usb_mass_storage_enabled / value: 1
+01-01 00:00:10:709 SettingsProvider : key: wifi_max_dhcp_retry_count / value: 9
+01-01 00:00:10:709 SettingsProvider : key: wifi_display_on / value: 0
+01-01 00:00:10:709 SettingsProvider : key: lock_sound / value: /system/media/audio/ui/Lock.ogg
+01-01 00:00:10:709 SettingsProvider : key: unlock_sound / value: /system/media/audio/ui/Unlock.ogg
+01-01 00:00:10:709 SettingsProvider : key: trusted_sound / value: /system/media/audio/ui/Trusted.ogg
+01-01 00:00:10:710 SettingsProvider : key: power_sounds_enabled / value: 1
+01-01 00:00:10:710 SettingsProvider : key: low_battery_sound / value: /system/media/audio/ui/LowBattery.ogg
+01-01 00:00:10:710 SettingsProvider : key: dock_sounds_enabled / value: 0
+01-01 00:00:10:710 SettingsProvider : key: desk_dock_sound / value: /system/media/audio/ui/Dock.ogg
+01-01 00:00:10:710 SettingsProvider : key: desk_undock_sound / value: /system/media/audio/ui/Undock.ogg
+01-01 00:00:10:711 SettingsProvider : key: car_dock_sound / value: /system/media/audio/ui/Dock.ogg
+01-01 00:00:10:711 SettingsProvider : key: car_undock_sound / value: /system/media/audio/ui/Undock.ogg
+01-01 00:00:10:711 SettingsProvider : key: wireless_charging_started_sound / value: /system/media/audio/ui/WirelessChargingStarted.ogg
+01-01 00:00:10:711 SettingsProvider : key: dock_audio_media_enabled / value: 1
+01-01 00:00:10:711 SettingsProvider : key: set_install_location / value: 0
+01-01 00:00:10:712 SettingsProvider : key: default_install_location / value: 0
+01-01 00:00:10:712 SettingsProvider : key: emergency_tone / value: 0
+01-01 00:00:10:712 SettingsProvider : key: call_auto_retry / value: 0
+01-01 00:00:10:712 SettingsProvider : key: preferred_network_mode / value: 20
+01-01 00:00:10:713 SettingsProvider : key: subscription_mode / value: 0
+01-01 00:00:10:713 SettingsProvider : key: low_battery_sound_timeout / value: 0
+01-01 00:00:10:713 SettingsProvider : key: wifi_scan_always_enabled / value: 1
+01-01 00:00:10:713 SettingsProvider : key: heads_up_notifications_enabled / value: 1
+01-01 00:00:10:714 SettingsProvider : key: device_name / value: Galaxy S8+
+01-01 00:00:10:714 SettingsProvider : key: font_size / value: 3
+01-01 00:00:10:714 SettingsProvider : key: tap_to_icon / value: 1
+01-01 00:00:10:714 SettingsProvider : key: charging_sounds_enabled / value: 1
+01-01 00:00:10:714 SettingsProvider : key: auto_swipe_main_user / value: 0
+01-01 00:00:10:715 SettingsProvider : key: low_power_back_data_off / value: 1
+01-01 00:00:10:715 SettingsProvider : key: limit_brightness_state / value: 80, 80
+01-01 00:00:10:715 SettingsProvider : key: screen_resolution_state / value: 1, 0
+01-01 00:00:10:715 SettingsProvider : key: restricted_device_performance / value: 1, 1
+01-01 00:00:10:716 SettingsProvider : key: psm_always_on_display_mode / value: 1, 1
+01-01 00:00:10:716 SettingsProvider : key: mode_ringer_time / value: 60
+01-01 00:00:10:716 SettingsProvider : key: mode_ringer_time_on / value: 0
+01-01 00:00:10:716 SettingsProvider : key: navigationbar_color / value: -855310
+01-01 00:00:10:717 SettingsProvider : key: navigationbar_use_theme_default / value: 0
+01-01 00:00:10:717 SettingsProvider : key: navigationbar_recently_used_color / value: 
+01-01 00:00:10:717 SettingsProvider : key: navigationbar_key_order / value: 0
+01-01 00:00:10:717 SettingsProvider : key: navigationbar_pressure_user_level / value: 3
+01-01 00:00:10:717 SettingsProvider : key: navigationbar_unlock_with_home_button / value: 0
+01-01 00:00:10:718 SettingsProvider : key: navigationbar_hide_bar / value: 1
+01-01 00:00:10:718 SettingsProvider : key: navigation_bar_gesture_while_hidden / value: 0
+01-01 00:00:10:718 SettingsProvider : key: navigation_bar_gesture_hint / value: 1
+01-01 00:00:10:718 SettingsProvider : key: cmc_oobe / value: 0
+01-01 00:00:10:719 SettingsProvider : key: cmc_activation / value: 0
+01-01 00:00:10:719 SettingsProvider : key: cmc_device_type / value: 
+01-01 00:00:10:719 SettingsProvider : key: cmc_device_id / value: 
+01-01 00:00:10:719 SettingsProvider : key: cmc_access_token / value: 
+01-01 00:00:10:719 SettingsProvider : key: cmc_lines / value: 
+01-01 00:00:10:720 SettingsProvider : key: cmc_devices / value: 
+01-01 00:00:10:720 SettingsProvider : key: cmc_service_version / value: 0
+01-01 00:00:10:720 SettingsProvider : key: cmc_watch_activation / value: 0
+01-01 00:00:10:720 SettingsProvider : key: cmc_watch_device_id / value: 
+01-01 00:00:10:720 SettingsProvider : key: cmc_activation_time / value: 
+01-01 00:00:10:721 SettingsProvider : key: cmc_activation_intermediate / value: 0
+01-01 00:00:10:721 SettingsProvider : key: carrier_matching_status / value: 0
+01-01 00:00:10:721 SettingsProvider : key: carrier_matching_always_ask / value: 0
+01-01 00:00:10:766 SettingsState : No settings state /data/system/users/0/settings_system.xml
+01-01 00:00:10:779 SettingsState : No settings state /data/system/users/0/settings_secure.xml
+01-01 00:00:10:782 SettingsProvider : Generated and saved ADNROID ID, user : 0
+01-01 00:00:10:786 SettingsState : No settings state /data/system/users/0/settings_global.xml
+01-01 00:00:10:793 SettingsProvider : migration is done. drop the Database
+01-01 00:00:10:794 SettingsProvider : readSalesCode(): menutreeCode=ATT
+01-01 00:00:10:795 SettingsProvider : srcDir is not exist!. returned false
+01-01 00:00:10:795 SettingsProvider : migrate Font files failed
+01-01 00:00:10:812 SettingsProvider : readSalesCode(): menutreeCode=ATT
+01-01 00:00:10:814 SettingsProvider : currentVersion 168, font size : 3
+01-01 00:00:10:814 SettingsProvider : currentVersion 168, NaviBar Color : -855310
+01-01 00:00:10:828 SettingsState : No settings state /data/system/users/0/settings_ssaid.xml
+01-01 00:00:10:829 SettingsProvider : new SettingsRegistry (com.android.providers.settings.SettingsProvider$SettingsRegistry@c896172)
+01-01 00:45:56:825 SettingsProvider : onCreate (com.android.providers.settings.SettingsProvider@9405109) java.lang.Exception
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:426)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1940)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1915)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:6765)
+	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6312)
+	at android.app.ActivityThread.installSystemProviders(ActivityThread.java:6952)
+	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:16235)
+	at com.android.server.SystemServer.startOtherServices(SystemServer.java:1430)
+	at com.android.server.SystemServer.run(SystemServer.java:764)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+
+01-01 00:45:56:858 SettingsProvider : new SettingsRegistry (com.android.providers.settings.SettingsProvider$SettingsRegistry@9aebd2f)
+01-01 00:49:58:395 SettingsProvider : onCreate (com.android.providers.settings.SettingsProvider@f2020af) java.lang.Exception
+	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:426)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1940)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:1915)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:6765)
+	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6312)
+	at android.app.ActivityThread.installSystemProviders(ActivityThread.java:6952)
+	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:16235)
+	at com.android.server.SystemServer.startOtherServices(SystemServer.java:1430)
+	at com.android.server.SystemServer.run(SystemServer.java:764)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+
+01-01 00:49:58:444 SettingsProvider : new SettingsRegistry (com.android.providers.settings.SettingsProvider$SettingsRegistry@870c445)

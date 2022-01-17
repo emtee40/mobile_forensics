@@ -1,0 +1,6 @@
+[01-16 21:29:35.149] Qtable Dump: < 10:0c:6b:44:dc:2d - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >
+[01-16 21:29:35.151] List of Known APs: Candidate List: [ <10:0c:6b:44:dc:2d;0;371737725> ], Core List: [], Probation List: []
+[01-16 21:29:35.152] Qtable Dump(current bssid): < 10:0c:6b:44:dc:2d - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >
+[01-16 22:32:07.792] Qtable Dump: < 10:0c:6b:44:dc:2d - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >
+[01-16 22:32:07.793] List of Known APs: Candidate List: [ <10:0c:6b:44:dc:2d;0;375490367> ], Core List: [], Probation List: []
+[01-16 22:32:07.793] Qtable Dump(current bssid): < 10:0c:6b:44:dc:2d - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >

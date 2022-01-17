@@ -1,0 +1,13 @@
+
+Cur Time : 1980/01/11 13:50:46
+
+Total physical bytes in use        : 2621424
+Current block count in use         : 108
+Current blocks in use              : 107
+Amount of header bytes in use      : 1728
+Amount of bytes in use             : 2027136
+Amount of free bytes               : 592000
+Amount of extra unallocated bytes in use that cannot be allocated currently : 560
+Size of the largest free block     : 592000
+Maximum logical memory amount used : 2051015
+Maximum logical amount requested   : 1048576

@@ -1,0 +1,15 @@
+2019-01-01 00:02:18:013	(14136 14136) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2019-01-01 00:02:18:047	(14136 14136) com.samsung.usbyod.core.Client [INFO]: First carrier. Save sales code
+2019-01-01 00:02:18:048	(14136 14136) com.samsung.usbyod.core.Storage [ERROR]: No stored sales code found, store first sales code
+2019-01-01 00:02:27:975	(14136 14136) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2019-01-01 00:02:27:976	(14136 14136) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2019-01-01 00:45:26:505	(22076 22076) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 0
+2019-01-01 00:46:02:350	(2781 2781) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2019-01-01 00:46:02:354	(2781 2781) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2019-01-01 00:46:07:525	(2781 2781) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast
+2019-01-01 00:49:02:780	(9676 9676) com.samsung.usbyod.receiver.LocaleBroadcastReceiver [INFO]: On Broadcast Received : android.intent.action.LOCALE_CHANGED
+2019-01-01 00:49:02:783	(9676 9676) com.samsung.usbyod.receiver.LocaleBroadcastReceiver [INFO]: No active notifications
+2019-01-01 00:49:38:922	(11376 11376) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 0
+2019-01-01 00:50:03:963	(2757 2757) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: Broadcast Received : android.telephony.action.SIM_CARD_STATE_CHANGED Extra: 1
+2019-01-01 00:50:03:966	(2757 2757) com.samsung.usbyod.receiver.SimBroadcastReceiver [INFO]: No active notifications
+2019-01-01 00:50:08:902	(2757 2757) com.samsung.usbyod.receiver.BootReceiver [INFO]: Received Boot Complete Broadcast

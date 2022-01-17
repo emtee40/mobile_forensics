@@ -1,0 +1,799 @@
+[    1.845763] nfc logger init ok
+[    1.845987] [pn547] pn547_parse_dt: LDO nfc_pvdd :nfc_vdd
+[    1.846040] [pn547] pn547_parse_dt: irq : 92, ven : 306, firm : 307
+[    1.846248] [pn547] pn547_regulator_onoff: onoff = 1
+[    1.847433] [pn547] pn547_probe: IRQ num 274
+[    1.847490] [pn547] pn547_probe: requesting IRQ 274
+[    1.866400] [pn547] pn547_probe: i2c addr(0x2B), ret(4)
+[    1.867105] [pn547] pn547_probe: success, i2c_probe(4)
+[   17.660720] [pn547] pn547_dev_open: imajor:10, iminor:46 (4)
+[   17.660724] !@[01-16 21:21:18.660]
+[   17.660775] [pn547] p61_update_access_state: Exit current_state = 0x100
+[   17.660813] [pn547] pn547_set_pwr: power off, irq=0
+[   17.676728] [pn547] p61_update_access_state: Exit current_state = 0x100
+[   17.682669] [pn547] pn547_set_pwr: power on, irq=1
+[   17.683273] writing 4 bytes.
+[   17.686094] irq handler called
+[   17.686415] recv size : 3
+[   17.686943] recv size : 3
+[   17.687829] writing 3 bytes.
+[   17.688279] irq handler called
+[   17.692355] recv size : 3
+[   17.693496] recv size : 25
+[   17.700246] writing 4 bytes.
+[   17.702844] irq handler called
+[   17.705852] recv size : 3
+[   17.706156] recv size : 3
+[   17.706845] writing 3 bytes.
+[   17.707323] irq handler called
+[   17.707546] recv size : 3
+[   17.708662] recv size : 25
+[   17.709351] writing 6 bytes.
+[   17.709961] irq handler called
+[   17.710780] recv size : 3
+[   17.715477] recv size : 37
+[   17.735948] writing 3 bytes.
+[   17.736397] irq handler called
+[   17.736723] recv size : 3
+[   17.736997] recv size : 5
+[   17.737340] writing 4 bytes.
+[   17.737789] irq handler called
+[   17.738023] recv size : 3
+[   17.738171] recv size : 1
+[   17.738580] writing 6 bytes.
+[   17.739180] irq handler called
+[   17.739634] recv size : 3
+[   17.740642] recv size : 37
+[   17.743021] writing 6 bytes.
+[   17.743761] irq handler called
+[   17.744001] recv size : 3
+[   17.744353] recv size : 9
+[   17.745590] [pn547] pn547_dev_ioctl: bad ioctl cmd:4008e907
+[   17.745651] writing 6 bytes.
+[   17.746413] irq handler called
+[   17.746644] recv size : 3
+[   17.747189] recv size : 17
+[   17.747400] writing 6 bytes.
+[   17.748017] irq handler called
+[   17.748396] recv size : 3
+[   17.748988] recv size : 6
+[   17.749267] writing 6 bytes.
+[   17.749946] irq handler called
+[   17.750264] recv size : 3
+[   17.750550] recv size : 6
+[   17.750682] writing 6 bytes.
+[   17.751396] irq handler called
+[   17.751667] recv size : 3
+[   17.752113] recv size : 13
+[   17.752255] writing 4 bytes.
+[   17.754825] irq handler called
+[   17.755091] recv size : 3
+[   17.755401] recv size : 3
+[   17.755584] writing 3 bytes.
+[   17.755994] irq handler called
+[   17.756289] recv size : 3
+[   17.757014] recv size : 25
+[   17.757167] writing 5 bytes.
+[   17.757689] irq handler called
+[   17.759575] recv size : 3
+[   17.759872] recv size : 6
+[   17.760002] writing 5 bytes.
+[   17.760617] irq handler called
+[   17.762256] recv size : 3
+[   17.762965] recv size : 24
+[   17.763581] writing 5 bytes.
+[   17.764159] irq handler called
+[   17.765286] recv size : 3
+[   17.766011] recv size : 24
+[   17.766189] writing 5 bytes.
+[   17.766760] irq handler called
+[   17.767162] recv size : 3
+[   17.767425] recv size : 5
+[   17.771401] writing 16 bytes.
+[   17.778101] irq handler called
+[   17.778427] recv size : 3
+[   17.778645] recv size : 1
+[   17.779210] writing 4 bytes.
+[   17.779686] irq handler called
+[   17.780008] recv size : 3
+[   17.780323] irq handler called
+[   17.784727] recv size : 2
+[   17.786381] recv size : 3
+[   17.786778] recv size : 5
+[   17.787513] writing 9 bytes.
+[   17.788352] irq handler called
+[   17.788579] recv size : 3
+[   17.789047] recv size : 4
+[   17.790466] writing 8 bytes.
+[   17.791615] irq handler called
+[   17.791892] recv size : 3
+[   17.792085] recv size : 3
+[   17.792531] irq handler called
+[   17.793548] recv size : 3
+[   17.793786] recv size : 2
+[   17.794610] writing 8 bytes.
+[   17.801727] irq handler called
+[   17.802043] recv size : 3
+[   17.802351] irq handler called
+[   17.802374] recv size : 5
+[   17.803493] recv size : 3
+[   17.803703] recv size : 2
+[   17.803747] irq handler called
+[   17.804720] recv size : 3
+[   17.805152] recv size : 6
+[   17.805157] irq handler called
+[   17.806002] recv size : 3
+[   17.806207] recv size : 3
+[   17.806367] irq handler called
+[   17.806851] writing 6 bytes.
+[   17.806892] recv size : 3
+[   17.807658] irq handler called
+[   17.807695] recv size : 6
+[   17.808271] recv size : 3
+[   17.808652] recv size : 10
+[   17.808690] irq handler called
+[   17.809296] recv size : 3
+[   17.809544] recv size : 3
+[   17.809668] irq handler called
+[   17.810098] writing 6 bytes.
+[   17.811468] recv size : 3
+[   17.811803] irq handler called
+[   17.811949] recv size : 6
+[   17.812459] recv size : 3
+[   17.812718] recv size : 4
+[   17.812736] irq handler called
+[   17.814212] recv size : 3
+[   17.814586] recv size : 3
+[   17.816877] writing 6 bytes.
+[   17.817687] irq handler called
+[   17.817911] recv size : 3
+[   17.820488] recv size : 74
+[   17.820492] !@[01-16 21:21:18.820]
+[   17.821508] writing 10 bytes.
+[   17.822681] irq handler called
+[   17.822953] recv size : 3
+[   17.823424] recv size : 14
+[   17.823850] writing 6 bytes.
+[   17.824557] irq handler called
+[   17.824841] recv size : 3
+[   17.825298] recv size : 13
+[   17.825649] writing 6 bytes.
+[   17.826142] irq handler called
+[   17.826494] recv size : 3
+[   17.826708] recv size : 3
+[   17.826746] irq handler called
+[   17.827193] recv size : 3
+[   17.829300] recv size : 8
+[   17.829894] writing 6 bytes.
+[   17.830611] irq handler called
+[   17.836616] recv size : 3
+[   17.836880] recv size : 6
+[   17.837858] writing 6 bytes.
+[   17.838494] irq handler called
+[   17.838730] recv size : 3
+[   17.839755] recv size : 37
+[   17.840971] writing 6 bytes.
+[   17.841649] irq handler called
+[   17.841876] recv size : 3
+[   17.842235] recv size : 8
+[   17.843295] writing 8 bytes.
+[   17.843905] irq handler called
+[   17.846373] recv size : 3
+[   17.846616] recv size : 2
+[   17.847130] writing 6 bytes.
+[   17.847923] irq handler called
+[   17.850344] recv size : 3
+[   17.853157] recv size : 74
+[   17.860953] writing 30 bytes.
+[   17.862158] irq handler called
+[   17.862405] recv size : 3
+[   17.862592] recv size : 1
+[   17.863391] writing 6 bytes.
+[   17.864209] irq handler called
+[   17.864524] recv size : 3
+[   17.867974] recv size : 74
+[   17.868681] writing 6 bytes.
+[   17.869522] irq handler called
+[   17.872865] recv size : 3
+[   17.878296] recv size : 74
+[   17.878722] writing 6 bytes.
+[   17.879355] irq handler called
+[   17.879607] recv size : 3
+[   17.879912] recv size : 6
+[   17.880866] writing 10 bytes.
+[   17.882367] irq handler called
+[   17.883165] recv size : 3
+[   17.883576] recv size : 1
+[   17.884863] writing 4 bytes.
+[   17.885598] irq handler called
+[   17.885830] recv size : 3
+[   17.886008] recv size : 1
+[   17.886422] writing 4 bytes.
+[   17.887307] irq handler called
+[   17.887528] recv size : 3
+[   17.887775] recv size : 1
+[   17.888330] writing 10 bytes.
+[   17.889610] irq handler called
+[   17.890574] recv size : 3
+[   17.891009] recv size : 1
+[   17.891545] writing 4 bytes.
+[   17.892269] irq handler called
+[   17.892710] recv size : 3
+[   17.892880] recv size : 1
+[   17.893756] writing 10 bytes.
+[   17.895028] irq handler called
+[   17.895255] recv size : 3
+[   17.895438] recv size : 1
+[   17.895798] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   17.896167] writing 5 bytes.
+[   17.896642] irq handler called
+[   17.897398] recv size : 3
+[   17.897569] recv size : 1
+[   17.897929] [pn547] set_nfc_pid: task->comm: com.android.nfc
+[   17.897972] [pn547] set_nfc_pid: The NFC Service PID is 2350
+[   17.898313] writing 4 bytes.
+[   17.899108] irq handler called
+[   17.899329] recv size : 3
+[   17.899495] recv size : 1
+[   17.900219] writing 6 bytes.
+[   17.901008] irq handler called
+[   17.901358] recv size : 3
+[   17.905024] recv size : 74
+[   17.905415] writing 6 bytes.
+[   17.906216] irq handler called
+[   17.906647] recv size : 3
+[   17.909324] recv size : 74
+[   17.910214] writing 6 bytes.
+[   17.911080] irq handler called
+[   17.913055] recv size : 3
+[   17.913384] recv size : 6
+[   17.914026] writing 10 bytes.
+[   17.915309] irq handler called
+[   17.916783] recv size : 3
+[   17.916955] recv size : 1
+[   17.925907] writing 6 bytes.
+[   17.926739] irq handler called
+[   17.926977] recv size : 3
+[   17.929492] recv size : 74
+[   17.929893] writing 6 bytes.
+[   17.930696] irq handler called
+[   17.930945] recv size : 3
+[   17.933475] recv size : 74
+[   17.934268] writing 6 bytes.
+[   17.935055] irq handler called
+[   17.935352] recv size : 3
+[   17.937848] recv size : 74
+[   17.938316] writing 6 bytes.
+[   17.939109] irq handler called
+[   17.939374] recv size : 3
+[   17.941870] recv size : 74
+[   19.824872] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   19.825077] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   19.825292] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   19.825478] [pn547] get_ese_lock: enter p61_current_state=0x200, timeout=2000, jiffies=200
+[   19.825540] [pn547] get_ese_lock: exit p61_trans_acc_on =1, timeout = 2000
+[   19.825760] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x100
+[   19.825808] [pn547] pn547_p61_set_spi_pwr: power on ese
+[   19.825861] [pn547] pn547_p61_set_spi_pwr: nfc service pid ---- 2350
+[   19.825904] [pn547] signal_handler: pid:2350
+[   19.825955] [pn547] signal_handler: task->comm: com.android.nfc.
+[   19.826252] writing 5 bytes.
+[   19.837726] irq handler called
+[   19.838255] recv size : 3
+[   19.838521] recv size : 1
+[   19.839506] writing 5 bytes.
+[   19.840081] irq handler called
+[   19.840469] recv size : 3
+[   19.840719] recv size : 1
+[   19.844800] irq handler called
+[   19.845067] recv size : 3
+[   19.845260] recv size : 2
+[   19.845905] [pn547] release_dwp_onoff: enter
+[   19.846001] [pn547] dwp_onoff: wait protection : released
+[   19.856711] [pn547] p61_update_access_state: Exit current_state = 0x400
+[   19.856951] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x400
+[   19.856999] [pn547] pn547_p61_set_spi_pwr: power off ese PN80T
+[   19.857058] [pn547] pn547_p61_set_spi_pwr: nfc service pid ---- 2350
+[   19.857110] [pn547] svdd_sync_onoff: Enter nfc_service_pid: 2350
+[   19.857151] [pn547] signal_handler: pid:2350
+[   19.857209] [pn547] signal_handler: task->comm: com.android.nfc.
+[   19.857224] [pn547] svdd_sync_onoff: Waiting for svdd protection response[   19.857361] [pn547] release_dwp_onoff: Dwp On/Off release wait protection : released[   19.857363] !@[01-16 21:21:20.857]
+[   19.858762] writing 5 bytes.
+[   19.859263] irq handler called
+[   19.859993] recv size : 3
+[   19.860536] recv size : 1
+[   19.860990] writing 4 bytes.
+[   19.861495] irq handler called
+[   19.862081] recv size : 3
+[   19.862415] recv size : 1
+[   19.862718] [pn547] release_svdd_wait: Enter
+[   19.862768] [pn547] svdd_sync_onoff: svdd wait protection : released[   19.862842] [pn547] svdd_sync_onoff: Exit
+[   19.862845] [pn547] release_svdd_wait: Exit
+[   19.930198] [pn547] p61_update_access_state: Exit current_state = 0x100
+[   19.930255] [pn547] svdd_sync_onoff: Enter nfc_service_pid: 2350
+[   19.930302] [pn547] signal_handler: pid:2350
+[   19.930358] [pn547] signal_handler: task->comm: com.android.nfc.
+[   19.930387] [pn547] svdd_sync_onoff: Waiting for svdd protection response[   19.941373] writing 4 bytes.
+[   19.941882] irq handler called
+[   19.942161] recv size : 3
+[   19.942425] recv size : 1
+[   19.942769] [pn547] release_svdd_wait: Enter
+[   19.942828] [pn547] release_svdd_wait: Exit
+[   19.942880] [pn547] svdd_sync_onoff: svdd wait protection : released[   19.942958] [pn547] svdd_sync_onoff: Exit
+[   19.943223] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x100
+[   19.943283] [pn547] release_ese_lock: enter p61_current_state = (0x400)
+[   19.943335] [pn547] release_ese_lock: p61_trans_acc_on =0 exit
+[   19.944474] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   19.945097] [pn547] pn547_p61_set_wired_access: cur=0x100
+[   19.945145] [pn547] pn547_p61_set_wired_access: enabling
+[   19.945385] [pn547] p61_update_access_state: Exit current_state = 0x200
+[   19.950177] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 200
+[   19.950350] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 200
+[   19.950535] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 200
+[   19.956991] [pn547] get_ese_lock: enter p61_current_state=0x200, timeout=2000, jiffies=200
+[   19.957051] [pn547] get_ese_lock: exit p61_trans_acc_on =1, timeout = 2000
+[   19.957275] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x200
+[   19.957326] [pn547] pn547_p61_set_spi_pwr: power on ese
+[   19.957373] [pn547] pn547_p61_set_spi_pwr: nfc service pid ---- 2350
+[   19.957418] [pn547] signal_handler: pid:2350
+[   19.957462] [pn547] signal_handler: task->comm: com.android.nfc.
+[   20.096079] writing 5 bytes.
+[   20.096567] irq handler called
+[   20.096764] recv size : 3
+[   20.096903] recv size : 1
+[   20.097318] writing 5 bytes.
+[   20.097784] irq handler called
+[   20.098003] recv size : 3
+[   20.098143] recv size : 1
+[   20.098212] irq handler called
+[   20.098533] recv size : 3
+[   20.098714] recv size : 2
+[   20.099253] [pn547] release_dwp_onoff: enter
+[   20.099331] [pn547] dwp_onoff: wait protection : released
+[   20.109877] [pn547] p61_update_access_state: Exit current_state = 0x600
+[   20.109934] [pn547] release_dwp_onoff: Dwp On/Off release wait protection : released[   20.110284] writing 10 bytes.
+[   20.111303] irq handler called
+[   20.111509] recv size : 3
+[   20.111693] recv size : 3
+[   20.120205] irq handler called
+[   20.120635] recv size : 3
+[   20.120883] recv size : 5
+[   20.125652] writing 19 bytes.
+[   20.126871] irq handler called
+[   20.127094] recv size : 3
+[   20.127280] recv size : 3
+[   20.132895] irq handler called
+[   20.133177] recv size : 3
+[   20.134113] recv size : 34
+[   20.140706] writing 10 bytes.
+[   20.141705] irq handler called
+[   20.142073] recv size : 3
+[   20.142294] recv size : 3
+[   20.144270] irq handler called
+[   20.144535] recv size : 3
+[   20.145041] recv size : 15
+[   20.152678] writing 10 bytes.
+[   20.153668] irq handler called
+[   20.153936] recv size : 3
+[   20.154126] recv size : 3
+[   20.209356] irq handler called
+[   20.209705] recv size : 3
+[   20.215252] recv size : 203
+[   20.221638] writing 10 bytes.
+[   20.222643] irq handler called
+[   20.223076] recv size : 3
+[   20.223268] recv size : 3
+[   20.245190] irq handler called
+[   20.245537] recv size : 3
+[   20.250159] recv size : 156
+[   20.260770] writing 10 bytes.
+[   20.261844] irq handler called
+[   20.262162] recv size : 3
+[   20.262505] recv size : 3
+[   20.272702] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x600
+[   20.272764] [pn547] pn547_p61_set_spi_pwr: power off ese PN80T
+[   20.272824] [pn547] pn547_p61_set_spi_pwr: nfc svc pid 2350
+[   20.272885] [pn547] svdd_sync_onoff: Enter nfc_service_pid: 2350
+[   20.272929] [pn547] signal_handler: pid:2350
+[   20.272984] [pn547] signal_handler: task->comm: com.android.nfc.
+[   20.273004] [pn547] svdd_sync_onoff: Waiting for svdd protection response[   20.296704] irq handler called
+[   20.296925] recv size : 3
+[   20.302126] recv size : 160
+[   20.308168] writing 10 bytes.
+[   20.309161] irq handler called
+[   20.309364] recv size : 3
+[   20.309554] recv size : 3
+[   20.313855] irq handler called
+[   20.314089] recv size : 3
+[   20.314303] recv size : 4
+[   20.770085] [pn547] svdd_sync_onoff: svdd wait protection: Timeout[   20.770205] [pn547] svdd_sync_onoff: svdd wait protection : released[   20.770249] [pn547] svdd_sync_onoff: Exit
+[   20.840187] [pn547] p61_update_access_state: Exit current_state = 0x200
+[   20.840260] [pn547] svdd_sync_onoff: Enter nfc_service_pid: 2350
+[   20.840319] [pn547] signal_handler: pid:2350
+[   20.840385] [pn547] signal_handler: task->comm: com.android.nfc.
+[   20.840422] [pn547] svdd_sync_onoff: Waiting for svdd protection response[   20.841240] writing 5 bytes.
+[   20.842284] irq handler called
+[   20.842601] recv size : 3
+[   20.842797] recv size : 1
+[   20.843753] [pn547] pn547_p61_set_wired_access: cur=0x200
+[   20.843802] [pn547] pn547_p61_set_wired_access: disabling
+[   20.843972] [pn547] p61_update_access_state: Exit current_state = 0x100
+[   20.844079] writing 5 bytes.
+[   20.845107] irq handler called
+[   20.845364] recv size : 3
+[   20.845554] recv size : 3
+[   21.340979] [pn547] svdd_sync_onoff: svdd wait protection: Timeout[   21.341091] [pn547] svdd_sync_onoff: svdd wait protection : released[   21.341128] [pn547] svdd_sync_onoff: Exit
+[   21.341130] [pn547] pn547_p61_set_spi_pwr: PN80T ese_pwr_gpio off[   21.341620] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x100
+[   21.341760] [pn547] release_ese_lock: enter p61_current_state = (0x400)
+[   21.341812] [pn547] release_ese_lock: p61_trans_acc_on =0 exit
+[   21.348328] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   21.348525] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   21.348728] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   21.348917] [pn547] get_ese_lock: enter p61_current_state=0x200, timeout=2000, jiffies=200
+[   21.348979] [pn547] get_ese_lock: exit p61_trans_acc_on =1, timeout = 2000
+[   21.349194] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x100
+[   21.349242] [pn547] pn547_p61_set_spi_pwr: power on ese
+[   21.349292] [pn547] pn547_p61_set_spi_pwr: nfc service pid ---- 2350
+[   21.349334] [pn547] signal_handler: pid:2350
+[   21.349384] [pn547] signal_handler: task->comm: com.android.nfc.
+[   21.349943] writing 5 bytes.
+[   21.349948] !@[01-16 21:21:22.349]
+[   21.351138] irq handler called
+[   21.351587] recv size : 3
+[   21.352035] recv size : 1
+[   21.353671] writing 5 bytes.
+[   21.354184] irq handler called
+[   21.356158] recv size : 3
+[   21.356457] recv size : 1
+[   21.358876] irq handler called
+[   21.360210] recv size : 3
+[   21.360447] recv size : 2
+[   21.361689] [pn547] release_dwp_onoff: enter
+[   21.361780] [pn547] dwp_onoff: wait protection : released
+[   21.372884] [pn547] p61_update_access_state: Exit current_state = 0x400
+[   21.372959] [pn547] release_dwp_onoff: Dwp On/Off release wait protection : released[   21.505243] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x400
+[   21.505296] [pn547] pn547_p61_set_spi_pwr: power off ese PN80T
+[   21.505354] [pn547] pn547_p61_set_spi_pwr: nfc service pid ---- 2350
+[   21.505408] [pn547] svdd_sync_onoff: Enter nfc_service_pid: 2350
+[   21.505452] [pn547] signal_handler: pid:2350
+[   21.505506] [pn547] signal_handler: task->comm: com.android.nfc.
+[   21.505527] [pn547] svdd_sync_onoff: Waiting for svdd protection response[   21.507220] writing 5 bytes.
+[   21.507809] irq handler called
+[   21.508310] recv size : 3
+[   21.508628] recv size : 1
+[   21.511722] writing 4 bytes.
+[   21.512233] irq handler called
+[   21.513120] recv size : 3
+[   21.513568] recv size : 1
+[   21.514555] [pn547] release_svdd_wait: Enter
+[   21.514621] [pn547] release_svdd_wait: Exit
+[   21.516140] [pn547] svdd_sync_onoff: svdd wait protection : released[   21.516230] [pn547] svdd_sync_onoff: Exit
+[   21.580868] [pn547] p61_update_access_state: Exit current_state = 0x100
+[   21.580916] [pn547] svdd_sync_onoff: Enter nfc_service_pid: 2350
+[   21.580954] [pn547] signal_handler: pid:2350
+[   21.580999] [pn547] signal_handler: task->comm: com.android.nfc.
+[   21.581016] [pn547] svdd_sync_onoff: Waiting for svdd protection response[   21.600356] writing 4 bytes.
+[   21.603244] irq handler called
+[   21.603468] recv size : 3
+[   21.604619] recv size : 1
+[   21.606473] [pn547] release_svdd_wait: Enter
+[   21.606526] [pn547] release_svdd_wait: Exit
+[   21.609318] [pn547] svdd_sync_onoff: svdd wait protection : released[   21.609420] [pn547] svdd_sync_onoff: Exit
+[   21.609697] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x100
+[   21.609764] [pn547] release_ese_lock: enter p61_current_state = (0x400)
+[   21.609831] [pn547] release_ese_lock: p61_trans_acc_on =0 exit
+[   21.722353] writing 4 bytes.
+[   21.723084] irq handler called
+[   21.724362] recv size : 3
+[   21.724705] recv size : 1
+[   21.728006] writing 4 bytes.
+[   21.728924] irq handler called
+[   21.729164] recv size : 3
+[   21.729351] recv size : 1
+[   21.730341] writing 10 bytes.
+[   21.731642] irq handler called
+[   21.731947] recv size : 3
+[   21.732121] recv size : 1
+[   21.738381] writing 4 bytes.
+[   21.739141] irq handler called
+[   21.739675] recv size : 3
+[   21.739951] recv size : 1
+[   21.742848] writing 26 bytes.
+[   21.745682] irq handler called
+[   21.745993] recv size : 3
+[   21.746523] recv size : 1
+[   82.743924] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   82.744136] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   82.744326] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[   82.744488] [pn547] get_ese_lock: enter p61_current_state=0x200, timeout=2000, jiffies=200
+[   82.744543] [pn547] get_ese_lock: exit p61_trans_acc_on =1, timeout = 2000
+[   82.744735] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x100
+[   82.744783] [pn547] pn547_p61_set_spi_pwr: power on ese
+[   82.744836] [pn547] pn547_p61_set_spi_pwr: nfc service pid ---- 2350
+[   82.744875] [pn547] signal_handler: pid:2350
+[   82.744919] [pn547] signal_handler: task->comm: com.android.nfc.
+[   82.763010] writing 5 bytes.
+[   82.770103] irq handler called
+[   82.770319] recv size : 3
+[   82.770521] recv size : 1
+[   82.775028] writing 5 bytes.
+[   82.775524] irq handler called
+[   82.776368] recv size : 3
+[   82.776525] recv size : 1
+[   82.780249] irq handler called
+[   82.780883] recv size : 3
+[   82.781740] recv size : 2
+[   82.786068] [pn547] release_dwp_onoff: enter
+[   82.786159] [pn547] dwp_onoff: wait protection : released
+[   82.796732] [pn547] p61_update_access_state: Exit current_state = 0x400
+[   82.796855] [pn547] release_dwp_onoff: Dwp On/Off release wait protection : released[   82.967365] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x400
+[   82.967414] [pn547] pn547_p61_set_spi_pwr: power off ese PN80T
+[   82.967466] [pn547] pn547_p61_set_spi_pwr: nfc service pid ---- 2350
+[   82.967516] [pn547] svdd_sync_onoff: Enter nfc_service_pid: 2350
+[   82.967557] [pn547] signal_handler: pid:2350
+[   82.967608] [pn547] signal_handler: task->comm: com.android.nfc.
+[   82.967624] [pn547] svdd_sync_onoff: Waiting for svdd protection response[   82.968044] writing 5 bytes.
+[   82.968542] irq handler called
+[   82.968768] recv size : 3
+[   82.968905] recv size : 1
+[   82.969221] writing 4 bytes.
+[   82.969693] irq handler called
+[   82.970226] recv size : 3
+[   82.970378] recv size : 1
+[   82.970864] [pn547] release_svdd_wait: Enter
+[   82.970914] [pn547] release_svdd_wait: Exit
+[   82.971008] [pn547] svdd_sync_onoff: svdd wait protection : released[   82.971085] [pn547] svdd_sync_onoff: Exit
+[   83.040432] [pn547] p61_update_access_state: Exit current_state = 0x100
+[   83.040497] [pn547] svdd_sync_onoff: Enter nfc_service_pid: 2350
+[   83.040551] [pn547] signal_handler: pid:2350
+[   83.040615] [pn547] signal_handler: task->comm: com.android.nfc.
+[   83.040647] [pn547] svdd_sync_onoff: Waiting for svdd protection response[   83.052594] writing 4 bytes.
+[   83.053185] irq handler called
+[   83.053736] recv size : 3
+[   83.053978] recv size : 1
+[   83.054522] [pn547] release_svdd_wait: Enter
+[   83.054593] [pn547] release_svdd_wait: Exit
+[   83.054759] [pn547] svdd_sync_onoff: svdd wait protection : released[   83.054877] [pn547] svdd_sync_onoff: Exit
+[   83.055160] [pn547] pn547_p61_set_spi_pwr: PN61_SET_SPI_PWR cur=0x100
+[   83.055238] [pn547] release_ese_lock: enter p61_current_state = (0x400)
+[   83.055307] [pn547] release_ese_lock: p61_trans_acc_on =0 exit
+[  135.970599] writing 6 bytes.
+[  135.979014] irq handler called
+[  135.979253] recv size : 3
+[  135.982097] recv size : 74
+[  135.983832] writing 6 bytes.
+[  135.984673] irq handler called
+[  135.984928] recv size : 3
+[  135.987827] recv size : 74
+[  136.014532] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[  136.016040] [pn547] pn547_p61_set_wired_access: cur=0x100
+[  136.016111] [pn547] pn547_p61_set_wired_access: enabling
+[  136.016190] [pn547] p61_update_access_state: Exit current_state = 0x200
+[  136.167881] writing 5 bytes.
+[  136.168483] irq handler called
+[  136.168796] recv size : 3
+[  136.169069] recv size : 1
+[  136.169962] writing 5 bytes.
+[  136.170585] irq handler called
+[  136.170882] recv size : 3
+[  136.171152] recv size : 1
+[  136.175311] irq handler called
+[  136.175325] !@[01-16 21:23:17.175]
+[  136.175836] recv size : 3
+[  136.176117] recv size : 2
+[  136.184488] writing 10 bytes.
+[  136.185617] irq handler called
+[  136.185920] recv size : 3
+[  136.186247] recv size : 3
+[  136.194510] irq handler called
+[  136.196426] recv size : 3
+[  136.196818] recv size : 5
+[  136.202978] writing 20 bytes.
+[  136.204346] irq handler called
+[  136.204727] recv size : 3
+[  136.205057] recv size : 3
+[  136.209208] irq handler called
+[  136.209579] recv size : 3
+[  136.210394] recv size : 24
+[  136.218596] writing 13 bytes.
+[  136.219787] irq handler called
+[  136.220189] recv size : 3
+[  136.220528] recv size : 3
+[  136.517170] irq handler called
+[  136.518104] recv size : 3
+[  136.525410] recv size : 243
+[  136.544139] writing 9 bytes.
+[  136.545325] irq handler called
+[  136.547379] recv size : 3
+[  136.547836] irq handler called
+[  136.547839] recv size : 3
+[  136.549031] recv size : 3
+[  136.549451] recv size : 4
+[  136.556488] writing 5 bytes.
+[  136.557172] irq handler called
+[  136.558058] recv size : 3
+[  136.558440] recv size : 1
+[  136.559437] [pn547] pn547_p61_set_wired_access: cur=0x200
+[  136.559553] [pn547] pn547_p61_set_wired_access: disabling
+[  136.559684] [pn547] p61_update_access_state: Exit current_state = 0x100
+[  136.561089] writing 5 bytes.
+[  136.562332] irq handler called
+[  136.565020] recv size : 3
+[  136.566306] recv size : 3
+[  508.458445] writing 6 bytes.
+[  508.469899] irq handler called
+[  508.470129] recv size : 3
+[  508.473011] recv size : 74
+[  508.475933] writing 6 bytes.
+[  508.476749] irq handler called
+[  508.476978] recv size : 3
+[  508.479841] recv size : 74
+[  508.494943] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[  508.495999] [pn547] pn547_p61_set_wired_access: cur=0x100
+[  508.496058] [pn547] pn547_p61_set_wired_access: enabling
+[  508.496124] [pn547] p61_update_access_state: Exit current_state = 0x200
+[  508.647932] writing 5 bytes.
+[  508.648435] irq handler called
+[  508.648657] recv size : 3
+[  508.648810] recv size : 1
+[  508.649309] writing 5 bytes.
+[  508.649767] irq handler called
+[  508.649966] recv size : 3
+[  508.650199] recv size : 1
+[  508.654513] irq handler called
+[  508.654826] recv size : 3
+[  508.655010] recv size : 2
+[  508.658875] writing 10 bytes.
+[  508.659914] irq handler called
+[  508.660405] recv size : 3
+[  508.660611] recv size : 3
+[  508.668744] irq handler called
+[  508.669066] recv size : 3
+[  508.669322] recv size : 5
+[  508.674442] writing 20 bytes.
+[  508.675721] irq handler called
+[  508.675950] recv size : 3
+[  508.676151] recv size : 3
+[  508.680551] irq handler called
+[  508.680792] recv size : 3
+[  508.681684] recv size : 24
+[  508.686585] writing 13 bytes.
+[  508.687677] irq handler called
+[  508.687886] recv size : 3
+[  508.688084] recv size : 3
+[  508.981646] irq handler called
+[  508.982267] recv size : 3
+[  508.989161] recv size : 243
+[  508.999680] writing 9 bytes.
+[  509.000777] irq handler called
+[  509.001374] recv size : 3
+[  509.001684] recv size : 3
+[  509.003357] irq handler called
+[  509.003852] recv size : 3
+[  509.004304] recv size : 4
+[  509.008009] writing 5 bytes.
+[  509.008603] irq handler called
+[  509.008955] recv size : 3
+[  509.009537] recv size : 1
+[  509.010198] [pn547] pn547_p61_set_wired_access: cur=0x200
+[  509.010293] [pn547] pn547_p61_set_wired_access: disabling
+[  509.010390] [pn547] p61_update_access_state: Exit current_state = 0x100
+[  509.011373] writing 5 bytes.
+[  509.012487] irq handler called
+[  509.013268] recv size : 3
+[  509.013574] recv size : 3
+[ 1173.782224] writing 4 bytes.
+[ 1173.790226] irq handler called
+[ 1173.791496] recv size : 3
+[ 1173.792077] recv size : 1
+[ 1173.796964] writing 4 bytes.
+[ 1173.797900] irq handler called
+[ 1173.798137] recv size : 3
+[ 1173.798292] recv size : 1
+[ 1173.801338] writing 14 bytes.
+[ 1173.802748] irq handler called
+[ 1173.802985] recv size : 3
+[ 1173.803255] recv size : 1
+[ 1173.808850] writing 4 bytes.
+[ 1173.809618] irq handler called
+[ 1173.809831] recv size : 3
+[ 1173.809985] recv size : 1
+[ 1173.813510] writing 10 bytes.
+[ 1173.814853] irq handler called
+[ 1173.815080] recv size : 3
+[ 1173.815234] recv size : 1
+[ 1456.691788] writing 4 bytes.
+[ 1456.701956] irq handler called
+[ 1456.702197] recv size : 3
+[ 1456.702376] recv size : 1
+[ 1456.704325] writing 4 bytes.
+[ 1456.705252] irq handler called
+[ 1456.705521] recv size : 3
+[ 1456.705705] recv size : 1
+[ 1456.714831] writing 10 bytes.
+[ 1456.716128] irq handler called
+[ 1456.718495] recv size : 3
+[ 1456.718679] recv size : 1
+[ 1458.767516] writing 4 bytes.
+[ 1458.775919] irq handler called
+[ 1458.776535] recv size : 3
+[ 1458.776720] recv size : 1
+[ 1458.781423] writing 4 bytes.
+[ 1458.782341] irq handler called
+[ 1458.783444] recv size : 3
+[ 1458.783691] recv size : 1
+[ 1458.784378] writing 10 bytes.
+[ 1458.785663] irq handler called
+[ 1458.785898] recv size : 3
+[ 1458.786148] recv size : 1
+[ 1458.788413] writing 4 bytes.
+[ 1458.789142] irq handler called
+[ 1458.791044] recv size : 3
+[ 1458.791051] !@[01-16 22:25:17.791]
+[ 1458.791221] recv size : 1
+[ 1458.806222] writing 26 bytes.
+[ 1458.809053] irq handler called
+[ 1458.824171] recv size : 3
+[ 1458.824367] recv size : 1
+[ 1862.606291] writing 6 bytes.
+[ 1862.618196] irq handler called
+[ 1862.620317] recv size : 3
+[ 1862.628034] recv size : 74
+[ 1862.636238] writing 6 bytes.
+[ 1862.637127] irq handler called
+[ 1862.639859] recv size : 3
+[ 1862.643400] recv size : 74
+[ 1862.662083] [pn547] pn547_dev_ioctl: P61_GET_PWR_STATUS  = 100
+[ 1862.663611] [pn547] pn547_p61_set_wired_access: cur=0x100
+[ 1862.664052] [pn547] pn547_p61_set_wired_access: enabling
+[ 1862.664167] [pn547] p61_update_access_state: Exit current_state = 0x200
+[ 1862.822835] writing 5 bytes.
+[ 1862.823431] irq handler called
+[ 1862.823753] recv size : 3
+[ 1862.824024] recv size : 1
+[ 1862.826210] writing 5 bytes.
+[ 1862.826807] irq handler called
+[ 1862.827121] recv size : 3
+[ 1862.827408] recv size : 1
+[ 1862.831544] irq handler called
+[ 1862.831905] recv size : 3
+[ 1862.832218] recv size : 2
+[ 1862.842642] writing 10 bytes.
+[ 1862.843774] irq handler called
+[ 1862.844102] recv size : 3
+[ 1862.844441] recv size : 3
+[ 1862.852671] irq handler called
+[ 1862.853028] recv size : 3
+[ 1862.853402] recv size : 5
+[ 1862.862263] writing 20 bytes.
+[ 1862.863660] irq handler called
+[ 1862.863981] recv size : 3
+[ 1862.864299] recv size : 3
+[ 1862.868536] irq handler called
+[ 1862.868964] recv size : 3
+[ 1862.871393] recv size : 24
+[ 1862.876059] writing 13 bytes.
+[ 1862.877312] irq handler called
+[ 1862.877741] recv size : 3
+[ 1862.878152] recv size : 3
+[ 1863.174782] irq handler called
+[ 1863.175392] recv size : 3
+[ 1863.182495] recv size : 243
+[ 1863.191689] writing 9 bytes.
+[ 1863.192780] irq handler called
+[ 1863.193122] recv size : 3
+[ 1863.193430] recv size : 3
+[ 1863.195141] irq handler called
+[ 1863.195436] recv size : 3
+[ 1863.195745] recv size : 4
+[ 1863.199964] writing 5 bytes.
+[ 1863.200543] irq handler called
+[ 1863.200865] recv size : 3
+[ 1863.201149] recv size : 1
+[ 1863.201854] [pn547] pn547_p61_set_wired_access: cur=0x200
+[ 1863.201937] [pn547] pn547_p61_set_wired_access: disabling
+[ 1863.202032] [pn547] p61_update_access_state: Exit current_state = 0x100
+[ 1863.202997] writing 5 bytes.
+[ 1863.204162] irq handler called
+[ 1863.206597] recv size : 3
+[ 1863.206930] recv size : 3

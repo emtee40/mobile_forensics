@@ -1,0 +1,12 @@
+NWAccess.
+Cur Time : 87.473000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(Sys)	TIME(Diag)	FILE	LINE	STRING
+ 33.229000 13:49:51.586	ds_qmi_dms.c	13185	[SUB_1] =DMS= MODEM ACT: Idle(758) Sleep(14737) Rx(4224) Tx(0)
+
+------------------------------------------------------
+Used msg ram =   0.061035 %
+Time :  33.229000 ~  33.229000 sec, Total =   0.000000 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

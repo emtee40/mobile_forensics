@@ -1,0 +1,20 @@
+SLBM_LOG.
+Cur Time : 87.166000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+21.816064	ss_log_buffer_mgr.c	slbm_set_compression	533	Mode=0
+28.966604	ss_log_buffer_mgr.c	slbm_buf_alloc	354	set SIG compress
+28.966609	ss_log_buffer_mgr.c	slbm_store	460	Star : Raw
+28.966642	ss_log_buffer_mgr.c	slbm_store	439	Done proccessed blocks = 1
+30.246140	ss_log_buffer_mgr.c	slbm_calculate_data_rate	752	1 kbyte/sec
+59.695541	ss_log_buffer_mgr.c	slbm_buf_alloc	354	set SIG compress
+59.695546	ss_log_buffer_mgr.c	slbm_store	460	Star : Raw
+59.695579	ss_log_buffer_mgr.c	slbm_store	439	Done proccessed blocks = 1
+64.815103	ss_log_buffer_mgr.c	slbm_calculate_data_rate	752	1 kbyte/sec
+
+------------------------------------------------------
+Used msg ram =   1.049805 %
+Time :  21.816064 ~  64.815103 sec, Total =  42.999039 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

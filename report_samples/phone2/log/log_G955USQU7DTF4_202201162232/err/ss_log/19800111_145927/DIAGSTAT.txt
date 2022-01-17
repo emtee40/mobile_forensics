@@ -1,0 +1,15 @@
+DIAGSTAT.
+Cur Time : 4211.197000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.646550	diagpkt.c	diagpkt_process_ctrl_msg	1324	port type = 1, port number = 0, ctrl_msg = 8
+11.646551	diagpkt.c	diagpkt_process_ctrl_msg	1325	msg_pkt_ptr->data 04 00 00 00 55 6a 01 00
+11.646613	diagpkt.c	diagpkt_process_ctrl_msg	1324	port type = 1, port number = 0, ctrl_msg = 3
+11.646614	diagpkt.c	diagpkt_process_ctrl_msg	1325	msg_pkt_ptr->data 01 00 00 00 01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+------------------------------------------------------
+Used msg ram =   0.854492 %
+Time :  11.646550 ~  11.646614 sec, Total =   0.000063 sec
+Elapsed time for making this log =   0.001000 sec
+------------------------------------------------------

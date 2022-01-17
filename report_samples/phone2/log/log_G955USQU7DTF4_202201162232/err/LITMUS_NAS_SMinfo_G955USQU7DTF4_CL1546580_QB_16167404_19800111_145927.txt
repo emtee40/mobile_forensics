@@ -1,0 +1,63 @@
+[ Common SM Information ]
+[1] STATUS
+- Mandatory APN Chk : Pass
+- is_apn_switch_support : 1
+- attach_profile_is_VZWIMS : 0
+- attach_profile1_apn_info : (Null)
+- ds_roaming_status : 0
+- ds_3gpp_nv_lte_rel_version : No_Info 
+- Enable_IPA_debug_crash : 0 (-1 bytes)
+
+[2] PDP and PDN reject List
+- No Data
+
+[3] EFS Settings
+- EFS Disallow Call : 0
+- hdr_dtx_cfg : 0
+- EDCT Timer : 0
+- rel_10_throttling : 1
+- ds_apn_switching : 1
+- LTE Lab Test Mode : NO_Info
+- IMS_enable : 2
+- pdn_limit_is_enabled : 0
+- pdn_req_throttling_time : 15
+
+[4] NV Settings
+- nv_EHRPD_AUTH_IN_USIM_I (#6862) : 1
+
+[5] QMI RUNTIME information
+< QMI_WDS_SET_EVENT_REPORT REQ >
+- Record Count : 1 (Circulated:0)
+ [#1] 1/17/2022 3:21:11
+   (1) DATA_CALL_STATUS_CHANGE : REPORT(0x1)
+   (2) DATA_SYSTEM_STATUS : REPORT(0x1)
+
+< WDS_DATA_SYSTEM_STATUS >
+- Record Count : 0 (Circulated:0)
+- No QMI Information...
+
+< QMI_WDS_INDICATION_REGISTER IND >
+- Record Count : 1 (Circulated:0)
+ [#1] 1/17/2022 3:21:10
+   (1) CONFIGURED_THROUGHPUT_LIST : REPORT(0x1)
+
+< QMI_WDS_BIND_SUBSCRIPTION_REQ >
+- Record Count : 17 (Circulated:0)
+ [#0] Default Subs
+   Clients => ID(1) ID(2) ID(3) ID(4) ID(5) ID(6) ID(7) ID(8) ID(9) ID(10) 
+   Clients => ID(11) ID(12) ID(13) ID(14) ID(15) ID(16) ID(17) 
+
+ [#1] PRIMARY Subs
+ [#2] SECONDARY Subs
+ [#3] TERTIARY Subs
+ [#255] DONT_CARE Subs
+
+< QMI_WDS_PROFILE_GET_INFOR >
+- Record Count : 2 (Circulated:0)
+ [#1] 1/17/2022 4:31:10
+  [3GPP] [1] :  (pdp_type: IPV4V6 / apn_disabled: 0 / prof_name: ) subs_ID: 1
+  lte_roam_pdp: UnKnown / umts_roam_pdp: UnKnown /roam_disallowed: 0 / pcscf_req: 0 / clat_enabled: 0
+
+ [#2] 1/17/2022 4:31:10
+  [3GPP2] [0] :  (pdn_type: IPV4V6/ apn_enabled: 1) subs_ID: 1
+

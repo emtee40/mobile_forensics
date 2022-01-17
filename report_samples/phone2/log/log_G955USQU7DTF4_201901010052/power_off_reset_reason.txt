@@ -1,0 +1,38 @@
+19/01/01 00:45:24
+reason : userrequested
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:407)
+	at com.android.server.statusbar.StatusBarManagerService.lambda$shutdown$1(StatusBarManagerService.java:1316)
+	at com.android.server.statusbar.-$$Lambda$StatusBarManagerService$izMbpkX9bmZwnjh3sH07yuoJPNY.run(Unknown Source:0)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at com.android.server.SystemServer.run(SystemServer.java:804)
+	at com.android.server.SystemServer.main(SystemServer.java:626)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+00:45:29  2019-01-01 00:45:29 | SHUTDOWN |       | REASON: userrequested
+00:45:29  init sync() start
+00:45:29  init sync() end
+00:45:29  remount_ro start
+2019-01-01 00:46:12 |NP|
+19/01/01 00:49:37
+caller :  (uid: 1000 pid: 9321 processName: com.sec.bcservice)
+reason : [ATCommandService] AT+CFUN
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:552)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:1453)
+	at com.android.server.power.PowerManagerService$10.run(PowerManagerService.java:5224)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:65)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+	at com.android.server.UiThread.run(UiThread.java:43)
+00:49:41  2019-01-01 00:49:41 |  REBOOT  |       | REASON: [ATCommandService] AT+CFUN
+00:49:41  init sync() start
+00:49:41  init sync() end
+00:49:42  remount_ro start
+2019-01-01 00:50:13 |NP|

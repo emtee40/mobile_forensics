@@ -1,0 +1,22 @@
+SEC.
+Cur Time : 87.594000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+12.147456	ss_sec_onechip.c	ss_check_secureboot	135	MPSS auth enabled : 00000001, 0x00000000
+12.147456	ss_sec_onechip.c	ss_check_secureboot	146	secure boot enabled : 1
+13.517672	imei_verify.c	verify_imei_certificate	135	imei certificate fail with new RootPublickey
+13.517944	imei_verify.c	verify_imei_certificate	165	imei certificate pass with old RootPublickey  
+13.520507	imei_verify.c	verify_imei_certificate	135	imei certificate fail with new RootPublickey
+13.520779	imei_verify.c	verify_imei_certificate	165	imei certificate pass with old RootPublickey  
+14.260175	ss_sec_onechip.c	samsung_read_chip_serial_no_bitmask	114	serial_num : EA355D16, 0x00000000
+21.672636	imei_verify.c	verify_imei_certificate	135	imei certificate fail with new RootPublickey
+21.672907	imei_verify.c	verify_imei_certificate	165	imei certificate pass with old RootPublickey  
+21.675713	imei_verify.c	verify_imei_certificate	135	imei certificate fail with new RootPublickey
+21.675983	imei_verify.c	verify_imei_certificate	165	imei certificate pass with old RootPublickey  
+
+------------------------------------------------------
+Used msg ram =  19.140625 %
+Time :  12.147456 ~  21.675983 sec, Total =   9.528527 sec
+Elapsed time for making this log =   0.001000 sec
+------------------------------------------------------

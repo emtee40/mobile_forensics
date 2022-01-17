@@ -1,0 +1,614 @@
+
+
+{561932} ** XBL(0) **
+{561932} 
+Format: Log Type - Time(microsec) - Message - Optional Info
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
+Cable type: 3
+S - QC_IMAGE_VERSION_STRING=BOOT.XF.1.2-00352
+S - IMAGE_VARIANT_STRING=Msm8998LA
+S - OEM_IMAGE_VERSION_STRING=SWDI3115
+S - Boot Interface: UFS
+S - Secure Boot: On
+S - Boot Config @ 0x00786070 = 0x000002c1
+S - JTAG ID @ 0x00786130 = 0x2005e0e1
+S - OEM ID @ 0x00786138 = 0x00200000
+S - Feature Config Row 0 @ 0x007841a0 = 0x0050200000000000
+S - Feature Config Row 1 @ 0x007841a8 = 0x0000000000000060
+S - Raw PTE Row 3 @ 0x00780148 = 0x317639e0
+S - Raw PTE Row 0 @ 0x00780134 = 0x9858b938
+S - Core 0 Frequency, 1305 MHz
+S - PBL Patch Ver: 2
+B -            0 - PBL, Start
+B -         9445 - bootable_media_detect_entry, Start
+B -        51380 - bootable_media_detect_success, Start
+B -        51387 - elf_loader_entry, Start
+B -        52661 - auth_hash_seg_entry, Start
+B -        74874 - auth_hash_seg_exit, Start
+B -       128224 - elf_segs_hash_verify_entry, Start
+B -       159979 - elf_segs_hash_verify_exit, Start
+B -       159996 - auth_xbl_sec_hash_seg_entry, Start
+B -       183829 - auth_xbl_sec_hash_seg_exit, Start
+B -       183831 - xbl_sec_segs_hash_verify_entry, Start
+B -       189333 - xbl_sec_segs_hash_verify_exit, Start
+B -       189399 - PBL, End
+B -       222406 - SBL1, Start
+B -       287371 - boot_flash_init, Start
+D -           30 - boot_flash_init, Delta
+B -       287401 - sbl1_ddr_set_default_params, Start
+D -          152 - sbl1_ddr_set_default_params, Delta
+B -       287554 - boot_config_data_table_init, Start
+D -        93238 - boot_config_data_table_init, Delta - (0 Bytes)
+B -       380792 - CDT Version:3,Platform ID:8,Major ID:1,Minor ID:0,Subtype:0
+B -       380823 - Image Load, Start
+D -        18788 - Auth Metadata
+D -          580 - Segments hash check
+D -        21960 - PMIC Image Loaded, Delta - (45704 Bytes)
+B -       402783 - pm_device_init, Start
+B -       405070 - PM: PON REASON: PM0=0x8000028000000041:0x0 PM2=0x8000088000000020:0x0 
+B -       440999 - PM: SET_VAL:Skip
+D -        38704 - pm_device_init, Delta
+B -       441518 - pm_driver_init, Start
+D -         4270 - pm_driver_init, Delta
+B -       445788 - pm_driver_init, configuring PMIC to do a DVDD reset, Start
+D -         1006 - pm_driver_init, configuring PMIC to do a DVDD reset, Delta
+B -       446794 - pm_sbl_chg_init, Start
+D -            0 - pm_sbl_chg_init, Delta
+B -       446825 - vsense_init, Start
+D -            0 - vsense_init, Delta
+B -       501664 - Pre_DDR_clock_init, Start
+D -          213 - Pre_DDR_clock_init, Delta
+D -            0 - sbl1_ddr_set_params, Delta
+B -       506818 - DSF version = 108.4, DSF RPM version = 59.1
+B -       506818 - Max Frequency = 1804 MHz
+B -   
+{566232} Image Load, Start
+{607895} Auth Metadata
+{608536} Segments hash check
+{608627} APDP Image Loaded, Delta
+{608993} usb: UFS Serial
+{610030} QB link : https://android.qb.sec.samsung.net/build/32347511
+{610091} DEBUG LEVEL : HIGH
+{610152} PWR[released] INT[released] DN[released] UP[released]
+{610213} Current PON value 0x8000028000000041
+{610305} 
+	OFF : POFF_SEQ 
+	POFF : PS_HOLD 
+	ON : PON_SEQ 
+	WARM : 
+	PON : HARD_RESET[O] CABLE 
+{610915} ResetReason don't define case 1, RR.p will write NP
+{610976} RR : NP
+{613111} DDR vendor:Samsung@0x860037d8
+{613141} store hw rev:12@0x86003838
+{613355} PM: 0: PON=0x41:CBLPWR_N:HARD_RESET: ON=0x80:PON_SEQ: POFF=0x2:PS_HOLD: OFF=0x80:POFF_SEQ
+{613507} PM: 2: PON=0x20:PON1: ON=0x80:PON_SEQ: POFF=0x8:GP1: OFF=0x80:POFF_SEQ
+{613568} PM: SMEM Chgr Info Write Success
+{613995} sbl1_efs_handle_cookies, Start
+{614056} sbl1_efs_handle_cookies, Delta
+{614392} Image Load, Start
+{636840} Auth Metadata
+{638517} Segments hash check
+{638639} QSEE Dev Config Image Loaded, Delta
+{638700} Image Load, Start
+{639158} SEC Image Loaded, Delta
+{639188} Image Load, Start
+{701866} Auth Metadata
+{729163} Segments hash check
+{729743} QSEE Image Loaded, Delta
+{729773} Image Load, Start
+{752252} Auth Metadata
+{761371} Segments hash check
+{761737} QHEE Image Loaded, Delta
+{761798} Image Load, Start
+{784368} Auth Metadata
+{791322} Segments hash check
+{791475} RPM Image Loaded, Delta
+{791566} Image Load, Start
+{791597} STI Image Loaded, Delta
+{792481} Image Load, Start
+{814929} Auth Metadata
+{838780} Segments hash check
+{839207} ABL Image Loaded, Delta
+{839360} Image Load, Start
+{861350} Auth Metadata
+{881572} Segments hash check
+{881846} APPSBL Image Loaded, Delta
+{882182} SBL1, End
+{882212} SBL1, Delta
+{882243} Flash Throughput, 165000 KB/s  (6327056 Bytes,  38177 us)
+{882304} DDR Frequency, 1353 MHz
+UEFI Ver    : 4.2.200623.BOOT.XF.1.2-00352
+Build Info  : 64b Jun 23 2020 19:20:06
+Boot Device : UFS
+UsbConfigPortsQueryConnectionChange: Failed to get UsbCGetPortState with error: Device Error
+GetChargerPortType: Failed to call PMIC ChargerPort Status =  (0x3)
+HandlePortPartnerXtach: Error encountered in UsbPortStateCbGetCcStatus
+ccic_init
+i2c driver is not initialized
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+init_ccic_ic() done. test_rid =7
+i2c driver is not initialized
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+[MUIC] AFC Reset!
+[MUIC] control register value : 0x1E, muic dev id : 0x1
+charging_func_init 
+[charger_i2c_init]
+[SM5720 CHG]
+i2c driver is not initialized
+[fuel_gauge_i2c_init]
+sm5720_fuel_gauge_get_device_id:SM5720_DEVICE_ID(0xE)
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+Not ADC Oriented Device
+[get_wireless_status]
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+chg_get_charger_status: cable_type(3), vbus_status(1)
+[set_input_current]
+sm5720_chg_set_input_limit: input_limit=1500
+DisplayDriverLib: displaydriverlib_init++
+S6E3HA6_AMS622MR01_WQHD_octa_init
+PBA_BOOTING_FHD_init
+DisplayDriverLib: displaydriverlib_init--
+DisplayDxe: PMIC Type is DISPLAY_PMIC, bPowerUp=1
+DisplayDriverLib: display_panel_power_up, power_state=1
+display_panel_power_up_S6E3HA6_AMS622MR01 ++
+display_panel_power_up_S6E3HA6_AMS622MR01 --
+DisplayDriverLib: select_panel_xml_data ++
+display_panel_power_up_S6E3HA6_AMS622MR01 ++
+display_panel_power_up_S6E3HA6_AMS622MR01 --
+DisplayDriverLib: display_panel_reset ++
+DisplayDriverLib: Reset_N state : 1 , gpio_num : 23 delay : 10
+DisplayDriverLib: Reset_N state : 0 , gpio_num : 23 delay : 10
+DisplayDriverLib: Reset_N state : 1 , gpio_num : 23 delay : 10
+DisplayDxe: Configure GPIO 12 for TE line 4
+DisplayDriverLib: display_panel_reset --
+DisplayDxe: Success to reset!
+DSIDriver: DSI0 PLL can be locked (Freq:110000000Hz)!
+HAL_DSI_Phy_CommitTimingParams- DSIPHY_T_TA_SURE - reg : 0
+CTRL_0 : 0, CTRL_1 : 3, CTRL_2 : 1, CTRL_3 : 0, CTRL_4 : 1, CTRL_9 : 3
+CTRL_6 : 2, CTRL_7 : 1, CTRL_8 : 0, CTRL_5 : 1, CTRL_10 : 4, CLK_POST : 1, CLK_PRE : 6
+Default prepare read function
+read_ddi_id ++
+Sent max package command
+Sent max package command
+Sent max package command
+read_ddi_id: id1: 0x91, id2: 0x10, id3: 0x13
+read_ddi_id --
+read_ddi_id ++
+Sent max package command
+Sent max package command
+Sent max package command
+read_ddi_id: id1: 0x91, id2: 0x10, id3: 0x13
+read_ddi_id --
+DisplayDriverLib: panel is matched : 0
+DisplayDriverLib: lcd_id : 0x911013
+S6E3HA6_AMS622MR01 panel is supported
+DisplayDriverLib: found supported panel: 0
+DisplayDriverLib: Selected - Panel ID : 21 
+DisplayDriverLib: select_panel_xml_data --
+MDPDetectPanel: DSC major = 0 Minor = 0 is not Supported
+offset : 0 :	0, 10006C, FFFF, 0
+offset : 10 :	B90, 0, 50004, B90
+offset : 20 :	1, B90, 0, 0
+offset : 30 :	1, 0, 0, 0
+offset : 40 :	0, 0, 0, 0
+offset : 50 :	0, 0, 0, 0
+offset : 60 :	0, 0, 0, 0
+offset : 70 :	0, 0, 0, 0
+offset : 80 :	0, 0, 0, 0
+offset : 90 :	0, 0, 0, 0
+offset : A0 :	0, 0, 0, 2C688
+offset : B0 :	0, 0, 0, 0
+offset : C0 :	0, 0, 2C688, 0
+offset : D0 :	0, 0, 0, 0
+offset : E0 :	0, 0, 0, 0
+DisplayDriverLib: display_panel_reset ++
+DisplayDriverLib: Reset_N state : 1 , gpio_num : 23 delay : 10
+DisplayDriverLib: Reset_N state : 0 , gpio_num : 23 delay : 10
+DisplayDriverLib: Reset_N state : 1 , gpio_num : 23 delay : 10
+DisplayDxe: Configure GPIO 12 for TE line 4
+DisplayDriverLib: display_panel_reset --
+DisplayDxe: Success to reset!
+DisplayDxe: DSIDriver_SetMode++ 
+DisplayDxe: Panel type is DSI_CMD
+DSIDriver: DSI0 PLL can be locked (Freq:898502400Hz)!
+HAL_DSI_Phy_CommitTimingParams- DSIPHY_T_TA_SURE - reg : 0
+CTRL_0 : 0, CTRL_1 : 21, CTRL_2 : 8, CTRL_3 : 7, CTRL_4 : 14, CTRL_9 : 3
+CTRL_6 : 8, CTRL_7 : 8, CTRL_8 : 5, CTRL_5 : 14, CTRL_10 : 4, CLK_POST : A, CLK_PRE : 34
+DisplayDxe: DSIDriver_SetMode--(0) 
+DisplayDriverLib: Append lcd_id : lcd_id=0x911013
+EnvDxe Render Callback
+LoadSecureApps: TZApps region 0x3400000@0x86D00000
+LoadSecureApps: Load app from partition(keymaster): Status = 0x0, AppId = 65537
+[sub_pmic_init: s2mpb02]
+i2c driver is not initialized
+-----------------------------
+Platform Init  [ 1707] BDS
+UEFI Ver   : 4.2.200623.BOOT.XF.1.2-00352
+Platform   : MTP
+Chip Name  : MSM8998
+Chip Ver   : 2.1
+Core 0 Freq: 1555 MHz
+-----------------------------
+UEFI Total : 681 ms
+POST Time      [ 1719] OS Loader
+Loader Build Info: Jun 23 2020 19:18:54
+BoardRevisionInfo ADC value:1370
+HW REV : 12 
+Model Name : SM-G955U 
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+Not ADC Oriented Device
+[get_wireless_status]
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+chg_get_charger_status: cable_type(3), vbus_status(1)
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+dev_charging_init: cable_type(3), jig_type(0)
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x21DF:(4233)
+get_battery_temperature: ADC VALUE[0] success[5]
+get_battery_temperature: ADC VALUE[8025]
+get_battery_temperature: Temp(259), Temp-ADC(8025)
+[charger_init_charger]
+sm5720_init_charger: sm5720 charger probe start
+sm5720_init_charger: fastchg curr(0x38), vbuslimit curr(0xD2), chg en(0x78)
+sm5720_set_watchdog_timer_time: 2 
+sm5720_set_watchdog_timer: 0 
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+Not ADC Oriented Device
+[get_wireless_status]
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+chg_get_charger_status: cable_type(3), vbus_status(1)
+sm5720_set_auto_current: get_charger_status(3)
+sm5720_chg_set_input_limit: input_limit=1500
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x21DF:(4233)
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+sm5720_set_buck_enable: CNTL(0x05)
+sm5720_set_charge_enable: Q4FET = 1 
+sm5720_init_charger: wc_chg_curr(0x06), wc_max_curr(0x0C), chg en(0x60)
+[charger_enable_charging]
+sm5720_set_charger_state: (1, 1) 
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+sm5720_set_buck_enable: CNTL(0x05)
+sm5720_set_charge_enable: Q4FET = 1 
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+ ReadAdc: 7
+CcicReadAdc: 7
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+ GetDeviceType: 3
+MuicGetDeviceType: 3
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x21DF:(4233)
+FgGetVoltage: 4233
+FgGetVoltage: 4233 mV
+sm5720_fuel_gauge_read_soc: soc result 0x6424:(1001)
+FgGetSoc: 1001
+FgGetSoc: 1001
+PM 0:0x8000028000000041
+PowerOnReason : HardReset[O] Cable 
+WarmResetReason : 
+PowerOffReason : PS_HOLD 
+OffReason : POFF_SEQ 
+BootType : ColdBoot
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x21DF:(4233)
+FgGetVoltage: 4233
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+Not ADC Oriented Device
+[get_wireless_status]
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+chg_get_charger_status: cable_type(3), vbus_status(1)
+ChgGetChargerStatus: 3
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+ MuicGetJigType: 0
+CheckDeadBattery: rb=1, jig=0, ct=3, vcell=4233
+skip check low power
+[KEY] PWD(0) INT(0) DN(0) UP(0) :: 0
+BootReason: 1
+Recovery Mode, Reset param!
+PiRclrEalCr[SAPA] EFI_PmicRTCGetAlarmValueRaw: err=0, temp=0
+[SAPA] RTC  =9808407
+[SAPA] ALARM=0
+[RPMB] QFPROM_CORR_ANTI_ROLLBACK_3 fuse value : 0x01000000
+[RPMB] RPMB fuse bit is blown
+[RPMB] RPMB_CHECK_PROV Status = 0x0, RpmbResult = 0x0
+[RPMB] RPMB is provisioned correctly
+[KnoxCustom] knoxcustom_value : FFFFFFFF 
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+Not ADC Oriented Device
+[get_wireless_status]
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+chg_get_charger_status: cable_type(3), vbus_status(1)
+ChgGetChargerStatus: 3
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+ MuicGetJigType: 0
+LPMModeChecker: cable_status = 3
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x21DF:(4233)
+FgGetVoltage: 4233
+get_battery_temperature: ADC VALUE[0] success[5]
+get_battery_temperature: ADC VALUE[8027]
+get_battery_temperature: Temp(259), Temp-ADC(8027)
+GetBattTemp: 259
+Temperature of target is good
+AST_POWERON
+==== GlibDrawBootImage Start(1953) ==== 
+GlibDrawBootImage : IMAGE_BLACK|IMAGE_CARRIER_DEFAULT 
+[VIB] VibStart: 100
+i2c driver is not initialized
+[1954] +[VIB] Timer Start
+==== GlibDrawBootImage Finish(1974) ====
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+Not ADC Oriented Device
+[get_wireless_status]
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+chg_get_charger_status: cable_type(3), vbus_status(1)
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+dev_charging_init: cable_type(3), jig_type(0)
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x21DF:(4233)
+get_battery_temperature: ADC VALUE[0] success[5]
+get_battery_temperature: ADC VALUE[8027]
+get_battery_temperature: Temp(259), Temp-ADC(8027)
+[charger_init_charger]
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x21DF:(4233)
+[charger_enable_charging]
+sm5720_set_charger_state: (1, 0) 
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+sm5720_set_buck_enable: CNTL(0x05)
+sm5720_set_charge_enable: Q4FET = 0 
+dev_charging_init: vcell(4233), count(0)
+[set_charging_current_by_type]
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x21DF:(4233)
+[fuel_gauge_init]
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+sm5720_init_fuelgauge: get_jig : 0 
+sm5720_init_fuelgauge: connected_jig: 0, ret : 0x70 
+sm5720_init_fuelgauge: diff_ver: 0, version : 0x7 
+sm5720_init_fuelgauge fg_reset value set 0. 
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_init_fuelgauge: Already F/G initialized(version:0x7) 
+sm5720_calculate_iocv: iocv_status_read = addr : 0x2F , data : 0x102
+sm5720_calculate_iocv: iocv_l_max=0x2278, iocv_l_min=0x2277, iocv_l_avg=0x0, lb_v_set=0x0, roop_max=2 
+sm5720_calculate_iocv: iocv ret change 0x9B8D8153 -> 0x0 
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x2210:(4257)
+sm5720_init_fuelgauge: VCELL(4257) 
+sm5720_fuel_gauge_read_current: current result 0x8005:(-2)
+sm5720_init_fuelgauge: CURRENT(-2) 
+sm5720_fuel_gauge_read_ocv: ocv result 0x221D:(4264)
+sm5720_init_fuelgauge: OCV(4264) 
+sm5720_fuel_gauge_read_soc: soc result 0x6424:(1001)
+sm5720_init_fuelgauge: SOC(1001) 
+[charger_enable_charging]
+sm5720_set_charger_state: (1, 1) 
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+sm5720_set_buck_enable: CNTL(0x05)
+[2045] -[VIB] Timer Stop
+sm5720_set_charge_enable: Q4FET = 1 
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+Not ADC Oriented Device
+[get_wireless_status]
+sm5720_get_wireless_charger_detect: INT_STATUS1=0x21
+chg_get_charger_status: cable_type(3), vbus_status(1)
+ChgGetChargerStatus: 3
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x2210:(4257)
+FgGetVoltage: 4257
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+ MuicGetJigType: 0
+sm5720_fuel_gauge_read_soc: soc result 0x6424:(1001)
+FgGetSoc: 1001
+CheckLowBattery : jig=0, vcell=4257, soc=1001
+[set_charging_current_by_type]
+sm5720_fuel_gauge_reg_init_need: return 0
+sm5720_fuel_gauge_read_vcell: SM5720_FG_REG_OCV (0x221D)
+sm5720_fuel_gauge_read_vcell: vbat result 0x2210:(4257)
+skip check low battery
+get_battery_temperature: ADC VALUE[0] success[5]
+get_battery_temperature: ADC VALUE[8026]
+get_battery_temperature: Temp(259), Temp-ADC(8026)
+GetBattTemp: 259
+Booting Into Recovery Mode
+Booting Into Recovery Mode
+Loading Image Start : 2058 ms
+Loading Image Done : 2058 ms
+Total Image Read size : 4096 Bytes
+Loading Image Start : 2058 ms
+Loading Image Done : 2178 ms
+Total Image Read size : 32428032 Bytes
+QseecomStartApp (bksecapp) call success status=0, AppId=131074
+[EMC] f: 0x3
+[EMC] F: U
+[EMC]00 00 00 00
+EMC Fuse Status : 0
+challenge_size is 0, 0
+Oem unlock value is 0
+init cc mode flag 0x0
+[MDM] mdm_value : 0 
+[AFW] afw_value  : 0
+[RMM] RmmCryptoCheckIntegrity : Integrity is broken
+[RMM] The block is all zero(index 0)
+[RMM] RmmCryptoCheckIntegrity : Integrity is broken
+[RMM] The block is all zero(index 1)
+Will return ImageStatus 0[0x2] to DevAuth 
+Will return ImageStatus 1[0x2] to DevAuth 
+Will return ImageStatus 2[0x0] to DevAuth 
+Will return ImageStatus 3[0x0] to DevAuth 
+Will return ImageStatus 4[0x0] to DevAuth 
+Will return ImageStatus 5[0x0] to DevAuth 
+Will return ImageStatus 6[0x0] to DevAuth 
+Will return ImageStatus 7[0x0] to DevAuth 
+Will return ImageStatus 8[0x0] to DevAuth 
+Will return ImageStatus 9[0x0] to DevAuth 
+Will return ImageStatus 10[0x0] to DevAuth 
+Will return ImageStatus 11[0x0] to DevAuth 
+init cc mode flag 0x0
+[MDM] mdm_value : 0 
+[AFW] afw_value  : 0
+[RMM] RmmCryptoCheckIntegrity : Integrity is broken
+[RMM] The block is all zero(index 0)
+[RMM] RmmCryptoCheckIntegrity : Integrity is broken
+[RMM] The block is all zero(index 1)
+Will return ImageStatus 0[0x2] to DevAuth 
+Will return ImageStatus 1[0x2] to DevAuth 
+Will return ImageStatus 2[0x0] to DevAuth 
+Will return ImageStatus 3[0x0] to DevAuth 
+Will return ImageStatus 4[0x0] to DevAuth 
+Will return ImageStatus 5[0x0] to DevAuth 
+Will return ImageStatus 6[0x0] to DevAuth 
+Will return ImageStatus 7[0x0] to DevAuth 
+Will return ImageStatus 8[0x0] to DevAuth 
+Will return ImageStatus 9[0x0] to DevAuth 
+Will return ImageStatus 10[0x0] to DevAuth 
+Will return ImageStatus 11[0x0] to DevAuth 
+Loading Image Start : 2246 ms
+Loading Image Done : 2246 ms
+Total Image Read size : 4096 Bytes
+Loading Image Start : 2246 ms
+Loading Image Done : 2365 ms
+Total Image Read size : 32428032 Bytes
+[TIMA trusted boot]: Boot-time measurement successful
+Downloading recovery, SWREV = 6USER KERNEL
+(Booting) AUTHENTICATE Succeed Recovery binary: recovery
+recovery Updated status 2
+[Sec_Lib]ddi : saved
+will update ImageStatus 0[0x2] to storage 
+will update ImageStatus 1[0x2] to storage 
+will update ImageStatus 2[0x0] to storage 
+will update ImageStatus 3[0x0] to storage 
+will update ImageStatus 4[0x0] to storage 
+will update ImageStatus 5[0x0] to storage 
+will update ImageStatus 6[0x0] to storage 
+will update ImageStatus 7[0x0] to storage 
+will update ImageStatus 8[0x0] to storage 
+will update ImageStatus 9[0x0] to storage 
+will update ImageStatus 10[0x0] to storage 
+will update ImageStatus 11[0x0] to storage 
+[Sec_Lib]ddi : saved
+iccc_write_bl_data:
+TZ informed of recovery status: 1
+Memory Base Address: 0x80000000
+Decompressing kernel image start: 2809 ms
+Decompressing kernel image done: 3229 ms
+UFS Vendor : TOSHIBA
+FW rev : 0300
+product : THGAF4G9N4LBAIRA
+UFS MD : 8919
+Error getting charger info: Device Error
+sec_update_cmdline start
+ Orig : console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=2048 androidboot.bootdeviccic_check_active
+ CheckActive: 1
+ FgGetFgReset: 0
+GetMaintenanceStatus: ATT
+[UCS] ucs flag is Unknown
+[UCS] ucs flag : 00 00 00 00
+[UCS] ucs_value  : 0
+Memory Base Address: 0x80000000
+USRF : GetUserPartitionFlashed = 0x0
+SEC CMDLINE : console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=2048 androidboot.bootdevice=1da4000.ufshc andCmdline: console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=2048 androidboot.bootdevice=1da4000.ufshc androidb
+BootLinux: GetImage failed!Add DTB entry 0x124/00000008/0x00000000/0x0/0x20014/0x0/0x20018/0x0/0x7D0FDE23/0x73EF2
+Add DTB entry 0x124/00000008/0x0000000B/0x20001/0x20014/0x0/0x20018/0x0/0x7D171D15/0x75E79
+Add DTB entry 0x124/00000008/0x00000003/0x20000/0x20014/0x0/0x20018/0x0/0x7D1E7B8E/0x75471
+Add DTB entry 0x124/00000008/0x00000005/0x20000/0x20014/0x0/0x20018/0x0/0x7D25CFFF/0x75595
+Add DTB entry 0x124/00000008/0x00000004/0x20000/0x20014/0x0/0x20018/0x0/0x7D2D2594/0x75575
+Add DTB entry 0x124/00000008/0x00000008/0x20001/0x20014/0x0/0x20018/0x0/0x7D347B09/0x7581A
+Add DTB entry 0x124/00000008/0x00000003/0x0/0x20014/0x0/0x20018/0x0/0x7D3BD323/0x73BBE
+Add DTB entry 0x124/00000008/0x00000007/0x20001/0x20014/0x0/0x20018/0x0/0x7D430EE1/0x7577E
+Add DTB entry 0x124/00000008/0x00000006/0x20000/0x20014/0x0/0x20018/0x0/0x7D4A665F/0x75589
+Add DTB entry 0x124/00000008/0x00000001/0x0/0x20014/0x0/0x20018/0x0/0x7D51BBE8/0x73E9C
+Add DTB entry 0x124/00000008/0x00000009/0x20001/0x20014/0x0/0x20018/0x0/0x7D58FA84/0x7634F
+Add DTB entry 0x124/00000008/0x00000002/0x0/0x20014/0x0/0x20018/0x0/0x7D605DD3/0x73FD8
+Add DTB entry 0x124/00000008/0x0000000C/0x20001/0x20014/0x0/0x20018/0x0/0x7D679DAB/0x75FB1
+Delete don't fit DTB entry 292/00000008/0x00000000/0/20014/0/20018/0/7D0FDE23/73EF2
+Delete don't fit DTB entry 292/00000008/0x00000003/20000/20014/0/20018/0/7D1E7B8E/75471
+Delete don't fit DTB entry 292/00000008/0x00000005/20000/20014/0/20018/0/7D25CFFF/75595
+Delete don't fit DTB entry 292/00000008/0x00000004/20000/20014/0/20018/0/7D2D2594/75575
+Delete don't fit DTB entry 292/00000008/0x00000003/0/20014/0/20018/0/7D3BD323/73BBE
+Delete don't fit DTB entry 292/00000008/0x00000006/20000/20014/0/20018/0/7D4A665F/75589
+Delete don't fit DTB entry 292/00000008/0x00000001/0/20014/0/20018/0/7D51BBE8/73E9C
+Delete don't fit DTB entry 292/00000008/0x00000002/0/20014/0/20018/0/7D605DD3/73FD8
+Delete don't fit DTB entry 292/00000008/0x00000008/20001/20014/0/20018/0/7D347B09/7581A
+Delete don't fit DTB entry 292/00000008/0x00000007/20001/20014/0/20018/0/7D430EE1/7577E
+Delete don't fit DTB entry 292/00000008/0x00000009/20001/20014/0/20018/0/7D58FA84/7634F
+Delete don't fit DTB entry 292/00000008/0x0000000B/20001/20014/0/20018/0/7D171D15/75E79
+Best match DTB tags 292/00000008/0x0000000C/20001/20014/0/20018/0/(offset)0x7D679DAB/(size)0x00075FB1
+Using pmic info 0x20014/0x0/0x20018/0x0 for device 0x20014/0x0/0x20018/0x0
+Memory Base Address: 0x80000000
+[3237] +UpdateDeviceTree
+RAM Partitions
+Adding Base: 0x0000000080000000 Available Length: 0x00000000FE4C0000 
+reg = <0x00000000 0x9D600000 0x00000000 0x02400000>
+reg = <0x00000000 0x9D400000 0x00000000 0x02400000>
+kaslr-Seed is added to chosen node
+ERROR: deleted sec_debug_region node ...
+S2MM005_read_adc: RID = 7
+(RID_OPEN)
+[MUIC] ADC Value : 0x07, Chager Type : 0x12, Vbus Status : 0x01
+ GetDeviceType: 3
+[3346] -UpdateDeviceTree
+GetMaintenanceStatus: ATT
+[SWP] Value : 0x0 
+
+Shutting Down UEFI Boot Services: 3353 ms
+MDPLibProfile: splash enabledBDS: LogFs sync skipped, No Media
+App Log Flush : 0 ms
+Exit BS        [ 3356] UEFI End

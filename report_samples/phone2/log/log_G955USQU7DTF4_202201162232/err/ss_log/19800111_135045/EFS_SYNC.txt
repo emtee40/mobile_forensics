@@ -1,0 +1,35 @@
+EFS_SYNC.
+Cur Time : 87.558000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.260138	rmts_api.c	rmts_get_buffer	1053	start
+11.260154	rmts_api.c	rmts_init	385	Waiting! connection
+11.370631	rmts_api.c	rmts_init	403	Success connection
+11.383078	rmts_api.c	rmts_get_buffer	1150	end - status=0
+11.383097	rmts_api.c	rmts_read_iovec	1498	start
+11.383100	rmts_api.c	rmts_read_iovec_core	1333	start
+11.390221	rmts_api.c	rmts_read_iovec_core	1452	end - status=0, time_out=0
+11.390221	rmts_api.c	rmts_read_iovec	1548	end - status=0, i=0
+11.390892	rmts_api.c	rmts_read_iovec	1498	start
+11.390895	rmts_api.c	rmts_read_iovec_core	1333	start
+11.392086	rmts_api.c	rmts_read_iovec_core	1452	end - status=0, time_out=0
+11.392086	rmts_api.c	rmts_read_iovec	1548	end - status=0, i=0
+11.392095	rmts_api.c	rmts_read_iovec	1498	start
+11.392097	rmts_api.c	rmts_read_iovec_core	1333	start
+11.393391	rmts_api.c	rmts_read_iovec_core	1452	end - status=0, time_out=0
+11.393391	rmts_api.c	rmts_read_iovec	1548	end - status=0, i=0
+11.394227	rmts_api.c	rmts_read_iovec	1498	start
+11.394229	rmts_api.c	rmts_read_iovec_core	1333	start
+11.400289	rmts_api.c	rmts_read_iovec_core	1452	end - status=0, time_out=0
+11.400289	rmts_api.c	rmts_read_iovec	1548	end - status=0, i=0
+11.581268	rmts_api.c	rmts_write_iovec	1767	start
+11.581273	rmts_api.c	rmts_write_iovec_core	1569	start
+11.634269	rmts_api.c	rmts_write_iovec_core	1721	end - status=0
+11.634269	rmts_api.c	rmts_write_iovec	1814	end - status=0, i=0
+
+------------------------------------------------------
+Used msg ram =  45.703125 %
+Time :  11.260138 ~  11.634269 sec, Total =   0.374131 sec
+Elapsed time for making this log =   0.001000 sec
+------------------------------------------------------

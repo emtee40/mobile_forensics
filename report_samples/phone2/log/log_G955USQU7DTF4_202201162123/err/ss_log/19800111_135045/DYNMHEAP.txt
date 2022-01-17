@@ -1,0 +1,17 @@
+DYNMHEAP.
+Cur Time : 87.535000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+16.283287	mem_share_qmi_poll_client.c	mem_share_qmi_poll_task	182	- tiemout 5sec
+16.283293	ss_mem_mgr.c	ss_dynamic_mem_init	50	-Init failed : 100663296Mbyte
+16.283298	dynamic_heap.c	get_heap_memory	661	ret=0xfffffffe, mem_share_alloc_rsp=0 - failed
+16.283300	dynamic_heap.c	dynamic_heap_g_init	224	client_id=3, size=33554432 - Failed
+16.283300	ss_mem_mgr.c	ss_dynamic_mem_init	57	-Init failed : 33554432Mbyte
+16.283300	ss_mem_mgr.c	ss_dynamic_mem_init	63	-Init failed done!
+
+------------------------------------------------------
+Used msg ram =  11.718750 %
+Time :  16.283287 ~  16.283300 sec, Total =   0.000013 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

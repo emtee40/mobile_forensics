@@ -1,0 +1,27 @@
+OBD.
+Cur Time : 4211.886000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.645209	diag_dci_auth.c	diag_och_ssm_cb	198	Request from och DCI to open/close : och_stat=1
+11.645230	diag_dci_auth.c	diag_dci_open_query	113	och_status : 1
+11.645230	diag_dci_auth.c	diag_dci_open_query	149	return : 0
+11.646347	diag.c	diag_handle_internal_sigs	3061	DIAG_INT_CLOSE_DCI_CHANNEL_SIG
+11.646400	diag_dci_auth.c	diag_dci_open_query	113	och_status : 1
+11.646400	diag_dci_auth.c	diag_dci_open_query	149	return : 0
+11.646401	diag.c	diag_handle_internal_sigs	3068	Close the DCI channel 0
+11.855247	obdapp.c	obd_init	1824	init : 0xc39bc3d0
+11.856487	obdapp.c	obd_init	1847	success get obd key
+11.856491	obdapp.c	obd_change_state	337	State OBD_STATE_INIT --> OBD_STATE_MMGSDI_REGISTER
+11.856492	obdapp.c	obd_init	1880	obd init done
+11.856815	obdapp.c	obd_handle_new_state	1721	obdapp_ctxt.state : 0xabcdabce
+11.857894	obdapp.c	obd_mmgsdi_cmd_cb	1078	OBD: Received MMGSDI cmd : state=0, cmf=0
+11.857895	obdapp.c	obd_change_state	337	State OBD_STATE_MMGSDI_REGISTER --> OBD_STATE_MMGSDI_REG_DONE
+11.863661	obdapp.c	obd_mmgsdi_events_cb	857	OBD: Received MMGSDI Event: 0x24
+16.098203	obdapp.c	obd_mmgsdi_events_cb	857	OBD: Received MMGSDI Event: 0x1
+
+------------------------------------------------------
+Used msg ram =  31.250000 %
+Time :  11.645209 ~  16.098203 sec, Total =   4.452994 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

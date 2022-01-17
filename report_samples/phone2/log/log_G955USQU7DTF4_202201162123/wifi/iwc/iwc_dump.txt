@@ -1,0 +1,342 @@
+[01-01 00:53:14.915] EVENT_CONNECT_NETWORK_START: , nid: -1, uid: 1000, pName: com.android.settings, current network state: DISCONNECTED
+[01-01 00:53:15.353] Connecting event, timestamp =1546303995353: , new AP:10:0c:6b:44:dc:2d
+[01-01 00:53:15.964] Connecting event, timestamp =1546303995963: , new AP:10:0c:6b:44:dc:2d
+[01-01 00:53:17.197] SNS state, false, timestamp =1546303997181: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[01-01 00:53:17.199] Network connected event(intermediate), timestamp =1546303997181: , New AP:10:0c:6b:44:dc:2d, SS:false
+[01-01 00:53:17.212] List of Known APs: Candidate List: [], Core List: [], Probation List: []
+[01-01 00:53:17.214] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1546303997181
+[01-01 00:53:17.259] save_model_obj : success to save_model_obj(org.json) in 0.002
+[01-01 00:53:17.265] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[10-07 02:31:09.251] Good Link, timestamp =: 1633573869251, RSSI:-40, AP:10:0c:6b:44:dc:2d
+[10-10 22:42:38.764] Network disconnected event(intermediate), timestamp =1633905758761: , RSSI=-41
+[10-10 22:42:38.771] Foreground package,:  com.qualcomm.embms(10200)
+[10-10 22:42:38.788] save_model_obj : success to save_model_obj(org.json) in 0.003
+[10-10 22:42:38.789] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[10-10 22:49:31.712] Connecting event, timestamp =1633906171712: , new AP:10:0c:6b:3d:81:a0
+[10-10 22:49:32.335] Connecting event, timestamp =1633906172334: , new AP:10:0c:6b:3d:81:a0
+[10-10 22:49:33.148] SNS state, false, timestamp =1633906173142: , edgeflag = false, NEW AP:10:0c:6b:3d:81:a0
+[10-10 22:49:33.149] Network connected event(intermediate), timestamp =1633906173142: , New AP:10:0c:6b:3d:81:a0, SS:false
+[10-10 22:49:33.150] AP List Change: bssid: 10:0c:6b:44:dc:2d CandidateList >> Candidate List: [], Core List: [], Probation List: []
+[10-10 22:49:33.151] List of Known APs: Candidate List: [], Core List: [], Probation List: []
+[10-10 22:49:33.152] Q-Table reward update: CAP: 10:0c:6b:3d:81:a0, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1633906173142
+[10-10 22:49:33.161] save_model_obj : success to save_model_obj(org.json) in 0.001
+[10-10 22:49:33.163] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[10-10 22:49:33.539] Good Link, timestamp =: 1633906173539, RSSI:-127, AP:10:0c:6b:3d:81:a0
+[10-10 22:51:49.727] SNS state, false, timestamp =1633906309710: , edgeflag = false, NEW AP:10:0c:6b:3d:81:a0
+[10-10 22:51:49.728] Network connected event(intermediate), timestamp =1633906309710: , New AP:10:0c:6b:44:dc:2d, SS:false
+[10-10 22:51:49.729] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;136577> ], Core List: [], Probation List: []
+[10-10 22:51:49.730] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1633906309710
+[10-10 22:51:49.734] save_model_obj : success to save_model_obj(org.json) in 0.001
+[10-10 22:51:49.737] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[10-11 08:20:20.193] Network disconnected event(intermediate), timestamp =1633940420192: , RSSI=-127
+[10-11 08:20:20.195] Foreground package,:  com.android.bluetooth(1002)
+[10-11 08:20:20.196] save_model_obj : success to save_model_obj(org.json) in 0.001
+[10-11 08:20:20.196] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[10-11 08:20:20.215] WIFI OFF event, timestamp =1633940420214: , edgeflag = false, old AP=10:0c:6b:44:dc:2d, PN = null
+[10-14 18:52:58.199] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[10-14 18:52:58.202] load_model_obj : success to load_model_obj(org.json) in 0.002
+[10-14 18:52:58.203] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[10-14 18:52:58.204] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[10-14 18:53:32.567] Connecting event, timestamp =1634255612566: , new AP:10:0c:6b:44:dc:2d
+[10-14 18:59:29.540] Connecting event, timestamp =1634255969539: , new AP:null
+[10-14 19:06:19.876] Connecting event, timestamp =1634256379875: , new AP:10:0c:6b:44:dc:2d
+[10-14 19:14:12.487] Connecting event, timestamp =1634256852487: , new AP:10:0c:6b:44:dc:2d
+[10-14 19:20:37.146] Connecting event, timestamp =1634257237146: , new AP:10:0c:6b:44:dc:2d
+[10-14 19:26:21.006] Connecting event, timestamp =1634257581006: , new AP:null
+[10-14 19:34:13.394] Connecting event, timestamp =1634258053394: , new AP:null
+[10-14 19:40:37.394] Connecting event, timestamp =1634258437393: , new AP:null
+[10-14 19:46:21.879] Connecting event, timestamp =1634258781879: , new AP:10:0c:6b:44:dc:2d
+[10-14 19:52:03.123] Connecting event, timestamp =1634259123123: , new AP:10:0c:6b:44:dc:2d
+[10-14 19:58:30.435] Connecting event, timestamp =1634259510434: , new AP:null
+[10-14 20:04:14.936] Connecting event, timestamp =1634259854935: , new AP:10:0c:6b:44:dc:2d
+[10-14 20:10:38.951] Connecting event, timestamp =1634260238951: , new AP:null
+[10-14 20:16:23.435] Connecting event, timestamp =1634260583435: , new AP:null
+[10-14 20:24:15.822] Connecting event, timestamp =1634261055822: , new AP:null
+[10-14 20:31:03.115] Connecting event, timestamp =1634261463115: , new AP:10:0c:6b:44:dc:2d
+[10-14 20:36:24.229] Connecting event, timestamp =1634261784228: , new AP:10:0c:6b:44:dc:2d
+[10-14 20:44:16.650] Connecting event, timestamp =1634262256650: , new AP:10:0c:6b:44:dc:2d
+[10-14 20:50:40.689] Connecting event, timestamp =1634262640689: , new AP:null
+[10-14 20:56:25.115] Connecting event, timestamp =1634262985115: , new AP:10:0c:6b:44:dc:2d
+[10-14 21:04:17.492] Connecting event, timestamp =1634263457491: , new AP:null
+[10-14 21:10:41.514] Connecting event, timestamp =1634263841514: , new AP:null
+[10-14 21:16:26.032] Connecting event, timestamp =1634264186032: , new AP:null
+[10-14 21:24:18.507] Connecting event, timestamp =1634264658506: , new AP:10:0c:6b:44:dc:2d
+[10-14 21:31:16.403] Connecting event, timestamp =1634265076403: , new AP:null
+[10-14 21:36:26.943] Connecting event, timestamp =1634265386942: , new AP:null
+[10-14 21:44:19.370] Connecting event, timestamp =1634265859369: , new AP:null
+[10-14 21:52:03.127] Connecting event, timestamp =1634266323127: , new AP:null
+[10-14 21:58:35.876] Connecting event, timestamp =1634266715876: , new AP:null
+[10-14 22:04:20.235] Connecting event, timestamp =1634267060234: , new AP:null
+[10-14 22:10:44.233] Connecting event, timestamp =1634267444233: , new AP:10:0c:6b:44:dc:2d
+[10-14 22:16:28.684] Connecting event, timestamp =1634267788684: , new AP:null
+[10-14 22:24:21.203] Connecting event, timestamp =1634268261202: , new AP:null
+[10-14 22:31:03.120] Connecting event, timestamp =1634268663120: , new AP:null
+[10-14 22:38:05.571] Connecting event, timestamp =1634269085570: , new AP:null
+[10-14 22:44:29.605] Connecting event, timestamp =1634269469605: , new AP:null
+[10-14 22:51:03.107] Connecting event, timestamp =1634269863107: , new AP:10:0c:6b:44:dc:2d
+[10-14 22:57:03.094] Connecting event, timestamp =1634270223093: , new AP:10:0c:6b:44:dc:2d
+[10-14 23:02:11.132] Connecting event, timestamp =1634270531132: , new AP:10:0c:6b:44:dc:2d
+[10-14 23:08:05.620] Connecting event, timestamp =1634270885620: , new AP:null
+[10-14 23:15:04.109] Connecting event, timestamp =1634271304109: , new AP:null
+[10-14 23:23:03.137] Connecting event, timestamp =1634271783136: , new AP:null
+[10-14 23:28:11.130] Connecting event, timestamp =1634272091129: , new AP:10:0c:6b:44:dc:2d
+[10-14 23:36:03.617] Connecting event, timestamp =1634272563617: , new AP:10:0c:6b:44:dc:2d
+[10-14 23:42:27.660] Connecting event, timestamp =1634272947659: , new AP:null
+[10-14 23:48:12.133] Connecting event, timestamp =1634273292133: , new AP:10:0c:6b:44:dc:2d
+[10-14 23:53:16.817] Connecting event, timestamp =1634273596817: , new AP:10:0c:6b:44:dc:2d
+[10-15 00:01:03.131] Connecting event, timestamp =1634274063130: , new AP:10:0c:6b:44:dc:2d
+[10-15 00:04:44.688] WIFI OFF event, timestamp =1634274284687: , edgeflag = false, old AP=10:0c:6b:44:dc:2d, PN = null
+[11-05 02:45:53.221] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[11-05 02:45:53.224] load_model_obj : success to load_model_obj(org.json) in 0.002
+[11-05 02:45:53.225] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[11-05 02:45:53.226] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[11-05 02:46:29.020] Connecting event, timestamp =1636098389019: , new AP:10:0c:6b:44:dc:2d
+[11-05 02:46:49.427] EVENT_CONNECT_NETWORK_START: , nid: 1, uid: 1000, pName: com.android.settings, current network state: DISCONNECTED
+[11-05 02:46:49.446] EVENT_CONNECT_NETWORK_START: , nid: 1, uid: 1000, pName: com.android.settings, current network state: DISCONNECTED
+[11-05 02:46:51.187] Connecting event, timestamp =1636098411187: , new AP:10:0c:6b:44:dc:2d
+[11-05 02:46:54.372] EVENT_REMOVE_NETWORK_START: , nid: 1, uid: 1000, pName: com.android.settings
+[11-05 02:47:03.579] EVENT_CONNECT_NETWORK_START: , nid: -1, uid: 1000, pName: com.android.settings, current network state: DISCONNECTED
+[11-05 02:47:03.629] Connecting event, timestamp =1636098423629: , new AP:10:0c:6b:3d:81:a0
+[11-05 02:47:04.217] Connecting event, timestamp =1636098424216: , new AP:10:0c:6b:3d:81:a0
+[11-05 02:47:05.892] SNS state, false, timestamp =1636098425879: , edgeflag = false, NEW AP:10:0c:6b:3d:81:a0
+[11-05 02:47:05.893] Network connected event(intermediate), timestamp =1636098425879: , New AP:10:0c:6b:3d:81:a0, SS:false
+[11-05 02:47:05.894] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2192252742>  <10:0c:6b:44:dc:2d;0;2192116165> ], Core List: [], Probation List: []
+[11-05 02:47:05.919] Q-Table reward update: CAP: 10:0c:6b:3d:81:a0, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636098425879
+[11-05 02:47:05.934] save_model_obj : success to save_model_obj(org.json) in 0.005
+[11-05 02:47:05.953] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-05 02:46:52.815] Good Link, timestamp =: 1636098412814, RSSI:-47, AP:10:0c:6b:3d:81:a0
+[11-05 03:54:06.490] Network disconnected event(intermediate), timestamp =1636102446488: , RSSI=-55
+[11-05 03:54:06.498] Foreground package,:  com.android.bluetooth(1002)
+[11-05 03:54:06.517] save_model_obj : success to save_model_obj(org.json) in 0.014
+[11-05 04:03:12.756] Connecting event, timestamp =1636102992755: , new AP:10:0c:6b:44:dc:2d
+[11-05 04:03:13.416] Connecting event, timestamp =1636102993416: , new AP:10:0c:6b:44:dc:2d
+[11-05 04:03:14.797] SNS state, false, timestamp =1636102994783: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[11-05 04:03:14.798] Network connected event(intermediate), timestamp =1636102994783: , New AP:10:0c:6b:44:dc:2d, SS:false
+[11-05 04:03:14.799] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2196821647>  <10:0c:6b:44:dc:2d;0;2196685070> ], Core List: [], Probation List: []
+[11-05 04:03:14.800] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636102994783
+[11-05 04:03:14.810] save_model_obj : success to save_model_obj(org.json) in 0.001
+[11-05 04:03:14.837] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-05 04:03:15.069] Good Link, timestamp =: 1636102995069, RSSI:-127, AP:10:0c:6b:44:dc:2d
+[11-07 07:00:47.488] SNS state, false, timestamp =1636290047469: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[11-07 07:00:47.497] Network connected event(intermediate), timestamp =1636290047469: , New AP:10:0c:6b:3d:81:a0, SS:false
+[11-07 07:00:47.498] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2383874346>  <10:0c:6b:44:dc:2d;0;2383737769> ], Core List: [], Probation List: []
+[11-07 07:00:47.498] Q-Table reward update: CAP: 10:0c:6b:3d:81:a0, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636290047469
+[11-07 07:00:47.505] save_model_obj : success to save_model_obj(org.json) in 0.005
+[11-07 07:00:47.508] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-07 22:27:28.076] SNS state, false, timestamp =1636345648067: , edgeflag = false, NEW AP:10:0c:6b:3d:81:a0
+[11-07 22:27:28.097] Network connected event(intermediate), timestamp =1636345648067: , New AP:10:0c:6b:44:dc:2d, SS:false
+[11-07 22:27:28.097] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2439474945>  <10:0c:6b:44:dc:2d;0;2439338368> ], Core List: [], Probation List: []
+[11-07 22:27:28.098] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636345648067
+[11-07 22:27:28.104] save_model_obj : success to save_model_obj(org.json) in 0.003
+[11-07 22:27:28.106] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-08 00:56:19.900] Network disconnected event(intermediate), timestamp =1636354579900: , RSSI=-45
+[11-08 00:56:19.902] Foreground package,:  com.android.bluetooth(1002)
+[11-08 00:56:19.903] save_model_obj : success to save_model_obj(org.json) in 0.001
+[11-08 00:56:19.909] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[11-08 01:07:36.479] Connecting event, timestamp =1636355256479: , new AP:10:0c:6b:3d:81:a0
+[11-08 01:07:37.104] Connecting event, timestamp =1636355257103: , new AP:10:0c:6b:3d:81:a0
+[11-08 01:07:37.782] SNS state, false, timestamp =1636355257777: , edgeflag = false, NEW AP:10:0c:6b:3d:81:a0
+[11-08 01:07:37.783] Network connected event(intermediate), timestamp =1636355257777: , New AP:10:0c:6b:3d:81:a0, SS:false
+[11-08 01:07:37.784] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2449084632>  <10:0c:6b:44:dc:2d;0;2448948055> ], Core List: [], Probation List: []
+[11-08 01:07:37.785] Q-Table reward update: CAP: 10:0c:6b:3d:81:a0, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636355257777
+[11-08 01:07:37.801] save_model_obj : success to save_model_obj(org.json) in 0.006
+[11-08 01:07:37.819] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-08 01:07:38.120] Good Link, timestamp =: 1636355258119, RSSI:-127, AP:10:0c:6b:3d:81:a0
+[11-08 21:45:25.223] Network disconnected event(intermediate), timestamp =1636429525223: , RSSI=-45
+[11-08 21:45:25.230] Foreground package,:  com.qualcomm.embms(10200)
+[11-08 21:45:25.249] save_model_obj : success to save_model_obj(org.json) in 0.018
+[11-08 21:45:25.252] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[11-08 21:54:29.842] Connecting event, timestamp =1636430069842: , new AP:null
+[11-08 21:54:30.401] Connecting event, timestamp =1636430070401: , new AP:10:0c:6b:44:dc:2d
+[11-08 21:54:30.984] SNS state, false, timestamp =1636430070978: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[11-08 21:54:30.985] Network connected event(intermediate), timestamp =1636430070978: , New AP:10:0c:6b:44:dc:2d, SS:false
+[11-08 21:54:30.986] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2523897833>  <10:0c:6b:44:dc:2d;0;2523761256> ], Core List: [], Probation List: []
+[11-08 21:54:30.998] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636430070978
+[11-08 21:54:31.008] save_model_obj : success to save_model_obj(org.json) in 0.001
+[11-08 21:54:31.012] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-08 21:54:31.333] Good Link, timestamp =: 1636430071333, RSSI:-127, AP:10:0c:6b:44:dc:2d
+[11-09 16:38:06.431] SNS state, false, timestamp =1636497486414: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[11-09 16:38:06.435] Network connected event(intermediate), timestamp =1636497486414: , New AP:10:0c:6b:3d:81:a0, SS:false
+[11-09 16:38:06.437] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2591313284>  <10:0c:6b:44:dc:2d;0;2591176707> ], Core List: [], Probation List: []
+[11-09 16:38:06.439] Q-Table reward update: CAP: 10:0c:6b:3d:81:a0, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636497486414
+[11-09 16:38:06.457] save_model_obj : success to save_model_obj(org.json) in 0.003
+[11-09 16:38:06.460] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-11 13:28:28.583] Network disconnected event(intermediate), timestamp =1636658908573: , RSSI=-52
+[11-11 13:28:28.591] Foreground package,:  com.qualcomm.embms(10200)
+[11-11 13:28:28.598] save_model_obj : success to save_model_obj(org.json) in 0.004
+[11-11 13:28:28.599] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[11-11 13:34:58.773] Connecting event, timestamp =1636659298772: , new AP:10:0c:6b:3d:81:a0
+[11-11 13:34:59.577] Connecting event, timestamp =1636659299577: , new AP:10:0c:6b:3d:81:a0
+[11-11 13:43:52.003] Connecting event, timestamp =1636659832003: , new AP:null
+[11-11 13:43:52.506] Connecting event, timestamp =1636659832505: , new AP:10:0c:6b:3d:81:a0
+[11-11 13:43:53.197] SNS state, false, timestamp =1636659833191: , edgeflag = false, NEW AP:10:0c:6b:3d:81:a0
+[11-11 13:43:53.200] Network connected event(intermediate), timestamp =1636659833191: , New AP:10:0c:6b:3d:81:a0, SS:false
+[11-11 13:43:53.201] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2753660049>  <10:0c:6b:44:dc:2d;0;2753523472> ], Core List: [], Probation List: []
+[11-11 13:43:53.205] Q-Table reward update: CAP: 10:0c:6b:3d:81:a0, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636659833191
+[11-11 13:43:53.233] save_model_obj : success to save_model_obj(org.json) in 0.001
+[11-11 13:43:53.253] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-11 13:43:53.552] Good Link, timestamp =: 1636659833552, RSSI:-127, AP:10:0c:6b:3d:81:a0
+[11-12 01:59:23.957] Network disconnected event(intermediate), timestamp =1636703963956: , RSSI=-52
+[11-12 01:59:23.959] Foreground package,:  com.qualcomm.embms(10200)
+[11-12 01:59:23.961] save_model_obj : success to save_model_obj(org.json) in 0.002
+[11-12 01:59:23.962] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[11-12 02:08:33.271] Connecting event, timestamp =1636704513271: , new AP:10:0c:6b:44:dc:2d
+[11-12 02:08:33.882] Connecting event, timestamp =1636704513882: , new AP:10:0c:6b:44:dc:2d
+[11-12 02:08:34.579] SNS state, false, timestamp =1636704514571: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[11-12 02:08:34.581] Network connected event(intermediate), timestamp =1636704514571: , New AP:10:0c:6b:44:dc:2d, SS:false
+[11-12 02:08:34.605] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;2798341430>  <10:0c:6b:44:dc:2d;0;2798204853> ], Core List: [], Probation List: []
+[11-12 02:08:34.607] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1636704514571
+[11-12 02:08:34.623] save_model_obj : success to save_model_obj(org.json) in 0.002
+[11-12 02:08:34.645] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-12 02:08:34.988] Good Link, timestamp =: 1636704514988, RSSI:-127, AP:10:0c:6b:44:dc:2d
+[11-12 06:32:48.458] Network disconnected event(intermediate), timestamp =1636720368458: , RSSI=-127
+[11-12 06:32:48.462] Foreground package,:  com.qualcomm.embms(10200)
+[11-12 06:32:48.467] save_model_obj : success to save_model_obj(org.json) in 0.004
+[11-12 06:32:48.468] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[11-12 06:32:48.493] WIFI OFF event, timestamp =1636720368493: , edgeflag = false, old AP=10:0c:6b:44:dc:2d, PN = null
+[12-31 18:00:08.610] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[12-31 18:00:08.615] load_model_obj : success to load_model_obj(org.json) in 0.002
+[12-31 18:00:08.616] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[12-31 18:00:08.616] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[12-31 18:00:26.714] Connecting event, timestamp =1546300826713: , new AP:10:0c:6b:44:dc:2d
+[12-31 18:00:27.180] Connecting event, timestamp =1546300827180: , new AP:10:0c:6b:44:dc:2d
+[12-31 18:00:28.835] SNS state, false, timestamp =1546300828820: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[12-31 18:00:28.843] Network connected event(intermediate), timestamp =1546300828820: , New AP:10:0c:6b:44:dc:2d, SS:false
+[12-31 18:00:28.844] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;-87605344308>  <10:0c:6b:44:dc:2d;0;-87605480885> ], Core List: [], Probation List: []
+[12-31 18:00:28.846] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1546300828820
+[12-31 18:00:28.851] save_model_obj : success to save_model_obj(org.json) in 0.001
+[12-31 18:00:28.871] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[11-28 22:20:05.459] Good Link, timestamp =: 1638159605459, RSSI:-41, AP:10:0c:6b:44:dc:2d
+[11-29 15:07:42.698] Qtable Dump: < 10:0c:6b:3d:81:a0 - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >
+[11-29 15:07:42.700] Qtable Dump: < 10:0c:6b:44:dc:2d - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >
+[11-29 15:07:42.700] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;4313889548>  <10:0c:6b:44:dc:2d;0;4313752971> ], Core List: [], Probation List: []
+[11-29 15:07:42.700] Qtable Dump(current bssid): < 10:0c:6b:44:dc:2d - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >
+[12-04 00:03:58.203] Network disconnected event(intermediate), timestamp =1638597838201: , RSSI=-36
+[12-04 00:03:58.217] Foreground package,:  com.qualcomm.embms(10200)
+[12-04 00:03:58.230] save_model_obj : success to save_model_obj(org.json) in 0.012
+[12-04 00:03:58.231] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[12-04 00:09:19.414] Connecting event, timestamp =1638598159414: , new AP:10:0c:6b:44:dc:2d
+[12-04 00:09:20.232] Connecting event, timestamp =1638598160232: , new AP:10:0c:6b:44:dc:2d
+[12-04 00:18:04.659] Connecting event, timestamp =1638598684658: , new AP:10:0c:6b:44:dc:2d
+[12-04 00:18:05.162] Connecting event, timestamp =1638598685162: , new AP:10:0c:6b:44:dc:2d
+[12-04 00:18:05.862] SNS state, false, timestamp =1638598685848: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[12-04 00:18:05.863] Network connected event(intermediate), timestamp =1638598685848: , New AP:10:0c:6b:44:dc:2d, SS:false
+[12-04 00:18:05.864] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;4692512712>  <10:0c:6b:44:dc:2d;0;4692376135> ], Core List: [], Probation List: []
+[12-04 00:18:05.865] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1638598685848
+[12-04 00:18:05.878] save_model_obj : success to save_model_obj(org.json) in 0.001
+[12-04 00:18:05.885] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[12-04 00:18:06.168] Good Link, timestamp =: 1638598686168, RSSI:-127, AP:10:0c:6b:44:dc:2d
+[12-04 03:08:58.501] SNS state, false, timestamp =1638608938495: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[12-04 03:08:58.504] Network connected event(intermediate), timestamp =1638608938495: , New AP:10:0c:6b:3d:81:a0, SS:false
+[12-04 03:08:58.505] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;4702765353>  <10:0c:6b:44:dc:2d;0;4702628776> ], Core List: [], Probation List: []
+[12-04 03:08:58.507] Q-Table reward update: CAP: 10:0c:6b:3d:81:a0, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1638608938495
+[12-04 03:08:58.537] save_model_obj : success to save_model_obj(org.json) in 0.009
+[12-04 03:08:58.540] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[12-04 03:09:14.228] Network disconnected event(intermediate), timestamp =1638608954224: , RSSI=-36
+[12-04 03:09:14.231] Foreground package,:  com.qualcomm.embms(10200)
+[12-04 03:09:14.233] save_model_obj : success to save_model_obj(org.json) in 0.001
+[12-04 03:18:26.537] Connecting event, timestamp =1638609506536: , new AP:10:0c:6b:44:dc:2d
+[12-04 03:18:27.683] Connecting event, timestamp =1638609507683: , new AP:10:0c:6b:44:dc:2d
+[12-04 03:18:28.083] Connecting event, timestamp =1638609508082: , new AP:10:0c:6b:44:dc:2d
+[12-04 03:18:28.758] SNS state, false, timestamp =1638609508746: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[12-04 03:18:28.759] Network connected event(intermediate), timestamp =1638609508746: , New AP:10:0c:6b:44:dc:2d, SS:false
+[12-04 03:18:28.760] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;4703335607>  <10:0c:6b:44:dc:2d;0;4703199031> ], Core List: [], Probation List: []
+[12-04 03:18:28.761] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1638609508746
+[12-04 03:18:28.786] save_model_obj : success to save_model_obj(org.json) in 0.002
+[12-04 03:18:28.804] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[12-04 03:18:29.198] Good Link, timestamp =: 1638609509198, RSSI:-127, AP:10:0c:6b:44:dc:2d
+[12-05 09:45:11.926] SNS state, false, timestamp =1638719111907: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[12-05 09:45:11.935] Network connected event(intermediate), timestamp =1638719111907: , New AP:10:0c:6b:3d:81:a0, SS:false
+[12-05 09:45:11.935] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;4812938783>  <10:0c:6b:44:dc:2d;0;4812802206> ], Core List: [], Probation List: []
+[12-05 09:45:11.936] Q-Table reward update: CAP: 10:0c:6b:3d:81:a0, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1638719111907
+[12-05 09:45:11.942] save_model_obj : success to save_model_obj(org.json) in 0.005
+[12-05 09:45:11.946] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[12-05 12:14:55.185] SNS state, false, timestamp =1638728095181: , edgeflag = false, NEW AP:10:0c:6b:3d:81:a0
+[12-05 12:14:55.187] Network connected event(intermediate), timestamp =1638728095181: , New AP:10:0c:6b:44:dc:2d, SS:false
+[12-05 12:14:55.187] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;4821922035>  <10:0c:6b:44:dc:2d;0;4821785458> ], Core List: [], Probation List: []
+[12-05 12:14:55.188] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1638728095181
+[12-05 12:14:55.208] save_model_obj : success to save_model_obj(org.json) in 0.005
+[12-05 12:14:55.210] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[12-06 10:09:47.547] Network disconnected event(intermediate), timestamp =1638806987547: , RSSI=-36
+[12-06 10:09:47.555] Foreground package,:  com.qualcomm.embms(10200)
+[12-06 10:09:47.557] save_model_obj : success to save_model_obj(org.json) in 0.002
+[12-06 10:09:47.574] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[12-06 10:09:47.615] WIFI OFF event, timestamp =1638806987614: , edgeflag = false, old AP=10:0c:6b:44:dc:2d, PN = null
+[11-29 05:42:18.636] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[11-29 05:42:18.639] load_model_obj : success to load_model_obj(org.json) in 0.002
+[11-29 05:42:18.640] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[11-29 05:42:18.640] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[11-29 05:42:50.306] Connecting event, timestamp =1638186170306: , new AP:10:0c:6b:44:dc:2d
+[11-29 05:42:50.836] Connecting event, timestamp =1638186170835: , new AP:10:0c:6b:44:dc:2d
+[11-29 05:42:52.488] SNS state, false, timestamp =1638186172476: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[11-29 05:42:52.489] Network connected event(intermediate), timestamp =1638186172476: , New AP:10:0c:6b:44:dc:2d, SS:false
+[11-29 05:42:52.496] List of Known APs: Candidate List: [ <10:0c:6b:3d:81:a0;0;4279999337>  <10:0c:6b:44:dc:2d;0;4279862760> ], Core List: [], Probation List: []
+[11-29 05:42:52.500] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1638186172476
+[11-29 05:42:52.515] save_model_obj : success to save_model_obj(org.json) in 0.009
+[11-29 05:42:52.525] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[01-11 14:55:12.511] Good Link, timestamp =: 1641934512510, RSSI:-38, AP:10:0c:6b:44:dc:2d
+[01-12 14:13:09.155] Network disconnected event(intermediate), timestamp =1642018389155: , RSSI=-44
+[01-12 14:13:09.159] Foreground package,:  com.samsung.android.dialer(10076)
+[01-12 14:13:09.162] save_model_obj : success to save_model_obj(org.json) in 0.003
+[01-12 14:13:09.164] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[01-12 14:13:09.185] WIFI OFF event, timestamp =1642018389185: , edgeflag = false, old AP=10:0c:6b:44:dc:2d, PN = null
+[01-12 14:13:37.981] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[01-12 14:13:37.984] load_model_obj : success to load_model_obj(org.json) in 0.002
+[01-12 14:13:37.984] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[01-12 14:13:37.985] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[01-12 14:13:53.847] EVENT_CONNECT_NETWORK_START: , nid: 1, uid: 1000, pName: com.android.settings, current network state: DISCONNECTED
+[01-12 14:13:53.870] EVENT_CONNECT_NETWORK_START: , nid: 1, uid: 1000, pName: com.android.settings, current network state: DISCONNECTED
+[01-12 14:13:55.690] Connecting event, timestamp =1642018435690: , new AP:10:0c:6b:44:dc:2d
+[01-12 14:13:56.164] Connecting event, timestamp =1642018436164: , new AP:10:0c:6b:44:dc:2d
+[01-12 14:13:57.423] SNS state, false, timestamp =1642018437406: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[01-12 14:13:57.424] Network connected event(intermediate), timestamp =1642018437406: , New AP:10:0c:6b:44:dc:2d, SS:false
+[01-12 14:13:57.425] AP List Change: bssid: 10:0c:6b:3d:81:a0 CandidateList >> Candidate List: [ <10:0c:6b:44:dc:2d;0;8112127696> ], Core List: [], Probation List: []
+[01-12 14:13:57.425] AP List Change: bssid: 10:0c:6b:44:dc:2d CandidateList >> Candidate List: [], Core List: [], Probation List: []
+[01-12 14:13:57.426] List of Known APs: Candidate List: [], Core List: [], Probation List: []
+[01-12 14:13:57.427] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1642018437406
+[01-12 14:13:57.448] save_model_obj : success to save_model_obj(org.json) in 0.011
+[01-12 14:13:57.467] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[01-12 14:13:58.097] Good Link, timestamp =: 1642018438096, RSSI:-36, AP:10:0c:6b:44:dc:2d
+[01-16 03:18:32.772] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[01-16 03:18:32.775] load_model_obj : success to load_model_obj(org.json) in 0.002
+[01-16 03:18:32.776] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[01-16 03:18:32.777] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[01-16 03:20:18.977] WIFI OFF event, timestamp =1642324818977: , edgeflag = false, old AP=null, PN = null
+[01-16 03:59:06.129] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[01-16 03:59:06.132] load_model_obj : success to load_model_obj(org.json) in 0.002
+[01-16 03:59:06.133] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[01-16 03:59:06.133] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[01-16 04:01:56.718] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[01-16 04:01:56.722] load_model_obj : success to load_model_obj(org.json) in 0.001
+[01-16 04:01:56.723] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[01-16 04:01:56.724] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[01-16 04:08:02.220] Connecting event, timestamp =1642327682218: , new AP:10:0c:6b:44:dc:2d
+[01-16 04:08:02.782] Connecting event, timestamp =1642327682782: , new AP:10:0c:6b:44:dc:2d
+[01-16 04:08:04.505] SNS state, false, timestamp =1642327684491: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[01-16 04:08:04.506] Network connected event(intermediate), timestamp =1642327684491: , New AP:10:0c:6b:44:dc:2d, SS:false
+[01-16 04:08:04.507] List of Known APs: Candidate List: [ <10:0c:6b:44:dc:2d;0;309247081> ], Core List: [], Probation List: []
+[01-16 04:08:04.514] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1642327684491
+[01-16 04:08:04.545] save_model_obj : success to save_model_obj(org.json) in 0.013
+[01-16 04:08:04.557] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[01-16 04:07:59.935] Good Link, timestamp =: 1642327679935, RSSI:-127, AP:10:0c:6b:44:dc:2d
+[01-16 04:56:43.410] Network disconnected event(intermediate), timestamp =1642330603410: , RSSI=-37
+[01-16 04:56:43.411] Foreground package,:  com.qualcomm.embms(10200)
+[01-16 04:56:43.415] save_model_obj : success to save_model_obj(org.json) in 0.003
+[01-16 04:56:43.416] AUTO_DISCONNECTION: Not learn on state whose SNS is disabled
+[01-16 04:56:43.439] WIFI OFF event, timestamp =1642330603437: , edgeflag = false, old AP=10:0c:6b:44:dc:2d, PN = null
+[01-16 21:21:16.859] Installed IT(false) STC(0) : SW Version : G955USQU7DTF4
+[01-16 21:21:16.864] load_model_obj : success to load_model_obj(org.json) in 0.003
+[01-16 21:21:16.865] setDefaultQAI(RFLInterface intf): Default QAI is calculated by SNS Option based
+[01-16 21:21:16.866] setDefaultQAI(RFLInterface intf): Default QAI was set 3
+[01-16 21:22:29.842] Connecting event, timestamp =1642389749840: , new AP:10:0c:6b:44:dc:2d
+[01-16 21:22:30.370] Connecting event, timestamp =1642389750370: , new AP:10:0c:6b:44:dc:2d
+[01-16 21:22:31.958] SNS state, false, timestamp =1642389751954: , edgeflag = false, NEW AP:10:0c:6b:44:dc:2d
+[01-16 21:22:31.959] Network connected event(intermediate), timestamp =1642389751954: , New AP:10:0c:6b:44:dc:2d, SS:false
+[01-16 21:22:31.960] List of Known APs: Candidate List: [ <10:0c:6b:44:dc:2d;0;371314534> ], Core List: [], Probation List: []
+[01-16 21:22:31.963] Q-Table reward update: CAP: 10:0c:6b:44:dc:2d, Event: NETWORK_CONNECTED initial value >> Q-Table: [ 0.000000; 2.000000; 4.000000; ] >> swflag=false timestamp =1642389751954
+[01-16 21:22:31.987] save_model_obj : success to save_model_obj(org.json) in 0.012
+[01-16 21:22:31.997] IWCMonitor: Send IWC-CURRENT-QAI QAI: -1
+[01-16 21:22:32.441] Good Link, timestamp =: 1642389752440, RSSI:-38, AP:10:0c:6b:44:dc:2d
+[01-16 21:23:23.292] Qtable Dump: < 10:0c:6b:44:dc:2d - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >
+[01-16 21:23:23.292] List of Known APs: Candidate List: [ <10:0c:6b:44:dc:2d;0;371365866> ], Core List: [], Probation List: []
+[01-16 21:23:23.292] Qtable Dump(current bssid): < 10:0c:6b:44:dc:2d - 0.000000 2.000000 4.000000 > < isSteadyState - 0, mLastSNS - 0, mLastAGG - 0 > < EventBuffer  >

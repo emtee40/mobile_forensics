@@ -1,0 +1,21 @@
+SS_DSI.
+Cur Time : 87.565000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+21.962660	ss_log_dsi.c	ss_dsi_input	9	msg_id 1
+21.962662	ss_log_dsi.c	ss_dsi_input_key	14	rcvd_qmi_dsi 1024, rcvd_qmi_comp_key 0, rcvd_qmi_validity_field 1,sar_efs_check_if_key_present 1,sar_efs_get_comp_key 0
+21.962667	ss_log_dsi.c	ss_dsi_aol_event_scenario	36	AOL new_scenario=40
+21.962682	ss_log_dsi.c	ss_dsi_before_check_priority	19	Before Check priority dsi_map 1024
+21.962685	ss_log_dsi.c	ss_dsi_after_check_priority	24	After Check priority dsi_map 0
+21.994932	ss_log_dsi.c	ss_dsi_input	9	msg_id 1
+21.994934	ss_log_dsi.c	ss_dsi_input_key	14	rcvd_qmi_dsi 1024, rcvd_qmi_comp_key 0, rcvd_qmi_validity_field 1,sar_efs_check_if_key_present 1,sar_efs_get_comp_key 0
+21.994938	ss_log_dsi.c	ss_dsi_aol_event_scenario	36	AOL new_scenario=40
+21.994948	ss_log_dsi.c	ss_dsi_before_check_priority	19	Before Check priority dsi_map 1024
+21.994951	ss_log_dsi.c	ss_dsi_after_check_priority	24	After Check priority dsi_map 0
+
+------------------------------------------------------
+Used msg ram =  22.656250 %
+Time :  21.962660 ~  21.994951 sec, Total =   0.032291 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

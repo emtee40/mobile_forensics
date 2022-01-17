@@ -1,0 +1,692 @@
+01-01 00:02:19.202 10055 14429 Database upgraded from version 0 to 904 in 0 seconds
+01-01 00:02:19.467 10205 14463 Database upgraded from version 0 to 904 in 0 seconds
+01-01 00:02:22.389 10055 14429 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-01 00:02:22.517 10055 15027 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:02:22.538 10055 15027 INSERT, none/media_scanner
+01-01 00:02:22.542 10055 15027 INSERT, none/media_scanner
+01-01 00:02:22.563 10055 15027 INSERT, 
+01-01 00:02:22.590 10055 15027 INSERT, external
+01-01 00:02:23.377 10055 15027 BULKINSERT, external/file?mediascan=1
+01-01 00:02:23.400 10055 15027 BULKINSERT, external/file?mediascan=1 count: 4
+01-01 00:02:23.412 10055 15027 BULKINSERT, external/audio/media?mediascan=1
+01-01 00:02:23.468 10055 15027 INSERT, external/audio/genres
+01-01 00:02:23.479 10055 15027 INSERT, external/audio/genres/1
+01-01 00:02:23.526 10055 15027 INSERT, external/audio/genres/1/members
+01-01 00:02:23.546 10055 15027 INSERT, external/audio/genres/1/members/1
+01-01 00:02:23.600 10055 15027 BULKINSERT, external/audio/media?mediascan=1 count: 1
+01-01 00:02:23.659 10055 15027 Checked Files:1 Dirs:13, I:5, U:0, D:0, MP3_1_589 (time: 1046ms)
+01-01 00:02:23.834 10055 15027 !@done scanning volume external
+01-01 00:02:26.595 5004 15759 DELETE, external/sec/media
+01-01 00:02:39.370 10055 14429 android.intent.action.BOOT_COMPLETED
+01-01 00:02:39.495 10055 16537 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:02:39.497 10055 16537 INSERT, none/media_scanner
+01-01 00:02:39.498 10055 16537 INSERT, none/media_scanner
+01-01 00:02:39.516 10055 16537 DELETE, internal/file
+01-01 00:02:39.520 10055 16537 DELETE, internal/file count: 0
+01-01 00:02:41.385 10055 16537 BULKINSERT, internal/file?mediascan=1
+01-01 00:02:41.395 10055 16537 BULKINSERT, internal/file?mediascan=1 count: 2
+01-01 00:02:41.480 10055 16537 BULKINSERT, internal/audio/media?mediascan=1
+01-01 00:02:41.562 10055 16537 BULKINSERT, internal/audio/media?mediascan=1 count: 25
+01-01 00:02:41.564 10055 16537 INSERT, internal/audio/media
+01-01 00:02:41.577 10055 16537 INSERT, internal/audio/media/30
+01-01 00:02:41.681 10055 16537 notification_sound content://media/internal/audio/media/30
+01-01 00:02:43.319 10055 16537 BULKINSERT, internal/file?mediascan=1
+01-01 00:02:43.324 10055 16537 BULKINSERT, internal/file?mediascan=1 count: 1
+01-01 00:02:43.326 10055 16537 BULKINSERT, internal/audio/media?mediascan=1
+01-01 00:02:43.397 10055 16537 BULKINSERT, internal/audio/media?mediascan=1 count: 20
+01-01 00:02:43.401 10055 16537 INSERT, internal/audio/media
+01-01 00:02:43.423 10055 16537 INSERT, internal/audio/media/52
+01-01 00:02:43.461 10055 16537 alarm_alert content://media/internal/audio/media/52
+01-01 00:02:43.726 10055 16537 BULKINSERT, internal/audio/media?mediascan=1
+01-01 00:02:43.736 10055 16537 BULKINSERT, internal/audio/media?mediascan=1 count: 2
+01-01 00:02:43.738 10055 16537 INSERT, internal/audio/media
+01-01 00:02:43.759 10055 16537 INSERT, internal/audio/media/55
+01-01 00:02:43.810 10055 16537 ringtone content://media/internal/audio/media/55
+01-01 00:02:47.533 10055 16537 BULKINSERT, internal/file?mediascan=1
+01-01 00:02:47.551 10055 16537 BULKINSERT, internal/file?mediascan=1 count: 8
+01-01 00:02:47.553 10055 16537 BULKINSERT, internal/file?mediascan=1
+01-01 00:02:47.569 10055 16537 BULKINSERT, internal/file?mediascan=1 count: 24
+01-01 00:02:47.571 10055 16537 BULKINSERT, internal/audio/media?mediascan=1
+01-01 00:02:47.681 10055 16537 BULKINSERT, internal/audio/media?mediascan=1 count: 68
+01-01 00:02:47.683 10055 16537 Checked Files:142 Dirs:11, I:153, U:0, D:0, OGG_118_7306 (time: 8170ms)
+01-01 00:02:47.688 10055 16537 !@done scanning volume internal
+01-01 00:46:08.795 10055 4412 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-01 00:46:08.930 10055 4619 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:46:08.939 10055 4619 INSERT, none/media_scanner
+01-01 00:46:08.953 10055 4619 INSERT, none/media_scanner
+01-01 00:46:08.958 10055 4619 INSERT, 
+01-01 00:46:08.988 10055 4619 INSERT, external
+01-01 00:46:09.197 10055 4619 UPDATE, external/file/13
+01-01 00:46:09.222 10055 4619 UPDATE, external/file/13 count: 1
+01-01 00:46:09.266 10055 4619 BULKINSERT, external/file?mediascan=1
+01-01 00:46:09.305 10055 4619 BULKINSERT, external/file?mediascan=1 count: 3
+01-01 00:46:09.317 10055 4619 Checked Files:1 Dirs:16, I:3, U:1, D:0 (time: 254ms)
+01-01 00:46:09.364 10055 4619 !@done scanning volume external
+01-01 00:46:10.941 10055 4412 android.intent.action.BOOT_COMPLETED
+01-01 00:46:11.048 10055 5015 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:46:11.051 10055 5015 INSERT, none/media_scanner
+01-01 00:46:11.052 10055 5015 INSERT, none/media_scanner
+01-01 00:46:11.058 10055 5015 DELETE, internal/file
+01-01 00:46:11.084 10055 5015 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 2 count: 1
+01-01 00:46:11.149 10055 5015 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 93ms)
+01-01 00:46:11.154 10055 5015 !@done scanning volume internal
+01-01 00:46:12.342 5004 4617 DELETE, external/sec/media
+01-01 00:46:16.111 10049 4617 INSERT, external/images/media
+01-01 00:46:16.153 10049 4617 INSERT, external/images/media/19
+01-01 00:46:32.516 5004 4451 INSERT, external/cmh/scene?callingPkg=cmh
+01-01 00:46:32.526 5004 4451 INSERT, external/cmh/scene/1?callingPkg=cmh
+01-01 00:46:32.653 5004 5763 UPDATE, external/sec/media/cmh/update?callingPkg=cmh
+01-01 00:46:38.765 5004 7661 UPDATE, external/cmh/faces?callingPkg=cmh
+01-01 00:46:39.195 5004 7661 UPDATE, external/sec/media/cmh/update?callingPkg=cmh
+01-01 00:49:01.904 10055 4412 android.intent.action.LOCALE_CHANGED
+01-01 00:49:02.026 10055 9401 locale:  -> en_US
+01-01 00:49:02.115 10055 9401 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:49:02.117 10055 9401 INSERT, none/media_scanner
+01-01 00:49:02.118 10055 9401 INSERT, none/media_scanner
+01-01 00:49:02.122 10055 9401 INSERT, 
+01-01 00:49:02.127 10055 9401 INSERT, external
+01-01 00:49:02.187 10055 9401 UPDATE, external/file/9
+01-01 00:49:02.192 10055 9401 UPDATE, external/file/9 count: 1
+01-01 00:49:02.410 10055 9401 UPDATE, external/audio/media/14
+01-01 00:49:02.434 10055 9401 INSERT, external/audio/genres
+01-01 00:49:02.436 10055 9401 INSERT, external/audio/genres/1
+01-01 00:49:02.439 10055 9401 INSERT, external/audio/genres/1/members
+01-01 00:49:02.444 10055 9401 INSERT, external/audio/genres/1/members/1
+01-01 00:49:02.445 10055 9401 UPDATE, external/audio/media/14 count: 1
+01-01 00:49:02.450 10055 9401 BULKINSERT, external/file?mediascan=1
+01-01 00:49:02.457 10055 9401 BULKINSERT, external/file?mediascan=1 count: 1
+01-01 00:49:02.461 10055 9401 Checked Files:2 Dirs:18, I:1, U:2, D:0, MP3_1_206 (time: 330ms)
+01-01 00:49:02.477 10055 9401 !@done scanning volume external
+01-01 00:49:02.482 10055 9401 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:49:02.483 10055 9401 INSERT, none/media_scanner
+01-01 00:49:02.484 10055 9401 INSERT, none/media_scanner
+01-01 00:49:02.490 10055 9401 DELETE, internal/file
+01-01 00:49:02.496 10055 9401 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-01 00:49:02.544 10055 9401 UPDATE, internal/audio/media/5
+01-01 00:49:02.569 10055 9401 UPDATE, internal/audio/media/5 count: 1
+01-01 00:49:02.610 10055 9401 UPDATE, internal/audio/media/6
+01-01 00:49:02.616 10055 9401 UPDATE, internal/audio/media/6 count: 1
+01-01 00:49:02.644 10055 9401 UPDATE, internal/audio/media/7
+01-01 00:49:02.660 10055 9401 UPDATE, internal/audio/media/7 count: 1
+01-01 00:49:02.677 10055 9401 UPDATE, internal/audio/media/8
+01-01 00:49:02.684 10055 9401 UPDATE, internal/audio/media/8 count: 1
+01-01 00:49:02.712 10055 9401 UPDATE, internal/audio/media/9
+01-01 00:49:02.721 10055 9401 UPDATE, internal/audio/media/9 count: 1
+01-01 00:49:02.738 10055 9401 UPDATE, internal/audio/media/10
+01-01 00:49:02.745 10055 9401 UPDATE, internal/audio/media/10 count: 1
+01-01 00:49:02.767 10055 9401 UPDATE, internal/audio/media/11
+01-01 00:49:02.774 10055 9401 UPDATE, internal/audio/media/11 count: 1
+01-01 00:49:02.810 10055 9401 UPDATE, internal/audio/media/12
+01-01 00:49:02.830 10055 9401 UPDATE, internal/audio/media/12 count: 1
+01-01 00:49:02.862 10055 9401 UPDATE, internal/audio/media/13
+01-01 00:49:02.868 10055 9401 UPDATE, internal/audio/media/13 count: 1
+01-01 00:49:02.889 10055 9401 UPDATE, internal/audio/media/14
+01-01 00:49:02.902 10055 9401 UPDATE, internal/audio/media/14 count: 1
+01-01 00:49:02.927 10055 9401 UPDATE, internal/audio/media/15
+01-01 00:49:02.932 10055 9401 UPDATE, internal/audio/media/15 count: 1
+01-01 00:49:02.959 10055 9401 UPDATE, internal/audio/media/16
+01-01 00:49:02.968 10055 9401 UPDATE, internal/audio/media/16 count: 1
+01-01 00:49:02.988 10055 9401 UPDATE, internal/audio/media/17
+01-01 00:49:02.993 10055 9401 UPDATE, internal/audio/media/17 count: 1
+01-01 00:49:03.009 10055 9401 UPDATE, internal/audio/media/18
+01-01 00:49:03.013 10055 9401 UPDATE, internal/audio/media/18 count: 1
+01-01 00:49:03.043 10055 9401 UPDATE, internal/audio/media/19
+01-01 00:49:03.049 10055 9401 UPDATE, internal/audio/media/19 count: 1
+01-01 00:49:03.071 10055 9401 UPDATE, internal/audio/media/20
+01-01 00:49:03.075 10055 9401 UPDATE, internal/audio/media/20 count: 1
+01-01 00:49:03.104 10055 9401 UPDATE, internal/audio/media/21
+01-01 00:49:03.115 10055 9401 UPDATE, internal/audio/media/21 count: 1
+01-01 00:49:03.133 10055 9401 UPDATE, internal/audio/media/22
+01-01 00:49:03.149 10055 9401 UPDATE, internal/audio/media/22 count: 1
+01-01 00:49:03.173 10055 9401 UPDATE, internal/audio/media/23
+01-01 00:49:03.179 10055 9401 UPDATE, internal/audio/media/23 count: 1
+01-01 00:49:03.235 10055 9401 UPDATE, internal/audio/media/24
+01-01 00:49:03.241 10055 9401 UPDATE, internal/audio/media/24 count: 1
+01-01 00:49:03.292 10055 9401 UPDATE, internal/audio/media/25
+01-01 00:49:03.302 10055 9401 UPDATE, internal/audio/media/25 count: 1
+01-01 00:49:03.348 10055 9401 UPDATE, internal/audio/media/26
+01-01 00:49:03.356 10055 9401 UPDATE, internal/audio/media/26 count: 1
+01-01 00:49:03.394 10055 9401 UPDATE, internal/audio/media/27
+01-01 00:49:03.400 10055 9401 UPDATE, internal/audio/media/27 count: 1
+01-01 00:49:03.424 10055 9401 UPDATE, internal/audio/media/28
+01-01 00:49:03.430 10055 9401 UPDATE, internal/audio/media/28 count: 1
+01-01 00:49:03.463 10055 9401 UPDATE, internal/audio/media/29
+01-01 00:49:03.480 10055 9401 UPDATE, internal/audio/media/29 count: 1
+01-01 00:49:03.611 10055 9401 UPDATE, internal/audio/media/30
+01-01 00:49:03.648 10055 9401 UPDATE, internal/audio/media/30 count: 1
+01-01 00:49:03.720 10055 9401 UPDATE, internal/audio/media/32
+01-01 00:49:03.755 10055 9401 UPDATE, internal/audio/media/32 count: 1
+01-01 00:49:03.803 10055 9401 UPDATE, internal/audio/media/33
+01-01 00:49:03.839 10055 9401 UPDATE, internal/audio/media/33 count: 1
+01-01 00:49:03.896 10055 9401 UPDATE, internal/audio/media/34
+01-01 00:49:03.930 10055 9401 UPDATE, internal/audio/media/34 count: 1
+01-01 00:49:03.982 10055 9401 UPDATE, internal/audio/media/35
+01-01 00:49:04.014 10055 9401 UPDATE, internal/audio/media/35 count: 1
+01-01 00:49:04.073 10055 9401 UPDATE, internal/audio/media/36
+01-01 00:49:04.095 10055 9401 UPDATE, internal/audio/media/36 count: 1
+01-01 00:49:04.142 10055 9401 UPDATE, internal/audio/media/37
+01-01 00:49:04.169 10055 9401 UPDATE, internal/audio/media/37 count: 1
+01-01 00:49:04.225 10055 9401 UPDATE, internal/audio/media/38
+01-01 00:49:04.248 10055 9401 UPDATE, internal/audio/media/38 count: 1
+01-01 00:49:04.315 10055 9401 UPDATE, internal/audio/media/39
+01-01 00:49:04.334 10055 9401 UPDATE, internal/audio/media/39 count: 1
+01-01 00:49:04.380 10055 9401 UPDATE, internal/audio/media/40
+01-01 00:49:04.393 10055 9401 UPDATE, internal/audio/media/40 count: 1
+01-01 00:49:04.427 10055 9401 UPDATE, internal/audio/media/41
+01-01 00:49:04.439 10055 9401 UPDATE, internal/audio/media/41 count: 1
+01-01 00:49:04.535 10055 9401 UPDATE, internal/audio/media/42
+01-01 00:49:04.575 10055 9401 UPDATE, internal/audio/media/42 count: 1
+01-01 00:49:04.644 10055 9401 UPDATE, internal/audio/media/43
+01-01 00:49:04.697 10055 9401 UPDATE, internal/audio/media/43 count: 1
+01-01 00:49:04.784 10055 9401 UPDATE, internal/audio/media/44
+01-01 00:49:04.801 10055 9401 UPDATE, internal/audio/media/44 count: 1
+01-01 00:49:04.924 10055 9401 UPDATE, internal/audio/media/45
+01-01 00:49:04.978 10055 9401 UPDATE, internal/audio/media/45 count: 1
+01-01 00:49:05.084 10055 9401 UPDATE, internal/audio/media/46
+01-01 00:49:05.107 10055 9401 UPDATE, internal/audio/media/46 count: 1
+01-01 00:49:05.227 10055 9401 UPDATE, internal/audio/media/47
+01-01 00:49:05.277 10055 9401 UPDATE, internal/audio/media/47 count: 1
+01-01 00:49:05.423 10055 9401 UPDATE, internal/audio/media/48
+01-01 00:49:05.440 10055 9401 UPDATE, internal/audio/media/48 count: 1
+01-01 00:49:05.513 10055 9401 UPDATE, internal/audio/media/49
+01-01 00:49:05.519 10055 9401 UPDATE, internal/audio/media/49 count: 1
+01-01 00:49:05.590 10055 9401 UPDATE, internal/audio/media/50
+01-01 00:49:05.595 10055 9401 UPDATE, internal/audio/media/50 count: 1
+01-01 00:49:05.648 10055 9401 UPDATE, internal/audio/media/51
+01-01 00:49:05.657 10055 9401 UPDATE, internal/audio/media/51 count: 1
+01-01 00:49:05.699 10055 9401 UPDATE, internal/audio/media/52
+01-01 00:49:05.718 10055 9401 UPDATE, internal/audio/media/52 count: 1
+01-01 00:49:05.746 10055 9401 UPDATE, internal/audio/media/53
+01-01 00:49:05.754 10055 9401 UPDATE, internal/audio/media/53 count: 1
+01-01 00:49:05.778 10055 9401 UPDATE, internal/audio/media/54
+01-01 00:49:05.783 10055 9401 UPDATE, internal/audio/media/54 count: 1
+01-01 00:49:05.835 10055 9401 UPDATE, internal/audio/media/55
+01-01 00:49:05.840 10055 9401 UPDATE, internal/audio/media/55 count: 1
+01-01 00:49:05.875 10055 9401 UPDATE, internal/audio/media/91
+01-01 00:49:05.880 10055 9401 UPDATE, internal/audio/media/91 count: 1
+01-01 00:49:05.906 10055 9401 UPDATE, internal/audio/media/92
+01-01 00:49:05.912 10055 9401 UPDATE, internal/audio/media/92 count: 1
+01-01 00:49:05.956 10055 9401 UPDATE, internal/audio/media/93
+01-01 00:49:05.966 10055 9401 UPDATE, internal/audio/media/93 count: 1
+01-01 00:49:05.995 10055 9401 UPDATE, internal/audio/media/94
+01-01 00:49:06.001 10055 9401 UPDATE, internal/audio/media/94 count: 1
+01-01 00:49:06.029 10055 9401 UPDATE, internal/audio/media/95
+01-01 00:49:06.035 10055 9401 UPDATE, internal/audio/media/95 count: 1
+01-01 00:49:06.055 10055 9401 UPDATE, internal/audio/media/96
+01-01 00:49:06.061 10055 9401 UPDATE, internal/audio/media/96 count: 1
+01-01 00:49:06.094 10055 9401 UPDATE, internal/audio/media/97
+01-01 00:49:06.112 10055 9401 UPDATE, internal/audio/media/97 count: 1
+01-01 00:49:06.174 10055 9401 UPDATE, internal/audio/media/98
+01-01 00:49:06.183 10055 9401 UPDATE, internal/audio/media/98 count: 1
+01-01 00:49:06.207 10055 9401 UPDATE, internal/audio/media/99
+01-01 00:49:06.219 10055 9401 UPDATE, internal/audio/media/99 count: 1
+01-01 00:49:06.247 10055 9401 UPDATE, internal/audio/media/100
+01-01 00:49:06.260 10055 9401 UPDATE, internal/audio/media/100 count: 1
+01-01 00:49:06.281 10055 9401 UPDATE, internal/audio/media/101
+01-01 00:49:06.291 10055 9401 UPDATE, internal/audio/media/101 count: 1
+01-01 00:49:06.333 10055 9401 UPDATE, internal/audio/media/102
+01-01 00:49:06.338 10055 9401 UPDATE, internal/audio/media/102 count: 1
+01-01 00:49:06.360 10055 9401 UPDATE, internal/audio/media/103
+01-01 00:49:06.366 10055 9401 UPDATE, internal/audio/media/103 count: 1
+01-01 00:49:06.401 10055 9401 UPDATE, internal/audio/media/104
+01-01 00:49:06.405 10055 9401 UPDATE, internal/audio/media/104 count: 1
+01-01 00:49:06.422 10055 9401 UPDATE, internal/audio/media/105
+01-01 00:49:06.425 10055 9401 UPDATE, internal/audio/media/105 count: 1
+01-01 00:49:06.451 10055 9401 UPDATE, internal/audio/media/106
+01-01 00:49:06.461 10055 9401 UPDATE, internal/audio/media/106 count: 1
+01-01 00:49:06.490 10055 9401 UPDATE, internal/audio/media/107
+01-01 00:49:06.504 10055 9401 UPDATE, internal/audio/media/107 count: 1
+01-01 00:49:06.524 10055 9401 UPDATE, internal/audio/media/108
+01-01 00:49:06.532 10055 9401 UPDATE, internal/audio/media/108 count: 1
+01-01 00:49:06.555 10055 9401 UPDATE, internal/audio/media/109
+01-01 00:49:06.561 10055 9401 UPDATE, internal/audio/media/109 count: 1
+01-01 00:49:06.581 10055 9401 UPDATE, internal/audio/media/110
+01-01 00:49:06.600 10055 9401 UPDATE, internal/audio/media/110 count: 1
+01-01 00:49:06.624 10055 9401 UPDATE, internal/audio/media/111
+01-01 00:49:06.629 10055 9401 UPDATE, internal/audio/media/111 count: 1
+01-01 00:49:06.650 10055 9401 UPDATE, internal/audio/media/112
+01-01 00:49:06.664 10055 9401 UPDATE, internal/audio/media/112 count: 1
+01-01 00:49:06.688 10055 9401 UPDATE, internal/audio/media/113
+01-01 00:49:06.695 10055 9401 UPDATE, internal/audio/media/113 count: 1
+01-01 00:49:06.707 10055 9401 UPDATE, internal/audio/media/114
+01-01 00:49:06.711 10055 9401 UPDATE, internal/audio/media/114 count: 1
+01-01 00:49:06.778 10055 9401 UPDATE, internal/audio/media/115
+01-01 00:49:06.796 10055 9401 UPDATE, internal/audio/media/115 count: 1
+01-01 00:49:06.823 10055 9401 UPDATE, internal/audio/media/116
+01-01 00:49:06.827 10055 9401 UPDATE, internal/audio/media/116 count: 1
+01-01 00:49:06.848 10055 9401 UPDATE, internal/audio/media/117
+01-01 00:49:06.882 10055 9401 UPDATE, internal/audio/media/117 count: 1
+01-01 00:49:06.904 10055 9401 UPDATE, internal/audio/media/118
+01-01 00:49:06.919 10055 9401 UPDATE, internal/audio/media/118 count: 1
+01-01 00:49:06.938 10055 9401 UPDATE, internal/audio/media/119
+01-01 00:49:06.945 10055 9401 UPDATE, internal/audio/media/119 count: 1
+01-01 00:49:07.038 10055 9401 UPDATE, internal/audio/media/120
+01-01 00:49:07.079 10055 9401 UPDATE, internal/audio/media/120 count: 1
+01-01 00:49:07.178 10055 9401 UPDATE, internal/audio/media/121
+01-01 00:49:07.183 10055 9401 UPDATE, internal/audio/media/121 count: 1
+01-01 00:49:07.224 10055 9401 UPDATE, internal/audio/media/122
+01-01 00:49:07.248 10055 9401 UPDATE, internal/audio/media/122 count: 1
+01-01 00:49:07.265 10055 9401 UPDATE, internal/audio/media/123
+01-01 00:49:07.274 10055 9401 UPDATE, internal/audio/media/123 count: 1
+01-01 00:49:07.303 10055 9401 UPDATE, internal/audio/media/124
+01-01 00:49:07.310 10055 9401 UPDATE, internal/audio/media/124 count: 1
+01-01 00:49:07.333 10055 9401 UPDATE, internal/audio/media/125
+01-01 00:49:07.342 10055 9401 UPDATE, internal/audio/media/125 count: 1
+01-01 00:49:07.366 10055 9401 UPDATE, internal/audio/media/126
+01-01 00:49:07.382 10055 9401 UPDATE, internal/audio/media/126 count: 1
+01-01 00:49:07.410 10055 9401 UPDATE, internal/audio/media/127
+01-01 00:49:07.424 10055 9401 UPDATE, internal/audio/media/127 count: 1
+01-01 00:49:07.445 10055 9401 UPDATE, internal/audio/media/128
+01-01 00:49:07.452 10055 9401 UPDATE, internal/audio/media/128 count: 1
+01-01 00:49:07.480 10055 9401 UPDATE, internal/audio/media/129
+01-01 00:49:07.488 10055 9401 UPDATE, internal/audio/media/129 count: 1
+01-01 00:49:07.509 10055 9401 UPDATE, internal/audio/media/130
+01-01 00:49:07.530 10055 9401 UPDATE, internal/audio/media/130 count: 1
+01-01 00:49:07.573 10055 9401 UPDATE, internal/audio/media/131
+01-01 00:49:07.580 10055 9401 UPDATE, internal/audio/media/131 count: 1
+01-01 00:49:07.626 10055 9401 UPDATE, internal/audio/media/132
+01-01 00:49:07.634 10055 9401 UPDATE, internal/audio/media/132 count: 1
+01-01 00:49:07.653 10055 9401 UPDATE, internal/audio/media/133
+01-01 00:49:07.659 10055 9401 UPDATE, internal/audio/media/133 count: 1
+01-01 00:49:07.725 10055 9401 UPDATE, internal/audio/media/134
+01-01 00:49:07.730 10055 9401 UPDATE, internal/audio/media/134 count: 1
+01-01 00:49:07.786 10055 9401 UPDATE, internal/audio/media/135
+01-01 00:49:07.800 10055 9401 UPDATE, internal/audio/media/135 count: 1
+01-01 00:49:07.823 10055 9401 UPDATE, internal/audio/media/136
+01-01 00:49:07.829 10055 9401 UPDATE, internal/audio/media/136 count: 1
+01-01 00:49:07.847 10055 9401 UPDATE, internal/audio/media/137
+01-01 00:49:07.864 10055 9401 UPDATE, internal/audio/media/137 count: 1
+01-01 00:49:07.891 10055 9401 UPDATE, internal/audio/media/138
+01-01 00:49:07.898 10055 9401 UPDATE, internal/audio/media/138 count: 1
+01-01 00:49:07.916 10055 9401 UPDATE, internal/audio/media/139
+01-01 00:49:07.924 10055 9401 UPDATE, internal/audio/media/139 count: 1
+01-01 00:49:07.948 10055 9401 UPDATE, internal/audio/media/140
+01-01 00:49:07.953 10055 9401 UPDATE, internal/audio/media/140 count: 1
+01-01 00:49:07.970 10055 9401 UPDATE, internal/audio/media/141
+01-01 00:49:07.980 10055 9401 UPDATE, internal/audio/media/141 count: 1
+01-01 00:49:07.998 10055 9401 UPDATE, internal/audio/media/142
+01-01 00:49:08.003 10055 9401 UPDATE, internal/audio/media/142 count: 1
+01-01 00:49:08.018 10055 9401 UPDATE, internal/audio/media/143
+01-01 00:49:08.025 10055 9401 UPDATE, internal/audio/media/143 count: 1
+01-01 00:49:08.049 10055 9401 UPDATE, internal/audio/media/144
+01-01 00:49:08.054 10055 9401 UPDATE, internal/audio/media/144 count: 1
+01-01 00:49:08.075 10055 9401 UPDATE, internal/audio/media/145
+01-01 00:49:08.081 10055 9401 UPDATE, internal/audio/media/145 count: 1
+01-01 00:49:08.103 10055 9401 UPDATE, internal/audio/media/146
+01-01 00:49:08.108 10055 9401 UPDATE, internal/audio/media/146 count: 1
+01-01 00:49:08.126 10055 9401 UPDATE, internal/audio/media/147
+01-01 00:49:08.143 10055 9401 UPDATE, internal/audio/media/147 count: 1
+01-01 00:49:08.165 10055 9401 UPDATE, internal/audio/media/148
+01-01 00:49:08.173 10055 9401 UPDATE, internal/audio/media/148 count: 1
+01-01 00:49:08.192 10055 9401 UPDATE, internal/audio/media/149
+01-01 00:49:08.196 10055 9401 UPDATE, internal/audio/media/149 count: 1
+01-01 00:49:08.228 10055 9401 UPDATE, internal/audio/media/150
+01-01 00:49:08.234 10055 9401 UPDATE, internal/audio/media/150 count: 1
+01-01 00:49:08.268 10055 9401 UPDATE, internal/audio/media/151
+01-01 00:49:08.273 10055 9401 UPDATE, internal/audio/media/151 count: 1
+01-01 00:49:08.300 10055 9401 UPDATE, internal/audio/media/152
+01-01 00:49:08.304 10055 9401 UPDATE, internal/audio/media/152 count: 1
+01-01 00:49:08.327 10055 9401 UPDATE, internal/audio/media/153
+01-01 00:49:08.331 10055 9401 UPDATE, internal/audio/media/153 count: 1
+01-01 00:49:08.363 10055 9401 UPDATE, internal/audio/media/154
+01-01 00:49:08.370 10055 9401 UPDATE, internal/audio/media/154 count: 1
+01-01 00:49:08.425 10055 9401 UPDATE, internal/audio/media/155
+01-01 00:49:08.432 10055 9401 UPDATE, internal/audio/media/155 count: 1
+01-01 00:49:08.462 10055 9401 UPDATE, internal/audio/media/156
+01-01 00:49:08.471 10055 9401 UPDATE, internal/audio/media/156 count: 1
+01-01 00:49:08.505 10055 9401 UPDATE, internal/audio/media/157
+01-01 00:49:08.527 10055 9401 UPDATE, internal/audio/media/157 count: 1
+01-01 00:49:08.597 10055 9401 UPDATE, internal/audio/media/158
+01-01 00:49:08.610 10055 9401 UPDATE, internal/audio/media/158 count: 1
+01-01 00:49:08.612 10055 9401 Checked Files:142 Dirs:11, I:0, U:118, D:0, OGG_118_3962 (time: 6124ms)
+01-01 00:49:08.619 10055 9401 !@done scanning volume internal
+01-01 00:50:09.732 10055 3576 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-01 00:50:09.854 10055 4526 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:50:09.862 10055 4526 INSERT, none/media_scanner
+01-01 00:50:09.863 10055 4526 INSERT, none/media_scanner
+01-01 00:50:09.869 10055 4526 INSERT, 
+01-01 00:50:09.940 10055 4526 INSERT, external
+01-01 00:50:10.197 10055 4526 Checked Files:2 Dirs:18, I:0, U:0, D:0 (time: 195ms)
+01-01 00:50:10.260 10055 4526 !@done scanning volume external
+01-01 00:50:11.856 10055 3576 android.intent.action.BOOT_COMPLETED
+01-01 00:50:11.964 10055 4988 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:50:11.967 10055 4988 INSERT, none/media_scanner
+01-01 00:50:11.967 10055 4988 INSERT, none/media_scanner
+01-01 00:50:11.979 10055 4988 DELETE, internal/file
+01-01 00:50:11.991 10055 4988 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-01 00:50:12.050 10055 4988 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 80ms)
+01-01 00:50:12.062 10055 4988 !@done scanning volume internal
+01-01 00:50:12.979 10055 5065 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+01-01 00:50:12.984 10055 5065 INSERT, none/media_scanner
+01-01 00:50:12.985 10055 5065 INSERT, none/media_scanner
+01-01 00:50:13.023 10055 5065 INSERT, 
+01-01 00:50:13.052 10055 5065 INSERT, external
+01-01 00:50:13.157 10055 5065 Checked Files:2 Dirs:18, I:0, U:0, D:0 (time: 85ms)
+01-01 00:50:13.180 10055 5065 !@done scanning directories
+01-01 00:50:13.385 5004 3597 DELETE, external/sec/media
+01-01 00:52:02.009 10055 9132 !@start scanning 1 directories requested by com.sec.android.app.servicemodeapp: 7twg
+01-01 00:52:02.039 10055 9132 INSERT, none/media_scanner
+01-01 00:52:02.039 10055 9132 INSERT, none/media_scanner
+01-01 00:52:02.074 10055 9132 INSERT, 
+01-01 00:52:02.087 10055 9132 INSERT, external
+01-01 00:52:02.216 10055 9132 BULKINSERT, external/file?mediascan=1
+01-01 00:52:02.265 10055 9132 BULKINSERT, external/file?mediascan=1 count: 13
+01-01 00:52:02.267 10055 9132 BULKINSERT, external/file?mediascan=1
+01-01 00:52:02.643 10055 9132 BULKINSERT, external/file?mediascan=1 count: 77
+01-01 00:52:02.660 10055 9132 Checked Files:77 Dirs:13, I:90, U:0, D:0 (time: 569ms)
+01-01 00:52:02.699 10055 9132 !@done scanning directories
+01-01 00:52:58.698 10055 3576 android.intent.action.LOCALE_CHANGED
+10-07 02:31:15.682 10055 12099 !@start scanning file requested by com.android.providers.downloads: 5yrh
+10-07 02:31:15.724 10055 12099 INSERT, external/file
+10-07 02:31:15.917 10055 12099 INSERT, external/file/115
+10-07 02:31:15.931 10055 12099 !@done scanning file
+10-07 02:31:25.031 10055 6227 DELETE, external/file/115?callingPkg=com.google.android.googlequicksearchbox
+10-07 02:31:25.036 10055 6227 DELETE, external/file/115?callingPkg=com.google.android.googlequicksearchbox Provider i: 0 a: 0 v: 0 e: 1 count: 1
+10-07 02:31:25.193 10055 12761 !@start scanning file requested by com.android.providers.downloads: gufd
+10-07 02:31:25.234 10055 12761 INSERT, external/file
+10-07 02:31:25.251 10055 12761 INSERT, external/file/117
+10-07 02:31:25.253 10055 12761 !@done scanning file
+10-07 02:31:25.591 10055 12780 !@start scanning file requested by com.android.providers.downloads: gufd
+10-07 02:31:25.649 10055 12780 INSERT, external/file
+10-07 02:31:25.651 10055 12780 INSERT, external/file/118
+10-07 02:31:25.658 10055 12780 !@done scanning file
+10-07 02:31:30.022 10055 12723 DELETE, external/file/117?callingPkg=com.google.android.googlequicksearchbox
+10-07 02:31:30.029 10055 12723 DELETE, external/file/117?callingPkg=com.google.android.googlequicksearchbox Provider i: 0 a: 0 v: 0 e: 1 count: 1
+10-07 02:31:32.757 10055 4871 DELETE, external/file/118?callingPkg=com.google.android.googlequicksearchbox
+10-07 02:31:32.762 10055 4871 DELETE, external/file/118?callingPkg=com.google.android.googlequicksearchbox Provider i: 0 a: 0 v: 0 e: 1 count: 1
+10-07 02:33:08.817 10055 16081 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+10-07 02:33:08.856 10055 16081 INSERT, none/media_scanner
+10-07 02:33:08.857 10055 16081 INSERT, none/media_scanner
+10-07 02:33:08.863 10055 16081 INSERT, 
+10-07 02:33:08.886 10055 16081 INSERT, external
+10-07 02:33:08.984 10055 16081 UPDATE, external/file/13
+10-07 02:33:08.987 10055 16081 UPDATE, external/file/13 count: 1
+10-07 02:33:08.995 10055 16081 Checked Files:79 Dirs:32, I:0, U:1, D:0 (time: 103ms)
+10-07 02:33:09.007 10055 16081 !@done scanning directories
+10-07 02:41:19.031 10055 23581 !@start scanning file requested by com.android.providers.downloads: 5yrh
+10-07 02:41:19.110 10055 23581 INSERT, external/file
+10-07 02:41:19.150 10055 23581 INSERT, external/file/119
+10-07 02:41:19.152 10055 23581 !@done scanning file
+10-07 02:41:25.167 10055 17422 DELETE, external/file/119?callingPkg=com.google.android.googlequicksearchbox
+10-07 02:41:25.182 10055 17422 DELETE, external/file/119?callingPkg=com.google.android.googlequicksearchbox Provider i: 0 a: 0 v: 0 e: 1 count: 1
+10-09 02:37:19.389 10055 31391 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+10-09 02:37:19.434 10055 31391 INSERT, none/media_scanner
+10-09 02:37:19.436 10055 31391 INSERT, none/media_scanner
+10-09 02:37:19.438 10055 31391 INSERT, 
+10-09 02:37:19.449 10055 31391 INSERT, external
+10-09 02:37:19.596 10055 31391 UPDATE, external/file/13
+10-09 02:37:19.603 10055 31391 UPDATE, external/file/13 count: 1
+10-09 02:37:19.613 10055 31391 Checked Files:79 Dirs:32, I:0, U:1, D:0 (time: 141ms)
+10-09 02:37:19.648 10055 31391 !@done scanning directories
+10-10 22:04:59.605 10055 14707 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+10-10 22:04:59.637 10055 14707 INSERT, none/media_scanner
+10-10 22:04:59.637 10055 14707 INSERT, none/media_scanner
+10-10 22:04:59.639 10055 14707 INSERT, 
+10-10 22:04:59.649 10055 14707 INSERT, external
+10-10 22:05:00.169 10055 14707 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 494ms)
+10-10 22:05:00.277 10055 14707 !@done scanning directories
+10-10 22:05:29.207 10055 14903 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+10-10 22:05:29.211 10055 14903 INSERT, none/media_scanner
+10-10 22:05:29.212 10055 14903 INSERT, none/media_scanner
+10-10 22:05:29.215 10055 14903 INSERT, 
+10-10 22:05:29.219 10055 14903 INSERT, external
+10-10 22:05:29.284 10055 14903 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 63ms)
+10-10 22:05:29.303 10055 14903 !@done scanning directories
+10-10 22:19:09.005 10055 16314 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+10-10 22:19:09.030 10055 16314 INSERT, none/media_scanner
+10-10 22:19:09.030 10055 16314 INSERT, none/media_scanner
+10-10 22:19:09.033 10055 16314 INSERT, 
+10-10 22:19:09.038 10055 16314 INSERT, external
+10-10 22:19:09.597 10055 16314 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 555ms)
+10-10 22:19:09.637 10055 16314 !@done scanning directories
+10-14 23:53:09.374 10055 4774 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+10-14 23:53:09.507 10055 4948 !@start scanning volume requested by null external: [/storage/emulated/0]
+10-14 23:53:09.532 10055 4948 INSERT, none/media_scanner
+10-14 23:53:09.534 10055 4948 INSERT, none/media_scanner
+10-14 23:53:09.566 10055 4948 INSERT, 
+10-14 23:53:09.582 10055 4948 INSERT, external
+10-14 23:53:10.098 10055 4948 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 476ms)
+10-14 23:53:10.215 10055 4948 !@done scanning volume external
+10-14 23:53:13.230 5004 4810 DELETE, external/sec/media
+10-14 23:53:13.323 10055 4774 android.intent.action.BOOT_COMPLETED
+10-14 23:53:13.439 10055 5803 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+10-14 23:53:13.444 10055 5803 INSERT, none/media_scanner
+10-14 23:53:13.446 10055 5803 INSERT, none/media_scanner
+10-14 23:53:13.473 10055 5803 DELETE, internal/file
+10-14 23:53:13.488 10055 5803 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+10-14 23:53:13.668 10055 5803 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 209ms)
+10-14 23:53:13.692 10055 5803 !@done scanning volume internal
+11-05 07:46:03.573 10055 4604 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+11-05 07:46:03.715 10055 4775 !@start scanning volume requested by null external: [/storage/emulated/0]
+11-05 07:46:03.718 10055 4775 INSERT, none/media_scanner
+11-05 07:46:03.719 10055 4775 INSERT, none/media_scanner
+11-05 07:46:03.746 10055 4775 INSERT, 
+11-05 07:46:03.787 10055 4775 INSERT, external
+11-05 07:46:04.158 10055 4775 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 358ms)
+11-05 07:46:04.346 10055 4775 !@done scanning volume external
+11-05 07:46:07.547 10055 4604 android.intent.action.BOOT_COMPLETED
+11-05 07:46:07.566 5004 5361 DELETE, external/sec/media
+11-05 07:46:07.665 10055 5669 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+11-05 07:46:07.676 10055 5669 INSERT, none/media_scanner
+11-05 07:46:07.676 10055 5669 INSERT, none/media_scanner
+11-05 07:46:07.695 10055 5669 DELETE, internal/file
+11-05 07:46:07.710 10055 5669 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+11-05 07:46:07.864 10055 5669 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 172ms)
+11-05 07:46:07.872 10055 5669 !@done scanning volume internal
+01-01 00:00:21.164 10055 4535 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-01 00:00:21.285 10055 4673 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-01 00:00:21.297 10055 4673 INSERT, none/media_scanner
+01-01 00:00:21.298 10055 4673 INSERT, none/media_scanner
+01-01 00:00:21.302 10055 4673 INSERT, 
+01-01 00:00:21.354 10055 4673 INSERT, external
+01-01 00:00:21.698 10055 4673 UPDATE, external/file/13
+01-01 00:00:21.708 10055 4673 UPDATE, external/file/13 count: 1
+01-01 00:00:21.751 10055 4673 Checked Files:79 Dirs:32, I:0, U:1, D:0 (time: 364ms)
+01-01 00:00:21.809 10055 4673 !@done scanning volume external
+01-01 00:00:24.831 5004 4668 DELETE, external/sec/media
+01-01 00:00:25.210 10055 4535 android.intent.action.BOOT_COMPLETED
+01-01 00:00:25.217 10055 5348 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-01 00:00:25.225 10055 5348 INSERT, none/media_scanner
+01-01 00:00:25.226 10055 5348 INSERT, none/media_scanner
+01-01 00:00:25.250 10055 5348 DELETE, internal/file
+01-01 00:00:25.257 10055 5348 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-01 00:00:25.371 10055 5348 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 139ms)
+01-01 00:00:25.385 10055 5348 !@done scanning volume internal
+11-29 20:15:56.710 10055 30042 !@start scanning file requested by com.android.providers.downloads: )-)8
+11-29 20:15:56.848 10055 30042 INSERT, external/file
+11-29 20:15:57.143 10055 30042 INSERT, external/file/123
+11-29 20:15:57.157 10055 30042 !@done scanning file
+11-29 20:15:57.352 10055 4668 DELETE, external/file/123?callingPkg=com.android.vending
+11-29 20:15:57.358 10055 4668 DELETE, external/file/123?callingPkg=com.android.vending Provider i: 0 a: 0 v: 0 e: 1 count: 1
+11-30 00:25:59.672 10055 16782 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+11-30 00:25:59.701 10055 16782 INSERT, none/media_scanner
+11-30 00:25:59.701 10055 16782 INSERT, none/media_scanner
+11-30 00:25:59.703 10055 16782 INSERT, 
+11-30 00:25:59.713 10055 16782 INSERT, external
+11-30 00:25:59.808 10055 16782 UPDATE, external/file/13
+11-30 00:25:59.815 10055 16782 UPDATE, external/file/13 count: 1
+11-30 00:25:59.823 10055 16782 Checked Files:79 Dirs:32, I:0, U:1, D:0 (time: 95ms)
+11-30 00:25:59.864 10055 16782 !@done scanning directories
+11-30 00:32:02.222 10055 17148 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+11-30 00:32:02.250 10055 17148 INSERT, none/media_scanner
+11-30 00:32:02.256 10055 17148 INSERT, none/media_scanner
+11-30 00:32:02.360 10055 17148 INSERT, 
+11-30 00:32:02.363 10055 17148 INSERT, external
+11-30 00:32:02.807 10055 17148 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 414ms)
+11-30 00:32:02.847 10055 17148 !@done scanning directories
+11-30 00:44:01.073 10055 17768 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+11-30 00:44:01.100 10055 17768 INSERT, none/media_scanner
+11-30 00:44:01.100 10055 17768 INSERT, none/media_scanner
+11-30 00:44:01.217 10055 17768 INSERT, 
+11-30 00:44:01.230 10055 17768 INSERT, external
+11-30 00:44:01.675 10055 17768 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 429ms)
+11-30 00:44:01.686 10055 17768 !@done scanning directories
+11-30 00:51:35.867 10055 18002 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+11-30 00:51:35.906 10055 18002 INSERT, none/media_scanner
+11-30 00:51:35.906 10055 18002 INSERT, none/media_scanner
+11-30 00:51:35.973 10055 18002 INSERT, 
+11-30 00:51:35.975 10055 18002 INSERT, external
+11-30 00:51:36.086 10055 18002 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 100ms)
+11-30 00:51:36.515 10055 18002 !@done scanning directories
+11-30 01:16:05.239 10055 19012 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+11-30 01:16:05.263 10055 19012 INSERT, none/media_scanner
+11-30 01:16:05.264 10055 19012 INSERT, none/media_scanner
+11-30 01:16:05.265 10055 19012 INSERT, 
+11-30 01:16:05.269 10055 19012 INSERT, external
+11-30 01:16:05.343 10055 19012 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 72ms)
+11-30 01:16:05.384 10055 19012 !@done scanning directories
+11-30 01:26:10.262 10055 19294 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+11-30 01:26:10.285 10055 19294 INSERT, none/media_scanner
+11-30 01:26:10.285 10055 19294 INSERT, none/media_scanner
+11-30 01:26:10.287 10055 19294 INSERT, 
+11-30 01:26:10.290 10055 19294 INSERT, external
+11-30 01:26:10.914 10055 19294 Checked Files:79 Dirs:32, I:0, U:0, D:0 (time: 497ms)
+11-30 01:26:10.925 10055 19294 !@done scanning directories
+12-01 00:44:43.476 10055 26875 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+12-01 00:44:43.507 10055 26875 INSERT, none/media_scanner
+12-01 00:44:43.508 10055 26875 INSERT, none/media_scanner
+12-01 00:44:43.519 10055 26875 INSERT, 
+12-01 00:44:43.523 10055 26875 INSERT, external
+12-01 00:44:43.622 10055 26875 BULKINSERT, external/file?mediascan=1
+12-01 00:44:43.641 10055 26875 BULKINSERT, external/file?mediascan=1 count: 1
+12-01 00:44:43.652 10055 26875 Checked Files:80 Dirs:32, I:1, U:0, D:0 (time: 120ms)
+12-01 00:44:43.675 10055 26875 !@done scanning directories
+12-01 12:28:25.821 10055 17141 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+12-01 12:28:25.862 10055 17141 INSERT, none/media_scanner
+12-01 12:28:25.862 10055 17141 INSERT, none/media_scanner
+12-01 12:28:25.864 10055 17141 INSERT, 
+12-01 12:28:25.870 10055 17141 INSERT, external
+12-01 12:28:26.514 10055 17141 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 639ms)
+12-01 12:28:26.548 10055 17141 !@done scanning directories
+11-29 11:42:28.015 10055 3493 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+11-29 11:42:28.142 10055 4642 !@start scanning volume requested by null external: [/storage/emulated/0]
+11-29 11:42:28.157 10055 4642 INSERT, none/media_scanner
+11-29 11:42:28.169 10055 4642 INSERT, none/media_scanner
+11-29 11:42:28.198 10055 4642 INSERT, 
+11-29 11:42:28.304 10055 4642 INSERT, external
+11-29 11:42:28.728 10055 4642 UPDATE, external/file/13
+11-29 11:42:28.820 10055 4642 UPDATE, external/file/13 count: 1
+11-29 11:42:28.884 10055 4642 Checked Files:80 Dirs:32, I:0, U:1, D:0 (time: 518ms)
+11-29 11:42:29.070 10055 4642 !@done scanning volume external
+11-29 11:42:31.738 5004 3513 DELETE, external/sec/media
+11-29 11:42:32.027 10055 3493 android.intent.action.BOOT_COMPLETED
+11-29 11:42:32.136 10055 5467 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+11-29 11:42:32.142 10055 5467 INSERT, none/media_scanner
+11-29 11:42:32.142 10055 5467 INSERT, none/media_scanner
+11-29 11:42:32.149 10055 5467 DELETE, internal/file
+11-29 11:42:32.158 10055 5467 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+11-29 11:42:32.212 10055 5467 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 67ms)
+11-29 11:42:32.223 10055 5467 !@done scanning volume internal
+11-29 11:42:33.164 10055 5580 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+11-29 11:42:33.173 10055 5580 INSERT, none/media_scanner
+11-29 11:42:33.173 10055 5580 INSERT, none/media_scanner
+11-29 11:42:33.175 10055 5580 INSERT, 
+11-29 11:42:33.179 10055 5580 INSERT, external
+11-29 11:42:33.314 10055 5580 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 127ms)
+11-29 11:42:33.361 10055 5580 !@done scanning directories
+01-11 20:55:22.906 10055 9690 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+01-11 20:55:23.304 10055 9690 INSERT, none/media_scanner
+01-11 20:55:23.304 10055 9690 INSERT, none/media_scanner
+01-11 20:55:23.345 10055 9690 INSERT, 
+01-11 20:55:23.399 10055 9690 INSERT, external
+01-11 20:55:25.984 10055 9690 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 703ms)
+01-11 20:55:26.248 10055 9690 !@done scanning directories
+01-12 20:13:48.268 10055 4680 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-12 20:13:48.408 10055 4799 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-12 20:13:48.433 10055 4799 INSERT, none/media_scanner
+01-12 20:13:48.434 10055 4799 INSERT, none/media_scanner
+01-12 20:13:48.450 10055 4799 INSERT, 
+01-12 20:13:48.503 10055 4799 INSERT, external
+01-12 20:13:48.768 10055 4799 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 230ms)
+01-12 20:13:48.801 10055 4799 !@done scanning volume external
+01-12 20:13:51.980 10055 4680 android.intent.action.BOOT_COMPLETED
+01-12 20:13:52.085 10055 5525 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-12 20:13:52.090 10055 5525 INSERT, none/media_scanner
+01-12 20:13:52.091 10055 5525 INSERT, none/media_scanner
+01-12 20:13:52.105 10055 5525 DELETE, internal/file
+01-12 20:13:52.116 10055 5525 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-12 20:13:52.142 5004 4719 DELETE, external/sec/media
+01-12 20:13:52.204 10055 5525 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 107ms)
+01-12 20:13:52.217 10055 5525 !@done scanning volume internal
+01-16 09:18:41.667 10055 4411 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-16 09:18:41.785 10055 4516 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-16 09:18:41.795 10055 4516 INSERT, none/media_scanner
+01-16 09:18:41.796 10055 4516 INSERT, none/media_scanner
+01-16 09:18:41.800 10055 4516 INSERT, 
+01-16 09:18:41.827 10055 4516 INSERT, external
+01-16 09:18:42.451 10055 4516 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 593ms)
+01-16 09:18:42.648 10055 4516 !@done scanning volume external
+01-16 09:18:45.269 5004 4515 DELETE, external/sec/media
+01-16 09:18:45.573 10055 4411 android.intent.action.BOOT_COMPLETED
+01-16 09:18:45.678 10055 5362 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-16 09:18:45.683 10055 5362 INSERT, none/media_scanner
+01-16 09:18:45.683 10055 5362 INSERT, none/media_scanner
+01-16 09:18:45.698 10055 5362 DELETE, internal/file
+01-16 09:18:45.704 10055 5362 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-16 09:18:45.765 10055 5362 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 75ms)
+01-16 09:18:45.773 10055 5362 !@done scanning volume internal
+01-16 09:59:16.480 10055 4450 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-16 09:59:16.603 10055 4508 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-16 09:59:16.611 10055 4508 INSERT, none/media_scanner
+01-16 09:59:16.611 10055 4508 INSERT, none/media_scanner
+01-16 09:59:16.618 10055 4508 INSERT, 
+01-16 09:59:16.637 10055 4508 INSERT, external
+01-16 09:59:17.214 10055 4508 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 507ms)
+01-16 09:59:17.264 10055 4508 !@done scanning volume external
+01-16 09:59:20.387 5004 4506 DELETE, external/sec/media
+01-16 09:59:21.264 10055 4450 android.intent.action.BOOT_COMPLETED
+01-16 09:59:21.380 10055 5255 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-16 09:59:21.385 10055 5255 INSERT, none/media_scanner
+01-16 09:59:21.385 10055 5255 INSERT, none/media_scanner
+01-16 09:59:21.400 10055 5255 DELETE, internal/file
+01-16 09:59:21.412 10055 5255 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-16 09:59:21.505 10055 5255 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 112ms)
+01-16 09:59:21.513 10055 5255 !@done scanning volume internal
+01-16 10:02:05.901 10055 4409 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-16 10:02:06.039 10055 4480 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-16 10:02:06.048 10055 4480 INSERT, none/media_scanner
+01-16 10:02:06.061 10055 4480 INSERT, none/media_scanner
+01-16 10:02:06.079 10055 4480 INSERT, 
+01-16 10:02:06.131 10055 4480 INSERT, external
+01-16 10:02:06.576 10055 4480 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 389ms)
+01-16 10:02:06.645 10055 4480 !@done scanning volume external
+01-16 10:02:09.512 5004 4442 DELETE, external/sec/media
+01-16 10:02:09.638 10055 4409 android.intent.action.BOOT_COMPLETED
+01-16 10:02:09.743 10055 5248 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-16 10:02:09.748 10055 5248 INSERT, none/media_scanner
+01-16 10:02:09.749 10055 5248 INSERT, none/media_scanner
+01-16 10:02:09.756 10055 5248 DELETE, internal/file
+01-16 10:02:09.762 10055 5248 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-16 10:02:09.823 10055 5248 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 71ms)
+01-16 10:02:09.830 10055 5248 !@done scanning volume internal
+01-17 03:21:26.369 10055 3724 android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+01-17 03:21:26.501 10055 4646 !@start scanning volume requested by null external: [/storage/emulated/0]
+01-17 03:21:26.511 10055 4646 INSERT, none/media_scanner
+01-17 03:21:26.512 10055 4646 INSERT, none/media_scanner
+01-17 03:21:26.551 10055 4646 INSERT, 
+01-17 03:21:26.613 10055 4646 INSERT, external
+01-17 03:21:27.019 10055 4646 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 349ms)
+01-17 03:21:27.086 10055 4646 !@done scanning volume external
+01-17 03:21:30.158 5004 3752 DELETE, external/sec/media
+01-17 03:21:31.397 10055 3724 android.intent.action.BOOT_COMPLETED
+01-17 03:21:31.503 10055 5498 !@start scanning volume requested by null internal: [/system/media, /oem/media, /product/media, /system/omc/ATT/res]
+01-17 03:21:31.506 10055 5498 INSERT, none/media_scanner
+01-17 03:21:31.506 10055 5498 INSERT, none/media_scanner
+01-17 03:21:31.532 10055 5498 DELETE, internal/file
+01-17 03:21:31.539 10055 5498 DELETE, internal/file Provider i: 0 a: 0 v: 0 e: 1 count: 0
+01-17 03:21:31.631 10055 5498 Checked Files:142 Dirs:11, I:0, U:0, D:0 (time: 115ms)
+01-17 03:21:31.641 10055 5498 !@done scanning volume internal
+01-17 03:21:32.820 10055 5664 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+01-17 03:21:32.840 10055 5664 INSERT, none/media_scanner
+01-17 03:21:32.842 10055 5664 INSERT, none/media_scanner
+01-17 03:21:32.847 10055 5664 INSERT, 
+01-17 03:21:32.857 10055 5664 INSERT, external
+01-17 03:21:32.911 10055 5664 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 50ms)
+01-17 03:21:32.919 10055 5664 !@done scanning directories
+01-17 03:21:41.042 10055 6794 !@start scanning 1 directories requested by com.samsung.android.MtpApplication: fd7(
+01-17 03:21:41.048 10055 6794 INSERT, none/media_scanner
+01-17 03:21:41.048 10055 6794 INSERT, none/media_scanner
+01-17 03:21:41.054 10055 6794 INSERT, 
+01-17 03:21:41.057 10055 6794 INSERT, external
+01-17 03:21:41.100 10055 6794 Checked Files:80 Dirs:32, I:0, U:0, D:0 (time: 41ms)
+01-17 03:21:41.120 10055 6794 !@done scanning directories

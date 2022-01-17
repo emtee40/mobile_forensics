@@ -1,0 +1,616 @@
+2019-01-01 00:52:59:763	(2794 2794) com.samsung.vzw.activationagent.receiver.LocaleBroadcastReceiver [INFO]: On Broadcast Received : android.intent.action.LOCALE_CHANGED
+2021-10-06 21:33:06:041	(2794 2794) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2021-10-06 21:33:06:057	(2794 2794) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2021-10-11 03:20:20:443	(20883 20883) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-10-11 03:20:20:447	(20883 20883) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-10-11 03:20:20:466	(20883 20883) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : false
+2021-10-11 03:20:20:480	(20883 20883) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:UNKNOWN iccState:UNKNOWN isAdmin:true
+2021-10-14 18:53:01:237	(2855 2855) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-10-14 18:53:01:240	(2855 2855) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-10-14 18:53:01:252	(2855 2855) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : false
+2021-10-14 18:53:01:259	(2855 2855) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2021-10-14 18:53:01:292	(2855 2855) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2021-10-14 18:53:01:296	(2855 2855) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2021-10-14 18:53:01:296	(2855 2855) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2021-10-14 18:53:01:304	(2855 2890) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2021-10-14 18:53:01:305	(2855 2890) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2021-10-14 18:53:01:305	(2855 2890) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2021-10-14 18:53:01:307	(2855 2890) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2021-10-14 18:53:01:308	(2855 2890) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2021-10-14 18:53:01:308	(2855 2890) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2021-10-14 18:53:01:309	(2855 2890) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2021-10-14 18:53:01:323	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2021-10-14 18:53:01:323	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2021-10-14 18:53:01:328	(2855 2890) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2021-10-14 18:53:01:328	(2855 2890) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2021-10-14 18:53:01:332	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2021-10-14 18:53:01:333	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2021-10-14 18:53:01:334	(2855 2890) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2021-10-14 18:53:01:335	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2021-10-14 18:53:01:335	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2021-10-14 18:53:01:335	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2021-10-14 18:53:01:336	(2855 2890) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2021-10-14 18:53:01:336	(2855 2890) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2021-10-14 18:53:01:338	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2021-10-14 18:53:01:339	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2021-10-14 18:53:01:339	(2855 2890) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2021-10-14 18:53:01:339	(2855 2890) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2021-10-14 18:53:01:339	(2855 2890) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2021-10-14 18:53:01:340	(2855 2855) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2021-10-14 18:53:01:341	(2855 2890) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2021-10-14 18:53:04:836	(2855 2855) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2021-10-14 18:53:04:837	(2855 2855) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2021-10-14 18:53:22:422	(7025 7025) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-10-14 18:53:22:428	(7025 7025) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-10-14 18:53:22:448	(7025 7025) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : false
+2021-10-14 18:53:22:459	(7025 7025) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2021-10-14 18:53:22:459	(7025 7025) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete
+2021-10-15 00:04:45:026	(20500 20500) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-10-15 00:04:45:029	(20500 20500) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-10-15 00:04:45:042	(20500 20500) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : false
+2021-10-15 00:04:45:050	(20500 20500) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:UNKNOWN iccState:UNKNOWN isAdmin:true
+2021-11-05 02:45:56:359	(2838 2838) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-11-05 02:45:56:362	(2838 2838) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-11-05 02:45:56:377	(2838 2838) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : false
+2021-11-05 02:45:56:384	(2838 2838) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2021-11-05 02:45:56:415	(2838 2838) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2021-11-05 02:45:56:417	(2838 2838) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2021-11-05 02:45:56:418	(2838 2838) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2021-11-05 02:45:56:431	(2838 2895) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2021-11-05 02:45:56:431	(2838 2895) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2021-11-05 02:45:56:432	(2838 2895) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2021-11-05 02:45:56:434	(2838 2895) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2021-11-05 02:45:56:435	(2838 2895) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2021-11-05 02:45:56:435	(2838 2895) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2021-11-05 02:45:56:435	(2838 2895) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2021-11-05 02:45:56:446	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2021-11-05 02:45:56:447	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2021-11-05 02:45:56:449	(2838 2895) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2021-11-05 02:45:56:449	(2838 2895) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2021-11-05 02:45:56:456	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2021-11-05 02:45:56:457	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2021-11-05 02:45:56:461	(2838 2895) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2021-11-05 02:45:56:461	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2021-11-05 02:45:56:462	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2021-11-05 02:45:56:462	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2021-11-05 02:45:56:463	(2838 2895) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2021-11-05 02:45:56:463	(2838 2895) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2021-11-05 02:45:56:465	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2021-11-05 02:45:56:468	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2021-11-05 02:45:56:468	(2838 2895) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2021-11-05 02:45:56:468	(2838 2895) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2021-11-05 02:45:56:469	(2838 2895) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2021-11-05 02:45:56:480	(2838 2838) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2021-11-05 02:45:56:480	(2838 2895) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2021-11-05 02:45:59:581	(2838 2838) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2021-11-05 02:45:59:582	(2838 2838) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2021-11-05 02:46:15:015	(6725 6725) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-11-05 02:46:15:019	(6725 6725) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-11-05 02:46:15:034	(6725 6725) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : false
+2021-11-05 02:46:15:041	(6725 6725) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2021-11-05 02:46:15:042	(6725 6725) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete
+2021-11-12 06:32:48:991	(23542 23542) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-11-12 06:32:48:999	(23542 23542) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-11-12 06:32:49:107	(23542 23542) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2021-11-12 06:32:49:116	(23542 23542) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:UNKNOWN iccState:UNKNOWN isAdmin:true
+2018-12-31 18:00:14:955	(2858 2858) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2018-12-31 18:00:14:958	(2858 2858) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2018-12-31 18:00:14:969	(2858 2858) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2018-12-31 18:00:14:973	(2858 2858) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2018-12-31 18:00:14:999	(2858 2858) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2018-12-31 18:00:15:001	(2858 2858) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2018-12-31 18:00:15:002	(2858 2858) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2018-12-31 18:00:15:006	(2858 2919) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2018-12-31 18:00:15:008	(2858 2919) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2018-12-31 18:00:15:008	(2858 2919) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2018-12-31 18:00:15:008	(2858 2919) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2018-12-31 18:00:15:009	(2858 2919) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2018-12-31 18:00:15:009	(2858 2919) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2018-12-31 18:00:15:009	(2858 2919) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2018-12-31 18:00:15:028	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2018-12-31 18:00:15:028	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2018-12-31 18:00:15:030	(2858 2919) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2018-12-31 18:00:15:031	(2858 2919) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2018-12-31 18:00:15:038	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2018-12-31 18:00:15:038	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2018-12-31 18:00:15:041	(2858 2919) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2018-12-31 18:00:15:042	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2018-12-31 18:00:15:043	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2018-12-31 18:00:15:043	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2018-12-31 18:00:15:046	(2858 2919) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2018-12-31 18:00:15:047	(2858 2919) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2018-12-31 18:00:15:049	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2018-12-31 18:00:15:050	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2018-12-31 18:00:15:051	(2858 2919) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2018-12-31 18:00:15:051	(2858 2919) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2018-12-31 18:00:15:052	(2858 2919) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2018-12-31 18:00:15:053	(2858 2858) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2018-12-31 18:00:15:056	(2858 2919) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2018-12-31 18:00:17:118	(2858 2858) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2018-12-31 18:00:17:118	(2858 2858) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2021-11-28 22:20:10:796	(6715 6715) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-11-28 22:20:10:799	(6715 6715) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-11-28 22:20:10:810	(6715 6715) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2021-11-28 22:20:10:820	(6715 6715) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2021-11-28 22:20:10:821	(6715 6715) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete
+2021-12-06 10:09:49:028	(21984 21984) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-12-06 10:09:49:031	(21984 21984) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-12-06 10:09:49:050	(21984 21984) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2021-12-06 10:09:49:057	(21984 21984) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:UNKNOWN iccState:UNKNOWN isAdmin:true
+2021-11-29 05:42:21:688	(2838 2838) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-11-29 05:42:21:691	(2838 2838) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-11-29 05:42:21:716	(2838 2838) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2021-11-29 05:42:21:724	(2838 2838) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2021-11-29 05:42:21:743	(2838 2838) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2021-11-29 05:42:21:748	(2838 2838) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2021-11-29 05:42:21:749	(2838 2838) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2021-11-29 05:42:21:754	(2838 2882) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2021-11-29 05:42:21:754	(2838 2882) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2021-11-29 05:42:21:756	(2838 2882) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2021-11-29 05:42:21:757	(2838 2882) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2021-11-29 05:42:21:757	(2838 2882) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2021-11-29 05:42:21:757	(2838 2882) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2021-11-29 05:42:21:757	(2838 2882) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2021-11-29 05:42:21:767	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2021-11-29 05:42:21:768	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2021-11-29 05:42:21:770	(2838 2882) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2021-11-29 05:42:21:770	(2838 2882) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2021-11-29 05:42:21:772	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2021-11-29 05:42:21:773	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2021-11-29 05:42:21:774	(2838 2882) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2021-11-29 05:42:21:775	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2021-11-29 05:42:21:775	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2021-11-29 05:42:21:775	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2021-11-29 05:42:21:777	(2838 2882) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2021-11-29 05:42:21:777	(2838 2882) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2021-11-29 05:42:21:779	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2021-11-29 05:42:21:779	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2021-11-29 05:42:21:779	(2838 2882) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2021-11-29 05:42:21:780	(2838 2882) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2021-11-29 05:42:21:780	(2838 2882) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2021-11-29 05:42:21:782	(2838 2882) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2021-11-29 05:42:21:782	(2838 2838) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2021-11-29 05:42:25:920	(2838 2838) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2021-11-29 05:42:25:921	(2838 2838) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2021-11-29 05:42:39:483	(6578 6578) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2021-11-29 05:42:39:492	(6578 6578) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2021-11-29 05:42:39:508	(6578 6578) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2021-11-29 05:42:39:515	(6578 6578) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2021-11-29 05:42:39:516	(6578 6578) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete
+2022-01-12 14:13:09:042	(23816 23816) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-12 14:13:09:046	(23816 23816) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-12 14:13:09:058	(23816 23816) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-12 14:13:09:065	(23816 23816) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:UNKNOWN iccState:UNKNOWN isAdmin:true
+2022-01-12 14:13:40:905	(2823 2823) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-12 14:13:40:911	(2823 2823) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-12 14:13:40:929	(2823 2823) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-12 14:13:40:934	(2823 2823) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-12 14:13:40:951	(2823 2823) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2022-01-12 14:13:40:954	(2823 2823) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2022-01-12 14:13:40:955	(2823 2823) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2022-01-12 14:13:40:961	(2823 2876) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2022-01-12 14:13:40:962	(2823 2876) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2022-01-12 14:13:40:963	(2823 2876) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2022-01-12 14:13:40:967	(2823 2876) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2022-01-12 14:13:40:967	(2823 2876) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2022-01-12 14:13:40:967	(2823 2876) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2022-01-12 14:13:40:968	(2823 2876) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2022-01-12 14:13:40:980	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-12 14:13:40:980	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-12 14:13:40:984	(2823 2876) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-12 14:13:40:985	(2823 2876) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-12 14:13:40:989	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-12 14:13:40:989	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-12 14:13:40:991	(2823 2876) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2022-01-12 14:13:40:991	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2022-01-12 14:13:40:991	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-12 14:13:40:991	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-12 14:13:40:992	(2823 2876) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-12 14:13:40:992	(2823 2876) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-12 14:13:40:994	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-12 14:13:40:994	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-12 14:13:40:995	(2823 2876) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2022-01-12 14:13:40:995	(2823 2876) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2022-01-12 14:13:40:995	(2823 2876) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2022-01-12 14:13:40:996	(2823 2823) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2022-01-12 14:13:40:999	(2823 2876) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2022-01-12 14:13:43:750	(2823 2823) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-12 14:13:43:751	(2823 2823) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2022-01-12 14:13:59:942	(6763 6763) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-12 14:13:59:947	(6763 6763) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-12 14:13:59:959	(6763 6763) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-12 14:13:59:973	(6763 6763) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2022-01-12 14:13:59:974	(6763 6763) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete
+2022-01-16 03:18:35:778	(2833 2833) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 03:18:35:780	(2833 2833) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 03:18:35:794	(2833 2833) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 03:18:35:799	(2833 2833) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-16 03:18:35:819	(2833 2833) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2022-01-16 03:18:35:821	(2833 2833) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2022-01-16 03:18:35:822	(2833 2833) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2022-01-16 03:18:35:828	(2833 2891) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2022-01-16 03:18:35:830	(2833 2891) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2022-01-16 03:18:35:830	(2833 2891) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2022-01-16 03:18:35:831	(2833 2891) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2022-01-16 03:18:35:832	(2833 2891) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2022-01-16 03:18:35:832	(2833 2891) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2022-01-16 03:18:35:832	(2833 2891) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2022-01-16 03:18:35:843	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-16 03:18:35:843	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-16 03:18:35:845	(2833 2891) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-16 03:18:35:846	(2833 2891) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-16 03:18:35:860	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-16 03:18:35:860	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-16 03:18:35:862	(2833 2891) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2022-01-16 03:18:35:862	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2022-01-16 03:18:35:862	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-16 03:18:35:862	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-16 03:18:35:863	(2833 2891) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-16 03:18:35:864	(2833 2891) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-16 03:18:35:866	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-16 03:18:35:866	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-16 03:18:35:866	(2833 2891) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2022-01-16 03:18:35:867	(2833 2891) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2022-01-16 03:18:35:867	(2833 2891) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2022-01-16 03:18:35:868	(2833 2891) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2022-01-16 03:18:35:869	(2833 2833) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2022-01-16 03:18:38:611	(2833 2833) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-16 03:18:38:612	(2833 2833) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2022-01-16 03:18:52:758	(6297 6297) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 03:18:52:763	(6297 6297) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 03:18:52:776	(6297 6297) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 03:18:52:785	(6297 6297) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2022-01-16 03:18:52:786	(6297 6297) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete
+2022-01-16 03:20:18:889	(12657 12657) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 03:20:18:891	(12657 12657) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 03:20:18:900	(12657 12657) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 03:20:18:905	(12657 12657) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:UNKNOWN iccState:UNKNOWN isAdmin:true
+2022-01-16 03:59:09:126	(2815 2815) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 03:59:09:131	(2815 2815) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 03:59:09:146	(2815 2815) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 03:59:09:151	(2815 2815) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-16 03:59:09:171	(2815 2815) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2022-01-16 03:59:09:175	(2815 2815) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2022-01-16 03:59:09:177	(2815 2815) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2022-01-16 03:59:09:185	(2815 2881) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2022-01-16 03:59:09:186	(2815 2881) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2022-01-16 03:59:09:186	(2815 2881) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2022-01-16 03:59:09:191	(2815 2881) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2022-01-16 03:59:09:191	(2815 2881) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2022-01-16 03:59:09:191	(2815 2881) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2022-01-16 03:59:09:192	(2815 2881) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2022-01-16 03:59:09:202	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-16 03:59:09:202	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-16 03:59:09:205	(2815 2881) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-16 03:59:09:205	(2815 2881) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-16 03:59:09:207	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-16 03:59:09:207	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-16 03:59:09:210	(2815 2881) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2022-01-16 03:59:09:211	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2022-01-16 03:59:09:212	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-16 03:59:09:212	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-16 03:59:09:213	(2815 2881) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-16 03:59:09:213	(2815 2881) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-16 03:59:09:216	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-16 03:59:09:216	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-16 03:59:09:217	(2815 2881) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2022-01-16 03:59:09:217	(2815 2881) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2022-01-16 03:59:09:218	(2815 2881) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2022-01-16 03:59:09:221	(2815 2881) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2022-01-16 03:59:09:222	(2815 2815) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2022-01-16 03:59:12:373	(2815 2815) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-16 03:59:12:373	(2815 2815) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2022-01-16 03:59:30:444	(6335 6335) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 03:59:30:448	(6335 6335) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 03:59:30:471	(6335 6335) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 03:59:30:490	(6335 6335) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2022-01-16 03:59:30:490	(6335 6335) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete
+2022-01-16 04:01:59:648	(2794 2794) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 04:01:59:656	(2794 2794) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 04:01:59:674	(2794 2794) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 04:01:59:688	(2794 2794) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-16 04:01:59:727	(2794 2794) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2022-01-16 04:01:59:732	(2794 2794) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2022-01-16 04:01:59:735	(2794 2794) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2022-01-16 04:01:59:749	(2794 2866) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2022-01-16 04:01:59:754	(2794 2866) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2022-01-16 04:01:59:758	(2794 2866) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2022-01-16 04:01:59:762	(2794 2866) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2022-01-16 04:01:59:762	(2794 2866) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2022-01-16 04:01:59:762	(2794 2866) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2022-01-16 04:01:59:763	(2794 2866) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2022-01-16 04:01:59:774	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-16 04:01:59:774	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-16 04:01:59:777	(2794 2866) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-16 04:01:59:777	(2794 2866) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-16 04:01:59:780	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-16 04:01:59:780	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-16 04:01:59:782	(2794 2866) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2022-01-16 04:01:59:782	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2022-01-16 04:01:59:782	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-16 04:01:59:782	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-16 04:01:59:787	(2794 2866) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-16 04:01:59:788	(2794 2866) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-16 04:01:59:793	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-16 04:01:59:794	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-16 04:01:59:794	(2794 2866) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2022-01-16 04:01:59:794	(2794 2866) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2022-01-16 04:01:59:794	(2794 2866) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2022-01-16 04:01:59:795	(2794 2794) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2022-01-16 04:01:59:795	(2794 2866) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2022-01-16 04:02:02:756	(2794 2794) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-16 04:02:02:757	(2794 2794) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2022-01-16 04:02:16:772	(6235 6235) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 04:02:16:776	(6235 6235) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 04:02:16:792	(6235 6235) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 04:02:16:804	(6235 6235) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2022-01-16 04:02:16:804	(6235 6235) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete
+2022-01-16 04:56:43:311	(16303 16303) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 04:56:43:315	(16303 16303) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 04:56:43:324	(16303 16303) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 04:56:43:330	(16303 16303) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:UNKNOWN iccState:UNKNOWN isAdmin:true
+2022-01-16 21:21:19:791	(2850 2850) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 21:21:19:802	(2850 2850) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 21:21:19:813	(2850 2850) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 21:21:19:818	(2850 2850) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-16 21:21:19:850	(2850 2850) com.samsung.vzw.activationagent.utils.ActivationAgentUtils [INFO]: Portal status: CLOSED
+2022-01-16 21:21:19:852	(2850 2850) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Processing command: 12 with startId: 1
+2022-01-16 21:21:19:853	(2850 2850) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Airplane mode is on? - false
+2022-01-16 21:21:19:860	(2850 2911) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Start State Machines
+2022-01-16 21:21:19:865	(2850 2911) com.samsung.vzw.activationagent.statemachine.sim.ActionSimUnknown [INFO]: SIM unknown, processing
+2022-01-16 21:21:19:865	(2850 2911) com.samsung.vzw.activationagent.statemachine.State [INFO]: Starting monitor: WatchdogPoller
+2022-01-16 21:21:19:867	(2850 2911) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller started
+2022-01-16 21:21:19:867	(2850 2911) com.samsung.vzw.activationagent.statemachine.State [INFO]: Stopping monitor: WatchdogPoller
+2022-01-16 21:21:19:868	(2850 2911) com.samsung.vzw.activationagent.monitor.WatchdogPoller [INFO]: poller stopped
+2022-01-16 21:21:19:869	(2850 2911) com.samsung.vzw.activationagent.statemachine.sim.ActionSimAbsent [INFO]: SIM absent, processing
+2022-01-16 21:21:19:894	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-16 21:21:19:894	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-16 21:21:19:899	(2850 2911) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-16 21:21:19:900	(2850 2911) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-16 21:21:19:905	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-16 21:21:19:905	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-16 21:21:19:906	(2850 2911) com.samsung.vzw.activationagent.statemachine.SimStateMachine [INFO]: Final state reached: ABSENT
+2022-01-16 21:21:19:907	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Applying restrictions... (pco--1)
+2022-01-16 21:21:19:907	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Lifting restrictions...
+2022-01-16 21:21:19:907	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Enabling background data
+2022-01-16 21:21:19:910	(2850 2911) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: getRestrictBackgroundbyPco() restrictBackgroundbyPco: false
+2022-01-16 21:21:19:910	(2850 2911) com.samsung.vzw.activationagent.manager.ModemUtil [INFO]: same PCO value as before, then discard
+2022-01-16 21:21:19:913	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [ERROR]: Not enabling mobile data as it was not disabled by app
+2022-01-16 21:21:19:914	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: Does not support toggling radio
+2022-01-16 21:21:19:921	(2850 2911) com.samsung.vzw.activationagent.manager.ReusedSimManager [INFO]: Cleanup done
+2022-01-16 21:21:19:922	(2850 2911) com.samsung.vzw.activationagent.manager.ActivationManager [INFO]: Disabling internet APN
+2022-01-16 21:21:19:922	(2850 2911) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Stopping Service ---
+2022-01-16 21:21:19:926	(2850 2850) com.samsung.vzw.activationagent.ActivationAgentService [INFO]: ---- Service Destroyed ---
+2022-01-16 21:21:19:926	(2850 2911) com.samsung.vzw.activationagent.statemachine.StateMachineManager [INFO]: Stop State Machines
+2022-01-16 21:21:24:790	(2850 2850) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [INFO]: SIM_STATE_CHANGED -> ss:ABSENT iccState:ABSENT isAdmin:true
+2022-01-16 21:21:24:791	(2850 2850) com.samsung.vzw.activationagent.receiver.SimStateBroadcastReceiver [Received duplicate ICC Card state:  SIM]: ABSENT
+2022-01-16 21:21:39:426	(6587 6587) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: 
+-------------------------
+Device name: dream2qltesq
+Device type: smartphone
+User Admin: Yes
+Flavor: usa
+Single SKU: true
+Active carrier: UNKNOWN
+Device flow: flow_generic
+-------------------------
+2022-01-16 21:21:39:431	(6587 6587) com.sec.android.app.setupwizard.SetupWizardApplication [INFO]: Version code: 613622110
+2022-01-16 21:21:39:451	(6587 6587) com.sec.android.app.setupwizard.system.ReactivationUtils [INFO]: isReactivationLockEnabled : true
+2022-01-16 21:21:39:461	(6587 6587) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Received broadcast with action: android.intent.action.BOOT_COMPLETED
+2022-01-16 21:21:39:461	(6587 6587) com.sec.android.app.setupwizard.system.OnBootBroadcastReceiver [INFO]: Verizon Setup Wizard in not driving Setup Wizard flow. Ignore Boot Complete

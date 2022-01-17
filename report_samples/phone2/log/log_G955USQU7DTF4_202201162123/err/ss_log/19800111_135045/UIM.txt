@@ -1,0 +1,37 @@
+UIM.
+Cur Time : 87.406000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(Sys)	TIME(Diag)	FILE	LINE	STRING
+ 11.831000 13:49:30.189	uimdrv_enumeration.c	795	disableUim_slot2 is not initialized yet, slot2 - m_HWConfig[1].disableUim = 0x1
+ 11.835000 13:49:30.193	mmgsdi_task_init.c	623	IMEI value = 35772508200771/8
+ 11.847000 13:49:30.204	uimdrv_hal_iso.c	183	uim power down in slot1
+ 11.861000 13:49:30.218	uimdrv_hal_iso.c	84	uim power up @ 1.8 v in slot1
+ 12.783000 13:49:31.140	uim_sigs.c	1135	Timed out on the command response in slot1 cmd_count:1
+ 12.783000 13:49:31.140	uim_sigs.c	1453	UIM timeout in internal command in slot1, uim_class = 0x0, last_sent_apdu = 0x0
+ 12.783000 13:49:31.140	uimdrv_hal_iso.c	183	uim power down in slot1
+ 12.797000 13:49:31.154	uimdrv_hal_iso.c	183	uim power down in slot1
+ 12.811000 13:49:31.168	uimdrv_hal_iso.c	183	uim power down in slot1
+ 12.825000 13:49:31.182	uimdrv_hal_iso.c	95	uim power up @ 3 v in slot1
+ 13.511000 13:49:31.868	qmi_uim.c	12877	qmi_uimi_event_reg, client id = 0x1, card state = 0x0
+ 13.747000 13:49:32.104	uim_sigs.c	1135	Timed out on the command response in slot1 cmd_count:1
+ 13.747000 13:49:32.104	uim_sigs.c	1453	UIM timeout in internal command in slot1, uim_class = 0x0, last_sent_apdu = 0x0
+ 13.747000 13:49:32.104	uimdrv_hal_iso.c	183	uim power down in slot1
+ 13.749000 13:49:32.106	uimdrv_hal_iso.c	183	uim power down in slot1
+ 13.762000 13:49:32.120	uimdrv_hal_iso.c	84	uim power up @ 1.8 v in slot1
+ 14.908000 13:49:33.265	uim_sigs.c	1135	Timed out on the command response in slot1 cmd_count:1
+ 14.908000 13:49:33.265	uim_sigs.c	1453	UIM timeout in internal command in slot1, uim_class = 0x0, last_sent_apdu = 0x0
+ 14.908000 13:49:33.265	uimdrv_hal_iso.c	183	uim power down in slot1
+ 14.922000 13:49:33.279	uimdrv_hal_iso.c	183	uim power down in slot1
+ 14.936000 13:49:33.293	uimdrv_hal_iso.c	183	uim power down in slot1
+ 14.949000 13:49:33.307	uimdrv_hal_iso.c	95	uim power up @ 3 v in slot1
+ 16.095000 13:49:34.452	uim_sigs.c	1135	Timed out on the command response in slot1 cmd_count:1
+ 16.095000 13:49:34.452	uim_sigs.c	1453	UIM timeout in internal command in slot1, uim_class = 0x0, last_sent_apdu = 0x0
+ 16.095000 13:49:34.452	uimdrv_hal_iso.c	183	uim power down in slot1
+ 16.097000 13:49:34.455	mmgsdi.c	8583	MMGSDI_CARD_ERROR/REMOVED_EVT, condition: 0x2, slot: 0x1
+
+------------------------------------------------------
+Used msg ram =   2.075195 %
+Time :  11.831000 ~  16.097000 sec, Total =   4.266000 sec
+Elapsed time for making this log =   0.001000 sec
+------------------------------------------------------

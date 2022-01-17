@@ -1,0 +1,887 @@
+[    0.000563][Gt-A][6oo1] recovery tmp log path : /efs/recovery/tmp_recovery.log
+[    0.000674][Gt-A][6oo1] init_extra_history() : /efs/recovery/extra_history exists
+[    0.000708][Gt-A][6oo1] no /efs/recovery/tmp_recovery.log file -> normal operation
+[    0.000739][Gt-A][6oo1]
+[    0.000770][Gt-A][6oo1] [collecting table information 2]
+[    0.000801][Gt-A][6oo1] E:[libfs_mgr]Error updating for slotselect
+[    0.000833][Gt-A][6oo1] recovery filesystem table
+[    0.000863][Gt-A][6oo1] =========================
+[    0.000894][Gt-A][6oo1]   0 /system  ext4 system 0
+[    0.000924][Gt-A][6oo1]   1 /vendor  ext4 vendor 0
+[    0.000955][Gt-A][6oo1]   2 /boot  emmc /dev/block/bootdevice/by-name/boot 0
+[    0.000987][Gt-A][6oo1]   3 /recovery  emmc /dev/block/bootdevice/by-name/recovery 0
+[    0.001018][Gt-A][6oo1]   4 /metadata  ext4 /dev/block/bootdevice/by-name/metadata 0
+[    0.001049][Gt-A][6oo1]   5 /data  f2fs /dev/block/bootdevice/by-name/userdata -16384
+[    0.001086][Gt-A][6oo1]   6 /cache  ext4 /dev/block/bootdevice/by-name/cache 0
+[    0.001118][Gt-A][6oo1]   7 /sdcard  sdfat /dev/block/mmcblk0p1 0
+[    0.001149][Gt-A][6oo1]   8 /efs  ext4 /dev/block/bootdevice/by-name/sec_efs 0
+[    0.001180][Gt-A][6oo1]   9 /sec_efs  ext4 /dev/block/bootdevice/by-name/sec_efs 0
+[    0.001212][Gt-A][6oo1]   10 /carrier  ext4 /dev/block/bootdevice/by-name/carrier 0
+[    0.001244][Gt-A][6oo1]   11 /modem  emmc /dev/block/bootdevice/by-name/apnhlos 0
+[    0.001275][Gt-A][6oo1]   12 /mdm  emmc /dev/block/bootdevice/by-name/modem 0
+[    0.001306][Gt-A][6oo1]   13 /dsp  emmc /dev/block/bootdevice/by-name/dsp 0
+[    0.001342][Gt-A][6oo1]   14 /product  ext4 product 0
+[    0.001374][Gt-A][6oo1]   15 /misc  emmc /dev/block/bootdevice/by-name/misc 0
+[    0.001405][Gt-A][6oo1]   16 /keydata  ext4 /dev/block/bootdevice/by-name/keydata 0
+[    0.001437][Gt-A][6oo1]   17 /keyrefuge  f2fs /dev/block/bootdevice/by-name/keyrefuge 0
+[    0.001468][Gt-A][6oo1]   18 /odm  ext4 odm 0
+[    0.001499][Gt-A][6oo1]   19 /dtbo  emmc /dev/block/bootdevice/by-name/dtbo 0
+[    0.001530][Gt-A][6oo1]   20 /prism  ext4 /dev/block/bootdevice/by-name/prism 0
+[    0.001562][Gt-A][6oo1]   21 /optics  ext4 /dev/block/bootdevice/by-name/optics 0
+[    0.001593][Gt-A][6oo1]   22 /vbmeta_system  emmc /dev/block/bootdevice/by-name/vbmeta_system 0
+[    0.001624][Gt-A][6oo1]   23 /vendor_boot  emmc /dev/block/bootdevice/by-name/vendor_boot 0
+[    0.001655][Gt-A][6oo1]   24 /vbmeta_samsung  emmc /dev/block/bootdevice/by-name/vbmeta_samsung 0
+[    0.001687][Gt-A][6oo1]   25 /tmp  ramdisk ramdisk 0
+[    0.001717][Gt-A][6oo1] ro.boot.boot_devices=[soc/1d84000.ufshc]
+[    0.001748][Gt-A][6oo1] Internal storage is UFS(soc/1d84000.ufshc)
+[    0.001778][Gt-A][6oo1] fstab for /sdcard
+[    0.001809][Gt-A][6oo1]   7 /sdcard  sdfat /dev/block/mmcblk0p1 0
+[    0.001839][Gt-A][6oo1]
+[    0.001869][Gt-A][6oo1]
+[    0.001899][Gt-A][6oo1] [initialize init-recovery]
+[    0.001930][Gt-A][6oo1] I:[libfs_mgr]superblock s_max_mnt_count:27,/dev/block/bootdevice/by-name/cache
+[    0.002252][Gt-A][6oo1] I:[libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0: Success
+[    0.002275][Gt-A][6oo1] I:[libfs_mgr]__mount return 0(source=cache,target=/cache,type=ext4,flags=0,options=): Success
+[    0.002563][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 1
+[    0.002936][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 2
+[    0.003252][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 3
+[    0.003277][Gt-A][6oo1] ls /cache/recovery/
+[    0.003946][Gt-A][6oo1] -rw-r--r-- system   system       4332 2020-01-24 05:15 last_avc_msg_recovery
+[    0.003967][Gt-A][6oo1] -rw------- system   system        109 2021-01-01 06:00 command
+[    0.003982][Gt-A][6oo1] -rw------- system   system     460798 2020-01-24 05:15 last_kmsg
+[    0.003993][Gt-A][6oo1] -rw------- system   system          0 2020-01-24 05:15 last_extra_history_old
+[    0.004007][Gt-A][6oo1] -rw-r----- system   system     524288 2020-01-24 05:15 last_log.1
+[    0.004014][Gt-A][6oo1] -rw------- system   system          0 2020-01-24 05:15 last_crash
+[    0.004021][Gt-A][6oo1] -rw-r----- system   system      60566 2020-01-24 05:15 last_log.2
+[    0.004040][Gt-A][6oo1] -rw------- system   system     457008 2020-01-24 05:15 last_kmsg.2
+[    0.004048][Gt-A][6oo1] -rw------- system   system        728 2020-01-24 05:15 last_history
+[    0.004055][Gt-A][6oo1] -rw-r--r-- system   system    2097136 2020-01-24 05:15 last_kernel
+[    0.004062][Gt-A][6oo1] -rw-r----- system   system        181 2020-01-24 05:15 last_data_partition_info
+[    0.004068][Gt-A][6oo1] -rw-r--r-- system   system     694526 2020-01-24 05:15 last_recovery
+[    0.004075][Gt-A][6oo1] -rw------- system   system        728 2020-01-24 05:15 last_all_history
+[    0.004082][Gt-A][6oo1] -rw-r----- system   system      62171 2020-01-24 05:15 last_log
+[    0.004088][Gt-A][6oo1] -rw------- root     root            5 2020-01-24 05:15 last_locale
+[    0.004095][Gt-A][6oo1] -rw------- system   system     524288 2020-01-24 05:15 last_kmsg.1
+[    0.004102][Gt-A][6oo1] -rw-r----- system   system     524288 2020-01-24 05:15 last_postrecovery
+[    0.004108][Gt-A][6oo1] -rw-r----- system   system     524288 2020-01-24 05:15 last_dataresizing
+[    0.004115][Gt-A][6oo1] -rw-r--r-- system   system          0 2020-01-24 05:15 last_install
+[    0.004121][Gt-A][6oo1] -rw------- system   system        556 2020-01-24 05:15 last_extra_history
+[    0.004128][Gt-A][6oo1]
+[    0.004134][Gt-A][6oo1] ls /cache/fota/
+[    0.004419][Gt-A][6oo1]
+[    0.007634][Gt-A][6oo1] exec /system/bin/e2fsck -v -y /dev/block/bootdevice/by-name/cache 
+[    0.016738][Gt-A][6oo1] e2fsck 1.45.4 (23-Sep-2019)
+[    0.020089][Gt-A][6oo1] skipping journal recovery because INCOMPAT_RECOVER was clear.
+[    0.020158][Gt-A][6oo1] s_snapshot_r_blocks_count is 31. It might be upgraded from Q OS. Reinitialize it to 30
+[    0.020192][Gt-A][6oo1] check whether gdt & bitmap free count is vaild
+[    0.020224][Gt-A][6oo1] Pass 1: Checking inodes, blocks, and sizes
+[    0.020978][Gt-A][6oo1] Pass 2: Checking directory structure
+[    0.023295][Gt-A][6oo1] Pass 3: Checking directory connectivity
+[    0.023366][Gt-A][6oo1] Pass 4: Checking reference counts
+[    0.027221][Gt-A][6oo1] Pass 5: Checking group summary information
+[    0.031417][Gt-A][6oo1]
+[    0.031456][Gt-A][6oo1] cache: ***** FILE SYSTEM WAS MODIFIED *****
+[    0.031490][Gt-A][6oo1]
+[    0.031521][Gt-A][6oo1]           35 inodes used (0.09%, out of 38400)
+[    0.031552][Gt-A][6oo1]            0 non-contiguous files (0.0%)
+[    0.031583][Gt-A][6oo1]            0 non-contiguous directories (0.0%)
+[    0.031615][Gt-A][6oo1]              # of inodes with ind/dind/tind blocks: 0/0/0
+[    0.031646][Gt-A][6oo1]              Extent depth histogram: 27
+[    0.031678][Gt-A][6oo1]         5934 blocks used (3.86%, out of 153600)
+[    0.031710][Gt-A][6oo1]            0 bad blocks
+[    0.031741][Gt-A][6oo1]            0 large files
+[    0.031772][Gt-A][6oo1]
+[    0.031803][Gt-A][6oo1]           20 regular files
+[    0.031837][Gt-A][6oo1]            6 directories
+[    0.031870][Gt-A][6oo1]            0 character device files
+[    0.031902][Gt-A][6oo1]            0 block device files
+[    0.031932][Gt-A][6oo1]            0 fifos
+[    0.031963][Gt-A][6oo1]            0 links
+[    0.031993][Gt-A][6oo1]            0 symbolic links (0 fast symbolic links)
+[    0.032024][Gt-A][6oo1]            0 sockets
+[    0.032055][Gt-A][6oo1] ------------
+[    0.032086][Gt-A][6oo1]           26 files
+[    0.033357][Gt-A][6oo1] done /system/bin/e2fsck -v -y /dev/block/bootdevice/by-name/cache , return value 1
+[    0.033401][Gt-A][6oo1] Failed to e2fsck /cache partition.
+[    0.033816][Gt-A][6oo1] I:[libfs_mgr]superblock s_max_mnt_count:27,/dev/block/bootdevice/by-name/cache
+[    0.035649][Gt-A][6oo1] I:[libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0: Success
+[    0.035692][Gt-A][6oo1] I:[libfs_mgr]__mount return 0(source=cache,target=/cache,type=ext4,flags=0,options=): Success
+[    0.036092][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 1
+[    0.036516][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 2
+[    0.037034][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 3
+[    0.072501][Gt-A][6oo1] ls /efs/
+[    0.072772][Gt-A][6oo1] drwxrwxr-x system   system            2021-11-22 10:57 lpm
+[    0.072951][Gt-A][6oo1] drwxrwx--- system   system            2021-11-22 11:01 ssm
+[    0.073119][Gt-A][6oo1] drwxr----- system   system            2021-11-22 10:57 pdp_bkup
+[    0.073277][Gt-A][6oo1] drwx--x--- dsms     dsms              2020-01-01 02:11 dsms
+[    0.073456][Gt-A][6oo1] drwx------ system   system            2022-01-15 23:10 umc
+[    0.073681][Gt-A][6oo1] drwxrwxr-x radio    system            2022-01-15 23:32 sec_efs
+[    0.073845][Gt-A][6oo1] drwxrwx--- system   system            2020-01-01 00:00 biometrics
+[    0.074010][Gt-A][6oo1] drwxrwxr-- drm      system            2020-01-01 00:00 drm
+[    0.074170][Gt-A][6oo1] drwxrw---- system   system            2021-11-22 10:57 afc
+[    0.074357][Gt-A][6oo1] drwx------ nfc      nfc               2020-01-01 02:11 nfc
+[    0.074527][Gt-A][6oo1] drwxrwx--x radio    system            2020-01-01 00:00 cpk
+[    0.074706][Gt-A][6oo1] drwxrwx--- system   system            2020-01-01 00:00 taas
+[    0.074739][Gt-A][6oo1] drwxrwx--x radio    system            2020-01-24 05:18 recovery
+[    0.074945][Gt-A][6oo1] drwxrw---- oem_5279 oem_5279          2020-01-01 00:00 pfw_data
+[    0.075112][Gt-A][6oo1] drwxrwx--x radio    system            2021-10-14 10:53 usb_hw_param
+[    0.075296][Gt-A][6oo1] drwxrwxr-x system   system            2020-01-01 00:00 gatekeeper
+[    0.075452][Gt-A][6oo1] drwxrwx--- system   log               2020-01-01 02:11 knoxai
+[    0.075633][Gt-A][6oo1] drwx------ system   system            2020-01-01 00:00 mb_po
+[    0.075800][Gt-A][6oo1] drwxrwxr-x radio    system            2020-01-01 16:10 Battery
+[    0.075971][Gt-A][6oo1] drwxrwxr-x root     radio             2022-01-15 22:02 imei
+[    0.076023][Gt-A][6oo1] -rw-rw---- root     system        256 2021-11-22 10:57 lpm_boot.log
+[    0.076064][Gt-A][6oo1] drwx------ root     root              2008-12-31 15:00 lost+found
+[    0.076248][Gt-A][6oo1] drwxr-xr-x radio    system            2021-12-23 20:24 carrier
+[    0.076403][Gt-A][6oo1] drwxrwxr-x system   system            2022-01-15 23:20 FactoryApp
+[    0.076582][Gt-A][6oo1] drwxrwx--- audioserver audio             2021-12-23 19:24 cirrus
+[    0.076619][Gt-A][6oo1]
+[    0.076644][Gt-A][6oo1] ls /efs/MDM/
+[    0.076675][Gt-A][6oo1] can`t access '/efs/MDM/' - No such file or directory
+[    0.079102][Gt-A][6oo1]
+[    0.079131][Gt-A][6oo1] [init-history]
+[    0.079229][Gt-A][6oo1] df /efs
+[    0.079357][Gt-A][6oo1] Filesystem               Size         Used         Free       Blksize
+[    0.079610][Gt-A][6oo1] /efs                    15.7M(16424960)    3.3M(3485696)   12.3M(12939264) 4096
+[    0.079648][Gt-A][6oo1]
+[    0.079798][Gt-A][6oo1]
+[    0.079868][Gt-A][6oo1] [collecting command]
+[    0.079978][Gt-A][6oo1] open failed '/sys/class/sec/sec_key/keycode_pressed' - No such file or directory
+[    0.080053][Gt-A][6oo1] E:isManualModeByKeyPress : get_key_status fail
+[    0.080143][Gt-A][6oo1] I:main :: Check recovery command!!
+[    0.081013][Gt-A][6oo1] E:[libfs_mgr]Error updating for slotselect
+[    0.081694][Gt-A][6oo1] I:Boot command: boot-recovery
+[    0.081994][Gt-A][6oo1] I:[libfs_mgr]superblock s_max_mnt_count:27,/dev/block/bootdevice/by-name/cache
+[    0.083076][Gt-A][6oo1] I:[libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0: Success
+[    0.083111][Gt-A][6oo1] I:[libfs_mgr]__mount return 0(source=cache,target=/cache,type=ext4,flags=0,options=): Success
+[    0.083469][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 1
+[    0.083759][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 2
+[    0.084110][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 3
+[    0.084719][Gt-A][6oo1] I:Got 5 arguments from /cache/recovery/command
+[    0.084901][Gt-A][6oo1] E:[libfs_mgr]Error updating for slotselect
+[    0.085335][Gt-A][6oo1] E:[libfs_mgr]Error updating for slotselect
+[    0.085819][Gt-A][6oo1] save_header(), prefix : Gt
+[    0.086011][Gt-A][6oo1] copy_file '/efs/recovery/history' '/cache/recovery/last_all_history'
+[    0.087413][Gt-A][6oo1] copy_history() : history size=882
+[    0.087454][Gt-A][6oo1] copy_file '/cache/recovery/last_all_history' '/cache/recovery/last_history'
+[    0.089556][Gt-A][6oo1] /proc/reset_reason : NP
+[    0.089623][Gt-A][6oo1] save_resetreason() : Failed to open /proc/pwrsrc (No such file or directory)
+[    0.089719][Gt-A][6oo1] /proc/store_lastkmsg : 0
+[    0.089785][Gt-A][6oo1] locale is [en-US]
+[    0.090028][Gt-A][6oo1] Loading make_device from librecovery_ui_ext.so
+[    0.090505][Gt-A][6oo1] I:Brightness file: /sys/class/backlight/panel0-backlight/brightness
+[    0.094536][Gt-A][6oo1] I:Max brightness file: /sys/class/backlight/panel0-backlight/max_brightness
+[    0.094618][Gt-A][6oo1] I:Brightness: 120 (50%), max: 459
+[    0.094658][Gt-A][6oo1] I:Set brightness to 0
+[    0.096356][Gt-A][6oo1] Atomic Commit failed in DisableNonMainCrtcs
+[    0.096591][Gt-A][6oo1] number of lms in topology 2
+[    0.387516][Gt-A][6oo1] Atomic Commit failed, rc = 0
+[    0.427060][Gt-A][6oo1] I:Set brightness to 120
+[    0.443915][Gt-A][6oo1] dpi : xxhdpi
+[    0.443998][Gt-A][6oo1] px2pt = 3
+[    0.449089][Gt-A][6oo1]           erasing_text: en (488 x 48 @ 714)
+[    0.450778][Gt-A][6oo1]        no_command_text: en (560 x 48 @ 714)
+[    0.452339][Gt-A][6oo1]             error_text: en (472 x 48 @ 714)
+[    0.455484][Gt-A][6oo1]   cancel_wipe_data_text: en (315 x 48 @ 714)
+[    0.456312][Gt-A][6oo1]   factory_data_reset_text: en (816 x 48 @ 714)
+[    0.456901][Gt-A][6oo1]         try_again_text: en (457 x 48 @ 714)
+[    0.458606][Gt-A][6oo1]   wipe_data_confirmation_text: en (1049 x 96 @ 1462)
+[    0.458806][Gt-A][6oo1] W:Failed to load bitmap wipe_data_menu_header_text for locale en-US (error -1). Falling back to use default locale.
+[    0.458864][Gt-A][6oo1] E:Failed to load bitmap wipe_data_menu_header_text for locale en-US (error -1)
+[    0.461297][Gt-A][6oo1]   wipe_data_sdcard_warning_text: en (1070 x 96 @ 1853)
+[    0.461531][Gt-A][6oo1] E:Failed to load bitmap lcd_fw_update (error -1)
+[    0.461622][Gt-A][6oo1] intro_frames 0
+[    0.461656][Gt-A][6oo1] loop_frames 60
+[    0.492756][Gt-A][6oo1] Reboot Recovery Cause file exist
+[    0.492823][Gt-A][6oo1] read_reboot_recovery_cause_file++
+[    0.493801][Gt-A][6oo1] read_reboot_recovery_cause_file: read string rst [58]
+[    0.493837][Gt-A][6oo1] read_reboot_recovery_cause_file(58)--
+[    0.493863][Gt-A][6oo1]
+[    0.493876][Gt-A][6oo1] #Reboot Recovery Cause is [Reboot:18981 RecoverySystemFactoryApp,2021-01-01T00:00:24Z]#
+[    0.502329][Gt-A][6oo1]
+[    0.502364][Gt-A][6oo1] [reboot-reason-history]
+[    0.502385][Gt-A][6oo1] save_recovery_cause() : reboot_reason=Reboot:18981 RecoverySystemFactoryApp,2021-01-01T00:00:24Z
+[    0.502442][Gt-A][6oo1] copy_file '/efs/recovery/history' '/cache/recovery/last_all_history'
+[    0.503592][Gt-A][6oo1] copy_history() : history size=958
+[    0.503636][Gt-A][6oo1] copy_file '/cache/recovery/last_all_history' '/cache/recovery/last_history'
+[    0.504737][Gt-A][6oo1] the deivce does not have a fastbootd token, so don't allow fastbootd
+[    0.504782][Gt-A][6oo1] check the MDM policy. retry(1)
+[    0.504899][Gt-A][6oo1] I:/efs is already mounted
+[    0.504935][Gt-A][6oo1] check_MDM_policy: /efs is mounted normally
+[    0.504985][Gt-A][6oo1] check_MDM_policy: /efs/MDM/FactoryReset does not exist. MDM allows factoryReset (No such file or directory)
+[    0.505186][Gt-A][6oo1] W:[libfs_mgr]Failed to umount /efs: Device or resource busy
+[    0.505231][Gt-A][6oo1] check_MDM_policy: can't unmount /efs (Device or resource busy)
+[    0.505265][Gt-A][6oo1] check_MDM_policy: ret 1
+[    0.510560][Gt-A][6oo1] I:Starting recovery (pid 461) on Fri Jan 24 05:18:17 2020
+[    0.510583][Gt-A][6oo1]
+[    0.510619][Gt-A][6oo1] I:locale is [en-US]
+[    0.512486][Gt-A][6oo1] SELinux: Loaded file_contexts
+[    0.512640][Gt-A][6oo1] main(): usb_config(none), usb_state(none)
+[    0.512705][Gt-A][6oo1] recovery: option `--requested_time' doesn't allow an argument
+[    0.512743][Gt-A][6oo1] E:Invalid command argument
+[    0.518911][Gt-A][6oo1] ro.boot.boot_recovery=1 
+[    0.518964][Gt-A][6oo1] rtn_config value is empty.
+[    0.518995][Gt-A][6oo1] stage is []
+[    0.519028][Gt-A][6oo1] #Reason is [FactoryApp,2021-01-01T00:00:24Z]#
+[    0.527275][Gt-A][6oo1] requested_time is [(null)]
+[    0.527386][Gt-A][6oo1] I:/efs is already mounted
+[    0.528152][Gt-A][6oo1] W:[libfs_mgr]Failed to umount /efs: Device or resource busy
+[    0.528195][Gt-A][6oo1] can't unmount /efs - Device or resource busy
+[    0.528370][Gt-A][6oo1]
+[    0.528405][Gt-A][6oo1] [read csc code]
+[    0.528436][Gt-A][6oo1] read csc code = 'ATT'
+[    0.529290][Gt-A][6oo1]        installing_text: en (1052 x 48 @ 714)
+[    0.552429][Gt-A][6oo1] kernel_version : Linux version 5.4.86-qgki-22916894-abG991USQS4BUKK (dpi@21HH1G13) (Android (6877366 based on r383902b1) clang version 11.0.2 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79), LLD 11.0.2 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79)) #1 SMP PREEMPT Tue Dec 21 19:49:42 KST 2021
+[    0.552452][Gt-A][6oo1]
+[    0.552569][Gt-A][6oo1] Command: "/system/bin/recovery" "--wipe_data" "--requested_time=2021/01/01 00:00:24.819" "--reason=FactoryApp,2021-01-01T00:00:24Z" "--locale=en-US"
+[    0.552600][Gt-A][6oo1]
+[    0.552629][Gt-A][6oo1] update_package = (null)
+[    0.552660][Gt-A][6oo1] should_wipe_data = 1, should_wipe_cache = 0,should_wipe_carrier = 0
+[    0.552690][Gt-A][6oo1] data_resizing = 0
+[    0.552721][Gt-A][6oo1] carry_out = (null)
+[    0.552751][Gt-A][6oo1] just_exit = 0
+[    0.552780][Gt-A][6oo1] delete_apn_changes = 0
+[    0.552811][Gt-A][6oo1] should_prompt_and_wipe_data = 0
+[    0.552840][Gt-A][6oo1] should_prompt_and_wipe_app_data = 0
+[    0.552871][Gt-A][6oo1] rescue = 0
+[    0.552901][Gt-A][6oo1] display_firmware_update = 0
+[    0.552931][Gt-A][6oo1]
+[    0.552961][Gt-A][6oo1]
+[    0.552991][Gt-A][6oo1] [property list]
+[    0.553165][Gt-A][6oo1] persist.audio.fluence.voicecomm=true
+[    0.553507][Gt-A][6oo1] ro.config.knox=v30
+[    0.553543][Gt-A][6oo1] ro.config.knox.ucm=1
+[    0.553576][Gt-A][6oo1] ro.config.tima=1
+[    0.553609][Gt-A][6oo1] ro.config.dmverity=G
+[    0.553641][Gt-A][6oo1] ro.config.timaversion=3.0
+[    0.553672][Gt-A][6oo1] ro.config.iccc_version=3.0
+[    0.553704][Gt-A][6oo1] ro.config.timaversion_info=Knox3.4_S.R.R
+[    0.553736][Gt-A][6oo1] ro.config.rm_preload_enabled=1
+[    0.554099][Gt-A][6oo1] dalvik.vm.minidebuginfo=true
+[    0.554134][Gt-A][6oo1] dalvik.vm.dex2oat-minidebuginfo=true
+[    0.554165][Gt-A][6oo1] dalvik.vm.dex2oat-max-image-block-size=524288
+[    0.554196][Gt-A][6oo1] dalvik.vm.dex2oat-resolve-startup-strings=true
+[    0.554229][Gt-A][6oo1] dalvik.vm.dex2oat-updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt
+[    0.554313][Gt-A][6oo1] ro.boot.debug_level=0x4f4c
+[    0.554348][Gt-A][6oo1] debug.sf.hw=0
+[    0.554380][Gt-A][6oo1] debug.sf.gpu_freq_index=6
+[    0.554411][Gt-A][6oo1] debug.sf.latch_unsignaled=1
+[    0.554442][Gt-A][6oo1] debug.sf.early_phase_offset_ns=100000
+[    0.554473][Gt-A][6oo1] debug.sf.enable_gl_backpressure=1
+[    0.554504][Gt-A][6oo1] debug.sf.early_gl_phase_offset_ns=100000
+[    0.554536][Gt-A][6oo1] debug.sf.use_content_detection_v2=true
+[    0.554566][Gt-A][6oo1] debug.sf.early_app_phase_offset_ns=100000
+[    0.554598][Gt-A][6oo1] debug.sf.early_gl_app_phase_offset_ns=100000
+[    0.554630][Gt-A][6oo1] debug.sf.high_fps_early_phase_offset_ns=100000
+[    0.554670][Gt-A][6oo1] debug.sf.enable_advanced_sf_phase_offset=1
+[    0.554702][Gt-A][6oo1] debug.sf.high_fps_late_sf_phase_offset_ns=100000
+[    0.554733][Gt-A][6oo1] debug.sf.high_fps_early_gl_phase_offset_ns=100000
+[    0.554765][Gt-A][6oo1] debug.sf.high_fps_late_app_phase_offset_ns=100000
+[    0.554799][Gt-A][6oo1] debug.egl.hw=0
+[    0.554831][Gt-A][6oo1] debug.atrace.tags.enableflags=0
+[    0.554863][Gt-A][6oo1] debug.mdpcomp.logs=0
+[    0.554895][Gt-A][6oo1] debug.stagefright.ccodec=4
+[    0.554928][Gt-A][6oo1] debug.stagefright.omx_default_rank=0
+[    0.554960][Gt-A][6oo1] persist.log.level=0xFFFFFFFF
+[    0.554993][Gt-A][6oo1] persist.log.semlevel=0xFFFFFF00
+[    0.555087][Gt-A][6oo1] ro.cmc.version=2.0
+[    0.555121][Gt-A][6oo1] ro.cmc.device_type=pd
+[    0.555152][Gt-A][6oo1] ro.opa.eligible_device=true
+[    0.555197][Gt-A][6oo1] ro.soc.manufacturer=QTI
+[    0.555231][Gt-A][6oo1] ro.smps.enable=false
+[    0.555262][Gt-A][6oo1] ro.wifi.channels=
+[    0.555294][Gt-A][6oo1] ro.allow.mock.location=0
+[    0.555325][Gt-A][6oo1] ro.board.api_level=30
+[    0.555356][Gt-A][6oo1] ro.board.first_api_level=30
+[    0.555387][Gt-A][6oo1] ro.build.keys=test-keys
+[    0.555419][Gt-A][6oo1] ro.build.scafe.version=2021A
+[    0.555451][Gt-A][6oo1] ro.build.flavor=o1qsqw-user
+[    0.555482][Gt-A][6oo1] ro.build.selinux=1
+[    0.555514][Gt-A][6oo1] ro.build.selinux.enforce=1
+[    0.555544][Gt-A][6oo1] ro.build.version.sem=3001
+[    0.555575][Gt-A][6oo1] ro.build.version.sep=120100
+[    0.555606][Gt-A][6oo1] ro.build.version.all_codenames=REL
+[    0.555636][Gt-A][6oo1] ro.build.version.security_index=1
+[    0.555665][Gt-A][6oo1] ro.build.version.preview_sdk_fingerprint=REL
+[    0.555696][Gt-A][6oo1] ro.build.version.min_supported_target_sdk=23
+[    0.555728][Gt-A][6oo1] ro.build.2ndbrand=false
+[    0.555760][Gt-A][6oo1] ro.build.official.release=true
+[    0.555792][Gt-A][6oo1] ro.build.changelist=22916894
+[    0.555825][Gt-A][6oo1] ro.build.display_build_number=true
+[    0.555857][Gt-A][6oo1] ro.iorapd.enable=false
+[    0.555889][Gt-A][6oo1] ro.system.build.id=RP1A.200720.012
+[    0.555920][Gt-A][6oo1] ro.system.build.date=Tue Dec 21 19:33:46 KST 2021
+[    0.555953][Gt-A][6oo1] ro.system.build.date.utc=1640082826
+[    0.555985][Gt-A][6oo1] ro.system.build.tags=release-keys
+[    0.556016][Gt-A][6oo1] ro.system.build.type=user
+[    0.556047][Gt-A][6oo1] ro.system.build.version.sdk=30
+[    0.556079][Gt-A][6oo1] ro.system.build.version.sehi=3003
+[    0.556110][Gt-A][6oo1] ro.system.build.version.release=11
+[    0.556142][Gt-A][6oo1] ro.system.build.version.incremental=G991USQS4BUKK
+[    0.556173][Gt-A][6oo1] ro.system.build.version.release_or_codename=11
+[    0.556205][Gt-A][6oo1] ro.system.build.fingerprint=samsung/o1qsqw/o1q:11/RP1A.200720.012/G991USQS4BUKK:user/release-keys
+[    0.556237][Gt-A][6oo1] ro.treble.enabled=true
+[    0.556269][Gt-A][6oo1] ro.product.build.id=RP1A.200720.012
+[    0.556300][Gt-A][6oo1] ro.product.build.date=Tue Dec 21 19:33:46 KST 2021
+[    0.556332][Gt-A][6oo1] ro.product.build.date.utc=1640082826
+[    0.556363][Gt-A][6oo1] ro.product.build.tags=release-keys
+[    0.556395][Gt-A][6oo1] ro.product.build.version.sdk=30
+[    0.556427][Gt-A][6oo1] ro.product.build.version.release=11
+[    0.556455][Gt-A][6oo1] ro.product.build.version.incremental=G991USQS4BUKK
+[    0.556483][Gt-A][6oo1] ro.product.build.version.release_or_codename=11
+[    0.556512][Gt-A][6oo1] ro.product.build.fingerprint=samsung/o1qsqw/o1q:11/RP1A.200720.012/G991USQS4BUKK:user/release-keys
+[    0.556542][Gt-A][6oo1] ro.product.locale=en-US
+[    0.556573][Gt-A][6oo1] ro.product.product.name=o1qsqw
+[    0.556603][Gt-A][6oo1] ro.product.product.brand=samsung
+[    0.556635][Gt-A][6oo1] ro.product.product.model=SM-G991U
+[    0.556668][Gt-A][6oo1] ro.product.product.device=o1q
+[    0.556700][Gt-A][6oo1] ro.product.product.manufacturer=samsung
+[    0.556732][Gt-A][6oo1] ro.product.system_ext.name=o1qsqw
+[    0.556763][Gt-A][6oo1] ro.product.system_ext.brand=samsung
+[    0.556794][Gt-A][6oo1] ro.product.system_ext.model=SM-G991U
+[    0.556832][Gt-A][6oo1] ro.product.system_ext.device=o1q
+[    0.556864][Gt-A][6oo1] ro.product.system_ext.manufacturer=samsung
+[    0.556896][Gt-A][6oo1] ro.system_ext.build.id=RP1A.200720.012
+[    0.556927][Gt-A][6oo1] ro.system_ext.build.date=Tue Dec 21 19:33:46 KST 2021
+[    0.556960][Gt-A][6oo1] ro.system_ext.build.date.utc=1640082826
+[    0.556993][Gt-A][6oo1] ro.system_ext.build.tags=release-keys
+[    0.557025][Gt-A][6oo1] ro.system_ext.build.type=user
+[    0.557056][Gt-A][6oo1] ro.system_ext.build.version.sdk=30
+[    0.557087][Gt-A][6oo1] ro.system_ext.build.version.release=11
+[    0.557120][Gt-A][6oo1] ro.system_ext.build.version.incremental=G991USQS4BUKK
+[    0.557152][Gt-A][6oo1] ro.system_ext.build.version.release_or_codename=11
+[    0.557181][Gt-A][6oo1] ro.system_ext.build.fingerprint=samsung/o1qsqw/o1q:11/RP1A.200720.012/G991USQS4BUKK:user/release-keys
+[    0.557211][Gt-A][6oo1] ro.user_trial=FALSE
+[    0.557241][Gt-A][6oo1] ro.postinstall.fstab.prefix=/system
+[    0.557271][Gt-A][6oo1] ro.actionable_compatible_property.enabled=true
+[    0.557302][Gt-A][6oo1] com.samsung.speg.disable=true
+[    0.557333][Gt-A][6oo1] init.svc.ueventd=running
+[    0.557364][Gt-A][6oo1] init.svc.recovery=running
+[    0.557395][Gt-A][6oo1] persist.demo.hdmirotationlock=false
+[    0.557427][Gt-A][6oo1] persist.backup.ntpServer=0.pool.ntp.org
+[    0.557459][Gt-A][6oo1] restore.feature.use_samsung_smart_switch_flow=1
+[    0.557799][Gt-A][6oo1] ro.em.version=20
+[    0.557869][Gt-A][6oo1] ro.config.ringtone=Galaxy_Bells.ogg
+[    0.557903][Gt-A][6oo1] ro.config.pageboost.mem_prepare.enabled=true
+[    0.557936][Gt-A][6oo1] ro.config.ringtone_2=Atomic_Bell.ogg
+[    0.557969][Gt-A][6oo1] ro.config.alarm_alert=Homecoming.ogg
+[    0.558001][Gt-A][6oo1] ro.config.media_sound=Media_preview_Touch_the_light.ogg
+[    0.558034][Gt-A][6oo1] ro.config.notification_sound=Spaceline.ogg
+[    0.558065][Gt-A][6oo1] ro.config.notification_sound_2=Signal.ogg
+[    0.558098][Gt-A][6oo1] ro.boot.cm.param.offset=9437632
+[    0.558129][Gt-A][6oo1] ro.boot.em.model=SM-G991U
+[    0.558160][Gt-A][6oo1] ro.boot.em.status=0x0
+[    0.558192][Gt-A][6oo1] ro.boot.em.rdx_dump=false
+[    0.558223][Gt-A][6oo1] ro.boot.im.param.offset=9437232
+[    0.558255][Gt-A][6oo1] ro.boot.kg=0x1
+[    0.558287][Gt-A][6oo1] ro.boot.me.param.offset=9437312
+[    0.558319][Gt-A][6oo1] ro.boot.pd.param.offset=9445516
+[    0.558350][Gt-A][6oo1] ro.boot.pr.param.offset=9437472
+[    0.558382][Gt-A][6oo1] ro.boot.rp=4
+[    0.558414][Gt-A][6oo1] ro.boot.sb.debug0=0x0,0,0,0
+[    0.558446][Gt-A][6oo1] ro.boot.sn.param.offset=9437392
+[    0.558478][Gt-A][6oo1] ro.boot.wc.param.offset=9437228
+[    0.558508][Gt-A][6oo1] ro.boot.sku.param.offset=9437552
+[    0.558539][Gt-A][6oo1] ro.boot.svb.ver=SVB1.0
+[    0.558571][Gt-A][6oo1] ro.boot.flash.locked=1
+[    0.558602][Gt-A][6oo1] ro.boot.memcg=1
+[    0.558635][Gt-A][6oo1] ro.boot.other.locked=1
+[    0.558667][Gt-A][6oo1] ro.boot.sales.param.offset=9437648
+[    0.558698][Gt-A][6oo1] ro.boot.ulcnt=0
+[    0.558730][Gt-A][6oo1] ro.boot.subpcb=0
+[    0.558761][Gt-A][6oo1] ro.boot.vbmeta.size=17728
+[    0.558792][Gt-A][6oo1] ro.boot.vbmeta.digest=e5c19bae59356d9e3cd7403f00a979308ff78b1c8891fc0fa5e563d90d42858d
+[    0.558824][Gt-A][6oo1] ro.boot.vbmeta.hash_alg=sha256
+[    0.558856][Gt-A][6oo1] ro.boot.vbmeta.avb_version=1.0
+[    0.558888][Gt-A][6oo1] ro.boot.vbmeta.device_state=locked
+[    0.558920][Gt-A][6oo1] ro.boot.vbmeta.invalidate_on_error=yes
+[    0.558952][Gt-A][6oo1] ro.boot.dtb_idx=0
+[    0.558982][Gt-A][6oo1] ro.boot.sec_atd.tty=/dev/ttyHS8
+[    0.559013][Gt-A][6oo1] ro.boot.baseband=msm
+[    0.559046][Gt-A][6oo1] ro.boot.dtbo_idx=2
+[    0.559078][Gt-A][6oo1] ro.boot.hardware=qcom
+[    0.559110][Gt-A][6oo1] ro.boot.prodcode.param.offset=9445416
+[    0.559143][Gt-A][6oo1] ro.boot.revision=14
+[    0.559189][Gt-A][6oo1] ro.boot.slavepcb=0
+[    0.559225][Gt-A][6oo1] ro.boot.ucs_mode=0
+[    0.559255][Gt-A][6oo1] ro.boot.carrierid=ATT
+[    0.559286][Gt-A][6oo1] ro.boot.carrierid.param.offset=9437644
+[    0.559318][Gt-A][6oo1] ro.boot.edtbo_ver=0
+[    0.559356][Gt-A][6oo1] ro.boot.fastbootd=false
+[    0.559387][Gt-A][6oo1] ro.boot.keymaster=1
+[    0.559419][Gt-A][6oo1] ro.boot.prototype.param.offset=9437660
+[    0.559450][Gt-A][6oo1] ro.boot.bootdevice=1d84000.ufshc
+[    0.559482][Gt-A][6oo1] ro.boot.bootloader=G991USQS4BUKK
+[    0.559514][Gt-A][6oo1] ro.boot.hdm_status=NONE
+[    0.559545][Gt-A][6oo1] ro.boot.sales_code=ATT
+[    0.559576][Gt-A][6oo1] ro.boot.swp_config=0
+[    0.559607][Gt-A][6oo1] ro.boot.veritymode=enforcing
+[    0.559639][Gt-A][6oo1] ro.boot.avb_version=1.1
+[    0.559671][Gt-A][6oo1] ro.boot.windowcolor.param.offset=9445496
+[    0.559703][Gt-A][6oo1] ro.boot.boot_devices=soc/1d84000.ufshc
+[    0.559734][Gt-A][6oo1] ro.boot.edtbo_offset=9438216
+[    0.559766][Gt-A][6oo1] ro.boot.warranty_bit=0
+[    0.559799][Gt-A][6oo1] ro.boot.boot_recovery=1
+[    0.559831][Gt-A][6oo1] ro.boot.upload_offset=9438196
+[    0.559862][Gt-A][6oo1] ro.boot.usbcontroller=a600000.dwc3
+[    0.559894][Gt-A][6oo1] ro.boot.cp_debug_level=0x55FF
+[    0.559925][Gt-A][6oo1] ro.boot.ddr_start_type=1
+[    0.559957][Gt-A][6oo1] ro.boot.verifiedbootstate=green
+[    0.559988][Gt-A][6oo1] ro.boot.reserve_mem_region=0x0
+[    0.560020][Gt-A][6oo1] ro.build.id=RP1A.200720.012
+[    0.560051][Gt-A][6oo1] ro.build.date=Tue Dec 21 19:33:46 KST 2021
+[    0.560082][Gt-A][6oo1] ro.build.date.utc=1640082826
+[    0.560114][Gt-A][6oo1] ro.build.host=21HH1G13
+[    0.560145][Gt-A][6oo1] ro.build.tags=release-keys
+[    0.560176][Gt-A][6oo1] ro.build.type=user
+[    0.560207][Gt-A][6oo1] ro.build.user=dpi
+[    0.560238][Gt-A][6oo1] ro.build.display.id=RP1A.200720.012.G991USQS4BUKK
+[    0.560270][Gt-A][6oo1] ro.build.product=o1q
+[    0.560300][Gt-A][6oo1] ro.build.version.sdk=30
+[    0.560331][Gt-A][6oo1] ro.build.version.base_os=samsung/o1qsqw/o1q:12/SP1A.210812.016/G991USQU4BUKF:user/release-keys
+[    0.560363][Gt-A][6oo1] ro.build.version.release=11
+[    0.560394][Gt-A][6oo1] ro.build.version.codename=REL
+[    0.560427][Gt-A][6oo1] ro.build.version.incremental=G991USQS4BUKK
+[    0.560460][Gt-A][6oo1] ro.build.version.preview_sdk=0
+[    0.560492][Gt-A][6oo1] ro.build.version.security_patch=2021-12-01
+[    0.560525][Gt-A][6oo1] ro.build.version.release_or_codename=11
+[    0.560556][Gt-A][6oo1] ro.build.description=o1qsqw-user 11 RP1A.200720.012 G991USQS4BUKK release-keys
+[    0.560590][Gt-A][6oo1] ro.build.characteristics=nosdcard
+[    0.560621][Gt-A][6oo1] ro.product.cpu.abi=arm64-v8a
+[    0.560652][Gt-A][6oo1] ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+[    0.560684][Gt-A][6oo1] ro.product.name=o1qsqw
+[    0.560715][Gt-A][6oo1] ro.product.brand=samsung
+[    0.560744][Gt-A][6oo1] ro.product.build.type=user
+[    0.560772][Gt-A][6oo1] ro.product.model=SM-G991U
+[    0.560803][Gt-A][6oo1] ro.product.device=o1q
+[    0.560834][Gt-A][6oo1] ro.product.system.brand=samsung
+[    0.560866][Gt-A][6oo1] ro.product.manufacturer=samsung
+[    0.560897][Gt-A][6oo1] ro.baseband=msm
+[    0.560928][Gt-A][6oo1] ro.bootmode=unknown
+[    0.560960][Gt-A][6oo1] ro.hardware=qcom
+[    0.560990][Gt-A][6oo1] ro.revision=14
+[    0.561020][Gt-A][6oo1] ro.bootloader=G991USQS4BUKK
+[    0.561053][Gt-A][6oo1] ro.debuggable=0
+[    0.561084][Gt-A][6oo1] ro.property_service.version=2
+[    0.561157][Gt-A][6oo1] sys.usb.controller=a600000.dwc3
+[    0.561192][Gt-A][6oo1] persist.sys.sf.color_saturation=1.0
+[    0.561224][Gt-A][6oo1] persist.sys.dalvik.vm.lib.2=libart.so
+[    0.561291][Gt-A][6oo1] ro.crypto.volume.metadata.method=dm-default-key
+[    0.561325][Gt-A][6oo1] ro.crypto.dm_default_key.options_format.version=2
+[    0.561356][Gt-A][6oo1] af.fast_track_multiplier=1
+[    0.561388][Gt-A][6oo1] ro.af.client_heap_size_kbyte=7168
+[    0.561419][Gt-A][6oo1] ro.sf.lcd_density=480
+[    0.561450][Gt-A][6oo1] ro.com.google.gmsversion=11_202106
+[    0.561481][Gt-A][6oo1] ro.gfx.driver.0=com.samsung.gamedriver.sm8350
+[    0.561512][Gt-A][6oo1] ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.lahaina.api30
+[    0.561543][Gt-A][6oo1] ro.minui.pixel_format=RGBX_8888
+[    0.561573][Gt-A][6oo1] ro.radio.noril=no
+[    0.561605][Gt-A][6oo1] ro.camera.notify_nfc=1
+[    0.561643][Gt-A][6oo1] ro.zygote=zygote64_32
+[    0.561675][Gt-A][6oo1] ro.opengles.version=196610
+[    0.561707][Gt-A][6oo1] ro.telephony.default_cdma_sub=0
+[    0.561738][Gt-A][6oo1] ro.oem_unlock_supported=1
+[    0.561769][Gt-A][6oo1] ro.control_privapp_permissions=enforce
+[    0.561801][Gt-A][6oo1] drm.service.enabled=true
+[    0.561833][Gt-A][6oo1] camera.disable_zsl_mode=1
+[    0.561864][Gt-A][6oo1] keyguard.no_require_sim=true
+[    0.562028][Gt-A][6oo1] ro.slmk.2nd.dha_empty_max=30
+[    0.562063][Gt-A][6oo1] ro.slmk.2nd.dha_empty_min=8
+[    0.562096][Gt-A][6oo1] ro.slmk.2nd.dha_lmk_scale=3.0
+[    0.562128][Gt-A][6oo1] ro.slmk.2nd.dha_cached_max=20
+[    0.562159][Gt-A][6oo1] ro.slmk.2nd.dha_cached_min=6
+[    0.562190][Gt-A][6oo1] ro.slmk.2nd.dha_pwhl_chn_key=6660
+[    0.562222][Gt-A][6oo1] ro.slmk.psi_medium=70
+[    0.562254][Gt-A][6oo1] ro.slmk.v_bonusEFK=175944
+[    0.562287][Gt-A][6oo1] ro.slmk.cam_dha_ver=3
+[    0.562317][Gt-A][6oo1] ro.slmk.dha_th_rate=3.0
+[    0.562348][Gt-A][6oo1] ro.slmk.add_bonusEFK=2
+[    0.562380][Gt-A][6oo1] ro.slmk.dha_pwhl_key=572
+[    0.562412][Gt-A][6oo1] ro.slmk.psi_critical=120
+[    0.562443][Gt-A][6oo1] ro.slmk.dha_empty_max=30
+[    0.562475][Gt-A][6oo1] ro.slmk.dha_empty_min=8
+[    0.562507][Gt-A][6oo1] ro.slmk.dha_lmk_scale=2.0
+[    0.562538][Gt-A][6oo1] ro.slmk.freelimit_val=13
+[    0.562571][Gt-A][6oo1] ro.slmk.dha_cached_max=16
+[    0.562602][Gt-A][6oo1] ro.slmk.dha_cached_min=6
+[    0.562634][Gt-A][6oo1] ro.slmk.dha_2ndprop_thMB=8192
+[    0.562665][Gt-A][6oo1] ro.slmk.dha_pwhl_chn_key=6660
+[    0.562696][Gt-A][6oo1] ro.slmk.camera_killboost_time=1000
+[    0.562727][Gt-A][6oo1] ro.slmk.use_bg_keeping_policy=true
+[    0.562758][Gt-A][6oo1] ro.slmk.enable_killbooster_all=true
+[    0.562789][Gt-A][6oo1] ro.slmk.use_lowmem_keep_except=true
+[    0.562821][Gt-A][6oo1] ro.slmk.swap_free_low_percentage=20
+[    0.562851][Gt-A][6oo1] ro.config.pageboost.vramdisk.without_predict=false
+[    0.562882][Gt-A][6oo1] ro.config.vc_call_vol_steps=8
+[    0.562947][Gt-A][6oo1] ro.dalvik.vm.native.bridge=0
+[    0.562980][Gt-A][6oo1] dalvik.vm.isa.arm.variant=cortex-a75
+[    0.563010][Gt-A][6oo1] dalvik.vm.isa.arm.features=default
+[    0.563042][Gt-A][6oo1] dalvik.vm.isa.arm64.variant=kryo300
+[    0.563073][Gt-A][6oo1] dalvik.vm.isa.arm64.features=default
+[    0.563106][Gt-A][6oo1] dalvik.vm.dexopt.secondary=true
+[    0.563138][Gt-A][6oo1] dalvik.vm.usejit=true
+[    0.563169][Gt-A][6oo1] dalvik.vm.heapsize=512m
+[    0.563234][Gt-A][6oo1] dalvik.vm.lockprof.threshold=500
+[    0.563265][Gt-A][6oo1] dalvik.vm.dex2oat-Xms=64m
+[    0.563297][Gt-A][6oo1] dalvik.vm.dex2oat-Xmx=512m
+[    0.563328][Gt-A][6oo1] dalvik.vm.heapmaxfree=8m
+[    0.563361][Gt-A][6oo1] dalvik.vm.heapminfree=2m
+[    0.563391][Gt-A][6oo1] dalvik.vm.heapstartsize=8m
+[    0.563421][Gt-A][6oo1] dalvik.vm.appimageformat=lz4
+[    0.563452][Gt-A][6oo1] dalvik.vm.usejitprofiles=true
+[    0.563484][Gt-A][6oo1] dalvik.vm.heapgrowthlimit=256m
+[    0.563516][Gt-A][6oo1] dalvik.vm.image-dex2oat-Xms=64m
+[    0.563548][Gt-A][6oo1] dalvik.vm.image-dex2oat-Xmx=64m
+[    0.563579][Gt-A][6oo1] dalvik.vm.heaptargetutilization=0.75
+[    0.563612][Gt-A][6oo1] ro.frp.pst=/dev/block/persistent
+[    0.563642][Gt-A][6oo1] ro.odm.build.date=Tue Dec 21 19:33:46 KST 2021
+[    0.563674][Gt-A][6oo1] ro.odm.build.date.utc=1640082826
+[    0.563705][Gt-A][6oo1] ro.odm.build.version.incremental=G991USQS4BUKK
+[    0.563736][Gt-A][6oo1] ro.odm.build.fingerprint=samsung/o1qsqw/o1q:11/RP1A.200720.012/G991USQS4BUKK:user/release-keys
+[    0.563769][Gt-A][6oo1] ro.apex.updatable=true
+[    0.563801][Gt-A][6oo1] ro.boot.fstab_suffix=default
+[    0.563832][Gt-A][6oo1] ro.boot.dynamic_partitions=true
+[    0.563865][Gt-A][6oo1] ro.hwui.use_vulkan=
+[    0.563897][Gt-A][6oo1] ro.board.platform=lahaina
+[    0.563928][Gt-A][6oo1] ro.kernel.qemu=0
+[    0.563957][Gt-A][6oo1] ro.vendor.build.date=Tue Dec 21 19:33:46 KST 2021
+[    0.563986][Gt-A][6oo1] ro.vendor.build.date.utc=1640082826
+[    0.564017][Gt-A][6oo1] ro.vendor.build.version.incremental=G991USQS4BUKK
+[    0.564054][Gt-A][6oo1] ro.vendor.build.fingerprint=samsung/o1qsqw/o1q:11/RP1A.200720.012/G991USQS4BUKK:user/release-keys
+[    0.564085][Gt-A][6oo1] ro.carrier=unknown
+[    0.564116][Gt-A][6oo1] ro.product.cpu.abilist32=armeabi-v7a,armeabi
+[    0.564148][Gt-A][6oo1] ro.product.cpu.abilist64=arm64-v8a
+[    0.564181][Gt-A][6oo1] ro.product.odm.name=o1qsqw
+[    0.564214][Gt-A][6oo1] ro.product.odm.brand=samsung
+[    0.564247][Gt-A][6oo1] ro.product.odm.model=SM-G991U
+[    0.564276][Gt-A][6oo1] ro.product.odm.device=o1q
+[    0.564309][Gt-A][6oo1] ro.product.odm.manufacturer=samsung
+[    0.564341][Gt-A][6oo1] ro.product.board=lahaina
+[    0.564371][Gt-A][6oo1] ro.product.vendor.name=o1qsqw
+[    0.564399][Gt-A][6oo1] ro.product.vendor.brand=samsung
+[    0.564430][Gt-A][6oo1] ro.product.vendor.model=SM-G991U
+[    0.564463][Gt-A][6oo1] ro.product.vendor.device=o1q
+[    0.564496][Gt-A][6oo1] ro.product.vendor.manufacturer=samsung
+[    0.564527][Gt-A][6oo1] ro.product.first_api_level=30
+[    0.564561][Gt-A][6oo1] ro.hardware.egl=adreno
+[    0.564592][Gt-A][6oo1] ro.hardware.vulkan=adreno
+[    0.564623][Gt-A][6oo1] ro.hardware.chipname=SM8350
+[    0.564655][Gt-A][6oo1] ro.hardware.keystore=mdfpp
+[    0.564687][Gt-A][6oo1] ro.hardware.gatekeeper=mdfpp
+[    0.564716][Gt-A][6oo1] ro.bootimage.build.date=Tue Dec 21 19:33:46 KST 2021
+[    0.564745][Gt-A][6oo1] ro.bootimage.build.date.utc=1640082826
+[    0.564777][Gt-A][6oo1] ro.bootimage.build.fingerprint=samsung/o1qsqw/o1q:11/RP1A.200720.012/G991USQS4BUKK:user/release-keys
+[    0.564808][Gt-A][6oo1] ro.surface_flinger.has_HDR_display=true
+[    0.564840][Gt-A][6oo1] ro.surface_flinger.set_idle_timer_ms=2000
+[    0.564872][Gt-A][6oo1] ro.surface_flinger.protected_contents=true
+[    0.564904][Gt-A][6oo1] ro.surface_flinger.set_touch_timer_ms=3000
+[    0.564937][Gt-A][6oo1] ro.surface_flinger.use_color_management=true
+[    0.564968][Gt-A][6oo1] ro.surface_flinger.has_wide_color_display=true
+[    0.565000][Gt-A][6oo1] ro.surface_flinger.wcg_composition_dataspace=143261696
+[    0.565032][Gt-A][6oo1] ro.surface_flinger.set_display_power_timer_ms=200
+[    0.565065][Gt-A][6oo1] ro.surface_flinger.max_virtual_display_dimension=4096
+[    0.565096][Gt-A][6oo1] ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+[    0.565129][Gt-A][6oo1] ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+[    0.565162][Gt-A][6oo1] ro.surface_flinger.use_content_detection_for_refresh_rate=true
+[    0.565195][Gt-A][6oo1] aaudio.mmap_policy=2
+[    0.565226][Gt-A][6oo1] aaudio.hw_burst_min_usec=2000
+[    0.565257][Gt-A][6oo1] aaudio.mmap_exclusive_policy=2
+[    0.565373][Gt-A][6oo1] ro.build.fingerprint=samsung/o1qsqw/o1q:11/RP1A.200720.012/G991USQS4BUKK:user/release-keys
+[    0.565453][Gt-A][6oo1] pm.dexopt.boot=verify
+[    0.565484][Gt-A][6oo1] pm.dexopt.ab-ota=speed-profile
+[    0.565516][Gt-A][6oo1] pm.dexopt.shared=speed
+[    0.565548][Gt-A][6oo1] pm.dexopt.install=speed-profile
+[    0.565580][Gt-A][6oo1] pm.dexopt.inactive=verify
+[    0.565612][Gt-A][6oo1] pm.dexopt.bg-dexopt=speed-profile
+[    0.565644][Gt-A][6oo1] pm.dexopt.first-boot=quicken
+[    0.565739][Gt-A][6oo1] ro.adb.secure=1
+[    0.565772][Gt-A][6oo1] ro.secure=1
+[    0.565804][Gt-A][6oo1] ro.com.google.clientidbase=android-samsung-ss
+[    0.565836][Gt-A][6oo1] ro.build.PDA=G991USQS4BUKK
+[    0.565867][Gt-A][6oo1] ro.storage.support.sdcard=0
+[    0.565899][Gt-A][6oo1] ro.security.keystore.keytype=sakv2,gak,sgak
+[    0.565931][Gt-A][6oo1] persist.sys.sf.hs_mode=0
+[    0.566000][Gt-A][6oo1] sys.usb.configfs=1
+[    0.566204][Gt-A][6oo1] ro.gsid.image_running=0
+[    0.566241][Gt-A][6oo1] gsid.image_installed=0
+[    0.566450][Gt-A][6oo1] log.tag.stats_log=I
+[    0.566512][Gt-A][6oo1] ro.logd.size.stats=64K
+[    0.566546][Gt-A][6oo1] ro.logd.auditd=false
+[    0.566994][Gt-A][6oo1] ro.product_ship=true
+[    0.567057][Gt-A][6oo1] ril.support_sig_config2=true
+[    0.567091][Gt-A][6oo1] persist.sys.softsim.status=default,default
+[    0.567417][Gt-A][6oo1] ro.setupwizard.mode=OPTIONAL
+[    0.567452][Gt-A][6oo1] ro.setupwizard.wifi_on_exit=false
+[    0.567488][Gt-A][6oo1] ro.setupwizard.rotation_locked=false
+[    0.567519][Gt-A][6oo1] setupwizard.theme=glif_v3_light
+[    0.567548][Gt-A][6oo1] setupwizard.feature.enable_stencil_partner_customization=1
+[    0.567616][Gt-A][6oo1] security.perf_harden=1
+[    0.567728][Gt-A][6oo1] external_storage.projid.enabled=1
+[    0.567763][Gt-A][6oo1] external_storage.casefold.enabled=1
+[    0.567794][Gt-A][6oo1] external_storage.sdcardfs.enabled=0
+[    0.567949][Gt-A][6oo1] ro.security.cass.feature=1
+[    0.567984][Gt-A][6oo1] ro.security.fips.ux=Enabled
+[    0.568015][Gt-A][6oo1] ro.security.vpnpp.ver=2.2
+[    0.568046][Gt-A][6oo1] ro.security.vpnpp.release=1.0
+[    0.568077][Gt-A][6oo1] ro.security.fips_skc.ver=2.2
+[    0.568107][Gt-A][6oo1] ro.security.fips_scrypto.ver=2.5
+[    0.568137][Gt-A][6oo1] dev.mnt.blk.efs=sda
+[    0.568167][Gt-A][6oo1] dev.mnt.blk.cache=sda
+[    0.568197][Gt-A][6oo1] net.bt.name=Android
+[    0.568229][Gt-A][6oo1] sys.perf.hmp=4:4
+[    0.568260][Gt-A][6oo1] sys.config.ibs.enable=false
+[    0.568291][Gt-A][6oo1] sys.config.hardcoder.enable=false
+[    0.568324][Gt-A][6oo1] sys.config.restricted_bucket=true
+[    0.568356][Gt-A][6oo1] sys.config.activelaunch_enable=true
+[    0.568387][Gt-A][6oo1] sys.vendor.shutdown.waittime=500
+[    0.568420][Gt-A][6oo1] persist.sys.usb.config=mtp,conn_gadget
+[    0.568452][Gt-A][6oo1] persist.sys.softsim.type=default
+[    0.568483][Gt-A][6oo1] persist.sys.softsim.netmode=4g
+[    0.568515][Gt-A][6oo1] security.ADP.version=0
+[    0.568547][Gt-A][6oo1] security.ADP.policy_version=00000000
+[    0.568579][Gt-A][6oo1] security.ASKS.version=0
+[    0.568610][Gt-A][6oo1] security.ASKS.time_value=00000000
+[    0.568642][Gt-A][6oo1] security.ASKS.rufs_enable=true
+[    0.568673][Gt-A][6oo1] security.ASKS.policy_version=00000000
+[    0.569439][Gt-A][6oo1] ro.odm.build.id=RP1A.200720.012
+[    0.569474][Gt-A][6oo1] ro.odm.build.tags=release-keys
+[    0.569504][Gt-A][6oo1] ro.odm.build.type=user
+[    0.569536][Gt-A][6oo1] ro.odm.build.version.sdk=30
+[    0.569566][Gt-A][6oo1] ro.odm.build.version.release=11
+[    0.569596][Gt-A][6oo1] ro.odm.build.version.release_or_codename=11
+[    0.569628][Gt-A][6oo1] ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+[    0.569660][Gt-A][6oo1] ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+[    0.569692][Gt-A][6oo1] ro.odm.product.cpu.abilist64=arm64-v8a
+[    0.569724][Gt-A][6oo1] ro.vendor.epdg.support=true
+[    0.569755][Gt-A][6oo1] ro.vendor.build.id=RP1A.200720.012
+[    0.569786][Gt-A][6oo1] ro.vendor.build.tags=release-keys
+[    0.569817][Gt-A][6oo1] ro.vendor.build.type=user
+[    0.569848][Gt-A][6oo1] ro.vendor.build.version.sdk=30
+[    0.569879][Gt-A][6oo1] ro.vendor.build.version.release=11
+[    0.569910][Gt-A][6oo1] ro.vendor.build.version.release_or_codename=11
+[    0.569941][Gt-A][6oo1] ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+[    0.569971][Gt-A][6oo1] ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+[    0.570002][Gt-A][6oo1] ro.vendor.product.cpu.abilist64=arm64-v8a
+[    0.570035][Gt-A][6oo1] ro.vendor.use_data_netmgrd=false
+[    0.570068][Gt-A][6oo1] ro.vendor.extension_library=libqti-perfd-client.so
+[    0.570102][Gt-A][6oo1] vendor.wv.oemcrypto.debug.enable_external_display_check=1
+[    0.570136][Gt-A][6oo1] vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+[    0.570168][Gt-A][6oo1] vendor.audio_hal.period_size=192
+[    0.570198][Gt-A][6oo1] vendor.audio_hal.in_period_size=144
+[    0.570229][Gt-A][6oo1] vendor.audio_hal.period_multiplier=4
+[    0.570260][Gt-A][6oo1] persist.vendor.bt.aac_frm_ctl.enabled=true
+[    0.570292][Gt-A][6oo1] persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
+[    0.570323][Gt-A][6oo1] persist.vendor.qfp=true
+[    0.570355][Gt-A][6oo1] persist.vendor.data.mode=concurrent
+[    0.570387][Gt-A][6oo1] persist.vendor.qcomsysd.enabled=1
+[    0.570419][Gt-A][6oo1] persist.vendor.qteeconnector.retrying_timeout=2000
+[    0.570452][Gt-A][6oo1] persist.vendor.qteeconnector.retrying_interval=30
+[    0.570614][Gt-A][6oo1] ro.vendor.qti.va_odm.support=1
+[    0.570681][Gt-A][6oo1] ro.vendor.qti.va_aosp.support=1
+[    0.570721][Gt-A][6oo1] ro.vendor.perf.scroll_opt=1
+[    0.570754][Gt-A][6oo1] ro.vendor.beluga.c=0x4800
+[    0.570785][Gt-A][6oo1] ro.vendor.beluga.p=0x3
+[    0.570816][Gt-A][6oo1] ro.vendor.beluga.s=0x900
+[    0.570846][Gt-A][6oo1] ro.vendor.beluga.t=0x240
+[    0.571012][Gt-A][6oo1] vendor.gralloc.disable_ubwc=0
+[    0.571544][Gt-A][6oo1] persist.vendor.radio.atfwd.start=true
+[    0.571584][Gt-A][6oo1] persist.vendor.radio.enableadvancedscan=true
+[    0.571759][Gt-A][6oo1] security.securehw.available=false
+[    0.571826][Gt-A][6oo1] security.securenvm.available=false
+[    0.571905][Gt-A][6oo1] ro.vendor.build.security_patch=2021-12-01
+[    0.572410][Gt-A][6oo1] ro.vndk.version=30
+[    0.572447][Gt-A][6oo1] ro.product.vndk.version=30
+[    0.572513][Gt-A][6oo1] ro.crypto.metadata_init_delete_all_keys.enabled=false
+[    0.572634][Gt-A][6oo1]
+[    0.572667][Gt-A][6oo1] Supported API: 3
+[    0.594185][Gt-A][6oo1]
+[    0.594224][Gt-A][6oo1] [Formatting data]
+[    0.594256][Gt-A][6oo1]
+[    0.594272][Gt-A][6oo1] -- Wiping data...
+[    0.628370][Gt-A][6oo1] I:[PDP] not a RAM-loading scenario, metaData file= 0, allocTable file= 0
+[    0.628413][Gt-A][6oo1]
+[    0.628427][Gt-A][6oo1] -- Wiping data...
+[    0.711356][Gt-A][6oo1] Formatting /data...
+[    0.747169][Gt-A][6oo1] MDF_I: Completed reset MDF flag!
+[    0.747583][Gt-A][6oo1] MDF_I: Completed initialize MDF for Recovery!
+[    0.747676][Gt-A][6oo1] I:MDF_RECOVERY : completed to initialize.
+[    0.748162][Gt-A][6oo1] exec /system/bin/make_f2fs -g android -O project_quota,extra_attr -O casefold -C utf8 -O compression,extra_attr /dev/block/bootdevice/by-name/userdata 27497207 
+[    1.358643][Gt-A][6oo1]
+[    1.358685][Gt-A][6oo1] 	F2FS-tools: mkfs.f2fs Ver: 1.14.0 (2020-08-24)
+[    1.358696][Gt-A][6oo1]
+[    1.358704][Gt-A][6oo1] Info: Disable heap-based policy
+[    1.358711][Gt-A][6oo1] Info: Debug level = 1
+[    1.358718][Gt-A][6oo1] Info: Trim is enabled
+[    1.358725][Gt-A][6oo1] Info: Set conf for android
+[    1.358731][Gt-A][6oo1] Info: Enable utf8 with casefolding
+[    1.358738][Gt-A][6oo1] Info: Enable Project quota
+[    1.358744][Gt-A][6oo1] Info: Enable Compression
+[    1.358750][Gt-A][6oo1] 	Info: No support kernel version!
+[    1.358757][Gt-A][6oo1] Info: wanted sectors = 27497207 (in 4096 bytes)
+[    1.358764][Gt-A][6oo1] Info: total device sectors = 27497211 (in 4096 bytes)
+[    1.358770][Gt-A][6oo1] Info: Segments per section = 1
+[    1.358777][Gt-A][6oo1] Info: Sections per zone = 1
+[    1.358783][Gt-A][6oo1] Info: sector size = 4096
+[    1.358789][Gt-A][6oo1] Info: total sectors = 27497207 (107410 MB)
+[    1.358796][Gt-A][6oo1] Info: zone aligned segment0 blkaddr: 512
+[    1.358802][Gt-A][6oo1] Info: add quota type = 0 => 4
+[    1.358809][Gt-A][6oo1] Info: add quota type = 1 => 5
+[    1.358815][Gt-A][6oo1] Info: add quota type = 2 => 6
+[    1.358821][Gt-A][6oo1] Info: mount_opts is set as flush_group=5666,inlinecrypt,compress_log_size=5
+[    1.358828][Gt-A][6oo1] Info: [/dev/block/bootdevice/by-name/userdata] Discarding device
+[    1.358835][Gt-A][6oo1] Info: This device doesn't support BLKSECDISCARD
+[    1.358842][Gt-A][6oo1] Info: Discarded 107410 MB
+[    1.358848][Gt-A][6oo1] [f2fs_init_sit_area: 659] 	Filling sit area at offset 0x00600000
+[    1.358855][Gt-A][6oo1] [f2fs_init_nat_area: 693] 	Filling nat area at offset 0x00e00000
+[    1.358861][Gt-A][6oo1] [f2fs_write_root_inode:1312] 	Writing root inode (hot node), 1c800 0 200 at offset 0x00116736
+[    1.358868][Gt-A][6oo1] [f2fs_write_default_quota:1388] 	Writing quota data, at offset 0001ce01, 0001ce02
+[    1.358874][Gt-A][6oo1] [f2fs_write_qf_inode:1479] 	Writing quota inode (hot node), 1c800 0 200 at offset 0x00116737
+[    1.358881][Gt-A][6oo1] [f2fs_write_default_quota:1388] 	Writing quota data, at offset 0001ce03, 0001ce04
+[    1.358887][Gt-A][6oo1] [f2fs_write_qf_inode:1479] 	Writing quota inode (hot node), 1c800 0 200 at offset 0x00116738
+[    1.358894][Gt-A][6oo1] [f2fs_write_default_quota:1388] 	Writing quota data, at offset 0001ce05, 0001ce06
+[    1.358900][Gt-A][6oo1] [f2fs_write_qf_inode:1479] 	Writing quota inode (hot node), 1c800 0 200 at offset 0x00116739
+[    1.358923][Gt-A][6oo1] [f2fs_update_nat_root:1533] 	Writing nat root, at offset 0x00000e00
+[    1.358929][Gt-A][6oo1] [f2fs_add_default_dentry_root:1730] 	Writing default dentry root, at offset 0x0001ce00
+[    1.358936][Gt-A][6oo1] Info: Overprovision ratio = 0.610%
+[    1.358942][Gt-A][6oo1] Info: Overprovision segments = 659 (GC reserved = 335)
+[    1.358949][Gt-A][6oo1] [f2fs_write_check_point_pack: 852] 	Writing main segments, cp at offset 0x00000200
+[    1.358955][Gt-A][6oo1] [f2fs_write_check_point_pack:1007] 	Writing Segment summary for HOT/WARM/COLD_DATA, at offset 0x00000201
+[    1.358962][Gt-A][6oo1] [f2fs_write_check_point_pack:1034] 	Writing Segment summary for HOT_NODE, at offset 0x00000202
+[    1.358969][Gt-A][6oo1] [f2fs_write_check_point_pack:1046] 	Writing Segment summary for WARM_NODE, at offset 0x00000203
+[    1.358976][Gt-A][6oo1] [f2fs_write_check_point_pack:1057] 	Writing Segment summary for COLD_NODE, at offset 0x00000204
+[    1.358982][Gt-A][6oo1] [f2fs_write_check_point_pack:1065] 	Writing cp page2, at offset 0x00000205
+[    1.358989][Gt-A][6oo1] [f2fs_write_check_point_pack:1085] 	Writing NAT bits pages, at offset 0x000003fe
+[    1.358995][Gt-A][6oo1] [f2fs_write_check_point_pack:1106] 	Writing cp page 1 of checkpoint pack 2, at offset 0x00000400
+[    1.359002][Gt-A][6oo1] [f2fs_write_check_point_pack:1125] 	Writing cp page 2 of checkpoint pack 2, at offset 0x00000405
+[    1.359008][Gt-A][6oo1] [f2fs_write_super_block:1158] 	Writing super block, at offset 0x00000000
+[    1.359015][Gt-A][6oo1] Info: format successful
+[    1.359844][Gt-A][6oo1] done /system/bin/make_f2fs -g android -O project_quota,extra_attr -O casefold -C utf8 -O compression,extra_attr /dev/block/bootdevice/by-name/userdata 27497207 , return value 0
+[    1.397428][Gt-A][6oo1] E:[PDP] lstat /c____/pdp_b__ : 0 - No PDP scenario 
+[    1.449391][Gt-A][6oo1] Formatting /cache...
+[    1.470980][Gt-A][6oo1] MDF_I: Completed reset MDF flag!
+[    1.471354][Gt-A][6oo1] MDF_I: Completed initialize MDF for Recovery!
+[    1.471462][Gt-A][6oo1] I:MDF_RECOVERY : completed to initialize.
+[    1.471895][Gt-A][6oo1] exec /system/bin/mke2fs -F -b 4096 -L cache -t ext4 /dev/block/bootdevice/by-name/cache 
+[    1.485823][Gt-A][6oo1] mke2fs 1.45.4 (23-Sep-2019)
+[    1.492689][Gt-A][6oo1] Discarding device blocks:   4096/153600             done                            
+[    1.494050][Gt-A][6oo1] Discard takes 0.00055s.
+[    1.494207][Gt-A][6oo1] Creating filesystem with 153600 4k blocks and 38400 inodes
+[    1.494284][Gt-A][6oo1] Filesystem UUID: 49653942-5f00-4b76-ac23-9e79517257e8
+[    1.494384][Gt-A][6oo1] Superblock backups stored on blocks: 
+[    1.494538][Gt-A][6oo1] 	32768, 98304
+[    1.494606][Gt-A][6oo1]
+[    1.494844][Gt-A][6oo1] Allocating group tables: 0/5   done                            
+[    1.495631][Gt-A][6oo1] Writing inode tables: 0/5   done                            
+[    1.531355][Gt-A][6oo1] Creating journal (2048 blocks): done
+[    1.534657][Gt-A][6oo1] Writing superblocks and filesystem accounting information: 0/5   done
+[    1.534702][Gt-A][6oo1]
+[    1.534734][Gt-A][6oo1] This filesystem will be automatically checked every 25 mounts or
+[    1.534766][Gt-A][6oo1] 180 days, whichever comes first.  Use tune2fs -c or -i to override.
+[    1.534864][Gt-A][6oo1] done /system/bin/mke2fs -F -b 4096 -L cache -t ext4 /dev/block/bootdevice/by-name/cache , return value 0
+[    1.535645][Gt-A][6oo1] I:[libfs_mgr]superblock s_max_mnt_count:25,/dev/block/bootdevice/by-name/cache
+[    1.537462][Gt-A][6oo1] I:[libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0: Success
+[    1.537554][Gt-A][6oo1] I:[libfs_mgr]__mount return 0(source=cache,target=/cache,type=ext4,flags=0,options=): Success
+[    1.538471][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 1
+[    1.538926][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 2
+[    1.539408][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 3
+[    1.587050][Gt-A][6oo1] chmod for /cache/recovery/last_maps failed (No such file or directory)
+[    1.587155][Gt-A][6oo1] chown for /cache/recovery/last_maps failed (No such file or directory)
+[    1.648256][Gt-A][6oo1] Formatting /metadata...
+[    1.683700][Gt-A][6oo1] MDF_I: Completed reset MDF flag!
+[    1.684086][Gt-A][6oo1] MDF_I: Completed initialize MDF for Recovery!
+[    1.684196][Gt-A][6oo1] I:MDF_RECOVERY : completed to initialize.
+[    1.684702][Gt-A][6oo1] exec /system/bin/mke2fs -F -b 4096 -L metadata -t ext4 /dev/block/bootdevice/by-name/metadata 4094 
+[    1.698480][Gt-A][6oo1] mke2fs 1.45.4 (23-Sep-2019)
+[    1.702056][Gt-A][6oo1] Discarding device blocks:          done                            
+[    1.702508][Gt-A][6oo1] Discard takes 0.00048s.
+[    1.702660][Gt-A][6oo1] Creating filesystem with 4094 4k blocks and 1024 inodes
+[    1.702733][Gt-A][6oo1]
+[    1.702961][Gt-A][6oo1] Allocating group tables: 0/1   done                            
+[    1.704016][Gt-A][6oo1] Writing inode tables: 0/1   done                            
+[    1.723768][Gt-A][6oo1] Creating journal (1024 blocks): done
+[    1.726747][Gt-A][6oo1] Writing superblocks and filesystem accounting information: 0/1   done
+[    1.726789][Gt-A][6oo1]
+[    1.726862][Gt-A][6oo1] This filesystem will be automatically checked every 20 mounts or
+[    1.726899][Gt-A][6oo1] 180 days, whichever comes first.  Use tune2fs -c or -i to override.
+[    1.728118][Gt-A][6oo1] done /system/bin/mke2fs -F -b 4096 -L metadata -t ext4 /dev/block/bootdevice/by-name/metadata 4094 , return value 0
+[    1.765347][Gt-A][6oo1] Formatting /keyrefuge...
+[    1.800785][Gt-A][6oo1] MDF_I: Completed reset MDF flag!
+[    1.801172][Gt-A][6oo1] MDF_I: Completed initialize MDF for Recovery!
+[    1.801271][Gt-A][6oo1] I:MDF_RECOVERY : completed to initialize.
+[    1.801494][Gt-A][6oo1] exec /system/bin/make_f2fs -g android /dev/block/bootdevice/by-name/keyrefuge 
+[    1.845097][Gt-A][6oo1]
+[    1.845179][Gt-A][6oo1] 	F2FS-tools: mkfs.f2fs Ver: 1.14.0 (2020-08-24)
+[    1.845214][Gt-A][6oo1]
+[    1.845246][Gt-A][6oo1] Info: Disable heap-based policy
+[    1.845278][Gt-A][6oo1] Info: Debug level = 1
+[    1.845310][Gt-A][6oo1] Info: Trim is enabled
+[    1.845342][Gt-A][6oo1] Info: Set conf for android
+[    1.845374][Gt-A][6oo1] 	Info: No support kernel version!
+[    1.845406][Gt-A][6oo1] Info: Segments per section = 1
+[    1.845438][Gt-A][6oo1] Info: Sections per zone = 1
+[    1.845470][Gt-A][6oo1] Info: sector size = 4096
+[    1.845502][Gt-A][6oo1] Info: total sectors = 13312 (52 MB)
+[    1.845534][Gt-A][6oo1] Info: zone aligned segment0 blkaddr: 512
+[    1.845566][Gt-A][6oo1] Info: add quota type = 0 => 4
+[    1.845598][Gt-A][6oo1] Info: add quota type = 1 => 5
+[    1.845630][Gt-A][6oo1] Info: mount_opts is set as flush_group=5666,inlinecrypt
+[    1.845662][Gt-A][6oo1] Info: [/dev/block/bootdevice/by-name/keyrefuge] Discarding device
+[    1.845695][Gt-A][6oo1] Info: This device doesn't support BLKSECDISCARD
+[    1.845727][Gt-A][6oo1] Info: Discarded 51 MB
+[    1.845758][Gt-A][6oo1] [f2fs_init_sit_area: 659] 	Filling sit area at offset 0x00600000
+[    1.845791][Gt-A][6oo1] [f2fs_init_nat_area: 693] 	Filling nat area at offset 0x00a00000
+[    1.845823][Gt-A][6oo1] [f2fs_write_root_inode:1312] 	Writing root inode (hot node), 1000 3 200 at offset 0x00005632
+[    1.845856][Gt-A][6oo1] [f2fs_write_default_quota:1388] 	Writing quota data, at offset 00001001, 00001002
+[    1.845889][Gt-A][6oo1] [f2fs_write_qf_inode:1479] 	Writing quota inode (hot node), 1000 3 200 at offset 0x00005633
+[    1.845921][Gt-A][6oo1] [f2fs_write_default_quota:1388] 	Writing quota data, at offset 00001003, 00001004
+[    1.845953][Gt-A][6oo1] [f2fs_write_qf_inode:1479] 	Writing quota inode (hot node), 1000 3 200 at offset 0x00005634
+[    1.845986][Gt-A][6oo1] [f2fs_update_nat_root:1533] 	Writing nat root, at offset 0x00000a00
+[    1.846050][Gt-A][6oo1] [f2fs_add_default_dentry_root:1730] 	Writing default dentry root, at offset 0x00001000
+[    1.846083][Gt-A][6oo1] Info: Overprovision ratio = 45.000%
+[    1.846115][Gt-A][6oo1] Info: Overprovision segments = 14 (GC reserved = 12)
+[    1.846146][Gt-A][6oo1] [f2fs_write_check_point_pack: 852] 	Writing main segments, cp at offset 0x00000200
+[    1.846178][Gt-A][6oo1] [f2fs_write_check_point_pack:1007] 	Writing Segment summary for HOT/WARM/COLD_DATA, at offset 0x00000201
+[    1.846211][Gt-A][6oo1] [f2fs_write_check_point_pack:1034] 	Writing Segment summary for HOT_NODE, at offset 0x00000202
+[    1.846243][Gt-A][6oo1] [f2fs_write_check_point_pack:1046] 	Writing Segment summary for WARM_NODE, at offset 0x00000203
+[    1.846274][Gt-A][6oo1] [f2fs_write_check_point_pack:1057] 	Writing Segment summary for COLD_NODE, at offset 0x00000204
+[    1.846306][Gt-A][6oo1] [f2fs_write_check_point_pack:1065] 	Writing cp page2, at offset 0x00000205
+[    1.846337][Gt-A][6oo1] [f2fs_write_check_point_pack:1085] 	Writing NAT bits pages, at offset 0x000003ff
+[    1.846369][Gt-A][6oo1] [f2fs_write_check_point_pack:1106] 	Writing cp page 1 of checkpoint pack 2, at offset 0x00000400
+[    1.846401][Gt-A][6oo1] [f2fs_write_check_point_pack:1125] 	Writing cp page 2 of checkpoint pack 2, at offset 0x00000405
+[    1.846432][Gt-A][6oo1] [f2fs_write_super_block:1158] 	Writing super block, at offset 0x00000000
+[    1.846464][Gt-A][6oo1] Info: format successful
+[    1.847479][Gt-A][6oo1] done /system/bin/make_f2fs -g android /dev/block/bootdevice/by-name/keyrefuge , return value 0
+[    1.847736][Gt-A][6oo1] Data wipe complete.
+[    1.865722][Gt-A][6oo1] running total wipe-data time : 1.272s
+[    1.865818][Gt-A][6oo1]
+[    1.865889][Gt-A][6oo1] [start failed section]
+[    1.882455][Gt-A][6oo1]
+[    1.882530][Gt-A][6oo1] [out-recovery]
+[    1.889933][Gt-A][6oo1] copy_avc_msg_to_data
+[    1.890660][Gt-A][6oo1] I:[libfs_mgr]superblock s_max_mnt_count:25,/dev/block/bootdevice/by-name/cache
+[    1.892517][Gt-A][6oo1] I:[libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0: Success
+[    1.892616][Gt-A][6oo1] I:[libfs_mgr]__mount return 0(source=cache,target=/cache,type=ext4,flags=0,options=): Success
+[    1.893314][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 1
+[    1.893767][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 2
+[    1.894210][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 3
+[    1.894336][Gt-A][6oo1] copy_file '/proc/avc_msg' '/cache/recovery/last_avc_msg_recovery'
+[    1.900074][Gt-A][6oo1] Rebooting...
+[    1.932623][Gt-A][6oo1] SecReboot(userrequested,recovery)
+[    1.932705][Gt-A][6oo1] ## FinishRecovery(delcmd=1, clearBCB=1, check_unlink=1)
+[    1.932793][Gt-A][6oo1] I:Saving locale "en-US"
+[    1.933875][Gt-A][6oo1] I:[libfs_mgr]superblock s_max_mnt_count:25,/dev/block/bootdevice/by-name/cache
+[    1.935920][Gt-A][6oo1] I:[libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0: Success
+[    1.936015][Gt-A][6oo1] I:[libfs_mgr]__mount return 0(source=cache,target=/cache,type=ext4,flags=0,options=): Success
+[    1.936713][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "2": error code: 0x18, try count : 1
+[    1.937191][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "2": error code: 0x18, try count : 2
+[    1.937629][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "2": error code: 0x18, try count : 3
+[    1.939385][Gt-A][6oo1] E:[libfs_mgr]Error updating for slotselect
+[    1.967372][Gt-A][6oo1] I:## clear BCB message
+[    1.967728][Gt-A][6oo1] I:## unlink /cache/recovery/command
+[    1.971323][Gt-A][6oo1] save_current_log true, has_cashe true.
+[    1.972210][Gt-A][6oo1] I:[libfs_mgr]superblock s_max_mnt_count:25,/dev/block/bootdevice/by-name/cache
+[    1.973840][Gt-A][6oo1] I:[libfs_mgr]__mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0: Success
+[    1.973931][Gt-A][6oo1] I:[libfs_mgr]__mount return 0(source=cache,target=/cache,type=ext4,flags=0,options=): Success
+[    1.974581][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 1
+[    1.975030][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 2
+[    1.975545][Gt-A][6oo1] libc: Unable to set property "ro.boottime.init.mount.cache" to "1": error code: 0x18, try count : 3

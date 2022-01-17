@@ -1,0 +1,33 @@
+SS_NV_UTIL.
+Cur Time : 4212.050000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.260087	ss_nv_util_task.c	ss_nv_util_task	107	task started
+11.505878	ss_nv_util_task.c	ss_nv_util_task	112	clear dependency
+11.506203	ss_nv_util_client.c	ss_nv_qc_client_req	65	put cmd. item: 50076, cmd: 0, context: 0, sem: D17B6F68
+11.506206	ss_nv_util_client.c	ss_nv_util_task_client_req	129	process cmd. sem : D17B6F68
+11.506281	ss_nv_util_client.c	ss_nv_util_task_client_req	132	sem_post D17B6F68
+11.506282	ss_nv_util_client.c	ss_nv_qc_client_req	73	nv req done 0, sem: D17B6F68
+11.506284	ss_nv_util_client.c	ss_nv_qc_client_req	65	put cmd. item: 50077, cmd: 0, context: 0, sem: D17B6F68
+11.506285	ss_nv_util_client.c	ss_nv_util_task_client_req	129	process cmd. sem : D17B6F68
+11.506345	ss_nv_util_client.c	ss_nv_util_task_client_req	132	sem_post D17B6F68
+11.506346	ss_nv_util_client.c	ss_nv_qc_client_req	73	nv req done 0, sem: D17B6F68
+11.506368	ss_nv_util_client.c	ss_nv_qc_client_req	65	put cmd. item: 50076, cmd: 0, context: 1, sem: D17B6F68
+11.506370	ss_nv_util_client.c	ss_nv_util_task_client_req	129	process cmd. sem : D17B6F68
+11.506398	ss_nv_util_client.c	ss_nv_util_task_client_req	132	sem_post D17B6F68
+11.506399	ss_nv_util_client.c	ss_nv_qc_client_req	73	nv req done 5, sem: D17B6F68
+11.506401	ss_nv_util_client.c	ss_nv_qc_client_req	65	put cmd. item: 50077, cmd: 0, context: 1, sem: D17B6F68
+11.506402	ss_nv_util_client.c	ss_nv_util_task_client_req	129	process cmd. sem : D17B6F68
+11.506426	ss_nv_util_client.c	ss_nv_util_task_client_req	132	sem_post D17B6F68
+11.506427	ss_nv_util_client.c	ss_nv_qc_client_req	73	nv req done 5, sem: D17B6F68
+11.506429	ss_nv_util_client.c	ss_nv_qc_client_req	65	put cmd. item: 550, cmd: 0, context: 1, sem: D17B6F68
+11.506431	ss_nv_util_client.c	ss_nv_util_task_client_req	129	process cmd. sem : D17B6F68
+11.506454	ss_nv_util_client.c	ss_nv_util_task_client_req	132	sem_post D17B6F68
+11.506455	ss_nv_util_client.c	ss_nv_qc_client_req	73	nv req done 5, sem: D17B6F68
+
+------------------------------------------------------
+Used msg ram =   6.250000 %
+Time :  11.260087 ~  11.506455 sec, Total =   0.246368 sec
+Elapsed time for making this log =   0.001000 sec
+------------------------------------------------------

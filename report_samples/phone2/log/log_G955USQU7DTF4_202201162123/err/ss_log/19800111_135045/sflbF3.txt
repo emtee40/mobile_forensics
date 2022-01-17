@@ -1,0 +1,12 @@
+sflbF3.
+Cur Time : 87.520000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.635823	diag_f3_trace.c	diag_f3_trace_init_configs	1353	fdi_control = 5, fdi_detail = 255
+
+------------------------------------------------------
+Used msg ram =   2.343750 %
+Time :  11.635823 ~  11.635823 sec, Total =   0.000000 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

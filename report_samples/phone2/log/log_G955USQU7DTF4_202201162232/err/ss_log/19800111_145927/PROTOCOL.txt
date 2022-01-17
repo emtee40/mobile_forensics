@@ -1,0 +1,261 @@
+PROTOCOL.
+Cur Time : 4211.766000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(Sys)	TIME(Diag)	FILE	LINE	STRING
+ 12.137000 13:49:30.494	cmpmprx.c	1634	[SUB_1]	PM->CM: device_mode_chgd, nSIM 1 nMaxActive 1 nMaxActiveData 1
+ 12.137000 13:49:30.494	cmpmprx.c	1516	[SUB_1]	PM->CM: mode_cap_chgd, new mode_cap=552
+ 12.138000 13:49:30.495	cmpmprx.c	1556	[SUB_1]	PM->CM: band_cap_chgd
+ 12.143000 13:49:30.501	oem_misc.c	787	ap_info ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ 12.186000 13:49:30.543	cmpmprx.c	1634	[SUB_1]	PM->CM: device_mode_chgd, nSIM 1 nMaxActive 1 nMaxActiveData 1
+ 12.348000 13:49:30.706	sdss.c	19951		[SUB_1]	** Activate user script = ssscr_user_pwr_up_emerg ** on sub 0 stk 0
+ 12.348000 13:49:30.706	sdss.c	37441		[SUB_1]	** Activate called script = ssscr_called_acq_db_scan_pwr_up ** on sub 0 stk 0
+ 12.348000 13:49:30.706	sdss.c	37441		[SUB_1]	** Activate called script = ssscr_called_acq_db_scan_pwr_up_3gpp ** on sub 0 stk 0
+ 12.351000 13:49:30.708	reg_ss_state.c	1844	[SUB_1][SS_REG] Pending  CM_SERVICE_REQ - type=2
+ 12.351000 13:49:30.708	reg_ss_state.c	192	[SUB_1][SS_REG] SET_STATE  pre(Ready) -> new(Running)
+ 12.351000 13:49:30.708	reg_ss_state.c	324	[SUB_1][SS_REG] orig ss_scan_mask - 0xff
+ 12.351000 13:49:30.708	reg_ss_state.c	925	[SS_REG][SS_TIMER]	start ss_reg timer id[1] uptime = 32 , clk_time = 12
+ 12.351000 13:49:30.708	reg_state.c	2544	[SUB_1]	=REG= CM_SERVICE_REQ - mode 2, type 2
+ 12.352000 13:49:30.709	reg_send.c	1844	[SUB_1]	MMR_REG_REQ PLMN(0-0) RAT(WCDMA) scan_cope(1) select mode(2)
+ 12.607000 13:49:30.964	mmsend.c	1859	[SUB_1]	MMR_REG_CNF  cause = 0 sim_state = 0 svc_capability = 0 plmn_forbidden = 0 svc_status = 0 reg_svc_domain = 0
+ 12.607000 13:49:30.964	mmsend.c	1867			active_rat = 1 ps_data_suspend = 1 plmn_reg_type = 0 equiv PLMN update=0 list len=0 info_blocked_at_reg = 0
+ 12.607000 13:49:30.964	reg_ss_state.c	869	[SS_REG][SS_TIMER]	stop ss_reg timer[1]
+ 12.607000 13:49:30.964	reg_ss_state.c	502	[SUB_1][SS_REG]  GL_STEP_0   Disable WCDMA  with ACQ DB search
+ 12.607000 13:49:30.964	reg_ss_state.c	1675	[SUB_1][SS_REG] MMR_PLMN_SEARCH_REQ (LTE) STEP - 0
+ 12.757000 13:49:31.114	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 310-410 LTE
+ 12.757000 13:49:31.114	reg_ss_state.c	762	[SUB_1][SS_REG] Updated ss_available_plmn_list : 310 - 410 , RAT : 2 
+ 12.757000 13:49:31.114	reg_ss_state.c	1551	[SUB_1][SS_REG] Updated ss_detected_mcc_per_sub[0]=310, HIGHER_MCC
+ 12.757000 13:49:31.114	reg_ss_state.c	1570	[SUB_1][SS_REG] mcc_decision(3)  diff_rat_decoded(0)
+ 12.757000 13:49:31.114	reg_ss_state.c	1572	[SUB_1][SS_REG] Updated camped_info  310-410 RAT(2)
+ 12.757000 13:49:31.114	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 313-100 LTE
+ 12.757000 13:49:31.114	reg_ss_state.c	762	[SUB_1][SS_REG] Updated ss_available_plmn_list : 313 - 100 , RAT : 2 
+ 13.115000 13:49:31.472	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 310-410 LTE
+ 13.115000 13:49:31.472	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 313-100 LTE
+ 13.275000 13:49:31.632	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 310-410 LTE
+ 13.275000 13:49:31.632	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 313-100 LTE
+ 13.435000 13:49:31.792	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 310-410 LTE
+ 13.435000 13:49:31.792	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 313-100 LTE
+ 13.507000 13:49:31.864	reg_ss_state.c	1000	[SS_REG][SS_TIMER]	reg_opt_finish timer uptime = 15 , dms session creation time = 13 , Saved screen_on_time 20
+ 13.525000 13:49:31.883	oemapi_config.c	4562	=Modem Capa= oemapi_config_modem_capa_res - Mode:1, type:0x0, global_group_enum_data:0x800
+ 13.525000 13:49:31.883	oemapi_config.c	4624	=Modem Capa= Modem Capability Supported(0) !!
+ 13.595000 13:49:31.952	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 310-410 LTE
+ 13.595000 13:49:31.952	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 313-100 LTE
+ 13.755000 13:49:32.112	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 310-410 LTE
+ 13.755000 13:49:32.112	reg_ss_state.c	1408	[SUB_1][SS_REG] SIB decoded : 313-100 LTE
+ 14.065000 13:49:32.423	reg_ss_state.c	2169	[SUB_1][SS_REG] MMR_PLMN_SEARCH_CNF : Remained ss_scan_mask - 0xfe
+ 14.065000 13:49:32.423	reg_ss_state.c	474	[SUB_1][SS_REG] FILTERED band_cap = 4163942048,bst_band_cap = 12582912
+ 14.065000 13:49:32.423	reg_ss_state.c	1675	[SUB_1][SS_REG] MMR_PLMN_SEARCH_REQ (WCDMA) STEP - 1
+ 14.065000 13:49:32.423	mmsend.c	2768	[SUB_1]	MMR_SERVICE_IND  cause = 0 sim_state = 0 svc_capability = 0 plmn_forbidden = 0 svc_status = 0 reg_svc_domain = 0
+ 14.065000 13:49:32.423	mmsend.c	2776			active_rat = 1 ps_data_suspend = 1 plmn_reg_type = 0 equiv PLMN update=0 list len=0 info_blocked_at_reg = 0
+ 15.088000 13:49:33.446	reg_ss_state.c	1024	[SS_REG][SS_TIMER]	ss_reg_opt_finish_gtime is expired. Call REG OPT FINISH
+ 15.188000 13:49:33.546	reg_ss_state.c	660	[SUB_1][SS_REG] ----------> Finish SS REG OPT
+ 15.188000 13:49:33.546	reg_ss_state.c	2116	[SUB_1][SS_REG] MMR_PLMN_SEARCH_ABORT_REQ
+ 15.188000 13:49:33.546	reg_ss_state.c	925	[SS_REG][SS_TIMER]	start ss_reg timer id[0] uptime = 20 , clk_time = 15
+ 15.188000 13:49:33.546	reg_ss_state.c	225	[SUB_1][SS_REG] SET_SUBSTATE - SS_SUB_STATE_WAIT_ABORT_FINISH
+ 15.212000 13:49:33.569	mmsend.c	2768	[SUB_1]	MMR_SERVICE_IND  cause = 0 sim_state = 0 svc_capability = 0 plmn_forbidden = 0 svc_status = 0 reg_svc_domain = 0
+ 15.212000 13:49:33.569	reg_ss_state.c	869	[SS_REG][SS_TIMER]	stop ss_reg timer[0]
+ 15.212000 13:49:33.569	reg_ss_state.c	2146	[SUB_1][SS_REG] MMR_PLMN_SEARCH_CNF on Wait abort substate
+ 15.212000 13:49:33.569	mmsend.c	2776			active_rat = 1 ps_data_suspend = 1 plmn_reg_type = 0 equiv PLMN update=0 list len=0 info_blocked_at_reg = 0
+ 15.212000 13:49:33.569	reg_ss_state.c	229	[SUB_1][SS_REG] SET_SUBSTATE - SS_SUB_STATE_DETERMINE_SEND_CNF
+ 15.212000 13:49:33.569	reg_ss_state.c	192	[SUB_-1][SS_REG] SET_STATE  pre(Running) -> new(Done)
+ 15.212000 13:49:33.569	reg_ss_state.c	925	[SS_REG][SS_TIMER]	start ss_reg timer id[3] uptime = 75 , clk_time = 15
+ 15.212000 13:49:33.569	reg_ss_state.c	1710	[SUB_-1][SS_REG] mcc1 310 , mcc2 310
+ 15.212000 13:49:33.569	reg_ss_state.c	1808	[SUB_1][SS_REG][FIN] same as pm found mcc(310)  or CDMA SUBs send pended cm_service_req
+ 15.212000 13:49:33.569	reg_ss_state.c	1983	[SUB_1][SS_REG][FIN] ----------> Sending pended CM_SERVICE_REQ with scan_scope(1)
+ 15.212000 13:49:33.569	reg_task.c	1171	[SS_REG] not Empty. Place this cmd on head of queue. subs[0] tid[1]
+ 15.213000 13:49:33.570	reg_state.c	2544	[SUB_1]	=REG= CM_SERVICE_REQ - mode 2, type 2
+ 15.213000 13:49:33.570	reg_send.c	1844	[SUB_1]	MMR_REG_REQ PLMN(0-0) RAT(WCDMA) scan_cope(1) select mode(2)
+ 15.254000 13:49:33.612	mmsend.c	1859	[SUB_1]	MMR_REG_CNF  cause = 0 sim_state = 0 svc_capability = 0 plmn_forbidden = 0 svc_status = 0 reg_svc_domain = 0
+ 15.254000 13:49:33.612	mmsend.c	1867			active_rat = 1 ps_data_suspend = 1 plmn_reg_type = 0 equiv PLMN update=0 list len=0 info_blocked_at_reg = 0
+ 15.255000 13:49:33.612	reg_send.c	1844	[SUB_1]	MMR_REG_REQ PLMN(0-0) RAT(GSM) scan_cope(1) select mode(2)
+ 15.275000 13:49:33.632	mmsend.c	1859	[SUB_1]	MMR_REG_CNF  cause = 0 sim_state = 0 svc_capability = 0 plmn_forbidden = 0 svc_status = 0 reg_svc_domain = 0
+ 15.275000 13:49:33.632	mmsend.c	1867			active_rat = 1 ps_data_suspend = 0 plmn_reg_type = 0 equiv PLMN update=0 list len=0 info_blocked_at_reg = 0
+ 15.275000 13:49:33.632	reg_send.c	1844	[SUB_1]	MMR_REG_REQ PLMN(0-0) RAT(TDS) scan_cope(1) select mode(2)
+ 15.296000 13:49:33.653	mmsend.c	1859	[SUB_1]	MMR_REG_CNF  cause = 0 sim_state = 0 svc_capability = 0 plmn_forbidden = 0 svc_status = 0 reg_svc_domain = 0
+ 15.296000 13:49:33.653	mmsend.c	1867			active_rat = 1 ps_data_suspend = 3 plmn_reg_type = 0 equiv PLMN update=0 list len=0 info_blocked_at_reg = 0
+ 15.296000 13:49:33.653	reg_send.c	1844	[SUB_1]	MMR_REG_REQ PLMN(0-0) RAT(LTE) scan_cope(1) select mode(2)
+ 15.645000 13:49:34.003	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+ 15.647000 13:49:34.005	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+ 15.647000 13:49:34.005	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+ 15.649000 13:49:34.006	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+ 15.649000 13:49:34.006	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+ 15.659000 13:49:34.016	oem_imei.c	1613	[tndn] update SDYNAMIC subs:0 type:1 mcc:310 mnc:410
+ 15.663000 13:49:34.020	sdss.c	20078		[SUB_1]	** Activate GWL opr script = ssscr_gw_opr_srv_info ** on sub 0 stk 0
+ 15.663000 13:49:34.020	sdss.c	37441		[SUB_1]	** Activate called script = ssscr_called_clr_acq_sched_lsts ** on sub 0 stk 0
+ 15.667000 13:49:34.025	cmsoa.c	3663	[CMSOA]	is_c2k_modeswitch2srlte disabled
+ 15.669000 13:49:34.027	cmsoa.c	3663	[CMSOA]	is_c2k_modeswitch2srlte disabled
+ 15.671000 13:49:34.029	cmsoa.c	3663	[CMSOA]	is_c2k_modeswitch2srlte disabled
+ 19.344000 13:49:37.701	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+ 19.347000 13:49:37.704	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+ 19.347000 13:49:37.704	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+ 21.818000 13:49:40.176	reg_ss_state.c	945	[SS_REG][SS_TIMER]	set screen_on_time 21
+ 22.270000 13:49:40.628	oemapi_call.c	255	[OnlineBoot]	oemapi_call_block_status_set >> mt_ignore is FALSE
+ 75.055000 13:50:33.412	reg_ss_state.c	1068	[SS_REG][SS_TIMER]	SS_REG_ENFORCE_PREVENT_TIMER is expired
+1047.009000 14:06:45.367	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+1047.015000 14:06:45.372	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+1047.015000 14:06:45.372	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+1140.387000 14:08:18.744	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+1140.392000 14:08:18.749	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+1140.392000 14:08:18.749	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+1144.017000 14:08:22.374	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+1144.021000 14:08:22.378	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+1144.021000 14:08:22.378	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+1154.392000 14:08:32.749	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+1154.397000 14:08:32.754	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+1154.397000 14:08:32.754	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+1171.057000 14:08:49.414	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+1171.061000 14:08:49.418	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+1171.061000 14:08:49.418	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+1176.129000 14:08:54.486	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+1176.135000 14:08:54.492	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+1176.135000 14:08:54.492	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+1238.839000 14:09:57.196	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+1238.843000 14:09:57.200	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+1238.844000 14:09:57.201	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+2430.783000 14:29:49.141	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+2430.791000 14:29:49.148	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+2430.791000 14:29:49.148	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+2619.984000 14:32:58.341	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+2619.990000 14:32:58.347	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+2619.990000 14:32:58.347	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+2849.112000 14:36:47.469	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+2849.118000 14:36:47.475	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+2849.118000 14:36:47.475	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+2899.022000 14:37:37.379	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+2899.027000 14:37:37.384	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+2899.027000 14:37:37.384	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+2981.088000 14:38:59.445	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+2981.094000 14:38:59.451	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+2981.094000 14:38:59.451	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+2996.320000 14:39:14.677	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+2996.326000 14:39:14.683	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+2996.326000 14:39:14.683	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3001.403000 14:39:19.760	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3001.409000 14:39:19.766	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3001.409000 14:39:19.766	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3028.509000 14:39:46.866	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3028.517000 14:39:46.874	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3028.517000 14:39:46.874	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3036.000000 14:39:54.357	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3036.006000 14:39:54.363	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3036.006000 14:39:54.363	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3059.209000 14:40:17.566	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3059.214000 14:40:17.571	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3059.215000 14:40:17.572	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3064.084000 14:40:22.441	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3064.090000 14:40:22.447	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3064.090000 14:40:22.447	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3084.561000 14:40:42.918	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3084.567000 14:40:42.924	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3084.567000 14:40:42.924	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3097.384000 14:40:55.742	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3097.390000 14:40:55.747	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3097.390000 14:40:55.747	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3108.880000 14:41:07.238	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3108.886000 14:41:07.243	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3108.886000 14:41:07.243	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3124.244000 14:41:22.602	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3124.250000 14:41:22.607	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3124.250000 14:41:22.607	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3130.621000 14:41:28.979	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3130.627000 14:41:28.984	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3130.627000 14:41:28.984	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3181.864000 14:42:20.222	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3181.870000 14:42:20.227	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3181.870000 14:42:20.227	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3222.881000 14:43:01.239	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3222.887000 14:43:01.244	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3222.887000 14:43:01.244	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3237.004000 14:43:15.362	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3237.010000 14:43:15.367	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3237.010000 14:43:15.367	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3296.105000 14:44:14.463	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3296.111000 14:44:14.469	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3296.111000 14:44:14.469	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3300.884000 14:44:19.242	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3300.890000 14:44:19.248	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3300.891000 14:44:19.248	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3349.744000 14:45:08.102	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3349.750000 14:45:08.107	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3349.750000 14:45:08.107	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3354.644000 14:45:13.001	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3354.650000 14:45:13.007	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3354.650000 14:45:13.007	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3396.941000 14:45:55.298	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3396.947000 14:45:55.304	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3396.948000 14:45:55.305	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3409.804000 14:46:08.161	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3409.810000 14:46:08.167	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3409.811000 14:46:08.167	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3447.099000 14:46:45.457	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3447.106000 14:46:45.463	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3447.106000 14:46:45.463	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3473.725000 14:47:12.082	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3473.730000 14:47:12.087	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3473.731000 14:47:12.088	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3485.262000 14:47:23.619	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3485.268000 14:47:23.625	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3485.268000 14:47:23.625	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3500.565000 14:47:38.922	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3500.571000 14:47:38.928	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3500.571000 14:47:38.928	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3551.741000 14:48:30.098	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3551.747000 14:48:30.104	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3551.747000 14:48:30.104	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3576.165000 14:48:54.522	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3576.171000 14:48:54.528	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3576.171000 14:48:54.528	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3699.245000 14:50:57.602	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3699.251000 14:50:57.608	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3699.251000 14:50:57.608	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3715.665000 14:51:14.023	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3715.671000 14:51:14.028	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3715.671000 14:51:14.028	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3720.946000 14:51:19.303	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3720.952000 14:51:19.309	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3720.952000 14:51:19.309	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3725.845000 14:51:24.203	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3725.851000 14:51:24.208	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3725.851000 14:51:24.208	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3731.250000 14:51:29.607	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3731.256000 14:51:29.613	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3731.257000 14:51:29.614	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3792.444000 14:52:30.802	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3792.450000 14:52:30.807	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3792.451000 14:52:30.808	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3843.682000 14:53:22.040	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3843.688000 14:53:22.045	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3843.688000 14:53:22.045	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+3871.801000 14:53:50.159	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+3871.807000 14:53:50.164	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+3871.807000 14:53:50.164	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+4026.622000 14:56:24.979	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+4026.628000 14:56:24.985	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+4026.628000 14:56:24.985	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+4030.502000 14:56:28.859	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+4030.508000 14:56:28.866	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+4030.508000 14:56:28.866	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+4062.542000 14:57:00.900	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+4062.548000 14:57:00.905	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+4062.548000 14:57:00.905	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+4067.661000 14:57:06.019	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+4067.667000 14:57:06.024	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+4067.667000 14:57:06.024	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+4105.982000 14:57:44.339	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+4105.988000 14:57:44.346	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+4105.988000 14:57:44.346	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+4109.845000 14:57:48.202	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+4109.851000 14:57:48.208	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+4109.851000 14:57:48.208	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+4118.783000 14:57:57.140	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+4118.788000 14:57:57.145	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+4118.788000 14:57:57.145	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+4122.642000 14:58:01.000	emm_rrc_handler.c	3243	[SUB_1]	RRC_SERVICE_IND - 310-(0)41 TAC(29447)
+4122.648000 14:58:01.005	reg_send.c	435	=tndn= [UE CAPA OPT] setting: 0
+4122.648000 14:58:01.005	reg_send.c	3561	[SUB_1]	[tndn manual] get_lte_bandresult : 1 ,lte_band_pref : 0x3000085a
+
+------------------------------------------------------
+Used msg ram =   9.033203 %
+Time :  12.137000 ~ 4122.648000 sec, Total = 4110.511000 sec
+Elapsed time for making this log =   0.042000 sec
+------------------------------------------------------

@@ -1,0 +1,783 @@
+2019-01-01, 00:02:25.891 P 15614  T 212 SimBroadcastReceiver]    onReceive : action android.intent.action.SIM_STATE_CHANGED, isSimSupport : true
+2019-01-01, 00:02:25.892 P 15614  T 212 TelephonyDataSource]    getSubId, subscriptionInfos is null. There's no SIM : slot id :0
+2019-01-01, 00:02:25.898 P 15614  T 212 SimBroadcastReceiver]    android.intent.action.SIM_STATE_CHANGED: ABSENT, Slot : 0
+2019-01-01, 00:02:25.903 P 15614  T 211 TelephonyDataSource]    getSubId(0) : -1
+2019-01-01, 00:02:25.907 P 15614  T 212 SimBroadcastReceiver]    ACTION_SIMHOTSWAP: simSlot = 0, isSimPresent = false
+2019-01-01, 00:02:25.911 P 15614  T 211 SimDbInitBroadcastReceiver]    onReceive : action com.samsung.intent.action.SIM_DB_INIT, isSimSupport : true
+2019-01-01, 00:02:25.919 P 15614  T 211 MultiSimBROperation]    @@ firstBootTime :  runtimeBootTime : 0, simDbReady: 0, slotId: 0
+2019-01-01, 00:02:25.935 P 15614  T 211 SimDbInitBroadcastReceiver]    initNeeded : true
+2019-01-01, 00:02:25.941 P 15614  T 212 MakeSimDBService]    MakeSimDBService Handler running in UIthread or not : false
+2019-01-01, 00:02:25.943 P 15614  T 226 MakeSimDBService]    @@ onHandleIntent!!! opCode = 1111, slotId = 0
+2019-01-01, 00:02:25.951 P 15614  T 211 MakeSimDBService]    @@ lazyInitialize!!! inside the onHandleIntent, slotId : 0
+2019-01-01, 00:02:25.953 P 15614  T 226 TelephonyDataSource]    getSubId, subscriptionInfos is null. There's no SIM : slot id :0
+2019-01-01, 00:02:25.962 P 15614  T 226 TelephonyDataSource]    getSubId(0) : -1
+2019-01-01, 00:02:25.964 P 15614  T 226 MakeSimDBService]    @@ lazyInitialize!!!  to be deleted: subId = -1, slotId : 0
+2019-01-01, 00:02:25.971 P 15614  T 226 MakeSimDBService]    initPB0 = 0
+2019-01-01, 00:02:25.975 P 15614  T 226 MakeSimDBService]    simState = 1
+2019-01-01, 00:02:25.984 P 15614  T 226 MakeSimDBService]     @@ doCheckSimState opCode = 7777, slotId : 0
+2019-01-01, 00:02:25.992 P 15614  T 226 MakeSimDBService]     @@ doCheckSimState simState = 1, isAirPlaneMode = false  cardStatus = 0, slotId : 0
+2019-01-01, 00:02:25.997 P 15614  T 226 TelephonyDataSource]    getSimStateFromProperty currentCardStatus:ABSENT
+2019-01-01, 00:02:26.002 P 15614  T 226 MakeSimDBService]    @@ doCheckSimState: No SIM, slotId :0
+2019-01-01, 00:02:26.008 P 15614  T 226 MakeSimDBService]    @@ doDeleteSimDB: 7777, slotId : 0
+2019-01-01, 00:02:26.011 P 15614  T 226 MakeSimDBService]    canAccessProvider() mProviderStatus=0
+2019-01-01, 00:02:26.012 P 15614  T 226 MakeSimDBService]    @@ db delete time : 8msec, slotId : 0
+2019-01-01, 00:02:26.014 P 15614  T 226 MakeSimDBService]    @@ doDeleteSimDB Go to last action , slotId : 0
+2019-01-01, 00:02:26.070 P 15614  T 226 MakeSimDBService]    @@ doLastAction : settingValue= 0, simState = 1 opCode =7777, slotId : 0
+2019-01-01, 00:02:26.082 P 15614  T 226 MakeSimDBService]    @@ isAdnEditable simType : 0, isCSIM = 0, slotId : 0
+2019-01-01, 00:02:26.089 P 15614  T 226 MakeSimDBService]    @@ isAdnEditable simState : 1, slotId : 0
+2019-01-01, 00:02:26.095 P 15614  T 226 MakeSimDBService]    @@ checkAndUpdateAdnEditable : isAdnEditable = false, val = 0, slotId : 0
+2019-01-01, 00:02:26.105 P 15614  T 226 MakeSimDBService]    @@  NOTIFY !!, slotId : 0
+2019-01-01, 00:02:26.120 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:26.168 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:26.171 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:26.177 P 15614  T 226 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:26.182 P 15614  T 226 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:26.212 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:26.217 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:26.278 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:26.284 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:28.970 P 15614  T 212 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:29.629 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:29.750 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:29.757 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:29.773 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:29.935 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:29.983 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:29.997 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:30.035 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:30.258 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:30.290 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:30.314 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:30.376 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:30.581 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:30.595 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:30.618 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:30.624 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:30.845 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:30.861 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:30.907 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:30.919 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.086 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.089 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.096 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.108 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.272 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.277 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.284 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.333 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.434 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.440 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.478 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.483 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.626 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.630 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.647 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.658 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.790 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.839 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.853 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:31.861 P 15614  T 226 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:31.968 P 15614  T 212 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:31.977 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:32.008 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:32.024 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:32.036 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:32.167 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:32.219 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:32.238 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:32.240 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:32.379 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:32.388 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:32.394 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:32.401 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:34.970 P 15614  T 212 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:37.998 P 15614  T 212 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:40.247 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.258 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.274 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.281 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.446 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.468 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.477 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.492 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.635 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.642 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.665 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.695 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.825 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.848 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.854 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.868 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.964 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:40.979 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:40.985 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:40.993 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.020 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:41.121 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.137 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:41.171 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.194 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:41.300 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.306 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:41.318 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.335 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:41.516 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.534 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:41.543 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.572 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:41.751 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.791 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:41.832 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:41.852 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:42.014 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:42.042 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:42.081 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:42.091 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:43.972 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:45.493 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:45.499 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:45.509 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:45.517 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:46.985 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:49.976 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:50.348 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:50.363 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:50.377 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:50.387 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:50.504 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:50.520 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:50.546 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:50.555 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:50.679 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:50.700 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:50.709 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:50.715 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:50.869 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:50.877 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:50.900 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:50.923 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:51.028 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:51.045 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:51.057 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:51.068 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:51.131 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:51.140 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:51.145 P 15614  T 228 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:51.148 P 15614  T 228 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:52.976 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:55.986 P 15614  T 226 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:02:59.055 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:59.067 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:02:59.073 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:02:59.079 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.164 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:01.207 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.220 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:01.266 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.421 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:01.456 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.495 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:01.506 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.650 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:01.660 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.667 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:01.685 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.898 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:01.913 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.932 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:01.943 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:01.992 P 15614  T 212 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:02.065 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:02.082 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:02.089 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:02.098 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:02.194 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:02.211 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:02.229 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:02.259 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:02.371 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:02.399 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:02.416 P 15614  T 212 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:02.426 P 15614  T 212 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:05.039 P 15614  T 212 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:08.011 P 15614  T 212 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:08.708 P 15614  T 212 SimBroadcastReceiver]    onReceive : action android.intent.action.BOOT_COMPLETED, isSimSupport : true
+2019-01-01, 00:03:11.009 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:12.344 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:12.356 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:12.377 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:12.382 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:12.561 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:12.581 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:12.593 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:12.609 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:12.853 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:12.870 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:12.886 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:12.977 P 15614  T 210 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:12.999 P 15614  T 210 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:13.008 P 15614  T 210 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:13.023 P 15614  T 210 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:13.165 P 15614  T 210 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:13.168 P 15614  T 210 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:13.175 P 15614  T 210 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:13.182 P 15614  T 210 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:13.272 P 15614  T 210 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:13.278 P 15614  T 210 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:13.290 P 15614  T 210 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:13.296 P 15614  T 210 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:13.384 P 15614  T 210 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:13.388 P 15614  T 210 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:13.391 P 15614  T 210 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:13.401 P 15614  T 210 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:13.994 P 15614  T 210 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:16.993 P 15614  T 210 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:19.995 P 15614  T 210 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:23.007 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:23.158 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.163 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.190 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.207 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.370 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.373 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.386 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.401 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.516 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.527 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.531 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.545 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.628 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.636 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.641 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.651 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.719 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.727 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:23.735 P 15614  T 229 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:23.737 P 15614  T 229 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:25.997 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:28.995 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:32.001 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:34.997 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:38.005 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:41.003 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:43.680 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:43.685 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:43.696 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:03:43.701 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:03:44.031 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:47.015 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:50.021 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:53.015 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:56.024 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:03:59.020 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:02.022 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:07.291 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:10.287 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:13.290 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:16.283 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:17.972 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:04:17.976 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:04:17.982 P 15614  T 211 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:04:17.989 P 15614  T 211 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:04:20.054 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:23.060 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:29.059 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:35.863 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:40.604 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:04:44.644 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:00.182 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:11.296 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:15.417 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:19.525 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:22.532 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:37.775 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:46.000 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:50.613 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:05:59.874 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:02.878 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:08.332 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:13.785 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:17.661 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:20.662 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:24.200 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:28.317 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:32.018 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:36.140 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:40.897 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:48.861 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:55.574 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:06:59.195 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:07:03.922 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:07:07.048 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:07:16.706 P 15614  T 211 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:07:24.083 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:07:27.086 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:07:32.648 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:07:40.775 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:07:57.818 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:01.432 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:06.082 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:10.535 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:14.769 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:21.978 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:24.982 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:29.677 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:41.302 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:45.562 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:53.327 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:08:59.160 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:09:07.031 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:09:17.581 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:09:21.743 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:09:24.744 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:09:31.356 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:09:40.680 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:09:46.459 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:10:08.525 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:10:23.396 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:10:38.936 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:10:41.938 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:10:59.474 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:11:10.139 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:11:21.770 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:11:24.780 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:11:27.784 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:11:30.788 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:11:42.994 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:12:24.713 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:12:27.716 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:12:42.746 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:12:48.590 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:12:53.353 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:12:59.103 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:05.066 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:08.765 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:14.066 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:21.111 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:24.506 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:34.333 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:40.243 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:47.576 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:52.212 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:13:59.362 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:14:03.789 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:14:12.560 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:14:31.955 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:14:40.316 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:14:45.178 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:15:02.621 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:15:15.919 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:15:19.257 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:15:28.268 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:15:35.067 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:15:58.932 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:16:04.570 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:16:11.809 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:16:14.799 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:16:19.467 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:16:28.898 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:16:37.332 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:16:46.311 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:16:55.300 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:17:05.975 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:17:14.460 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:17:22.211 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:17:25.264 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:17:28.539 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:17:31.572 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:17:49.087 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:17:59.267 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:18:12.054 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:18:20.344 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:18:27.462 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:18:35.632 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:18:42.823 P 15614  T 229 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:18:47.017 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:18:53.069 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:19:01.353 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:19:08.426 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:19:14.003 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:19:28.861 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:19:46.094 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:19:49.095 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:20:17.774 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:20:25.176 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:21:03.945 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:21:12.645 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:21:18.231 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:21:31.871 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:06.880 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:12.762 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:19.336 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:22.935 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:28.107 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:31.262 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:38.377 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:45.215 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:22:53.726 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:23:01.299 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:23:09.074 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:23:26.902 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:23:42.347 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:23:52.511 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:24:01.497 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:24:10.461 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:24:20.750 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:24:26.376 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:24:38.652 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:24:48.907 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:24:51.897 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:25:09.346 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:25:19.641 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:25:50.240 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:26:13.397 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:26:26.204 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:26:33.842 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:26:44.020 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:26:59.464 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:27:12.325 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:27:21.871 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:27:25.276 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:27:36.565 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:27:46.069 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:27:50.449 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:27:58.361 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:28:09.066 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:28:15.005 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:28:22.601 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:28:49.505 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:28:54.643 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:29:15.607 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:29:21.668 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:29:30.530 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:29:51.408 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:29:54.419 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:30:03.814 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:30:11.467 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:30:20.951 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:30:25.504 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:30:32.318 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:30:40.889 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:30:49.153 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:31:07.737 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:31:19.861 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:31:30.994 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:31:42.346 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:31:52.113 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:31:59.303 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:32:06.682 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:32:12.212 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:32:19.469 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:32:36.111 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:32:39.108 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:32:47.685 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:32:59.130 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:33:02.937 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:33:30.643 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:33:33.956 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:33:43.900 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:33:52.141 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:33:59.273 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:34:06.957 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:34:15.232 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:34:22.178 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:34:32.596 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:34:42.834 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:34:47.905 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:34:52.385 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:34:55.565 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:35:03.612 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:35:21.238 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:35:26.696 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:35:44.267 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:35:49.834 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:36:07.330 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:36:20.061 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:36:25.233 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:36:31.005 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:36:38.031 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:36:45.722 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:36:51.385 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:36:57.272 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:37:06.669 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:37:18.999 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:37:24.607 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:37:31.914 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:37:39.422 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:37:50.172 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:38:21.778 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:38:43.475 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:38:51.618 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:38:56.227 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:39:06.531 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:39:15.421 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:39:21.877 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:39:29.565 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:39:35.243 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:39:44.874 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:39:53.190 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:39:56.186 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:40:01.735 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:40:10.501 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:40:23.595 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:40:33.553 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:40:41.181 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:40:46.889 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:40:52.712 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:41:00.423 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:41:06.767 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:41:22.991 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:41:30.187 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:41:40.062 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:41:55.505 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:42:01.232 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:42:08.258 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:42:20.383 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:42:25.495 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:42:31.637 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:42:44.063 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:42:55.767 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:43:02.120 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:43:31.749 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:43:38.365 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:43:41.689 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:43:53.181 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:43:56.400 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:02.138 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:09.819 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:14.326 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:22.571 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:26.462 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:32.087 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:36.850 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:46.994 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:44:55.094 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:00.902 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:03.902 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:10.045 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:14.734 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:18.126 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:20.756 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:23.755 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:26.752 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:45:26.766 P 15614  T 228 SimBroadcastReceiver]    onReceive : action android.intent.action.SIM_STATE_CHANGED, isSimSupport : true
+2019-01-01, 00:45:26.786 P 15614  T 228 SimBroadcastReceiver]    android.intent.action.SIM_STATE_CHANGED: UNKNOWN, Slot : 0
+2019-01-01, 00:45:28.405 P 15614  T 228 SimBroadcastReceiver]    onReceive : action android.intent.action.SIM_STATE_CHANGED, isSimSupport : true
+2019-01-01, 00:45:28.428 P 15614  T 228 SimBroadcastReceiver]    android.intent.action.SIM_STATE_CHANGED: UNKNOWN, Slot : 0
+2019-01-01, 00:45:29.755 P 15614  T 228 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:08.864 P 4580  T 278 SimBroadcastReceiver]    onReceive : action android.intent.action.SIM_STATE_CHANGED, isSimSupport : true
+2019-01-01, 00:46:08.890 P 4580  T 278 SimBroadcastReceiver]    android.intent.action.SIM_STATE_CHANGED: ABSENT, Slot : 0
+2019-01-01, 00:46:08.912 P 4580  T 278 TelephonyDataSource]    getSubId, subscriptionInfos is null. There's no SIM : slot id :0
+2019-01-01, 00:46:08.926 P 4580  T 278 TelephonyDataSource]    getSubId(0) : -1
+2019-01-01, 00:46:08.940 P 4580  T 293 SimBroadcastReceiver]    ACTION_SIMHOTSWAP: simSlot = 0, isSimPresent = false
+2019-01-01, 00:46:08.947 P 4580  T 293 SimDbInitBroadcastReceiver]    onReceive : action com.samsung.intent.action.SIM_DB_INIT, isSimSupport : true
+2019-01-01, 00:46:08.951 P 4580  T 278 MultiSimBROperation]    @@ firstBootTime : 1546300988703 runtimeBootTime : 1, simDbReady: 0, slotId: 0
+2019-01-01, 00:46:08.955 P 4580  T 279 SimDbInitBroadcastReceiver]    initNeeded : true
+2019-01-01, 00:46:08.961 P 4580  T 279 MakeSimDBService]    MakeSimDBService Handler running in UIthread or not : false
+2019-01-01, 00:46:08.971 P 4580  T 278 MakeSimDBService]    @@ onHandleIntent!!! opCode = 1111, slotId = 0
+2019-01-01, 00:46:09.020 P 4580  T 294 MakeSimDBService]    @@ lazyInitialize!!! inside the onHandleIntent, slotId : 0
+2019-01-01, 00:46:09.026 P 4580  T 294 TelephonyDataSource]    getSubId, subscriptionInfos is null. There's no SIM : slot id :0
+2019-01-01, 00:46:09.048 P 4580  T 294 TelephonyDataSource]    getSubId(0) : -1
+2019-01-01, 00:46:09.066 P 4580  T 294 MakeSimDBService]    @@ lazyInitialize!!!  to be deleted: subId = -1, slotId : 0
+2019-01-01, 00:46:09.078 P 4580  T 294 MakeSimDBService]    initPB0 = 0
+2019-01-01, 00:46:09.120 P 4580  T 280 MakeSimDBService]    simState = 1
+2019-01-01, 00:46:09.136 P 4580  T 294 MakeSimDBService]     @@ doCheckSimState opCode = 7777, slotId : 0
+2019-01-01, 00:46:09.143 P 4580  T 294 MakeSimDBService]     @@ doCheckSimState simState = 1, isAirPlaneMode = false  cardStatus = 0, slotId : 0
+2019-01-01, 00:46:09.167 P 4580  T 294 TelephonyDataSource]    getSimStateFromProperty currentCardStatus:ABSENT
+2019-01-01, 00:46:09.197 P 4580  T 280 MakeSimDBService]    @@ doCheckSimState: No SIM, slotId :0
+2019-01-01, 00:46:09.227 P 4580  T 280 MakeSimDBService]    @@ doDeleteSimDB: 7777, slotId : 0
+2019-01-01, 00:46:09.252 P 4580  T 280 MakeSimDBService]    canAccessProvider() mProviderStatus=0
+2019-01-01, 00:46:09.294 P 4580  T 294 MakeSimDBService]    @@ db delete time : 13msec, slotId : 0
+2019-01-01, 00:46:09.307 P 4580  T 294 MakeSimDBService]    @@ doDeleteSimDB Go to last action , slotId : 0
+2019-01-01, 00:46:09.335 P 4580  T 294 MakeSimDBService]    @@ doLastAction : settingValue= 0, simState = 1 opCode =7777, slotId : 0
+2019-01-01, 00:46:09.356 P 4580  T 294 MakeSimDBService]    @@ isAdnEditable simType : 0, isCSIM = 0, slotId : 0
+2019-01-01, 00:46:09.363 P 4580  T 294 MakeSimDBService]    @@ isAdnEditable simState : 1, slotId : 0
+2019-01-01, 00:46:09.410 P 4580  T 294 MakeSimDBService]    @@ checkAndUpdateAdnEditable : isAdnEditable = false, val = 0, slotId : 0
+2019-01-01, 00:46:09.420 P 4580  T 294 MakeSimDBService]    @@  NOTIFY !!, slotId : 0
+2019-01-01, 00:46:09.429 P 4580  T 294 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:09.449 P 4580  T 280 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:09.452 P 4580  T 280 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:09.458 P 4580  T 280 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:09.469 P 4580  T 280 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:09.478 P 4580  T 280 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:09.484 P 4580  T 280 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:09.499 P 4580  T 280 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:09.506 P 4580  T 280 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:11.966 P 4580  T 280 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:14.980 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:17.971 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:20.970 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:23.973 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:24.525 P 4580  T 280 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:24.531 P 4580  T 280 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:24.541 P 4580  T 280 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:24.568 P 4580  T 280 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:24.788 P 4580  T 280 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:24.794 P 4580  T 280 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:24.803 P 4580  T 280 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:24.807 P 4580  T 280 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:26.987 P 4580  T 294 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:29.976 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:32.857 P 4580  T 279 SimBroadcastReceiver]    onReceive : action android.intent.action.BOOT_COMPLETED, isSimSupport : true
+2019-01-01, 00:46:32.974 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:34.867 P 4580  T 279 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:34.884 P 4580  T 279 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:34.897 P 4580  T 279 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:34.920 P 4580  T 279 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:35.037 P 4580  T 279 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:35.052 P 4580  T 279 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:35.066 P 4580  T 279 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:46:35.106 P 4580  T 279 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:46:35.974 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:38.983 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:41.999 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:44.977 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:47.979 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:50.979 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:53.979 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:56.989 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:46:59.990 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:02.988 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:05.993 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:08.998 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:11.997 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:14.998 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:18.005 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:21.009 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:24.010 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:27.010 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:30.010 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:33.018 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:36.015 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:39.027 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:42.025 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:45.024 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:48.032 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:51.036 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:54.038 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:47:57.036 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:00.036 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:03.043 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:06.041 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:09.049 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:12.046 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:15.056 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:18.057 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:21.054 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:24.061 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:27.058 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:30.058 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:33.066 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:36.065 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:39.067 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:42.078 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:45.077 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:48.074 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:51.084 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:54.089 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:48:57.087 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:00.088 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:02.056 P 4580  T 278 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:49:02.073 P 4580  T 279 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:49:02.082 P 4580  T 278 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:49:02.086 P 4580  T 278 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:49:03.085 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:06.088 P 4580  T 278 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:09.090 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:12.089 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:15.088 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:18.097 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:21.094 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:24.095 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:27.093 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:30.100 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:33.101 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:36.108 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:49:39.099 P 4580  T 279 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:10.335 P 4669  T 276 SimBroadcastReceiver]    onReceive : action android.intent.action.SIM_STATE_CHANGED, isSimSupport : true
+2019-01-01, 00:50:10.343 P 4669  T 276 SimBroadcastReceiver]    android.intent.action.SIM_STATE_CHANGED: ABSENT, Slot : 0
+2019-01-01, 00:50:10.344 P 4669  T 276 TelephonyDataSource]    getSubId, subscriptionInfos is null. There's no SIM : slot id :0
+2019-01-01, 00:50:10.346 P 4669  T 276 TelephonyDataSource]    getSubId(0) : -1
+2019-01-01, 00:50:10.351 P 4669  T 276 SimBroadcastReceiver]    ACTION_SIMHOTSWAP: simSlot = 0, isSimPresent = false
+2019-01-01, 00:50:10.355 P 4669  T 276 SimDbInitBroadcastReceiver]    onReceive : action com.samsung.intent.action.SIM_DB_INIT, isSimSupport : true
+2019-01-01, 00:50:10.363 P 4669  T 276 MultiSimBROperation]    @@ firstBootTime : 1546303592855 runtimeBootTime : 1546300988703, simDbReady: 0, slotId: 0
+2019-01-01, 00:50:10.366 P 4669  T 276 SimDbInitBroadcastReceiver]    initNeeded : true
+2019-01-01, 00:50:10.388 P 4669  T 276 MakeSimDBService]    MakeSimDBService Handler running in UIthread or not : false
+2019-01-01, 00:50:10.406 P 4669  T 275 MakeSimDBService]    @@ onHandleIntent!!! opCode = 1111, slotId = 0
+2019-01-01, 00:50:10.411 P 4669  T 276 MakeSimDBService]    @@ lazyInitialize!!! inside the onHandleIntent, slotId : 0
+2019-01-01, 00:50:10.412 P 4669  T 276 TelephonyDataSource]    getSubId, subscriptionInfos is null. There's no SIM : slot id :0
+2019-01-01, 00:50:10.413 P 4669  T 274 TelephonyDataSource]    getSubId(0) : -1
+2019-01-01, 00:50:10.415 P 4669  T 275 MakeSimDBService]    @@ lazyInitialize!!!  to be deleted: subId = -1, slotId : 0
+2019-01-01, 00:50:10.416 P 4669  T 274 MakeSimDBService]    initPB0 = 0
+2019-01-01, 00:50:10.420 P 4669  T 290 MakeSimDBService]    simState = 1
+2019-01-01, 00:50:10.424 P 4669  T 275 MakeSimDBService]     @@ doCheckSimState opCode = 7777, slotId : 0
+2019-01-01, 00:50:10.433 P 4669  T 275 MakeSimDBService]     @@ doCheckSimState simState = 1, isAirPlaneMode = false  cardStatus = 0, slotId : 0
+2019-01-01, 00:50:10.434 P 4669  T 275 TelephonyDataSource]    getSimStateFromProperty currentCardStatus:ABSENT
+2019-01-01, 00:50:10.452 P 4669  T 290 MakeSimDBService]    @@ doCheckSimState: No SIM, slotId :0
+2019-01-01, 00:50:10.458 P 4669  T 290 MakeSimDBService]    @@ doDeleteSimDB: 7777, slotId : 0
+2019-01-01, 00:50:10.472 P 4669  T 275 MakeSimDBService]    canAccessProvider() mProviderStatus=0
+2019-01-01, 00:50:10.486 P 4669  T 275 MakeSimDBService]    @@ db delete time : 41msec, slotId : 0
+2019-01-01, 00:50:10.509 P 4669  T 275 MakeSimDBService]    @@ doDeleteSimDB Go to last action , slotId : 0
+2019-01-01, 00:50:10.518 P 4669  T 290 MakeSimDBService]    @@ doLastAction : settingValue= 0, simState = 1 opCode =7777, slotId : 0
+2019-01-01, 00:50:10.525 P 4669  T 290 MakeSimDBService]    @@ isAdnEditable simType : 0, isCSIM = 0, slotId : 0
+2019-01-01, 00:50:10.529 P 4669  T 290 MakeSimDBService]    @@ isAdnEditable simState : 1, slotId : 0
+2019-01-01, 00:50:10.538 P 4669  T 290 MakeSimDBService]    @@ checkAndUpdateAdnEditable : isAdnEditable = false, val = 0, slotId : 0
+2019-01-01, 00:50:10.548 P 4669  T 275 MakeSimDBService]    @@  NOTIFY !!, slotId : 0
+2019-01-01, 00:50:10.554 P 4669  T 275 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:10.563 P 4669  T 275 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:10.580 P 4669  T 275 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:10.584 P 4669  T 275 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:10.585 P 4669  T 274 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:10.716 P 4669  T 290 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:10.727 P 4669  T 290 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:10.740 P 4669  T 290 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:10.744 P 4669  T 290 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:13.490 P 4669  T 290 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:16.489 P 4669  T 274 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:19.492 P 4669  T 275 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:22.496 P 4669  T 275 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:25.498 P 4669  T 291 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:25.989 P 4669  T 291 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:26.012 P 4669  T 276 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:26.013 P 4669  T 276 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:26.025 P 4669  T 276 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:28.505 P 4669  T 291 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:31.495 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:33.418 P 4669  T 276 SimBroadcastReceiver]    onReceive : action android.intent.action.BOOT_COMPLETED, isSimSupport : true
+2019-01-01, 00:50:34.502 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:36.966 P 4669  T 276 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:36.974 P 4669  T 276 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:36.993 P 4669  T 276 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:37.006 P 4669  T 276 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:37.188 P 4669  T 276 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:37.203 P 4669  T 276 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:37.218 P 4669  T 276 SimModel]    isSimActivatedEnabled(0) return false < 1 >
+2019-01-01, 00:50:37.229 P 4669  T 276 SimModel]    isSimActivatedEnabled(1) return false < 0 >
+2019-01-01, 00:50:37.495 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:40.512 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:43.498 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:46.498 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:49.502 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:52.507 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:55.501 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:50:58.510 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:01.508 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:04.510 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:07.526 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:10.521 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:13.521 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:16.524 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:19.527 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:22.533 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:25.536 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:28.544 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:31.543 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:34.547 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:37.551 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:40.544 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:43.551 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:46.551 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:49.556 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:52.551 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:55.568 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0
+2019-01-01, 00:51:58.560 P 4669  T 276 MakeSimDBService]    @@ waiting for finishing setupwizard, slot id=0

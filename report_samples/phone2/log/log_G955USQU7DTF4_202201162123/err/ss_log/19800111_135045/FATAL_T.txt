@@ -1,0 +1,12 @@
+FATAL_T.
+Cur Time : 87.493000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.170137	ss_log_util.c	ss_log_init	141	ss_log_init()
+
+------------------------------------------------------
+Used msg ram =   3.125000 %
+Time :  11.170137 ~  11.170137 sec, Total =   0.000000 sec
+Elapsed time for making this log =   0.001000 sec
+------------------------------------------------------

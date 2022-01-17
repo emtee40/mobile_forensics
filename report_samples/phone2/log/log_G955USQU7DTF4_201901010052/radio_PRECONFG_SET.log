@@ -1,0 +1,294 @@
+04-24 12:34:31.101  1090  1090 I use-Rlog/RLOG-IMSD: Imsd 1.0 starting
+01-01 00:00:00.027  1100  1100 E RILClient: Connect_RILD: Connecting failed. Connection refused(111)
+01-01 00:00:00.129  1112  1112 E Multi-Client: **Multi-Client Started**
+01-01 00:00:00.166  1188  1188 D ATD     : SERIALNO: R58J4309R8V,20170413,
+01-01 00:00:00.166  1188  1188 D ATD     : ril.serialnumber: R58J4309R8V
+01-01 00:00:00.218  1188  1188 D ATD     : ril.manufacturedate: 20170413
+01-01 00:00:00.270  1188  1188 D ATD     : gUartPath = /dev/ttyHS8
+01-01 00:00:00.270  1188  1188 D ATD     : UART ttyHS8 is not used by console
+01-01 00:00:00.270  1188  1188 D ATD     : MakeLocalServer(): AirCmdService Communication: Server_socket 5
+01-01 00:00:00.270  1188  1188 D ATD     : InitSocketAcceptHandler(): AirCmdService, id(6), fd(5)
+01-01 00:00:00.270  1188  1188 D ATD     : MakeLocalServer(): FactoryClientRecv Communication: Server_socket 6
+01-01 00:00:00.270  1188  1188 D ATD     : InitSocketAcceptHandler(): FactoryClientRecv, id(0), fd(6)
+01-01 00:00:00.270  1188  1188 D ATD     : MakeLocalServer(): FactoryClientSend Communication: Server_socket 7
+01-01 00:00:00.270  1188  1188 D ATD     : InitSocketAcceptHandler(): FactoryClientSend, id(1), fd(7)
+01-01 00:00:00.270  1188  1188 D ATD     : MakeLocalServer(): ATDMultiClient Communication: Server_socket 8
+01-01 00:00:00.270  1188  1188 D ATD     : InitSocketAcceptHandler(): ATDMultiClient, id(5), fd(8)
+01-01 00:00:00.270  1188  1188 D ATD     : MakeLocalServer(): SatsService Communication: Server_socket 9
+01-01 00:00:00.270  1188  1188 D ATD     : InitSocketAcceptHandler(): SatsService, id(10), fd(9)
+01-01 00:00:00.270  1188  1188 D ATD     : MakeLocalServer(): DiagApp Communication: Server_socket 10
+01-01 00:00:00.270  1188  1188 D ATD     : InitSocketAcceptHandler(): DiagApp, id(2), fd(10)
+01-01 00:00:00.270  1188  1188 D ATD     : first start
+01-01 00:00:00.343  1133  1133 D RILD    : **RIL Daemon Started**
+01-01 00:00:00.343  1133  1133 D RILD    : **RILd param count=3**
+01-01 00:00:00.343  1133  1133 D RILD    : rilLibPath = /vendor/lib64/libsec-ril.so
+01-01 00:00:00.532  1133  1133 D RILD    : RIL_Init argc = 3 clientId = 0
+01-01 00:00:00.534  1133  1133 E RILD    : RIL_Init: RilIndex: 0
+01-01 00:00:00.534  1133  1133 E RILD    : RIL_Init:  Initialize XML Parser once
+01-01 00:00:00.535  1133  1133 E RILD    : RIL_Init: SimCount: 1
+01-01 00:00:00.536  1133  1133 E RILD    : RIL_Init: ModelType[LTE]
+01-01 00:00:00.566  1133  1133 E RILD    : Error reading property [netmgr_config.msm8998.ep_type] Err[-4]. Default[4]
+01-01 00:00:00.566  1133  1133 E RILD    : SetQmiConfiguration: Error reading property [netmgr_config.msm8998.clat_rps_mask] Err[-4]
+01-01 00:00:00.566  1133  1133 E RILD    : SetQmiConfiguration: Error reading property [netmgr_config.msm8998.rtm_rmnet_data_enabled] Err[-4]
+01-01 00:00:00.566  1133  1133 E RILD    : SetQmiConfiguration: Error reading property [netmgr_config.msm8998.dl_marker_enabled] Err[-4]
+01-01 00:00:00.566  1133  1133 E RILD    : SetQmiConfiguration: Error reading property [netmgr_config.msm8998.qos_disabled] Err[-4]
+01-01 00:00:00.566  1133  1133 E RILD    : SetQmiConfiguration: Error reading property [netmgr_config.msm8998.kfc_mode] Err[-4]
+01-01 00:00:00.566  1133  1133 E RILD    : SetQmiConfiguration: Error reading property [netmgr_config.msm8998.dataformat_num_mux_channels] Err[-4]
+01-01 00:00:00.566  1133  1133 E RILD    : RIL_Init: phy intf: rmnet_ipa0, gsm net prefix: rmnet_data
+01-01 00:00:00.566  1133  1133 E RILD    : ==== DumpQmiConfig ====
+01-01 00:00:00.566  1133  1133 E RILD    : ..dpm_enabled            : [1]
+01-01 00:00:00.566  1133  1133 E RILD    : ..dpm_retry_timeout      : [10000]
+01-01 00:00:00.566  1133  1133 E RILD    : ..wda_data_format_enabled: [1]
+01-01 00:00:00.566  1133  1133 E RILD    : ..qos_enabled            : [1]
+01-01 00:00:00.566  1133  1133 E RILD    : ..ep_type                : [4]
+01-01 00:00:00.566  1133  1133 E RILD    : ..single_qmux_ch_enabled : [1]
+01-01 00:00:00.566  1133  1133 E RILD    : ..single_qmux_ch_name    : [rmnet0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..single_qmux_ch_id      : [DATA5_CNTL]
+01-01 00:00:00.566  1133  1133 E RILD    : ..phys_net_dev           : [rmnet_ipa0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..dl_agg_size            : [8192]
+01-01 00:00:00.566  1133  1133 E RILD    : ..dl_agg_cnt             : [10]
+01-01 00:00:00.566  1133  1133 E RILD    : ..dl_agg_mode            : [8]
+01-01 00:00:00.566  1133  1133 E RILD    : ..ul_agg_size            : [0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..ul_agg_cnt             : [0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..ul_agg_mode            : [8]
+01-01 00:00:00.566  1133  1133 E RILD    : ..dl_gro_enabled         : [1]
+01-01 00:00:00.566  1133  1133 E RILD    : ..ul_gso_enabled         : [1]
+01-01 00:00:00.566  1133  1133 E RILD    : ..num_mux_channels       : [8]
+01-01 00:00:00.566  1133  1133 E RILD    : ..vnd_rps_mask           : [13]
+01-01 00:00:00.566  1133  1133 E RILD    : ..pnd_rps_mask           : [2]
+01-01 00:00:00.566  1133  1133 E RILD    : ..clat_rps_mask          : [0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..netdev_budget          : [0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..rtm_rmnet_enabled      : [0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..dl_marker              : [0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..num_data_ports         : [8]
+01-01 00:00:00.566  1133  1133 E RILD    : ..kernel flow control    : [0]
+01-01 00:00:00.566  1133  1133 E RILD    : ..qmi_pc                 : [0]
+01-01 00:00:00.569  1133  1133 E RILD    : [sqos] force reconnect qosd socket: -1
+01-01 00:00:00.570  1133  1133 E RILD    : [sqos] connectToServer(): Success to connect to qosd
+01-01 00:00:00.570  1133  1133 E RILD    : [sqos] qosd number : 9
+01-01 00:00:00.570  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:00.570  1133  1133 E RILD    : ConfigureEpParams(): (0) Got EP_PAIR c:3 p:16 for device rmnet_ipa0
+01-01 00:00:00.570  1133  1133 E RILD    : ConfigureEpParams(): (0) Got EPID 1 for device rmnet_ipa0
+01-01 00:00:00.570  1133  1133 E RILD    : ProcessDpmEnabled()
+01-01 00:00:00.571  1133  1133 E RILD    : ProcessDpmPortOpen: process modem capability
+01-01 00:00:00.582  1133  1133 E RILD    : ProcessDpmModemCaps: Exit ret[0]
+01-01 00:00:00.582  1133  1133 E RILD    : ProcessDpmPortOpen: Shim supported!Not opening control ports
+01-01 00:00:00.583  1133  1133 E RILD    : ProcessWdsDpmPortOpen(): EXIT, rc 0
+01-01 00:00:00.583  1133  1133 E RILD    : RIL_Init: DPM Setting Complete.
+01-01 00:00:00.583  1133  1133 E RILD    : First Ril
+01-01 00:00:00.595  1133  1133 E RILD    : create Thread
+01-01 00:00:00.601  1133  1133 E RILD    : create Thread
+01-01 00:00:00.601  1133  1133 E RILD    : Debug channel is not opened for ship build.
+01-01 00:00:00.603  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:00.603  1133  1133 E RIL-QMI : WdsContextTable(): numWdsContex = 8
+01-01 00:00:00.605  1133  1133 E RIL-QMI : Complete InitPhysicalTrans for device rmnet_ipa0
+01-01 00:00:00.625  1133  1133 E RILD    : GetExtendedFeatures = 0x00000007
+01-01 00:00:00.710  1133  1133 E RILD    : SetQos(): Failed to set QoS mode to interface(rmnet_ipa0)
+01-01 00:00:00.710  1133  1133 E RIL-QMI : GetQosHeaderFormat(): SetQos fails, we do not need to set QoS header
+01-01 00:00:00.710  1133  1133 E RIL-QMI : GetQosHeaderFormat(): Set QOS hdr fmt failed
+01-01 00:00:00.710  1133  1133 E RIL-QMI : SetQosHeaderFormat(): Set qos_header_mode for vnd 0 vnd_name rmnet_data0 qos_header_format 0
+01-01 00:00:00.710  1133  1133 E RIL-QMI : SetQosHeaderFormat(): Set qos_header_mode for vnd 1 vnd_name rmnet_data1 qos_header_format 0
+01-01 00:00:00.710  1133  1133 E RIL-QMI : SetQosHeaderFormat(): Set qos_header_mode for vnd 2 vnd_name rmnet_data2 qos_header_format 0
+01-01 00:00:00.710  1133  1133 E RIL-QMI : SetQosHeaderFormat(): Set qos_header_mode for vnd 3 vnd_name rmnet_data3 qos_header_format 0
+01-01 00:00:00.710  1133  1133 E RIL-QMI : SetQosHeaderFormat(): Set qos_header_mode for vnd 4 vnd_name rmnet_data4 qos_header_format 0
+01-01 00:00:00.710  1133  1133 E RIL-QMI : SetQosHeaderFormat(): Set qos_header_mode for vnd 5 vnd_name rmnet_data5 qos_header_format 0
+01-01 00:00:00.710  1133  1133 E RIL-QMI : SetQosHeaderFormat(): Set qos_header_mode for vnd 6 vnd_name rmnet_data6 qos_header_format 0
+01-01 00:00:00.710  1133  1133 E RIL-QMI : SetQosHeaderFormat(): Set qos_header_mode for vnd 7 vnd_name rmnet_data7 qos_header_format 0
+01-01 00:00:01.219  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.222  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17fbc0) return(0).
+01-01 00:00:01.222  1133  1133 E RILD    : Init() : QMI serive(0) is initialized.
+01-01 00:00:01.222  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17f890) return(0).
+01-01 00:00:01.222  1133  1133 E RILD    : Init() : QMI serive(1) is initialized.
+01-01 00:00:01.243  1133  1344 E RILD    : RxCallRelease(): Call End Failed - Error(102)
+01-01 00:00:01.244  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17fc30) return(0).
+01-01 00:00:01.244  1133  1133 E RILD    : Init() : QMI serive(2) is initialized.
+01-01 00:00:01.244  1133  1133 E RIL-QMI : InitWdsGlobalPort() : port = rmnet0 
+01-01 00:00:01.246  1133  1133 E RIL-QMI : InitWdsGlobalPort() : QMI WDS Initialized 
+01-01 00:00:01.259  1133  1133 E RIL-QMI : Init(): Context initialized for rmnet_data0(IPv4 hndl(0x6), IPv6 handle(0x7))
+01-01 00:00:01.259  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.264  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 4 (handle(0x8))
+01-01 00:00:01.265  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 6 (handle(0x9))
+01-01 00:00:01.269  1133  1133 E RIL-QMI : Init(): Context initialized for rmnet_data1(IPv4 hndl(0xa), IPv6 handle(0xb))
+01-01 00:00:01.270  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.271  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 4 (handle(0xc))
+01-01 00:00:01.273  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 6 (handle(0xd))
+01-01 00:00:01.276  1133  1133 E RIL-QMI : Init(): Context initialized for rmnet_data2(IPv4 hndl(0xe), IPv6 handle(0xf))
+01-01 00:00:01.276  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.278  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 4 (handle(0x10))
+01-01 00:00:01.280  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 6 (handle(0x11))
+01-01 00:00:01.283  1133  1133 E RIL-QMI : Init(): Context initialized for rmnet_data3(IPv4 hndl(0x12), IPv6 handle(0x13))
+01-01 00:00:01.283  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.285  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 4 (handle(0x14))
+01-01 00:00:01.286  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 6 (handle(0x15))
+01-01 00:00:01.289  1133  1133 E RIL-QMI : Init(): Context initialized for rmnet_data4(IPv4 hndl(0x16), IPv6 handle(0x17))
+01-01 00:00:01.289  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.291  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 4 (handle(0x18))
+01-01 00:00:01.293  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 6 (handle(0x19))
+01-01 00:00:01.296  1133  1133 E RIL-QMI : Init(): Context initialized for rmnet_data5(IPv4 hndl(0x1a), IPv6 handle(0x1b))
+01-01 00:00:01.296  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.298  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 4 (handle(0x1c))
+01-01 00:00:01.300  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 6 (handle(0x1d))
+01-01 00:00:01.303  1133  1133 E RIL-QMI : Init(): Context initialized for rmnet_data6(IPv4 hndl(0x1e), IPv6 handle(0x1f))
+01-01 00:00:01.303  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.305  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 4 (handle(0x20))
+01-01 00:00:01.307  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 6 (handle(0x21))
+01-01 00:00:01.310  1133  1133 E RIL-QMI : Init(): Context initialized for rmnet_data7(IPv4 hndl(0x22), IPv6 handle(0x23))
+01-01 00:00:01.310  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.312  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 4 (handle(0x24))
+01-01 00:00:01.314  1133  1133 E RIL-QMI : InitQmiQosService(): The qos client ip_family = 6 (handle(0x25))
+01-01 00:00:01.314  1133  1133 E RIL-QMI : ProcessWdaSetDataFormat(): Set data format. Request with ll_prot=2, qos=0, ul=8, dl=8, dl_pkt=10, dl_size=8192, ul_pkt=0, ul_size=0, qos_hdr=0, dl_pad=0, fc=1
+01-01 00:00:01.315  1133  1133 E RIL-QMI : ProcessWdaSetDataFormat(): Modem rejected data format. Responded with ll_prot=2, qos=0, ul=8, dl=8, dl_pkt=10, dl_size=63, ul_pkt=1, ul_size=-1, qos_hdr=0, dl_pad=0, fc=1
+01-01 00:00:01.315  1133  1133 E RIL-QMI : ProcessWdaReleaseQmiClient(): qmi_client_release of qmi_clnt_hndl returned 0
+01-01 00:00:01.315  1133  1133 E RIL-QMI : SetDataFormat(): WDA Set Data Format Failed
+01-01 00:00:01.315  1133  1133 E RIL-QMI : SetDevDataFormat(): dl_minimum_padding is 0
+01-01 00:00:01.315  1133  1133 E RIL-QMI : SetDevDataFormat(): rmnet_flags is 13
+01-01 00:00:01.315  1133  1133 E RILD    : GetExtendedFeatures = 0x00000007
+01-01 00:00:01.335  1133  1133 E RIL-QMI : UpdateDataFormat(): 
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [qos_format_valid:qos_format][1:0]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [link_prot_valid:link_prot][1:2]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [ul_data_aggregation_protocol_valid:ul_data_aggregation_protocol][1:8]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [dl_data_aggregation_protocol_valid:dl_data_aggregation_protocol][1:8]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [ndp_signature_valid:ndp_signature][1:0]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [dl_data_aggregation_max_datagrams_valid:dl_data_aggregation_max_datagrams][1:10]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [dl_data_aggregation_max_size_valid:dl_data_aggregation_max_size][1:63]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [ul_data_aggregation_max_datagrams_valid:ul_data_aggregation_max_datagrams][1:1]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [ul_data_aggregation_max_size_valid:ul_data_aggregation_max_size][1:-1]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [qos_header_format_valid:qos_header_format][0:0]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [dl_minimum_padding_valid:dl_minimum_padding][1:0]
+01-01 00:00:01.341  1133  1133 E RIL-QMI : ProcessWdaGetDataFormat(): Modem returns [flow_control_valid:flow_control][1:1]
+01-01 00:00:01.342  1133  1133 E RIL-QMI : ProcessWdaReleaseQmiClient(): qmi_client_release of qmi_clnt_hndl returned 0
+01-01 00:00:01.342  1133  1133 E RIL-QMI : UpdateDataFormat(): From modem: agg_count=1, agg_size=-1
+01-01 00:00:01.342  1133  1133 E RIL-QMI : UpdateDataFormat(): From local config: agg_count=0, agg_size=0
+01-01 00:00:01.342  1133  1133 E RIL-QMI : UpdateDataFormat(): Using agg values: agg_count=0, agg_size=-1
+01-01 00:00:01.342  1133  1133 E RIL-QMI : RmnetUpdateUlAggregation(): RmNet returns egress_flags=0x0000002A; agg_size=0, agg_count=0
+01-01 00:00:01.342  1133  1133 E RIL-QMI : RmnetUpdateUlAggregation(): Updated egress_flags=0x0000002A; agg_size=65535, agg_count=0
+01-01 00:00:01.342  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17f830) return(0).
+01-01 00:00:01.342  1133  1133 E RILD    : Init() : QMI serive(5) is initialized.
+01-01 00:00:01.342  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17fb08) return(0).
+01-01 00:00:01.342  1133  1133 E RILD    : Init() : QMI serive(6) is initialized.
+01-01 00:00:01.343  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17f950) return(0).
+01-01 00:00:01.343  1133  1133 E RILD    : Init() : QMI serive(7) is initialized.
+01-01 00:00:01.343  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17fa00) return(0).
+01-01 00:00:01.343  1133  1133 E RILD    : Init() : QMI serive(8) is initialized.
+01-01 00:00:01.343  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17ebc8) return(0).
+01-01 00:00:01.343  1133  1133 E RILD    : Init() : QMI serive(9) is initialized.
+01-01 00:00:01.343  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17fbc0) return(0).
+01-01 00:00:01.343  1133  1133 E RILD    : Init() : QMI serive(10) is initialized.
+01-01 00:00:01.344  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17f728) return(0).
+01-01 00:00:01.344  1133  1133 E RILD    : Init() : QMI serive(11) is initialized.
+01-01 00:00:01.344  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17f7d8) return(0).
+01-01 00:00:01.344  1133  1133 E RILD    : Init() : QMI serive(16) is initialized.
+01-01 00:00:01.344  1133  1133 E RILD    : QmiService::Init() : qmi_client_init_instance(0x7d9c17f5c8) return(0).
+01-01 00:00:01.344  1133  1133 E RILD    : Init() : QMI serive(18) is initialized.
+01-01 00:00:01.344  1133  1133 E RILD    : Debug channel is not opened for ship build.
+01-01 00:00:01.344  1133  1133 I chatty  : uid=1001(radio) /vendor/bin/hw/rild identical 1 line
+01-01 00:00:01.344  1133  1133 E RILD    : Debug channel is not opened for ship build.
+01-01 00:00:01.344  1133  1133 E RILD    : create Thread
+01-01 00:00:01.349  1133  1133 E RILD    : NET-MGR - ModelType: 0 -> 2
+01-01 00:00:01.349  1133  1133 E RILD    : create Thread
+01-01 00:00:01.373  1133  1133 E RILD    : CALL-MGR - ModelType: 0 -> 2
+01-01 00:00:01.373  1133  1133 E RILD    : CALL-MGR - Make new CallManager (ModelType: 2)
+01-01 00:00:01.376  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.377  1133  1133 I chatty  : uid=1001(radio) /vendor/bin/hw/rild identical 3 lines
+01-01 00:00:01.377  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.377  1133  1133 E RILD    : [sqos] connectToServer(): Failed to connect to qosd: Try again, retry : 0
+01-01 00:00:01.477  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.481  1133  1133 I chatty  : uid=1001(radio) /vendor/bin/hw/rild identical 9 lines
+01-01 00:00:01.482  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.482  1133  1133 E RILD    : [sqos] connectToServer(): Failed to connect to qosd: Try again, retry : 0
+01-01 00:00:01.582  1133  1133 E RILD    : [sqos] connectToServer(): Failed to connect to qosd: Try again, retry : 1
+01-01 00:00:01.682  1133  1133 E RILD    : [sqos] connectToServer(): Failed to connect to qosd: Try again, retry : 2
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateVoiceRte: [CS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [0], hdr reg [0], Td reg [2]
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateVoiceRte: mVoiceRte(0), Confidence(4), mReportedLteSmsStatus(0)
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateDataRte: [PS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2], pref_data_tech(0), radio_tech_flag(0)
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateDataRte: mDataRte(5), Confidence(2)
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateImsRte: mImsRte(0), Confidence(4)
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateVoiceRte: [CS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [0], hdr reg [0], Td reg [2]
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateVoiceRte: mVoiceRte(0), Confidence(4), mReportedLteSmsStatus(0)
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateDataRte: [PS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2], pref_data_tech(0), radio_tech_flag(0)
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateDataRte: mDataRte(5), Confidence(2)
+01-01 00:00:01.710  1133  1344 E RIL-QMI : UpdateImsRte: mImsRte(0), Confidence(4)
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateVoiceRte: [CS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2]
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateVoiceRte: mVoiceRte(5), Confidence(2), mReportedLteSmsStatus(0)
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateDataRte: [PS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2], pref_data_tech(0), radio_tech_flag(0)
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateDataRte: mDataRte(5), Confidence(2)
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateImsRte: mImsRte(0), Confidence(4)
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateVoiceRte: [CS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2]
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateVoiceRte: mVoiceRte(5), Confidence(2), mReportedLteSmsStatus(0)
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateDataRte: [PS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2], pref_data_tech(0), radio_tech_flag(0)
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateDataRte: mDataRte(5), Confidence(2)
+01-01 00:00:01.712  1133  1344 E RIL-QMI : UpdateImsRte: mImsRte(0), Confidence(4)
+01-01 00:00:01.782  1133  1133 E RILD    : [sqos] connectToServer(): Failed to connect to qosd: Try again, retry : 3
+01-01 00:00:01.882  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:01.883  1133  1133 E RILD    : [sqos] connectToServer(): Failed to connect to qosd: Try again, retry : 0
+01-01 00:00:01.983  1133  1133 E RILD    : [sqos] connectToServer(): Failed to connect to qosd: Try again, retry : 1
+01-01 00:00:02.023  1085  1551 D TelephonyManager: No /proc/cmdline exception=java.io.FileNotFoundException: /proc/cmdline (Permission denied)
+01-01 00:00:02.023  1085  1551 D TelephonyManager: /proc/cmdline=
+01-01 00:00:02.028  1100  1100 E RILClient: Connect_RILD: Connecting failed. Connection refused(111)
+01-01 00:00:02.084  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:02.954  1133  1133 I chatty  : uid=1001(radio) /vendor/bin/hw/rild identical 2 lines
+01-01 00:00:02.954  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:02.956  1133  1133 E RILD    : NetworkManager init start
+01-01 00:00:02.956  1133  1133 E RILD    : NetworkManager init end
+01-01 00:00:02.957  1133  1133 E RILD    : Start, NetlinkUtils thread Started
+01-01 00:00:02.957  1133  1133 E RILD    : create Thread
+01-01 00:00:02.957  1133  1648 E RILD    : Run(): NetlinkUtilsRunnable
+01-01 00:00:02.959  1133  1133 E RILD    : [C] Initialize(): Is initialized: 0
+01-01 00:00:02.959  1133  1133 E RILD    : [E] Initialize(): Is initialized: 0
+01-01 00:00:02.960  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:02.968  1133  1133 I chatty  : uid=1001(radio) /vendor/bin/hw/rild identical 8 lines
+01-01 00:00:02.968  1133  1133 E RILD    : [sqos] TrafficControl(): success to connect to sock on boot : 9
+01-01 00:00:02.970  1133  1133 E RILD    : create Thread
+01-01 00:00:02.970  1133  1133 E RILD    : create Thread
+01-01 00:00:02.971  1133  1649 E RILD    : OnDataCallStateChanged() - data call is null
+01-01 00:00:02.974  1133  1133 E RIL-QMI : UpdateVoiceRte: [CS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2]
+01-01 00:00:02.974  1133  1133 E RIL-QMI : UpdateVoiceRte: mVoiceRte(5), Confidence(2), mReportedLteSmsStatus(0)
+01-01 00:00:02.974  1133  1133 E RIL-QMI : UpdateDataRte: [PS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2], pref_data_tech(0), radio_tech_flag(0)
+01-01 00:00:02.974  1133  1133 E RIL-QMI : UpdateDataRte: mDataRte(5), Confidence(2)
+01-01 00:00:02.974  1133  1133 E RIL-QMI : UpdateImsRte: mImsRte(0), Confidence(4)
+01-01 00:00:02.980  1133  1133 E RIL-QMI : UpdateVoiceRte: [CS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2]
+01-01 00:00:02.980  1133  1133 E RIL-QMI : UpdateVoiceRte: mVoiceRte(5), Confidence(2), mReportedLteSmsStatus(0)
+01-01 00:00:02.980  1133  1133 E RIL-QMI : UpdateDataRte: [PS] 1x reg [0], gsm reg [2], wcdma reg [2], lte reg [12], hdr reg [0], Td reg [2], pref_data_tech(0), radio_tech_flag(0)
+01-01 00:00:02.980  1133  1133 E RIL-QMI : UpdateDataRte: mDataRte(5), Confidence(2)
+01-01 00:00:02.980  1133  1133 E RIL-QMI : UpdateImsRte: mImsRte(0), Confidence(4)
+01-01 00:00:02.990  1133  1344 E RILD    : SIM CARD ERROR cause : 3
+01-01 00:00:02.990  1133  1344 E RILD    : Invalid appState for setting overal PinState.
+01-01 00:00:02.990  1133  1344 E RIL-QMI : QMI service 17 is disabled, returning NULL...
+01-01 00:00:02.991  1133  1344 E RILD    : SIM CARD ERROR cause : 3
+01-01 00:00:02.991  1133  1344 E RILD    : Invalid appState for setting overal PinState.
+01-01 00:00:02.995  1133  1344 E RILD    : ProcessRxMessage: coex - handled(0x41)
+01-01 00:00:02.995  1133  1133 E RILD    : ProcessRxMessage: coex - handled(0x20)
+01-01 00:00:02.996  1133  1133 E RILD    : IpcOverQmiChannel::Open() : qmi_client_init_instance(0x7d9c17ebc8) return(0).
+01-01 00:00:02.996  1133  1133 E RILD    : create Thread
+01-01 00:00:03.001  1133  1133 I chatty  : uid=1001(radio) /vendor/bin/hw/rild identical 5 lines
+01-01 00:00:03.001  1133  1133 E RILD    : create Thread
+01-01 00:00:03.002  1133  1649 E RILD    : OnDataCallStateChanged - No data
+01-01 00:00:03.003  1133  1649 W RILC    : RIL_onUnsolicitedResponse called before RIL_register
+01-01 00:00:03.003  1133  1649 E RILD    : OnUnsolicitedResponse: mOemClientReceiver is yet initialized.
+01-01 00:00:03.005  1133  1133 E RILD    : create Thread
+01-01 00:00:03.006  1133  1649 W RILC    : RIL_onUnsolicitedResponse called before RIL_register
+01-01 00:00:03.006  1133  1133 D RILD    : RIL_Init rilInit completed
+01-01 00:00:03.006  1133  1133 I RILC    : SIM_COUNT: 1
+01-01 00:00:03.006  1133  1133 E RILC    : RIL_register: RIL version 15
+01-01 00:00:03.006  1133  1133 I RILC    : s_registerCalled flag set, 1
+01-01 00:00:03.006  1133  1133 D RILC    : registerService: starting android::hardware::radio::V1_1::IRadio slot1
+01-01 00:00:03.008  1133  1133 I RILC    : RILHIDL called registerService
+01-01 00:00:03.008  1133  1133 D RILD    : RIL_Init RIL_register completed
+01-01 00:00:03.008  1133  1133 D RILD    : RIL_register_socket started
+01-01 00:00:03.008  1133  1133 D RIL_UIM_SOCKET: Adding socket with id: 0
+01-01 00:00:03.008  1133  1649 E RILC    : radioStateChangedInd: radioService[0]->mRadioIndication == NULL
+01-01 00:00:03.008  1133  1133 I RILC    : RIL_register_socket: calling registerService
+01-01 00:00:03.008  1133  1133 D RIL_SAP : registerService: starting ISap slot1 for slotId 0
+01-01 00:00:03.008  1133  1133 D RIL_SAP : registerService: started ISap slot1 status 0
+01-01 00:00:03.008  1133  1133 D RILD    : RIL_register_socket completed
+01-01 00:00:03.009  1112  1112 E Multi-Client: OemClientReceiver [Multiclient]
+01-01 00:00:03.009  1112  1112 E Multi-Client: OemClientReceiver started
+01-01 00:00:03.009  1112  1112 E Multi-Client: Multi-Client Init starting sleep loop
+01-01 00:00:03.009  1112  1666 E Multi-Client: SetFd: mServerSock=7
+01-01 00:00:03.009  1112  1666 E Multi-Client: OemClientReceiver::SetMaxFd: maxfd=7
+01-01 00:00:03.010  1133  1649 E RILC    : secCurrentSignalStrengthInd: radioService[0]->mSecRadioIndication == NULL
+01-01 00:00:03.010  1133  1649 E RILC    : currentSignalStrengthInd: radioService[0]->mRadioIndication == NULL
+01-01 00:00:03.010  1133  1649 E RILD    : OnSimStateChanged: set Device Ready
+01-01 00:00:03.010  1133  1657 E RILD    : ProcessSingleIpcMessageReceived() - IpcHistoryRecord has no message
+01-01 00:00:03.032  1133  1649 E RILD    : TxQueryFacility: Wrong lock type: 15
+01-01 00:00:03.034  1133  1657 E RILD    : ProcessSingleIpcMessageReceived() - There is no IpcHistoryRecord

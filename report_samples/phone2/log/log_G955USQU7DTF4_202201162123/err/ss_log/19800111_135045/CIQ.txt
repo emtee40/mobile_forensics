@@ -1,0 +1,12 @@
+CIQ.
+Cur Time : 87.609000sec
+drop count = 0, drop time = 0.000000sec, high water mark = 0
+
+	TIME(sys)	FILE	FUNCTION	LINE	STRING
+11.786766	ciq_target_slavebridge.c	IQPorting_SlaveBridgeForceClose	631	glink_close error : -1
+
+------------------------------------------------------
+Used msg ram =   0.244141 %
+Time :  11.786766 ~  11.786766 sec, Total =   0.000000 sec
+Elapsed time for making this log =   0.000000 sec
+------------------------------------------------------

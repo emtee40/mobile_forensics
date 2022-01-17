@@ -1,0 +1,127 @@
+
+Cur Time : 1980/01/11 14:59:29
+
+------------------------------------------------------
+<SS QMI QCSI Server status>
+
+free_q_ss_qmi_ipc_indication_data = 10
+free_q_ipc_cmd = 10
+
+0. Client Name : rild3
+	rild : 2
+	active_flag = 1
+	req_rcv_cnt = 854
+	ind_sent_cnt = 853
+	Drop_cnt = 0
+	Last_drop_time = 0.000000sec
+	Last_send_err_rc = 0x0
+	Pended_cnt = 0
+	Last_pended_time = 0.000000sec
+	Q_hi_water_mark = 1
+
+1. Client Name : rild0
+	rild : 0
+	active_flag = 1
+	req_rcv_cnt = 28
+	ind_sent_cnt = 20
+	Drop_cnt = 0
+	Last_drop_time = 0.000000sec
+	Last_send_err_rc = 0x0
+	Pended_cnt = 0
+	Last_pended_time = 0.000000sec
+	Q_hi_water_mark = 1
+
+2. Client Name : 
+	rild : 255
+	active_flag = 0
+	req_rcv_cnt = 0
+	ind_sent_cnt = 0
+	Drop_cnt = 0
+	Last_drop_time = 0.000000sec
+	Last_send_err_rc = 0x0
+	Pended_cnt = 0
+	Last_pended_time = 0.000000sec
+	Q_hi_water_mark = 0
+
+3. Client Name : 
+	rild : 255
+	active_flag = 0
+	req_rcv_cnt = 0
+	ind_sent_cnt = 0
+	Drop_cnt = 0
+	Last_drop_time = 0.000000sec
+	Last_send_err_rc = 0x0
+	Pended_cnt = 0
+	Last_pended_time = 0.000000sec
+	Q_hi_water_mark = 0
+
+4. Client Name : 
+	rild : 255
+	active_flag = 0
+	req_rcv_cnt = 0
+	ind_sent_cnt = 0
+	Drop_cnt = 0
+	Last_drop_time = 0.000000sec
+	Last_send_err_rc = 0x0
+	Pended_cnt = 0
+	Last_pended_time = 0.000000sec
+	Q_hi_water_mark = 0
+
+
+------------------------------------------------------
+<QMI Framework status>
+Service Id = 1
+	Client Id = 1, Instance = 0
+	Client Id = 2, Instance = 0
+	Client Id = 3, Instance = 0
+	Client Id = 4, Instance = 0
+	Client Id = 5, Instance = 0
+	Client Id = 6, Instance = 0
+	Client Id = 7, Instance = 0
+	Client Id = 8, Instance = 0
+	Client Id = 9, Instance = 0
+	Client Id = 10, Instance = 0
+	Client Id = 11, Instance = 0
+	Client Id = 12, Instance = 0
+	Client Id = 13, Instance = 0
+	Client Id = 14, Instance = 0
+	Client Id = 15, Instance = 0
+	Client Id = 16, Instance = 0
+	Client Id = 17, Instance = 0
+Service Id = 3
+	Client Id = 1, Instance = 0
+Service Id = 4
+	Client Id = 1, Instance = 0
+	Client Id = 2, Instance = 0
+	Client Id = 3, Instance = 0
+	Client Id = 4, Instance = 0
+	Client Id = 5, Instance = 0
+	Client Id = 6, Instance = 0
+	Client Id = 7, Instance = 0
+	Client Id = 8, Instance = 0
+	Client Id = 9, Instance = 0
+	Client Id = 10, Instance = 0
+	Client Id = 11, Instance = 0
+	Client Id = 12, Instance = 0
+	Client Id = 13, Instance = 0
+	Client Id = 14, Instance = 0
+	Client Id = 15, Instance = 0
+	Client Id = 16, Instance = 0
+Service Id = 5
+	Client Id = 1, Instance = 0
+Service Id = 7
+Service Id = 8
+	Client Id = 1, Instance = 0
+Service Id = 9
+	Client Id = 1, Instance = 0
+	Client Id = 2, Instance = 0
+Service Id = 10
+	Client Id = 1, Instance = 0
+Service Id = 11
+	Client Id = 1, Instance = 0
+Service Id = 12
+	Client Id = 1, Instance = 0
+Service Id = 26
+Service Id = 29
+
+------------------------------------------------------

@@ -1,0 +1,1253 @@
+[    0.000689][Ql-A][6oo1] Starting recovery (pid 534) on Sun Feb 26 18:18:32 2017
+[    0.000836][Ql-A][6oo1] recovery tmp log path : /efs/recovery/tmp_recovery.log
+[    0.000951][Ql-A][6oo1] init_extra_history() : /efs/recovery/extra_history exists
+[    0.001026][Ql-A][6oo1] no /efs/recovery/tmp_recovery.log file -> normal operation
+[    0.001107][Ql-A][6oo1]
+[    0.001162][Ql-A][6oo1] [collecting table information 2]
+[    0.001233][Ql-A][6oo1] recovery filesystem table
+[    0.001323][Ql-A][6oo1] =========================
+[    0.001392][Ql-A][6oo1]   0 /boot emmc /dev/block/bootdevice/by-name/boot 0
+[    0.001495][Ql-A][6oo1]   1 /recovery emmc /dev/block/bootdevice/by-name/recovery 0
+[    0.001579][Ql-A][6oo1]   2 /system ext4 /dev/block/bootdevice/by-name/system 0
+[    0.001660][Ql-A][6oo1]   3 /data ext4 /dev/block/bootdevice/by-name/userdata -16384
+[    0.001750][Ql-A][6oo1]   4 /cache ext4 /dev/block/bootdevice/by-name/cache 0
+[    0.001822][Ql-A][6oo1]   5 /sdcard vfat /dev/block/mmcblk0p1 0
+[    0.001886][Ql-A][6oo1]   6 /efs ext4 /dev/block/bootdevice/by-name/efs 0
+[    0.002010][Ql-A][6oo1]   7 /carrier ext4 /dev/block/bootdevice/by-name/carrier 0
+[    0.002080][Ql-A][6oo1]   8 /preload ext4 /dev/block/bootdevice/by-name/hidden 0
+[    0.002150][Ql-A][6oo1]   9 /modem emmc /dev/block/bootdevice/by-name/apnhlos 0
+[    0.002220][Ql-A][6oo1]   10 /mdm emmc /dev/block/bootdevice/by-name/modem 0
+[    0.002289][Ql-A][6oo1]   11 /dsp emmc /dev/block/bootdevice/by-name/dsp 0
+[    0.002365][Ql-A][6oo1]   12 /misc emmc /dev/block/bootdevice/by-name/misc 0
+[    0.002444][Ql-A][6oo1]   13 /tmp ramdisk ramdisk 0
+[    0.002512][Ql-A][6oo1]
+[    0.002565][Ql-A][6oo1]
+[    0.002619][Ql-A][6oo1] [initialize init-recovery]
+[    0.002686][Ql-A][6oo1]
+[    0.002742][Ql-A][6oo1] #mount --option=ro /system 
+[    0.002810][Ql-A][6oo1] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[    0.002896][Ql-A][6oo1] warning: is_mounted_volumes: rootfs -> /
+[    0.002970][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /dev
+[    0.003038][Ql-A][6oo1] warning: is_mounted_volumes: devpts -> /dev/pts
+[    0.003104][Ql-A][6oo1] warning: is_mounted_volumes: proc -> /proc
+[    0.003167][Ql-A][6oo1] warning: is_mounted_volumes: sysfs -> /sys
+[    0.003231][Ql-A][6oo1] warning: is_mounted_volumes: selinuxfs -> /sys/fs/selinux
+[    0.003300][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /mnt
+[    0.003364][Ql-A][6oo1] warning: is_mounted_volumes: none -> /config
+[    0.003430][Ql-A][6oo1] warning: is_mounted_volumes: adb -> /dev/usb-ffs/adb
+[    0.003498][Ql-A][6oo1] warning: is_mounted_volumes: none -> /acct
+[    0.003563][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /tmp
+[    0.003637][Ql-A][6oo1] warning: is_mounted_volumes: debugfs -> /sys/kernel/debug
+[    0.003720][Ql-A][6oo1] warning: is_mounted_volumes: /dev/block/bootdevice/by-name/efs -> /efs
+[    0.003813][Ql-A][6oo1] /system sucessfully mounted
+[    0.003884][Ql-A][6oo1]
+[    0.003939][Ql-A][6oo1] #mount -f /cache 
+[    0.004003][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[    0.004332][Ql-A][6oo1]
+[    0.004391][Ql-A][6oo1] #ls /cache/recovery/ 
+[    0.005287][Ql-A][6oo1] -rw------- system   system        123 2021-08-11 14:38 command
+[    0.005365][Ql-A][6oo1] -rw------- system   system     298102 2017-06-07 17:41 last_log.4
+[    0.005438][Ql-A][6oo1] -rw------- system   system     524288 2017-06-07 17:41 last_kmsg.6
+[    0.005511][Ql-A][6oo1] -rw------- system   system     299083 2017-06-07 17:41 last_log.5
+[    0.005585][Ql-A][6oo1] -rw-r--r-- system   system        639 2017-04-02 09:03 last_avc_msg_recovery
+[    0.005662][Ql-A][6oo1] -rw------- root     root        20258 2017-06-07 17:41 last_last_kernel.5
+[    0.005741][Ql-A][6oo1] -rw------- system   system      79440 2017-06-07 17:41 last_log.2
+[    0.005814][Ql-A][6oo1] -rw------- system   system     456033 2017-04-02 09:04 last_kmsg
+[    0.005899][Ql-A][6oo1] -rw------- system   system      79057 2017-06-07 17:41 last_log.9
+[    0.005997][Ql-A][6oo1] -rw------- system   system      79054 2017-06-07 17:41 last_log.8
+[    0.006096][Ql-A][6oo1] -rw-r--r-- system   system     456389 2017-04-02 09:04 last_kernel
+[    0.006187][Ql-A][6oo1] -rw------- system   system     466380 2017-06-07 17:41 last_kmsg.1
+[    0.006272][Ql-A][6oo1] -rw------- system   system          0 2017-04-02 09:04 last_install
+[    0.006359][Ql-A][6oo1] -rw------- system   system       5029 2017-04-02 09:03 last_history
+[    0.006449][Ql-A][6oo1] -rw------- system   system     469115 2017-06-07 17:41 last_kmsg.10
+[    0.006528][Ql-A][6oo1] -rw------- system   system     497399 2017-06-07 17:41 last_kmsg.2
+[    0.006601][Ql-A][6oo1] -rw------- system   system     524288 2017-06-07 17:41 last_kmsg.4
+[    0.006674][Ql-A][6oo1] -rw------- root     root       524288 2017-06-07 17:41 last_last_kernel.1
+[    0.006751][Ql-A][6oo1] -rw------- system   system     524288 2017-06-07 17:41 last_kmsg.5
+[    0.006826][Ql-A][6oo1] -rw------- root     root        20517 2017-06-07 17:41 last_last_kernel.4
+[    0.006902][Ql-A][6oo1] -rw------- system   system      73454 2017-04-02 09:04 last_log
+[    0.006977][Ql-A][6oo1] -rw------- root     root       524288 2017-06-07 17:41 last_last_kernel.2
+[    0.007059][Ql-A][6oo1] -rw------- system   system     313948 2017-06-07 17:41 last_log.3
+[    0.007146][Ql-A][6oo1] -rw------- system   system          0 2017-04-02 09:04 last_extra_history_old
+[    0.007239][Ql-A][6oo1] -rw------- system   system       1936 2017-04-02 09:04 last_extra_history
+[    0.007330][Ql-A][6oo1] -rw------- system   system      80825 2017-06-07 17:41 last_log.10
+[    0.007417][Ql-A][6oo1] -rw------- system   system     305610 2017-06-07 17:41 last_log.6
+[    0.007503][Ql-A][6oo1] -rw------- system   system     524288 2017-06-07 17:41 last_kmsg.3
+[    0.007590][Ql-A][6oo1] -rw------- root     root        20519 2017-06-07 17:41 last_last_kernel.3
+[    0.007680][Ql-A][6oo1] -rw------- system   system     524288 2017-06-07 17:41 last_kmsg.7
+[    0.007769][Ql-A][6oo1] -rw------- system   system      79214 2017-06-07 17:41 last_log.1
+[    0.007854][Ql-A][6oo1] -rw------- system   system     357329 2017-06-07 17:41 last_log.7
+[    0.007938][Ql-A][6oo1] -rw------- system   system     465447 2017-06-07 17:41 last_kmsg.8
+[    0.008024][Ql-A][6oo1] -rw------- root     root            5 2017-04-02 09:04 last_locale
+[    0.008110][Ql-A][6oo1] -rw-r--r-- system   system    1123053 2017-04-02 09:04 last_recovery
+[    0.008196][Ql-A][6oo1] -rw------- system   system     465957 2017-06-07 17:41 last_kmsg.9
+[    0.008280][Ql-A][6oo1] -rw-r--r-- system   system     524288 2017-04-02 09:04 last_last_kernel
+[    0.008369][Ql-A][6oo1]
+[    0.008424][Ql-A][6oo1] #ls /cache/fota/ 
+[    0.008488][Ql-A][6oo1]
+[    0.008543][Ql-A][6oo1] #unmount /cache 
+[    0.009177][Ql-A][6oo1] /cache sucessfully unmounted
+[    0.009253][Ql-A][6oo1]
+[    0.009309][Ql-A][6oo1] #exec -f /system/bin/e2fsck -v -y /dev/block/bootdevice/by-name/cache 
+[    0.063491][Ql-A][6oo1] e2fsck 1.43.3 (04-Sep-2016)
+[    0.065297][Ql-A][6oo1] skipping journal recovery because INCOMPAT_RECOVER was clear.
+[    0.065386][Ql-A][6oo1] check whether gdt & bitmap free count is vaild
+[    0.066073][Ql-A][6oo1] cache: clean, 54/38400 files, 7106/153600 blocks
+[    0.067484][Ql-A][6oo1]
+[    0.067542][Ql-A][6oo1] #mount /cache 
+[    0.067606][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[    0.068967][Ql-A][6oo1]
+[    0.069026][Ql-A][6oo1] #fcut --limited-file-size=1024k -f /cache/recovery/last_recovery /tmp/recovery_old.tmp 
+[    0.074622][Ql-A][6oo1] /system sucessfully unmounted
+[    0.077113][Ql-A][6oo1] /cache sucessfully unmounted
+[    0.077188][Ql-A][6oo1] running init-recovery time : 0.078s
+[    0.077261][Ql-A][6oo1]
+[    0.077316][Ql-A][6oo1] [init-history]
+[    0.077381][Ql-A][6oo1]
+[    0.077436][Ql-A][6oo1] #mount -f /cache 
+[    0.077499][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[    0.078705][Ql-A][6oo1]
+[    0.078762][Ql-A][6oo1] #df /efs 
+[    0.078822][Ql-A][6oo1] Filesystem               Size         Used         Free       Blksize
+[    0.078913][Ql-A][6oo1] /efs                    15.7M(16433152)    1.1M(1114112)   14.6M(15319040) 4096
+[    0.079019][Ql-A][6oo1]
+[    0.079074][Ql-A][6oo1] #mkdir -f radio system 0771 /efs/recovery 
+[    0.079148][Ql-A][6oo1]
+[    0.079202][Ql-A][6oo1] #touch -f /efs/recovery/history 
+[    0.079274][Ql-A][6oo1]
+[    0.079327][Ql-A][6oo1] #echo + [Ql : 2017/2/26 18:18:32] >> /efs/recovery/history 
+[    0.080286][Ql-A][6oo1]
+[    0.080360][Ql-A][6oo1] #cat -f /cache/recovery/command >> /efs/recovery/history 
+[    0.080987][Ql-A][6oo1]
+[    0.081046][Ql-A][6oo1] #cp -y -f -v /efs/recovery/history /cache/recovery/last_history 
+[    0.086278][Ql-A][6oo1] SELinux: Loaded file_contexts
+[    0.088220][Ql-A][6oo1] SELinux: /cache/recovery/last_history has context u:object_r:cache_recovery_file:s0
+[    0.088316][Ql-A][6oo1] /efs/recovery/history -> /cache/recovery/last_history (5180 bytes) 
+[    0.088405][Ql-A][6oo1] transferred in writed time : 0.000s closed time : 0.001s progressed with 17592186044416.00M byte/sec
+[    0.088532][Ql-A][6oo1] src : -rw------- root     root         5180 2017-02-26 18:18 history
+[    0.088620][Ql-A][6oo1] dst : -rw------- root     root         5180 2017-02-26 18:18 last_history
+[    0.088717][Ql-A][6oo1]
+[    0.088774][Ql-A][6oo1]
+[    0.088828][Ql-A][6oo1] #chown -f system system /cache/recovery/last_history 
+[    0.091084][Ql-A][6oo1] /cache sucessfully unmounted
+[    0.091160][Ql-A][6oo1] running init-history time : 0.013s
+[    0.091285][Ql-A][6oo1]
+[    0.091339][Ql-A][6oo1] [collecting command]
+[    0.091405][Ql-A][6oo1] read /sys/class/sec/sec_key/keycode_pressed = 115:0,703:0,116:0,114:0
+[    0.091491][Ql-A][6oo1] ð4ª×
+[    0.091547][Ql-A][6oo1] E:isManualModeByKeyPress: KEY_VOLUMEUP(0)
+[    0.091619][Ql-A][6oo1] E:isManualModeByKeyPress: KEY_WINK(0)
+[    0.091692][Ql-A][6oo1] E:isManualModeByKeyPress: KEY_POWER(0)
+[    0.091765][Ql-A][6oo1] E:isManualModeByKeyPress: KEY_VOLUMEDOWN(0)
+[    0.091843][Ql-A][6oo1] E:isManualModeByKeyPress: ManualKeyPress(0)
+[    0.091921][Ql-A][6oo1] I:main :: Check recovery command!!
+[    0.091993][Ql-A][6oo1] recovery.fstab has misc partition info.
+[    0.092069][Ql-A][6oo1] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[    0.092155][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[    0.093966][Ql-A][6oo1] I:Got 4 arguments from /cache/recovery/command
+[    0.094197][Ql-A][6oo1] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[    0.094631][Ql-A][6oo1] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[    0.095174][Ql-A][6oo1] ro.boot.boot_recovery=1 
+[    0.095234][Ql-A][6oo1] locale is [en-US]
+[    0.095290][Ql-A][6oo1] stage is []
+[    0.095343][Ql-A][6oo1] reason is [DevicePolicyManager.wipeDataWithReason() from com.Darcom.device.admin/.DeviceAdminDemo]
+[    0.095430][Ql-A][6oo1]
+[    0.095477][Ql-A][6oo1] [read csc code]
+[    0.097194][Ql-A][6oo1] I:/efs is already mounted
+[    0.097779][Ql-A][6oo1] W:Failed to umount /efs: Device or resource busy
+[    0.097860][Ql-A][6oo1] can't unmount /efs - Device or resource busy
+[    0.097996][Ql-A][6oo1] read csc code = 'ATT'
+[    0.098112][Ql-A][6oo1]
+[    0.098208][Ql-A][6oo1] [initialize ui and event]
+[    0.098319][Ql-A][6oo1] Use not foldable ui.
+[    0.098375][Ql-A][6oo1] Use simple ui.
+[    0.098553][Ql-A][6oo1] I:Brightness: 12000 (50%)
+[    0.100093][Ql-A][6oo1] cannot find/open a drm device: No such file or directory
+[    0.100431][Ql-A][6oo1] fb0 reports (possibly inaccurate):
+[    0.100505][Ql-A][6oo1]   vi.bits_per_pixel = 32
+[    0.100571][Ql-A][6oo1]   vi.red.offset   =   0   .length =   8
+[    0.100658][Ql-A][6oo1]   vi.green.offset =   8   .length =   8
+[    0.100748][Ql-A][6oo1]   vi.blue.offset  =  16   .length =   8
+[    0.100826][Ql-A][6oo1]
+[    0.100902][Ql-A][6oo1] FBIOGET_VSCREENINFO
+[    0.100972][Ql-A][6oo1] xres = 1440 
+[    0.101035][Ql-A][6oo1] yres = 2960 
+[    0.101096][Ql-A][6oo1] xres_virtual = 1440 
+[    0.101162][Ql-A][6oo1] yres_virtual = 2960 
+[    0.101236][Ql-A][6oo1] xoffset = 0 
+[    0.101305][Ql-A][6oo1] yoffset = 0 
+[    0.101367][Ql-A][6oo1] bits_per_pixel = 32 
+[    0.101434][Ql-A][6oo1] grayscale = 0 
+[    0.101498][Ql-A][6oo1] red.offset = 0 
+[    0.101577][Ql-A][6oo1] red.length = 8 
+[    0.101641][Ql-A][6oo1] red.msb_right = 0 
+[    0.101707][Ql-A][6oo1] green.offset = 8 
+[    0.101771][Ql-A][6oo1] green.length = 8 
+[    0.101836][Ql-A][6oo1] green.msb_right = 0 
+[    0.101903][Ql-A][6oo1] blue.offset = 16 
+[    0.101968][Ql-A][6oo1] blue.length = 8 
+[    0.102032][Ql-A][6oo1] blue.msb_right = 0 
+[    0.102105][Ql-A][6oo1] transp.offset = 24 
+[    0.102179][Ql-A][6oo1] transp.length = 8 
+[    0.102253][Ql-A][6oo1] transp.msb_right = 0 
+[    0.102328][Ql-A][6oo1] nonstd = 0 
+[    0.102399][Ql-A][6oo1] activate = 16 
+[    0.102469][Ql-A][6oo1] height = 143 
+[    0.102540][Ql-A][6oo1] width = 70 
+[    0.102610][Ql-A][6oo1] accel_flags = 0 
+[    0.102684][Ql-A][6oo1] pixclock = 2950 
+[    0.102758][Ql-A][6oo1] left_margin = 120 
+[    0.102831][Ql-A][6oo1] right_margin = 116 
+[    0.102903][Ql-A][6oo1] upper_margin = 124 
+[    0.102970][Ql-A][6oo1] lower_margin = 120 
+[    0.103037][Ql-A][6oo1] hsync_len = 44 
+[    0.103100][Ql-A][6oo1] vsync_len = 80 
+[    0.103154][Ql-A][6oo1] sync = 0 
+[    0.103206][Ql-A][6oo1] vmode = 0 
+[    0.103259][Ql-A][6oo1] rotate = 0 
+[    0.103312][Ql-A][6oo1]
+[    0.103361][Ql-A][6oo1] FBIOGET_FSCREENINFO
+[    0.103415][Ql-A][6oo1] id = mdssfb_90000 
+[    0.103470][Ql-A][6oo1] smem_start = 0x00000000 
+[    0.103528][Ql-A][6oo1] smem_len = 34103296 
+[    0.103589][Ql-A][6oo1] type = 0 
+[    0.103648][Ql-A][6oo1] type_aux = 0 
+[    0.103710][Ql-A][6oo1] visual = 2 
+[    0.103771][Ql-A][6oo1] xpanstep = 1 
+[    0.103832][Ql-A][6oo1] ypanstep = 1 
+[    0.103893][Ql-A][6oo1] ywrapstep = 0 
+[    0.103954][Ql-A][6oo1] line_length = 5760 
+[    0.104017][Ql-A][6oo1] mmio_start = 0x00000000 
+[    0.104092][Ql-A][6oo1] mmio_len = 0 
+[    0.104153][Ql-A][6oo1] accel = 0 
+[    0.104213][Ql-A][6oo1] [screen info]
+[    0.104272][Ql-A][6oo1] xres = 1440, yres = 2960, xres_virtual = 1440,yres_virtual = 2960 
+[    0.104345][Ql-A][6oo1] bits_per_pixel = 32 
+[    0.104400][Ql-A][6oo1] height = 143, width = 70 
+[    0.104459][Ql-A][6oo1]
+[    0.104506][Ql-A][6oo1] id = mdssfb_90000 
+[    0.104561][Ql-A][6oo1] smem_start = 0x00000000 (len 34103296) 
+[    0.104623][Ql-A][6oo1] line_length = 5760 
+[    0.104679][Ql-A][6oo1] mmio_start = 0x00000000 (len 0)
+[    0.104738][Ql-A][6oo1] accel = 0, visual = 2
+[    0.104795][Ql-A][6oo1]
+[    0.160317][Ql-A][6oo1] framebuffer: 0 (1440 x 2960)
+[    0.390557][Ql-A][6oo1] flip_delay = 0
+[    0.414518][Ql-A][6oo1] dpi : xxxhdpi
+[    0.414631][Ql-A][6oo1] dpY = 4
+[    0.423877][Ql-A][6oo1]           erasing_text: en (180 x 76 @ 2695)
+[    0.432535][Ql-A][6oo1]        no_command_text: en (331 x 76 @ 2695)
+[    0.440191][Ql-A][6oo1]             error_text: en (131 x 76 @ 2695)
+[    0.526267][Ql-A][6oo1]
+[    0.526335][Ql-A][6oo1] sim_frames 12
+[    0.717078][Ql-A][6oo1]
+[    0.717152][Ql-A][6oo1] poc_frames 15
+[    0.828297][Ql-A][6oo1]        installing_text: en (610 x 76 @ 2695)
+[    0.865205][Ql-A][6oo1] SELinux: Loaded file_contexts
+[    0.872980][Ql-A][6oo1] Reboot Recovery Cause file exist
+[    0.873121][Ql-A][6oo1] read_reboot_recovery_cause_file++
+[    0.875710][Ql-A][6oo1] read_reboot_recovery_cause_file: read string rst [100]
+[    0.875789][Ql-A][6oo1] read_reboot_recovery_cause_file(100)--
+[    0.875864][Ql-A][6oo1] Reboot Recovery Cause is [Binder:1416_B:2500 RecoverySystemDevicePolicyManager.wipeDataWithReason() from com.Darcom.device.adm]
+[    0.875976][Ql-A][6oo1]
+[    0.876021][Ql-A][6oo1] #Reboot Recovery Cause is [Binder:1416_B:2500 RecoverySystemDevicePolicyManager.wipeDataWithReason() from com.Darcom.device.adm]#
+[    0.889609][Ql-A][6oo1] Command: "/sbin/recovery" "--wipe_data" "--reason=DevicePolicyManager.wipeDataWithReason() from com.Darcom.device.admin/.DeviceAdminDemo" "--locale=en-US"
+[    0.889722][Ql-A][6oo1] [reboot-reason-history]
+[    0.889820][Ql-A][6oo1]
+[    0.889864][Ql-A][6oo1] #touch -f /efs/recovery/history 
+[    0.889923][Ql-A][6oo1]
+[    0.889960][Ql-A][6oo1] #echo reboot reason : Binder:1416_B:2500 RecoverySystemDevicePolicyManager.wipeDataWithReason() from com.D  >> /efs/recovery/history 
+[    0.892711][Ql-A][6oo1]
+[    0.892774][Ql-A][6oo1] #echo - >> /efs/recovery/history 
+[    0.893982][Ql-A][6oo1]
+[    0.894035][Ql-A][6oo1] #cp -y -f -v /efs/recovery/history /cache/recovery/last_history 
+[    0.898712][Ql-A][6oo1] SELinux: /cache/recovery/last_history has context u:object_r:cache_recovery_file:s0
+[    0.898794][Ql-A][6oo1] /efs/recovery/history -> /cache/recovery/last_history (5284 bytes) 
+[    0.898868][Ql-A][6oo1] transferred in writed time : 0.000s closed time : 0.002s progressed with 17592186044416.00M byte/sec
+[    0.898955][Ql-A][6oo1] src : -rw------- root     root         5284 2017-02-26 18:18 history
+[    0.899027][Ql-A][6oo1] dst : -rw------- root     root         5284 2017-02-26 18:18 last_history
+[    0.899094][Ql-A][6oo1]
+[    0.899127][Ql-A][6oo1]
+[    0.899160][Ql-A][6oo1] #chown -f system system /cache/recovery/last_history 
+[    0.899216][Ql-A][6oo1] running reboot-reason-history time : 0.009s
+[    0.899266][Ql-A][6oo1] update_package = (null)
+[    0.899309][Ql-A][6oo1] aio_fota_update = 0
+[    0.899350][Ql-A][6oo1] att_fota_update = 0
+[    0.899392][Ql-A][6oo1] tmo_fota_update = 0
+[    0.899433][Ql-A][6oo1] should_wipe_data = 1, should_wipe_cache = 0,wipe_sdcard = 0,should_wipe_carrier = 0,no_wipe_custom=0
+[    0.899504][Ql-A][6oo1] data_resizing = 0
+[    0.899553][Ql-A][6oo1] update_factory_csc = 0, update_home_csc = 0, factory_fota = 0
+[    0.899622][Ql-A][6oo1] carry_out = (null)
+[    0.899671][Ql-A][6oo1] tima_kernel_recovery = 0
+[    0.899723][Ql-A][6oo1] just_exit = 0
+[    0.899770][Ql-A][6oo1] omc_binary_download = 0
+[    0.899821][Ql-A][6oo1] SwitchSalesCode = 0
+[    0.899871][Ql-A][6oo1] amazon_link = 0
+[    0.899918][Ql-A][6oo1] amazon_link_canada = 0
+[    0.899969][Ql-A][6oo1] Support SINGLE-SKU
+[    0.923010][Ql-A][6oo1] delete_apn_changes = 0
+[    0.923236][Ql-A][6oo1] color_id_wallpaper = 0
+[    0.923307][Ql-A][6oo1] copy_poc_file = 0
+[    0.923371][Ql-A][6oo1] check_carrier_format = 0
+[    0.923433][Ql-A][6oo1] should_prompt_and_wipe_data = 0
+[    0.923500][Ql-A][6oo1] should_prompt_and_wipe_app_data = 0
+[    0.923573][Ql-A][6oo1] kernel_version : Linux version 4.4.153-17214672 (dpi@SWDI3115) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #2 SMP PREEMPT Tue Jun 23 19:07:03 KST 2020
+[    0.923692][Ql-A][6oo1]
+[    0.923744][Ql-A][6oo1]
+[    0.923796][Ql-A][6oo1] File-Based OTA
+[    0.939637][Ql-A][6oo1] DMV : use_dm_verity set as 0...
+[    0.941826][Ql-A][6oo1] secure marker salt file is not present. we assume marker is not set
+[    0.941907][Ql-A][6oo1] DMV : use_dm_verity set as 1...
+[    0.941965][Ql-A][6oo1] b_single_sku_enable = 0
+[    0.942020][Ql-A][6oo1]
+[    0.942064][Ql-A][6oo1]
+[    0.942108][Ql-A][6oo1] [property list]
+[    0.942160][Ql-A][6oo1] persist.audio.fluence.speaker=true
+[    0.942218][Ql-A][6oo1] persist.audio.fluence.voicerec=false
+[    0.942277][Ql-A][6oo1] persist.audio.fluence.voicecall=true
+[    0.942340][Ql-A][6oo1] persist.service.bdroid.soclog=true
+[    0.942455][Ql-A][6oo1] ro.boot.dram_info=01,06,10,4G
+[    0.942503][Ql-A][6oo1] ro.boottime.adbd=4658198747
+[    0.942553][Ql-A][6oo1] ro.boottime.init=2349
+[    0.942597][Ql-A][6oo1] ro.boottime.init.selinux=67
+[    0.942643][Ql-A][6oo1] ro.boottime.init.cold_boot_wait=2176
+[    0.942693][Ql-A][6oo1] ro.boottime.ueventd=2457626352
+[    0.942740][Ql-A][6oo1] ro.boottime.recovery=4664238434
+[    0.942789][Ql-A][6oo1] ro.com.google.clientidbase=android-samsung
+[    0.942948][Ql-A][6oo1] persist.vendor.cne.feature=0
+[    0.943055][Ql-A][6oo1] ro.cfg.dha_empty_max=30
+[    0.943111][Ql-A][6oo1] ro.cfg.dha_cached_max=24
+[    0.943166][Ql-A][6oo1] ro.cfg.dha_empty_init=30
+[    0.943223][Ql-A][6oo1] ro.cfg.custom_sw_limit=275
+[    0.943280][Ql-A][6oo1] ro.cfg.custom_tm_limit=1000
+[    0.943338][Ql-A][6oo1] ro.cfg.upgrade_pressure=65
+[    0.943396][Ql-A][6oo1] ro.cfg.enable_reentry_lmk=true
+[    0.943455][Ql-A][6oo1] ro.cfg.kill_heaviest_task=true
+[    0.943514][Ql-A][6oo1] ro.cfg.enable_userspace_lmk=true
+[    0.943571][Ql-A][6oo1] ro.config.kap=true
+[    0.943629][Ql-A][6oo1] ro.config.knox=v30
+[    0.943676][Ql-A][6oo1] ro.config.tima=1
+[    0.943721][Ql-A][6oo1] ro.config.dmverity=A
+[    0.943768][Ql-A][6oo1] ro.config.ringtone=Over_the_Horizon.ogg
+[    0.943824][Ql-A][6oo1] ro.config.fha_enable=true
+[    0.943874][Ql-A][6oo1] ro.config.ringtone_2=Basic_Bell.ogg
+[    0.943929][Ql-A][6oo1] ro.config.alarm_alert=Morning_Glory.ogg
+[    0.943984][Ql-A][6oo1] ro.config.media_sound=Media_preview_Touch_the_light.ogg
+[    0.944041][Ql-A][6oo1] ro.config.timaversion=3.0
+[    0.944088][Ql-A][6oo1] ro.config.dha_pwhl_key=1536
+[    0.944142][Ql-A][6oo1] ro.config.iccc_version=3.0
+[    0.944194][Ql-A][6oo1] ro.config.dha_empty_max=24
+[    0.944247][Ql-A][6oo1] ro.config.dha_empty_min=8
+[    0.944299][Ql-A][6oo1] ro.config.dha_cached_max=16
+[    0.944351][Ql-A][6oo1] ro.config.dha_cached_min=6
+[    0.944404][Ql-A][6oo1] ro.config.dha_empty_init=24
+[    0.944528][Ql-A][6oo1] ro.config.kap_default_on=true
+[    0.944583][Ql-A][6oo1] ro.config.custom_sw_limit=200
+[    0.944629][Ql-A][6oo1] ro.config.timaversion_info=Knox3.2_..
+[    0.944677][Ql-A][6oo1] ro.config.upgrade_pressure=50
+[    0.944721][Ql-A][6oo1] ro.config.vc_call_vol_steps=7
+[    0.944766][Ql-A][6oo1] ro.config.notification_sound=Skyline.ogg
+[    0.944815][Ql-A][6oo1] ro.config.rm_preload_enabled=1
+[    0.944860][Ql-A][6oo1] ro.config.notification_sound_2=S_Charming_Bell.ogg
+[    0.944913][Ql-A][6oo1] config.disable_rtt=true
+[    0.944955][Ql-A][6oo1] ro.boot.cp_reserved_mem=off
+[    0.945001][Ql-A][6oo1] ro.dalvik.vm.native.bridge=0
+[    0.945048][Ql-A][6oo1] dalvik.vm.isa.arm.variant=cortex-a73
+[    0.945106][Ql-A][6oo1] dalvik.vm.isa.arm.features=default
+[    0.945162][Ql-A][6oo1] dalvik.vm.isa.arm64.variant=generic
+[    0.945218][Ql-A][6oo1] dalvik.vm.isa.arm64.features=default
+[    0.945275][Ql-A][6oo1] dalvik.vm.dexopt.secondary=true
+[    0.945329][Ql-A][6oo1] dalvik.vm.usejit=true
+[    0.945379][Ql-A][6oo1] dalvik.vm.heapsize=512m
+[    0.945431][Ql-A][6oo1] dalvik.vm.dex2oat-Xms=64m
+[    0.945483][Ql-A][6oo1] dalvik.vm.dex2oat-Xmx=512m
+[    0.945536][Ql-A][6oo1] dalvik.vm.heapmaxfree=8m
+[    0.945585][Ql-A][6oo1] dalvik.vm.heapminfree=2m
+[    0.945627][Ql-A][6oo1] dalvik.vm.heapstartsize=8m
+[    0.945671][Ql-A][6oo1] dalvik.vm.appimageformat=lz4
+[    0.945715][Ql-A][6oo1] dalvik.vm.usejitprofiles=true
+[    0.945761][Ql-A][6oo1] dalvik.vm.heapgrowthlimit=256m
+[    0.945805][Ql-A][6oo1] dalvik.vm.stack-trace-dir=/data/anr
+[    0.945852][Ql-A][6oo1] dalvik.vm.image-dex2oat-Xms=64m
+[    0.945897][Ql-A][6oo1] dalvik.vm.image-dex2oat-Xmx=64m
+[    0.945948][Ql-A][6oo1] dalvik.vm.dex2oat-minidebuginfo=true
+[    0.945996][Ql-A][6oo1] dalvik.vm.heaptargetutilization=0.75
+[    0.946048][Ql-A][6oo1] ro.boot.debug_level=0x4f4c
+[    0.946100][Ql-A][6oo1] iwc.arg1=0
+[    0.946147][Ql-A][6oo1] iwc.arg2=0
+[    0.946192][Ql-A][6oo1] iwc.arg3=0
+[    0.946237][Ql-A][6oo1] debug.sf.hw=1
+[    0.946284][Ql-A][6oo1] debug.sf.enable_hwc_vds=1
+[    0.946336][Ql-A][6oo1] debug.sf.latch_unsignaled=1
+[    0.946388][Ql-A][6oo1] debug.egl.hw=0
+[    0.946435][Ql-A][6oo1] debug.atrace.tags.enableflags=0
+[    0.946490][Ql-A][6oo1] debug.gralloc.enable_fb_ubwc=1
+[    0.946545][Ql-A][6oo1] debug.gralloc.gfx_ubwc_disable=0
+[    0.946594][Ql-A][6oo1] af.fast_track_multiplier=1
+[    0.946637][Ql-A][6oo1] av.offload.enable=true
+[    0.946679][Ql-A][6oo1] bt.max.hfpclient.connections=1
+[    0.946724][Ql-A][6oo1] mm.enable.qcom_parser=13631487
+[    0.946769][Ql-A][6oo1] mm.enable.smoothstreaming=true
+[    0.946814][Ql-A][6oo1] ro.af.client_heap_size_kbyte=7168
+[    0.946862][Ql-A][6oo1] ro.qc.sdk.audio.ssr=false
+[    0.946906][Ql-A][6oo1] ro.qc.sdk.audio.fluencetype=none
+[    0.946998][Ql-A][6oo1] ro.sf.lcd_density=420
+[    0.947049][Ql-A][6oo1] ro.adb.secure=1
+[    0.947096][Ql-A][6oo1] ro.cmc.version=2.0
+[    0.947144][Ql-A][6oo1] ro.cmc.device_type=pd
+[    0.947194][Ql-A][6oo1] ro.frp.pst=/dev/block/persistent
+[    0.947249][Ql-A][6oo1] ro.gfx.driver.0=com.samsung.gpudriver.S8Adreno540_90
+[    0.947314][Ql-A][6oo1] ro.nfc.port=I2C
+[    0.947362][Ql-A][6oo1] ro.opa.eligible_device=true
+[    0.947419][Ql-A][6oo1] ro.boot.em.did=205EEA355D16
+[    0.947472][Ql-A][6oo1] ro.boot.em.model=SM-G955U
+[    0.947524][Ql-A][6oo1] ro.boot.em.status=0x0
+[    0.947569][Ql-A][6oo1] ro.boot.im.param.offset=9437232
+[    0.947614][Ql-A][6oo1] ro.boot.me.param.offset=9437312
+[    0.947660][Ql-A][6oo1] ro.boot.pr.param.offset=9437472
+[    0.947705][Ql-A][6oo1] ro.boot.sn.param.offset=9437392
+[    0.947751][Ql-A][6oo1] ro.boot.sku.param.offset=9437552
+[    0.947796][Ql-A][6oo1] ro.boot.usrf=9438192
+[    0.947923][Ql-A][6oo1] ro.boot.flash.locked=1
+[    0.947966][Ql-A][6oo1] ro.boot.other.locked=1
+[    0.948016][Ql-A][6oo1] ro.boot.sales.param.offset=9437648
+[    0.948071][Ql-A][6oo1] ro.boot.sec_atd.tty=/dev/ttyHS8
+[    0.948126][Ql-A][6oo1] ro.boot.baseband=msm
+[    0.948176][Ql-A][6oo1] ro.boot.hardware=qcom
+[    0.948226][Ql-A][6oo1] ro.boot.revision=12
+[    0.948275][Ql-A][6oo1] ro.boot.ucs_mode=0
+[    0.948323][Ql-A][6oo1] ro.boot.ap_serial=0xEA355D16
+[    0.948377][Ql-A][6oo1] ro.boot.carrierid=VZW
+[    0.948426][Ql-A][6oo1] ro.boot.carrierid.param.offset=9437644
+[    0.948484][Ql-A][6oo1] ro.boot.prototype.param.offset=9437660
+[    0.948536][Ql-A][6oo1] ro.boot.bootdevice=1da4000.ufshc
+[    0.948582][Ql-A][6oo1] ro.boot.bootloader=G955USQU7DTF4
+[    0.948627][Ql-A][6oo1] ro.boot.sales_code=ATT
+[    0.948671][Ql-A][6oo1] ro.boot.warranty_bit=0
+[    0.948713][Ql-A][6oo1] ro.boot.boot_recovery=1
+[    0.948783][Ql-A][6oo1] ro.boot.security_mode=1526595585
+[    0.948829][Ql-A][6oo1] ro.boot.cp_debug_level=0x55FF
+[    0.948873][Ql-A][6oo1] ro.boot.ddr_start_type=1
+[    0.948916][Ql-A][6oo1] ro.boot.verifiedbootstate=green
+[    0.948966][Ql-A][6oo1] ro.hwui.path_cache_size=32
+[    0.949019][Ql-A][6oo1] ro.hwui.layer_cache_size=48
+[    0.949071][Ql-A][6oo1] ro.hwui.gradient_cache_size=1
+[    0.949125][Ql-A][6oo1] ro.hwui.r_buffer_cache_size=8
+[    0.949179][Ql-A][6oo1] ro.hwui.drop_shadow_cache_size=6
+[    0.949234][Ql-A][6oo1] ro.hwui.text_large_cache_width=2048
+[    0.949291][Ql-A][6oo1] ro.hwui.text_small_cache_width=1024
+[    0.949347][Ql-A][6oo1] ro.hwui.text_large_cache_height=1024
+[    0.949405][Ql-A][6oo1] ro.hwui.text_small_cache_height=1024
+[    0.949462][Ql-A][6oo1] ro.hwui.texture_cache_flushrate=0.4
+[    0.949512][Ql-A][6oo1] ro.simc.support=false
+[    0.949554][Ql-A][6oo1] ro.vndk.lite=true
+[    0.949594][Ql-A][6oo1] ro.vndk.version=28
+[    0.949634][Ql-A][6oo1] ro.wifi.channels=
+[    0.949674][Ql-A][6oo1] ro.allow.mock.location=0
+[    0.949717][Ql-A][6oo1] ro.build.id=PPR1.180610.011
+[    0.949761][Ql-A][6oo1] ro.build.date=Tue Jun 23 18:32:16 KST 2020
+[    0.949810][Ql-A][6oo1] ro.build.date.utc=1592904736
+[    0.949854][Ql-A][6oo1] ro.build.host=SWDI3115
+[    0.949896][Ql-A][6oo1] ro.build.tags=release-keys
+[    0.949942][Ql-A][6oo1] ro.build.type=user
+[    0.949991][Ql-A][6oo1] ro.build.user=dpi
+[    0.950038][Ql-A][6oo1] ro.build.scafe.version=2019A
+[    0.950091][Ql-A][6oo1] ro.build.flavor=dream2qltesq-user
+[    0.950147][Ql-A][6oo1] ro.build.display.id=PPR1.180610.011.G955USQU7DTF4
+[    0.950210][Ql-A][6oo1] ro.build.product=dream2qltesq
+[    0.950263][Ql-A][6oo1] ro.build.selinux=1
+[    0.950312][Ql-A][6oo1] ro.build.selinux.enforce=1
+[    0.950364][Ql-A][6oo1] ro.build.version.sdk=28
+[    0.950415][Ql-A][6oo1] ro.build.version.sem=2801
+[    0.950465][Ql-A][6oo1] ro.build.version.sep=100000
+[    0.950508][Ql-A][6oo1] ro.build.version.base_os=
+[    0.950552][Ql-A][6oo1] ro.build.version.release=9
+[    0.950595][Ql-A][6oo1] ro.build.version.codename=REL
+[    0.950640][Ql-A][6oo1] ro.build.version.incremental=G955USQU7DTF4
+[    0.950690][Ql-A][6oo1] ro.build.version.preview_sdk=0
+[    0.950735][Ql-A][6oo1] ro.build.version.all_codenames=REL
+[    0.950781][Ql-A][6oo1] ro.build.version.security_index=1
+[    0.950827][Ql-A][6oo1] ro.build.version.security_patch=2020-06-01
+[    0.950894][Ql-A][6oo1] ro.build.version.min_supported_target_sdk=17
+[    0.950958][Ql-A][6oo1] ro.build.2ndbrand=false
+[    0.951011][Ql-A][6oo1] ro.build.official.release=true
+[    0.951066][Ql-A][6oo1] ro.build.changelist=17214672
+[    0.951125][Ql-A][6oo1] ro.build.description=dream2qltesq-user 9 PPR1.180610.011 G955USQU7DTF4 release-keys
+[    0.951204][Ql-A][6oo1] ro.build.system_root_image=false
+[    0.951260][Ql-A][6oo1] ro.hdcp2.rx=tz
+[    0.951307][Ql-A][6oo1] ro.proca.version=NONE
+[    0.951357][Ql-A][6oo1] ro.radio.noril=no
+[    0.951407][Ql-A][6oo1] ro.kernel.qemu=0
+[    0.951456][Ql-A][6oo1] ro.kernel.qemu.gles=0
+[    0.951500][Ql-A][6oo1] ro.secure=1
+[    0.951538][Ql-A][6oo1] ro.treble.enabled=false
+[    0.951580][Ql-A][6oo1] ro.zygote=zygote64_32
+[    0.951622][Ql-A][6oo1] ro.zygote.disable_gl_preload=true
+[    0.951667][Ql-A][6oo1] ro.carrier=unknown
+[    0.951708][Ql-A][6oo1] ro.product.cpu.abi=arm64-v8a
+[    0.951752][Ql-A][6oo1] ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+[    0.951806][Ql-A][6oo1] ro.product.cpu.abilist32=armeabi-v7a,armeabi
+[    0.951857][Ql-A][6oo1] ro.product.cpu.abilist64=arm64-v8a
+[    0.951904][Ql-A][6oo1] ro.product.name=dream2qltesq
+[    0.951956][Ql-A][6oo1] ro.product.brand=samsung
+[    0.952007][Ql-A][6oo1] ro.product.model=SM-G955U
+[    0.952060][Ql-A][6oo1] ro.product.device=dream2qltesq
+[    0.952114][Ql-A][6oo1] ro.product.locale=en-US
+[    0.952165][Ql-A][6oo1] ro.product.manufacturer=samsung
+[    0.952221][Ql-A][6oo1] ro.baseband=msm
+[    0.952268][Ql-A][6oo1] ro.bootmode=unknown
+[    0.952317][Ql-A][6oo1] ro.hardware=qcom
+[    0.952365][Ql-A][6oo1] ro.qualcomm.cabl=1
+[    0.952414][Ql-A][6oo1] ro.revision=12
+[    0.952461][Ql-A][6oo1] ro.bluetooth.wipower=true
+[    0.952504][Ql-A][6oo1] ro.bluetooth.emb_wp_mode=true
+[    0.952549][Ql-A][6oo1] ro.bootimage.build.date=Tue Jun 23 18:32:16 KST 2020
+[    0.952603][Ql-A][6oo1] ro.bootimage.build.date.utc=1592904736
+[    0.952652][Ql-A][6oo1] ro.bootimage.build.fingerprint=samsung/dream2qltesq/dream2qltesq:9/PPR1.180610.011/G955USQU7DTF4:user/release-keys
+[    0.952728][Ql-A][6oo1] ro.telephony.default_cdma_sub=0
+[    0.952774][Ql-A][6oo1] ro.bootloader=G955USQU7DTF4
+[    0.952818][Ql-A][6oo1] ro.debuggable=0
+[    0.952857][Ql-A][6oo1] ro.recovery_id=0xe5e3e5ccf18511e5cc1a063ae77bc01ac33310f7000000000000000000000000
+[    0.952927][Ql-A][6oo1] ro.property_service.version=2
+[    0.952981][Ql-A][6oo1] ro.use_data_netmgrd=true
+[    0.953033][Ql-A][6oo1] ro.oem_unlock_supported=1
+[    0.953085][Ql-A][6oo1] ro.actionable_compatible_property.enabled=false
+[    0.953148][Ql-A][6oo1] mmp.enable.3g2=true
+[    0.953198][Ql-A][6oo1] sdm.debug.disable_skip_validate=1
+[    0.953253][Ql-A][6oo1] use.voice.path.for.pcm.voip=true
+[    0.953308][Ql-A][6oo1] init.svc.adbd=running
+[    0.953359][Ql-A][6oo1] init.svc.ueventd=running
+[    0.953411][Ql-A][6oo1] init.svc.recovery=running
+[    0.953458][Ql-A][6oo1] qcom.hw.aac.encoder=true
+[    0.953501][Ql-A][6oo1] qcom.bluetooth.soc=cherokee
+[    0.953544][Ql-A][6oo1] rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so
+[    0.953597][Ql-A][6oo1] audio.offload.video=true
+[    0.953642][Ql-A][6oo1] audio.offload.buffer.size.kb=32
+[    0.953686][Ql-A][6oo1] audio.offload.gapless.enabled=true
+[    0.953733][Ql-A][6oo1] audio.deep_buffer.media=true
+[    0.953781][Ql-A][6oo1] media.stagefright.enable-aac=true
+[    0.953828][Ql-A][6oo1] media.stagefright.enable-qcp=true
+[    0.953874][Ql-A][6oo1] media.stagefright.enable-http=true
+[    0.953929][Ql-A][6oo1] media.stagefright.enable-scan=true
+[    0.953985][Ql-A][6oo1] media.stagefright.enable-fma2dp=true
+[    0.954041][Ql-A][6oo1] media.stagefright.enable-player=true
+[    0.954097][Ql-A][6oo1] media.aac_51_output_enabled=true
+[    0.954152][Ql-A][6oo1] tunnel.audio.encode=true
+[    0.954204][Ql-A][6oo1] persist.mm.enable.prefetch=true
+[    0.954258][Ql-A][6oo1] persist.cne.dpm=0
+[    0.954306][Ql-A][6oo1] persist.cne.feature=0
+[    0.954356][Ql-A][6oo1] persist.dpm.feature=0
+[    0.954406][Ql-A][6oo1] persist.hwc.enable_vds=1
+[    0.954456][Ql-A][6oo1] persist.data.df.agg.dl_pkt=10
+[    0.954509][Ql-A][6oo1] persist.data.df.agg.dl_size=4096
+[    0.954563][Ql-A][6oo1] persist.data.df.dl_mode=5
+[    0.954615][Ql-A][6oo1] persist.data.df.ul_mode=5
+[    0.954672][Ql-A][6oo1] persist.data.df.dev_name=rmnet_usb0
+[    0.954729][Ql-A][6oo1] persist.data.df.iwlan_mux=9
+[    0.954782][Ql-A][6oo1] persist.data.df.mux_count=8
+[    0.954834][Ql-A][6oo1] persist.data.wda.enable=true
+[    0.954886][Ql-A][6oo1] persist.data.mode=concurrent
+[    0.954939][Ql-A][6oo1] persist.data.netmgrd.qos.enable=true
+[    0.954995][Ql-A][6oo1] persist.demo.hdmirotationlock=false
+[    0.955051][Ql-A][6oo1] persist.rmnet.data.enable=true
+[    0.955106][Ql-A][6oo1] persist.backup.ntpServer=0.pool.ntp.org
+[    0.955163][Ql-A][6oo1] persist.fuse_sdcard=true
+[    0.955215][Ql-A][6oo1] keyguard.no_require_sim=true
+[    0.955268][Ql-A][6oo1] DEVICE_PROVISIONED=1
+[    0.955317][Ql-A][6oo1] ro.product.first_api_level=24
+[    0.955371][Ql-A][6oo1] ro.build.PDA=G955USQU7DTF4
+[    0.955423][Ql-A][6oo1] ro.build.characteristics=default
+[    0.955479][Ql-A][6oo1] ro.sf.init.lcd_density=560
+[    0.955528][Ql-A][6oo1] ro.com.google.gmsversion=9_201909
+[    0.955580][Ql-A][6oo1] ro.hardware.chipname=MSM8998
+[    0.955631][Ql-A][6oo1] sys.usb.ffs.ready=1
+[    0.955677][Ql-A][6oo1] ro.build.fingerprint=samsung/dream2qltesq/dream2qltesq:9/PPR1.180610.011/G955USQU7DTF4:user/release-keys
+[    0.955760][Ql-A][6oo1] ro.hwui.texture_cache_size=72
+[    0.955811][Ql-A][6oo1] log.tag.stats_log=I
+[    0.955858][Ql-A][6oo1] ro.logd.size.stats=64K
+[    0.955906][Ql-A][6oo1] ro.logd.auditd=false
+[    0.955953][Ql-A][6oo1] vendor.audio.parser.ip.buffer.size=262144
+[    0.956010][Ql-A][6oo1] ro.multisim.simslotcount=1
+[    0.956062][Ql-A][6oo1] ro.opengles.version=196610
+[    0.956115][Ql-A][6oo1] persist.debug.wfd.enable=1
+[    0.956167][Ql-A][6oo1] pm.dexopt.boot=verify
+[    0.956218][Ql-A][6oo1] pm.dexopt.ab-ota=speed-profile
+[    0.956273][Ql-A][6oo1] pm.dexopt.shared=speed
+[    0.956324][Ql-A][6oo1] pm.dexopt.install=speed-profile
+[    0.956380][Ql-A][6oo1] pm.dexopt.inactive=verify
+[    0.956435][Ql-A][6oo1] pm.dexopt.bg-dexopt=speed-profile
+[    0.956492][Ql-A][6oo1] pm.dexopt.first-boot=quicken
+[    0.956546][Ql-A][6oo1] ro.product_ship=true
+[    0.956594][Ql-A][6oo1] qemu.hw.mainkeys=0
+[    0.956641][Ql-A][6oo1] persist.radio.atfwd.start=false
+[    0.956694][Ql-A][6oo1] persist.radio.multisim.config=ss
+[    0.956747][Ql-A][6oo1] persist.radio.sib16_support=1
+[    0.956799][Ql-A][6oo1] ro.error.receiver.default=com.samsung.receiver.error
+[    0.956861][Ql-A][6oo1] persist.timed.enable=true
+[    0.956911][Ql-A][6oo1] selinux.policy_version=SEPF_SM-G955U_9_0013
+[    0.956970][Ql-A][6oo1] ro.boot.serialno=988919363056465251
+[    0.957027][Ql-A][6oo1] ro.serialno=988919363056465251
+[    0.957082][Ql-A][6oo1] ro.setupwizard.mode=OPTIONAL
+[    0.957137][Ql-A][6oo1] ro.setupwizard.wifi_on_exit=false
+[    0.957194][Ql-A][6oo1] setupwizard.theme=glif_v3_light
+[    0.957250][Ql-A][6oo1] setupwizard.feature.predeferred_enabled=false
+[    0.957313][Ql-A][6oo1] setupwizard.feature.deferred_setup_suggestion=false
+[    0.957378][Ql-A][6oo1] setupwizard.feature.deferred_setup_notification=false
+[    0.957444][Ql-A][6oo1] security.perf_harden=1
+[    0.957496][Ql-A][6oo1] dev.pm.dyn_samplingrate=1
+[    0.957550][Ql-A][6oo1] net.bt.name=Android
+[    0.957600][Ql-A][6oo1] sys.usb.controller=a800000.dwc3
+[    0.957653][Ql-A][6oo1] sys.config.mars_freecess=true
+[    0.957705][Ql-A][6oo1] sys.config.amp_perf_enable=true
+[    0.957758][Ql-A][6oo1] sys.config.activelaunch_enable=true
+[    0.957813][Ql-A][6oo1] sys.vendor.shutdown.waittime=500
+[    0.957866][Ql-A][6oo1] sys.qca1530=detect
+[    0.957914][Ql-A][6oo1] sys.use_fifo_ui=0
+[    0.957961][Ql-A][6oo1] sys.disable_ext_animation=1
+[    0.958013][Ql-A][6oo1] persist.sys.usb.config=mtp
+[    0.958064][Ql-A][6oo1] persist.sys.wfd.virtual=0
+[    0.958115][Ql-A][6oo1] persist.sys.dalvik.vm.lib.2=libart.so
+[    0.958174][Ql-A][6oo1] persist.sys.tcpOptimizer.on=1
+[    0.958230][Ql-A][6oo1] persist.sys.force_sw_gles=1
+[    0.958285][Ql-A][6oo1] persist.security.ams.enforcing=1
+[    0.958342][Ql-A][6oo1] sys.usb.configfs=1
+[    0.958393][Ql-A][6oo1] ro.security.mdf.ux=Enabled
+[    0.958447][Ql-A][6oo1] ro.security.mdf.ver=3.1
+[    0.958503][Ql-A][6oo1] ro.security.mdf.release=4
+[    0.958556][Ql-A][6oo1] ro.security.fips.ux=Enabled
+[    0.958611][Ql-A][6oo1] ro.security.wlan.ver=1.0
+[    0.958664][Ql-A][6oo1] ro.security.wlan.release=2
+[    0.958710][Ql-A][6oo1] ro.security.vpnpp.ver=2.1
+[    0.958754][Ql-A][6oo1] ro.security.vpnpp.release=2.0
+[    0.958801][Ql-A][6oo1] ro.security.fips_skc.ver=1.8
+[    0.958846][Ql-A][6oo1] ro.security.fips_bssl.ver=1.3
+[    0.958893][Ql-A][6oo1] ro.security.fips_scrypto.ver=2.0
+[    0.958940][Ql-A][6oo1] security.ADP.version=0
+[    0.958984][Ql-A][6oo1] security.ADP.policy_version=00000000
+[    0.959033][Ql-A][6oo1] security.mdf=None
+[    0.959075][Ql-A][6oo1] security.mdf.result=None
+[    0.959120][Ql-A][6oo1] security.ASKS.version=0
+[    0.959171][Ql-A][6oo1] security.ASKS.time_value=00000000
+[    0.959228][Ql-A][6oo1] security.ASKS.rufs_enable=true
+[    0.959284][Ql-A][6oo1] security.ASKS.policy_version=00000000
+[    0.959343][Ql-A][6oo1] security.mdpp.mass=skmm
+[    0.959396][Ql-A][6oo1] ro.vendor.audio.sdk.ssr=false
+[    0.959451][Ql-A][6oo1] ro.vendor.audio.sdk.fluencetype=none
+[    0.959510][Ql-A][6oo1] vendor.audio.hw.aac.encoder=true
+[    0.959567][Ql-A][6oo1] vendor.audio.adm.buffering.ms=6
+[    0.959623][Ql-A][6oo1] vendor.audio.use.sw.ape.decoder=true
+[    0.959681][Ql-A][6oo1] vendor.audio.use.sw.alac.decoder=true
+[    0.959730][Ql-A][6oo1] vendor.audio.flac.sw.decoder.24bit=true
+[    0.959780][Ql-A][6oo1] vendor.audio.safx.pbe.enabled=true
+[    0.959828][Ql-A][6oo1] vendor.audio.dolby.ds2.enabled=false
+[    0.959877][Ql-A][6oo1] vendor.audio.dolby.ds2.hardbypass=false
+[    0.959927][Ql-A][6oo1] vendor.audio.noisy.broadcast.delay=600
+[    0.959976][Ql-A][6oo1] vendor.audio.tunnel.encode=false
+[    0.960024][Ql-A][6oo1] vendor.audio.offload.track.enable=true
+[    0.960073][Ql-A][6oo1] vendor.audio.offload.buffer.size.kb=32
+[    0.960123][Ql-A][6oo1] vendor.audio.offload.gapless.enabled=true
+[    0.960182][Ql-A][6oo1] vendor.audio.offload.multiaac.enable=true
+[    0.960243][Ql-A][6oo1] vendor.audio.offload.multiple.enabled=false
+[    0.960305][Ql-A][6oo1] vendor.audio.offload.pstimeout.secs=3
+[    0.960364][Ql-A][6oo1] vendor.audio.offload.passthrough=false
+[    0.960424][Ql-A][6oo1] vendor.voice.path.for.pcm.voip=true
+[    0.960482][Ql-A][6oo1] persist.vendor.audio.hw.binder.size_kbyte=1024
+[    0.960545][Ql-A][6oo1] persist.vendor.audio.ras.enabled=false
+[    0.960604][Ql-A][6oo1] persist.vendor.audio.fluence.speaker=true
+[    0.960673][Ql-A][6oo1] persist.vendor.audio.fluence.voicerec=false
+[    0.960729][Ql-A][6oo1] persist.vendor.audio.fluence.voicecall=true
+[    0.960781][Ql-A][6oo1] ro.vendor.epdg.support=true
+[    0.960827][Ql-A][6oo1] ro.vendor.multisim.simslotcount=1
+[    0.960891][Ql-A][6oo1] ro.vendor.use_data_netmgrd=false
+[    0.960942][Ql-A][6oo1] ro.vendor.extension_library=libqti-perfd-client.so
+[    0.960995][Ql-A][6oo1] ro.hardware.egl=adreno
+[    0.961041][Ql-A][6oo1] ro.hardware.nfc_nci=nqx.default
+[    0.961087][Ql-A][6oo1] ro.hardware.keystore=mdfpp
+[    0.961133][Ql-A][6oo1] ro.hardware.gatekeeper=mdfpp
+[    0.961181][Ql-A][6oo1] vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+[    0.961246][Ql-A][6oo1] vendor.qcom.bluetooth.soc=cherokee
+[    0.961303][Ql-A][6oo1] vendor.audio_hal.period_size=192
+[    0.961360][Ql-A][6oo1] persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
+[    0.961427][Ql-A][6oo1] persist.vendor.qcomsysd.enabled=1
+[    0.961485][Ql-A][6oo1] ro.vendor.display.hdr.config=/vendor/etc/hdr_tm_config.xml
+[    0.961553][Ql-A][6oo1] ro.vendor.display.cabl=2
+[    0.961606][Ql-A][6oo1] vendor.display.disable_ext_anim=1
+[    0.961663][Ql-A][6oo1] vendor.display.disable_skip_validate=1
+[    0.961720][Ql-A][6oo1] persist.vendor.radio.atfwd.start=true
+[    0.961769][Ql-A][6oo1] persist.vendor.radio.rat_on=combine
+[    0.961817][Ql-A][6oo1] persist.vendor.radio.custom_ecc=1
+[    0.961865][Ql-A][6oo1] persist.vendor.radio.sib16_support=1
+[    0.961914][Ql-A][6oo1] persist.vendor.radio.apm_sim_not_pwdn=1
+[    0.961964][Ql-A][6oo1] vendor.rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so
+[    0.962024][Ql-A][6oo1]
+[    0.962060][Ql-A][6oo1] Supported API: 3
+[    0.973123][Ql-A][6oo1] I:/efs is already mounted
+[    0.973301][Ql-A][6oo1] W:Failed to umount /efs: Device or resource busy
+[    0.973366][Ql-A][6oo1] check_selective_file:Can't unmount /efs - Device or resource busy
+[    0.973450][Ql-A][6oo1] I:Verifying verity and setting up dm-verity
+[    0.973884][Ql-A][6oo1] E:unknown volume for path [/odm]
+[    0.989649][Ql-A][6oo1] E:unknown volume for path [/vendor]
+[    1.023011][Ql-A][6oo1] verify_verity for /dev/block/bootdevice/by-name/system
+[    1.025203][Ql-A][6oo1] ext4 size: 4840005632
+[    1.025526][Ql-A][6oo1] table in verify_verity is: 1 /dev/block/bootdevice/by-name/system /dev/block/bootdevice/by-name/system 4096 4096 1181642 1181650 sha256 BE89C5BA4957257DB5F9428A386723873FE014F7ADA6EB08106BA6040025B267 083AA5E73704D4A65436249078A7F04F60EF9EDA81269248A9C3C074F8B6D401.
+[    1.025693][Ql-A][6oo1] Table length: 239
+[    1.025746][Ql-A][6oo1] device size is: 4928307200.
+[    1.025804][Ql-A][6oo1] Verify signature ...
+[    1.036166][Ql-A][6oo1] data_size: 239
+[    1.036444][Ql-A][6oo1] blob_size: 2387
+[    1.036512][Ql-A][6oo1] __bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+[    1.036769][Ql-A][6oo1] __bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+[    1.037532][Ql-A][6oo1] Verifying certificate chain...C = KR, L = Suwon city, CN = Samsung corporation, OU = Samsung Mobile, UID = PHN-P:20170409:01:07:00575490:ROOT
+[    1.037790][Ql-A][6oo1] C = KR, L = Suwon city, OU = Samsung Mobile, CN = Samsung corporation
+[    1.037867][Ql-A][6oo1] error 9 at 1 depth lookup:certificate is not yet valid
+[    1.037934][Ql-A][6oo1] C = KR, L = Suwon city, CN = Samsung corporation, OU = Samsung Mobile, UID = PHN-P:20170409:01:07:00575490:DMVT:SM-G955U:HkyUQdRk6Q/FRcJNtnzwbHiEIsM=
+[    1.038039][Ql-A][6oo1] C = KR, L = Suwon city, OU = Samsung Mobile, CN = Samsung corporation
+[    1.038114][Ql-A][6oo1] error 9 at 0 depth lookup:certificate is not yet valid
+[    1.038182][Ql-A][6oo1] Success
+[    1.038233][Ql-A][6oo1] Verifying signature...Success
+[    1.038302][Ql-A][6oo1] Child exited with ret val: 0
+[    1.038369][Ql-A][6oo1] signature vefication is successful.
+[    1.038437][Ql-A][6oo1] milestone: Blob verification succeeded
+[    1.038510][Ql-A][6oo1] : 14814
+[    1.038566][Ql-A][6oo1] call dm_verity_hash to verify verity.
+[    1.050287][Ql-A][6oo1] verify_verity
+[    1.053051][Ql-A][6oo1] ext4 size: 4840005632
+[    1.053134][Ql-A][6oo1] table 1: 1 /dev/block/bootdevice/by-name/system /dev/block/bootdevice/by-name/system 4096 4096 1181642 1181650 sha256 BE89C5BA4957257DB5F9428A386723873FE014F7ADA6EB08106BA6040025B267 083AA5E73704D4A65436249078A7F04F60EF9EDA81269248A9C3C074F8B6D401
+[    1.053288][Ql-A][6oo1] 32 32  :¥ç7Ô¦T6$x§ðO`ïžÚ&’H©ÃÀtø¶Ô
+[    7.557464][Ql-A][6oo1] Hash device size required:38117376 bytes.
+[    7.557626][Ql-A][6oo1] thread_num = 8
+[    7.557673][Ql-A][6oo1] generate dummy hash for block 0.
+[    7.557726][Ql-A][6oo1] Finish level0 blocks !
+[    7.557773][Ql-A][6oo1] create_hash: 74, 1, 9232
+[    7.557820][Ql-A][6oo1] calculated_digest: 330A4A7460BBACD0766122A332FFA8B8F30EB31AD6FAB83D20F742484FA83507 
+[    7.557892][Ql-A][6oo1] create_hash: 1, 0, 73
+[    7.557946][Ql-A][6oo1] calculated_digest: ED119093A37AD68BCED4FACC50EF18207D2F303D66D286C704018F7D636D1E9E 
+[    7.558033][Ql-A][6oo1] create_hash: 0, 0, 1
+[    7.558088][Ql-A][6oo1] calculated_digest: BE89C5BA4957257DB5F9428A386723873FE014F7ADA6EB08106BA6040025B267 
+[    7.558175][Ql-A][6oo1] verity verified
+[    7.558230][Ql-A][6oo1] verity hash check passed. Continuing
+[    7.558436][Ql-A][6oo1] set secure marker...
+[    7.558538][Ql-A][6oo1] tz_setup...
+[    7.667881][Ql-A][6oo1] tz_setup success.
+[    7.969071][Ql-A][6oo1] set marker
+[    7.969157][Ql-A][6oo1] TZAPP send cmd successful
+[    7.969215][Ql-A][6oo1] TZAPP shut down
+[    7.969312][Ql-A][6oo1] tz_tear_down ...
+[    7.969719][Ql-A][6oo1] I:/system is already mounted
+[    8.070818][Ql-A][6oo1] [DMV] tz_tear_down status [init.svc.static_qsee : stopped]
+[    8.071059][Ql-A][6oo1] tz_tear_down success.
+[    8.079786][Ql-A][6oo1] milestone: dm_verity_update_start done
+[    8.079885][Ql-A][6oo1] : 7041720
+[    8.085228][Ql-A][6oo1] E:unknown volume for path [/odm]
+[    8.085399][Ql-A][6oo1] E:unknown volume for path [/vendor]
+[    8.111094][Ql-A][6oo1] running dm-verity time : 7.135s
+[    8.111196][Ql-A][6oo1] copy_logs
+[    8.111947][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/log' 
+[    8.116511][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_log' 
+[    8.120560][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_install' 
+[    8.121927][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_extra_history' 
+[    8.124203][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_extra_history_old' 
+[    8.154518][Ql-A][6oo1] format_and_reboot_after_update = 1
+[    8.175476][Ql-A][6oo1] should_wipe_data
+[    8.175544][Ql-A][6oo1] [Formatting data]
+[    8.175598][Ql-A][6oo1]
+[    8.175640][Ql-A][6oo1] -- Wiping data...
+[    8.192379][Ql-A][6oo1] print_extra_history() : [S] wipe_data
+[    8.192490][Ql-A][6oo1]
+[    8.192544][Ql-A][6oo1] -- Wiping data...
+[    8.228949][Ql-A][6oo1] erase_volume(/data)
+[    8.258864][Ql-A][6oo1] Formatting /data...
+[    8.292576][Ql-A][6oo1] print_extra_history() : [S] format_volume_dir : /data
+[    8.295364][Ql-A][6oo1] MDF_I: Completed reset MDF flag!
+[    8.295826][Ql-A][6oo1] MDF_I: Completed initialize MDF for Recovery!
+[    8.295911][Ql-A][6oo1] I:MDF_RECOVERY : completed to initialize
+[    8.296730][Ql-A][6oo1] print_extra_history() : [S] erase footer
+[    8.297346][Ql-A][6oo1] Done delete metadata(0)!
+[    8.297470][Ql-A][6oo1] Footer zeroization success.
+[    8.297937][Ql-A][6oo1] print_extra_history() : [E] erase footer
+[    8.315284][Ql-A][6oo1] mke2fs 1.43.3 (04-Sep-2016)
+[    9.115994][Ql-A][6oo1] Discarding device blocks:     4096/14115024 6295552/14115024                 done                            
+[    9.116990][Ql-A][6oo1] Discard takes 0.00133s.
+[    9.117202][Ql-A][6oo1] Creating filesystem with 14115024 4k blocks and 1765376 inodes
+[    9.117325][Ql-A][6oo1] Filesystem UUID: d5c75eb3-51e2-422d-8865-f8d1d6fee5ef
+[    9.117463][Ql-A][6oo1] Superblock backups stored on blocks: 
+[    9.118049][Ql-A][6oo1] 	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+[    9.118316][Ql-A][6oo1] 	4096000, 7962624, 11239424
+[    9.118417][Ql-A][6oo1]
+[    9.119911][Ql-A][6oo1] Allocating group tables:   0/431       done                            
+[    9.120450][Ql-A][6oo1] Writing inode tables:   0/431       done                            
+[    9.373398][Ql-A][6oo1] Creating journal (32768 blocks): done
+[    9.836275][Ql-A][6oo1] Writing superblocks and filesystem accounting information:   0/431       done
+[    9.836432][Ql-A][6oo1]
+[    9.836480][Ql-A][6oo1] This filesystem will be automatically checked every 33 mounts or
+[    9.836562][Ql-A][6oo1] 180 days, whichever comes first.  Use tune2fs -c or -i to override.
+[    9.836988][Ql-A][6oo1] print_extra_history() : [E] format_volume_dir : /data
+[    9.837137][Ql-A][6oo1] erase_volume(/cache)
+[    9.876671][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[    9.884597][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[    9.935378][Ql-A][6oo1] Formatting /cache...
+[    9.947283][Ql-A][6oo1] print_extra_history() : [S] format_volume_dir : /cache
+[    9.952307][Ql-A][6oo1] MDF_I: Completed reset MDF flag!
+[    9.952541][Ql-A][6oo1] MDF_I: Completed initialize MDF for Recovery!
+[    9.952608][Ql-A][6oo1] I:MDF_RECOVERY : completed to initialize
+[    9.964143][Ql-A][6oo1] mke2fs 1.43.3 (04-Sep-2016)
+[    9.973270][Ql-A][6oo1] Discarding device blocks:   4096/153600             done                            
+[    9.973606][Ql-A][6oo1] Discard takes 0.00026s.
+[    9.973682][Ql-A][6oo1] Creating filesystem with 153600 4k blocks and 38400 inodes
+[    9.973768][Ql-A][6oo1] Filesystem UUID: be737c0d-e40c-4042-afe5-4d3d00f40849
+[    9.973839][Ql-A][6oo1] Superblock backups stored on blocks: 
+[    9.973913][Ql-A][6oo1] 	32768, 98304
+[    9.973978][Ql-A][6oo1]
+[    9.974029][Ql-A][6oo1] Allocating group tables: 0/5   done                            
+[    9.974123][Ql-A][6oo1] Writing inode tables: 0/5   done                            
+[    9.980681][Ql-A][6oo1] Creating journal (2048 blocks): done
+[   10.035172][Ql-A][6oo1] Writing superblocks and filesystem accounting information: 0/5   done
+[   10.035322][Ql-A][6oo1]
+[   10.035382][Ql-A][6oo1] This filesystem will be automatically checked every 39 mounts or
+[   10.035468][Ql-A][6oo1] 180 days, whichever comes first.  Use tune2fs -c or -i to override.
+[   10.035753][Ql-A][6oo1] print_extra_history() : [E] format_volume_dir : /cache
+[   10.035960][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[   10.048975][Ql-A][6oo1] copy_logs
+[   10.049349][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/log' 
+[   10.052626][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_log' 
+[   10.054702][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_install' 
+[   10.055526][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_extra_history' 
+[   10.056824][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_extra_history_old' 
+[   10.120997][Ql-A][6oo1] Data wipe complete.
+[   10.143191][Ql-A][6oo1] print_extra_history() : [E] wipe_data (complete)
+[   10.143270][Ql-A][6oo1] running time format /data time : 1.952s
+[   10.143326][Ql-A][6oo1] error: open_script: could not open /res/recovery.customize.do
+[   10.143387][Ql-A][6oo1]  (errno 2 : No such file or directory)
+[   10.143439][Ql-A][6oo1] running time format /cache time : 0.000s
+[   10.143498][Ql-A][6oo1] running total wipe-data time : 1.968s
+[   10.143560][Ql-A][6oo1]
+[   10.143604][Ql-A][6oo1] [Checking pre-multi-csc1]
+[   10.143662][Ql-A][6oo1] print_extra_history() : [S] exec-multi-csc
+[   10.143726][Ql-A][6oo1]
+[   10.143770][Ql-A][6oo1] [installing exec-multi-csc]
+[   10.143826][Ql-A][6oo1] error: open_script: could not open /res/recovery.customize.do
+[   10.143898][Ql-A][6oo1]  (errno 2 : No such file or directory)
+[   10.143961][Ql-A][6oo1]
+[   10.144004][Ql-A][6oo1] #echo 
+[   10.144052][Ql-A][6oo1]
+[   10.144092][Ql-A][6oo1] #echo -- Appling Multi-CSC... 
+[   10.144141][Ql-A][6oo1]
+[   10.144179][Ql-A][6oo1] #unmount /system 
+[   10.144223][Ql-A][6oo1] /system sucessfully unmounted
+[   10.144332][Ql-A][6oo1]
+[   10.144374][Ql-A][6oo1] #mount --option=rw /system 
+[   10.144468][Ql-A][6oo1] warning: is_mounted_volumes: rootfs -> /
+[   10.144525][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /dev
+[   10.144580][Ql-A][6oo1] warning: is_mounted_volumes: devpts -> /dev/pts
+[   10.144636][Ql-A][6oo1] warning: is_mounted_volumes: proc -> /proc
+[   10.144737][Ql-A][6oo1] warning: is_mounted_volumes: sysfs -> /sys
+[   10.145112][Ql-A][6oo1] warning: is_mounted_volumes: selinuxfs -> /sys/fs/selinux
+[   10.145261][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /mnt
+[   10.145328][Ql-A][6oo1] warning: is_mounted_volumes: none -> /config
+[   10.145394][Ql-A][6oo1] warning: is_mounted_volumes: adb -> /dev/usb-ffs/adb
+[   10.145506][Ql-A][6oo1] warning: is_mounted_volumes: none -> /acct
+[   10.145572][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /tmp
+[   10.145636][Ql-A][6oo1] warning: is_mounted_volumes: debugfs -> /sys/kernel/debug
+[   10.145706][Ql-A][6oo1] warning: is_mounted_volumes: /dev/block/bootdevice/by-name/efs -> /efs
+[   10.145770][Ql-A][6oo1] warning: is_mounted_volumes: /dev/block/bootdevice/by-name/apnhlos -> /firmware
+[   10.145892][Ql-A][6oo1] warning: is_mounted_volumes: /dev/block/bootdevice/by-name/cache -> /cache
+[   10.146704][Ql-A][6oo1] /system sucessfully mounted
+[   10.146757][Ql-A][6oo1]
+[   10.146795][Ql-A][6oo1] #echo Applied the CSC-code : ATT 
+[   10.146857][Ql-A][6oo1]
+[   10.146901][Ql-A][6oo1] #ln -v -s -r --force-link -f /system/csc/common/system/app/ /system/app/ 
+[   10.146981][Ql-A][6oo1]
+[   10.147025][Ql-A][6oo1] #cp -y -f -r -v /system/csc/common / 
+[   10.147136][Ql-A][6oo1]
+[   10.147201][Ql-A][6oo1] #cmp -r -f /system/csc/common/system/app/ /system/app/ 
+[   10.147627][Ql-A][6oo1]
+[   10.147676][Ql-A][6oo1] #ln -v -s -r --force-link -f /system/csc/ATT/system/app/ /system/app/ 
+[   10.147759][Ql-A][6oo1]
+[   10.147849][Ql-A][6oo1] #cp -y -f -r -v /system/csc/ATT/system /system 
+[   10.147922][Ql-A][6oo1]
+[   10.147966][Ql-A][6oo1] #cmp -r -f /system/csc/common/csc/ATT/system/app/ /system/app/ 
+[   10.148057][Ql-A][6oo1]
+[   10.148551][Ql-A][6oo1] #rm -v /system/csc_contents 
+[   10.148617][Ql-A][6oo1] removed symbolic '/system/csc_contents' 
+[   10.148678][Ql-A][6oo1]
+[   10.148721][Ql-A][6oo1] #ln -v -s /system/csc/ATT/csc_contents /system/csc_contents 
+[   10.148791][Ql-A][6oo1] create symbolic '/system/csc/ATT/csc_contents' -> '/system/csc_contents'
+[   10.148911][Ql-A][6oo1]
+[   10.148956][Ql-A][6oo1] #rm -v -r -f --limited-file-size=0 --type=file --except-root-dir /system/priv-app 
+[   10.206787][Ql-A][6oo1]
+[   10.206869][Ql-A][6oo1] #rm -v -r -f --limited-file-size=0 --type=file --except-root-dir /system/app 
+[   10.242262][Ql-A][6oo1]
+[   10.242366][Ql-A][6oo1] #unmount /system 
+[   10.247893][Ql-A][6oo1] /system sucessfully unmounted
+[   10.247975][Ql-A][6oo1]
+[   10.248032][Ql-A][6oo1] #echo Successfully applied multi-CSC. 
+[   10.248239][Ql-A][6oo1] error: open_script: could not open /res/recovery.customize.do
+[   10.248328][Ql-A][6oo1]  (errno 2 : No such file or directory)
+[   10.248405][Ql-A][6oo1] running exec-multi-csc time : 0.104s
+[   10.248477][Ql-A][6oo1] print_extra_history() : [E] exec-multi-csc
+[   10.248542][Ql-A][6oo1]
+[   10.248590][Ql-A][6oo1] [installing exec-install-preload]
+[   10.248652][Ql-A][6oo1] error: open_script: could not open /res/recovery.customize.do
+[   10.248725][Ql-A][6oo1]  (errno 2 : No such file or directory)
+[   10.248791][Ql-A][6oo1]
+[   10.248841][Ql-A][6oo1] #echo -- Set Factory Reset done... 
+[   10.248904][Ql-A][6oo1]
+[   10.248951][Ql-A][6oo1] #mkdir -f radio system 0771 /efs/recovery 
+[   10.249016][Ql-A][6oo1]
+[   10.249066][Ql-A][6oo1] #write -f /efs/recovery/bootmessage exec-install-preload\n 
+[   10.249152][Ql-A][6oo1]
+[   10.249207][Ql-A][6oo1] #write -f /efs/recovery/currentlyFactoryReset done 
+[   10.249285][Ql-A][6oo1]
+[   10.249339][Ql-A][6oo1] #ls /efs/imei/ 
+[   10.249405][Ql-A][6oo1] -rwxrwxr-x radio    system          3 2021-02-15 15:54 mps_code.dat
+[   10.249492][Ql-A][6oo1] -rwxrwxr-x radio    radio          14 2017-01-01 00:01 prodcode.dat
+[   10.249580][Ql-A][6oo1] -rw-rw-r-- radio    root            3 2021-02-15 15:54 omcnw_code.dat
+[   10.249668][Ql-A][6oo1] -rw------- system   system          0 2021-02-15 15:54 salesCodeChanged
+[   10.249755][Ql-A][6oo1]
+[   10.249804][Ql-A][6oo1] #mkdir -f radio system 0771 /efs/recovery 
+[   10.249869][Ql-A][6oo1]
+[   10.249918][Ql-A][6oo1] #write -f /efs/recovery/bootmessage post-exec-install-preload\n 
+[   10.249990][Ql-A][6oo1] error: open_script: could not open /res/recovery.customize.do
+[   10.250061][Ql-A][6oo1]  (errno 2 : No such file or directory)
+[   10.250123][Ql-A][6oo1] running exec-install-preload time : 0.001s
+[   10.250187][Ql-A][6oo1]
+[   10.250236][Ql-A][6oo1] [start failed section]
+[   10.250293][Ql-A][6oo1] sales_code=[ATT]
+[   10.250350][Ql-A][6oo1] Carrier ID=[VZW]
+[   10.250413][Ql-A][6oo1] Delete defined lib .so files
+[   10.250482][Ql-A][6oo1] #echo -- Deleting selective files 
+[   10.250553][Ql-A][6oo1]
+[   10.250607][Ql-A][6oo1] #unmount /system 
+[   10.250673][Ql-A][6oo1] /system sucessfully unmounted
+[   10.250743][Ql-A][6oo1]
+[   10.250797][Ql-A][6oo1] #mount --option=rw /system 
+[   10.251007][Ql-A][6oo1] warning: is_mounted_volumes: rootfs -> /
+[   10.251089][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /dev
+[   10.251264][Ql-A][6oo1] warning: is_mounted_volumes: devpts -> /dev/pts
+[   10.251353][Ql-A][6oo1] warning: is_mounted_volumes: proc -> /proc
+[   10.251424][Ql-A][6oo1] warning: is_mounted_volumes: sysfs -> /sys
+[   10.251493][Ql-A][6oo1] warning: is_mounted_volumes: selinuxfs -> /sys/fs/selinux
+[   10.251569][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /mnt
+[   10.251638][Ql-A][6oo1] warning: is_mounted_volumes: none -> /config
+[   10.251708][Ql-A][6oo1] warning: is_mounted_volumes: adb -> /dev/usb-ffs/adb
+[   10.251781][Ql-A][6oo1] warning: is_mounted_volumes: none -> /acct
+[   10.251850][Ql-A][6oo1] warning: is_mounted_volumes: tmpfs -> /tmp
+[   10.251921][Ql-A][6oo1] warning: is_mounted_volumes: debugfs -> /sys/kernel/debug
+[   10.252005][Ql-A][6oo1] warning: is_mounted_volumes: /dev/block/bootdevice/by-name/efs -> /efs
+[   10.252095][Ql-A][6oo1] warning: is_mounted_volumes: /dev/block/bootdevice/by-name/apnhlos -> /firmware
+[   10.252190][Ql-A][6oo1] warning: is_mounted_volumes: /dev/block/bootdevice/by-name/cache -> /cache
+[   10.253134][Ql-A][6oo1] /system sucessfully mounted
+[   10.253211][Ql-A][6oo1]
+[   10.253264][Ql-A][6oo1] #rm -rf /system/carrier/ATT/priv-app/AttIqi_ATT 
+[   10.254425][Ql-A][6oo1] remove failed dir '/system/carrier/ATT/priv-app/AttIqi_ATT'(No such file or directory)
+[   10.277604][Ql-A][6oo1] /system sucessfully unmounted
+[   10.277681][Ql-A][6oo1] running exec-delete-selective-file time : 0.027s
+[   10.277749][Ql-A][6oo1]
+[   10.277798][Ql-A][6oo1] [installing post-multi-csc]
+[   10.277859][Ql-A][6oo1] running post-multi-csc time : 0.000s
+[   10.277921][Ql-A][6oo1]
+[   10.277968][Ql-A][6oo1] [omc-app-link]
+[   10.281730][Ql-A][6oo1] finish omc-app-link
+[   10.281805][Ql-A][6oo1]
+[   10.281861][Ql-A][6oo1] [omc-permission]
+[   10.284691][Ql-A][6oo1]
+[   10.284752][Ql-A][6oo1] #chmod -v -r --type=directory 0751 /system/omc/ 
+[   10.287006][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.287282][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.287360][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.287432][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ACG
+[   10.287638][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.287834][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 notifications
+[   10.287934][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ringtones
+[   10.288012][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ui
+[   10.288086][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 audio
+[   10.288167][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 shutdown
+[   10.288252][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 video
+[   10.288338][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.288423][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.288507][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ATT
+[   10.288971][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 icon
+[   10.289058][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.289196][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.289288][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.289372][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 BST
+[   10.289736][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 icon
+[   10.289808][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.289947][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.290018][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.290085][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 CCT
+[   10.290535][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 icon
+[   10.290617][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.291238][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 shutdown
+[   10.291343][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:31 video
+[   10.291583][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 notifications
+[   10.291670][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:31 audio
+[   10.291750][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.291829][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:31 res
+[   10.291904][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 CHA
+[   10.292396][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 wallpaper
+[   10.292471][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.292542][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 FKR
+[   10.292751][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.292825][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 GCF
+[   10.292894][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 data
+[   10.292963][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 HWRDB
+[   10.293131][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.293220][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 LRA
+[   10.293512][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 icon
+[   10.293636][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.293827][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ui
+[   10.293914][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 audio
+[   10.294001][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 shutdown
+[   10.294084][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 video
+[   10.294155][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.294226][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.294300][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 SPR
+[   10.294987][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:27 notifications
+[   10.295065][Ql-A][6oo1] drwxr-x--x root     root              2017-03-19 08:22 audio
+[   10.295332][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:27 shutdown
+[   10.295409][Ql-A][6oo1] drwxr-x--x root     root              2017-03-19 08:22 video
+[   10.295488][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:27 media
+[   10.295573][Ql-A][6oo1] drwxr-x--x root     root              2017-03-19 08:22 res
+[   10.295720][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:27 icon
+[   10.295808][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:27 etc
+[   10.295891][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:27 CHA
+[   10.295974][Ql-A][6oo1] drwxr-x--x root     root              2017-03-19 08:22 single
+[   10.296158][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 icon
+[   10.296245][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.296426][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 shutdown
+[   10.296503][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 video
+[   10.296576][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.296646][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.296716][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 TFN
+[   10.296788][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.296989][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ringtones
+[   10.297070][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ui
+[   10.297156][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 audio
+[   10.297244][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 shutdown
+[   10.297347][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 video
+[   10.297435][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.297519][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.297601][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 TMB
+[   10.297687][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 icon
+[   10.297766][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.297966][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ui
+[   10.298041][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 audio
+[   10.298112][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.298183][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.298255][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 USC
+[   10.298443][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 icon
+[   10.298518][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.298694][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.298782][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.298865][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 VMU
+[   10.299033][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.299262][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 notifications
+[   10.299355][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ringtones
+[   10.299444][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 audio
+[   10.299548][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 media
+[   10.299624][Ql-A][6oo1] drwxr-x--x root     root              2017-01-01 00:00 res
+[   10.299694][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 VZW
+[   10.299828][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.299903][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 XAA
+[   10.300718][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 etc
+[   10.300792][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 XAS
+[   10.301184][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:27 sogoucelldb
+[   10.301272][Ql-A][6oo1] drwxr-x--x root     root              2017-02-23 18:27 SOGOUDB
+[   10.301628][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 de
+[   10.302056][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 it
+[   10.302493][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 fr_fr
+[   10.302991][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 ko
+[   10.303381][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 common
+[   10.303583][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 kddi
+[   10.303791][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 dcm
+[   10.304018][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 korean
+[   10.304223][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 china
+[   10.304475][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 jpnopen
+[   10.304551][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 en_us
+[   10.304927][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 es_us
+[   10.305002][Ql-A][6oo1] drwxr-x--x root     root              2017-05-18 09:05 sipdb
+[   10.305077][Ql-A][6oo1]
+[   10.305125][Ql-A][6oo1] #chmod -v -r --type=directory 0755 /system/omc/sipdb/ 
+[   10.305204][Ql-A][6oo1] drwxr-xr-x root     root              2017-02-23 18:27 sogoucelldb
+[   10.305291][Ql-A][6oo1] drwxr-xr-x root     root              2017-02-23 18:27 SOGOUDB
+[   10.305377][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 de
+[   10.305461][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 it
+[   10.305554][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 fr_fr
+[   10.305677][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 ko
+[   10.305763][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 common
+[   10.305847][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 kddi
+[   10.305918][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 dcm
+[   10.305991][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 korean
+[   10.306062][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 china
+[   10.306132][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 jpnopen
+[   10.306203][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 en_us
+[   10.306279][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 es_us
+[   10.306351][Ql-A][6oo1]
+[   10.306400][Ql-A][6oo1] #chmod -v -r --type=directory 0755 /system/omc/HWRDB/ 
+[   10.306492][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 data
+[   10.306579][Ql-A][6oo1] running omc_permission time : 0.021s
+[   10.312028][Ql-A][6oo1] finish omc-permission
+[   10.312102][Ql-A][6oo1]
+[   10.312158][Ql-A][6oo1] [omc-sysconfig-permission]
+[   10.316909][Ql-A][6oo1] finish omc-sysconfig-permission
+[   10.316989][Ql-A][6oo1]
+[   10.317041][Ql-A][6oo1] [omc-permissions-permission]
+[   10.322276][Ql-A][6oo1] finish omc-permissions-permission
+[   10.322379][Ql-A][6oo1]
+[   10.322428][Ql-A][6oo1] [omc-res-permission]
+[   10.325905][Ql-A][6oo1]
+[   10.325959][Ql-A][6oo1] #chmod -v -r --type=directory 0755 /system/omc/ATT/res/ 
+[   10.327116][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 notifications
+[   10.327823][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 ringtones
+[   10.327914][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 ui
+[   10.328000][Ql-A][6oo1] drwxr-xr-x root     root              2017-01-01 00:00 audio
+[   10.328088][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 shutdown
+[   10.328176][Ql-A][6oo1] drwxr-xr-x root     root              2017-01-01 00:00 video
+[   10.328262][Ql-A][6oo1] drwxr-xr-x root     root              2017-05-18 09:05 media
+[   10.328354][Ql-A][6oo1] running omc_res_permission time : 0.002s
+[   10.330788][Ql-A][6oo1] finish omc-res-permission
+[   10.330873][Ql-A][6oo1]
+[   10.330928][Ql-A][6oo1] [start hwr_symlink]
+[   10.334379][Ql-A][6oo1] finish hwr_symlink
+[   10.334440][Ql-A][6oo1] color_id_wallpaper = 0
+[   10.334501][Ql-A][6oo1] start regenerate full hash on device.
+[   10.436246][Ql-A][6oo1]
+[   10.436353][Ql-A][6oo1] Clean page cache ...
+[   10.565464][Ql-A][6oo1] device size is 4928307200.
+[   17.095836][Ql-A][6oo1] generate random salt.
+[   17.095989][Ql-A][6oo1] Hash device size required:38150144 bytes.
+[   17.096057][Ql-A][6oo1] thread_num = 8
+[   17.096110][Ql-A][6oo1] generate dummy hash for block 0.
+[   17.096167][Ql-A][6oo1] Finish level0 blocks !
+[   17.096215][Ql-A][6oo1] create_hash: 82, 9, 9232
+[   17.096264][Ql-A][6oo1] calculated_digest: 69D8A156FF9C5527D4E3D2ECD93EB3B54E5C8B3873075B71429A64E57C115CDD 
+[   17.096335][Ql-A][6oo1] create_hash: 9, 8, 73
+[   17.096382][Ql-A][6oo1] calculated_digest: C17C858A16E38A57B726E47FE8FC99A30DC93CF903598272CEBD6F8B79C70554 
+[   17.096456][Ql-A][6oo1] create_hash: 8, 0, 1
+[   17.096504][Ql-A][6oo1] calculated_digest: 8C5D02E0D75F154F48C75327BAAD8E86C8FEE2EEC1E371072A260B68B66B3FF1 
+[   17.096609][Ql-A][6oo1] table: 1 /dev/block/bootdevice/by-name/system /dev/block/bootdevice/by-name/system 4096 4096 1181642 1181650 sha256 8C5D02E0D75F154F48C75327BAAD8E86C8FEE2EEC1E371072A260B68B66B3FF1 ABF78067244FFEB13B73D5339A9879D0778332D67A1987BFD689A403A03E19A9write table 239
+[   17.096832][Ql-A][6oo1] write table 239
+[   17.473896][Ql-A][6oo1] tz_setup...
+[   17.577260][Ql-A][6oo1] tz_setup success.
+[   19.696794][Ql-A][6oo1] TZAPP loaded successfully
+[   19.696887][Ql-A][6oo1] ======================================================
+[   19.696974][Ql-A][6oo1] Version      = 3.0.12
+[   19.697029][Ql-A][6oo1] Base Version = 3.0.18
+[   19.697084][Ql-A][6oo1] op type    = NWD_FS
+[   19.697137][Ql-A][6oo1] tz os type = QSEE
+[   19.697184][Ql-A][6oo1] ======================================================
+[   19.697242][Ql-A][6oo1] createServiceKeySession start...
+[   19.697290][Ql-A][6oo1] createServiceKeySession for DMVT.
+[   19.697340][Ql-A][6oo1] Property (ro.product.model): 'SM-G955U'
+[   19.697392][Ql-A][6oo1] UFS type !!!
+[   19.697433][Ql-A][6oo1] LoadTA (1) success
+[   19.697477][Ql-A][6oo1] Received 3458 bytes
+[   19.697521][Ql-A][6oo1] UnloadTA (0) is skipped.
+[   19.697567][Ql-A][6oo1] createServiceKeySession end...[0]
+[   19.697616][Ql-A][6oo1] createSessionKey success
+[   19.697667][Ql-A][6oo1] TZAPP send cmd successful
+[   19.697722][Ql-A][6oo1] Return val: 0
+[   19.697771][Ql-A][6oo1] ======================================================
+[   19.697840][Ql-A][6oo1] Version      = 3.0.12
+[   19.697892][Ql-A][6oo1] Base Version = 3.0.18
+[   19.697946][Ql-A][6oo1] op type    = NWD_FS
+[   19.697997][Ql-A][6oo1] tz os type = QSEE
+[   19.698048][Ql-A][6oo1] ======================================================
+[   19.698116][Ql-A][6oo1] releaseServiceKeySession start...
+[   19.698175][Ql-A][6oo1]
+[   19.698215][Ql-A][6oo1] UnloadTA (1) success.
+[   19.698260][Ql-A][6oo1]
+[   19.698296][Ql-A][6oo1] releaseServiceKeySession end...[0]
+[   19.698346][Ql-A][6oo1] TZAPP shut down
+[   19.709028][Ql-A][6oo1] milestone: dm_verity full rehash ends.
+[   19.709142][Ql-A][6oo1] : 9367741
+[   19.709197][Ql-A][6oo1] remove marker...
+[   19.774063][Ql-A][6oo1] remove marker
+[   19.774160][Ql-A][6oo1] TZAPP send cmd successful
+[   19.774232][Ql-A][6oo1] TZAPP shut down
+[   19.774302][Ql-A][6oo1] running dm-verity time : 9.439s
+[   19.774375][Ql-A][6oo1]
+[   19.774433][Ql-A][6oo1] [system partition space check]
+[   19.774505][Ql-A][6oo1] This device doesn't have /odm and /product partition.
+[   19.774588][Ql-A][6oo1]
+[   19.774644][Ql-A][6oo1] [out-recovery]
+[   19.777718][Ql-A][6oo1] running out-recovery time : 0.000s
+[   19.777809][Ql-A][6oo1] running recovery time : 19.784s
+[   19.778254][Ql-A][6oo1] copy_avc_msg_to_data(1, )
+[   19.778577][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[   19.784570][Ql-A][6oo1] copy_file '/proc/avc_msg' '/cache/recovery/last_avc_msg_recovery'
+[   19.795743][Ql-A][6oo1] !__RECOVERY_FOR_ASSAMBLY
+[   19.795848][Ql-A][6oo1] b_del_recovery_command = true
+[   19.795908][Ql-A][6oo1] finalizing dm-verity hash tree.
+[   19.808701][Ql-A][6oo1] start regenerate full hash on device.
+[   19.913267][Ql-A][6oo1]
+[   19.913421][Ql-A][6oo1] Clean page cache ...
+[   20.030500][Ql-A][6oo1] device size is 4928307200.
+[   26.565973][Ql-A][6oo1] generate random salt.
+[   26.566106][Ql-A][6oo1] Hash device size required:38150144 bytes.
+[   26.566177][Ql-A][6oo1] thread_num = 8
+[   26.566230][Ql-A][6oo1] generate dummy hash for block 0.
+[   26.566292][Ql-A][6oo1] Finish level0 blocks !
+[   26.566348][Ql-A][6oo1] create_hash: 82, 9, 9232
+[   26.566396][Ql-A][6oo1] calculated_digest: 91B2D82C0E1282CB472E7C0F0AC36E88AA7CEC0E2968D9BCD1D199EAFD077F7A 
+[   26.566468][Ql-A][6oo1] create_hash: 9, 8, 73
+[   26.566516][Ql-A][6oo1] calculated_digest: E57C73EAE32328EEED510B95D8B63E493F604A335A628615DD527647596CB84B 
+[   26.566592][Ql-A][6oo1] create_hash: 8, 0, 1
+[   26.566639][Ql-A][6oo1] calculated_digest: AA1DDF3CA082E9CE863A85DB11373C7F05B0D411318BD320EE885B10CDD1BC9A 
+[   26.566712][Ql-A][6oo1] table: 1 /dev/block/bootdevice/by-name/system /dev/block/bootdevice/by-name/system 4096 4096 1181642 1181650 sha256 AA1DDF3CA082E9CE863A85DB11373C7F05B0D411318BD320EE885B10CDD1BC9A 0B07C05941AB0D6033F16FD6C1B28169131DA9F625C0CF9E74ED528CF2AA9744write table 239
+[   26.566870][Ql-A][6oo1] write table 239
+[   26.915890][Ql-A][6oo1] tz_setup...
+[   26.916029][Ql-A][6oo1] already setup tz...success.
+[   28.534526][Ql-A][6oo1] TZAPP loaded successfully
+[   28.534618][Ql-A][6oo1] ======================================================
+[   28.534703][Ql-A][6oo1] Version      = 3.0.12
+[   28.534752][Ql-A][6oo1] Base Version = 3.0.18
+[   28.534800][Ql-A][6oo1] op type    = NWD_FS
+[   28.534846][Ql-A][6oo1] tz os type = QSEE
+[   28.534891][Ql-A][6oo1] ======================================================
+[   28.534951][Ql-A][6oo1] createServiceKeySession start...
+[   28.535003][Ql-A][6oo1] createServiceKeySession for DMVT.
+[   28.535060][Ql-A][6oo1] Property (ro.product.model): 'SM-G955U'
+[   28.535123][Ql-A][6oo1] UFS type !!!
+[   28.535174][Ql-A][6oo1] LoadTA (1) success
+[   28.535227][Ql-A][6oo1] Received 3459 bytes
+[   28.535281][Ql-A][6oo1] UnloadTA (0) is skipped.
+[   28.535337][Ql-A][6oo1] createServiceKeySession end...[0]
+[   28.535398][Ql-A][6oo1] createSessionKey success
+[   28.535454][Ql-A][6oo1] TZAPP send cmd successful
+[   28.535511][Ql-A][6oo1] Return val: 0
+[   28.535562][Ql-A][6oo1] ======================================================
+[   28.535629][Ql-A][6oo1] Version      = 3.0.12
+[   28.535674][Ql-A][6oo1] Base Version = 3.0.18
+[   28.535720][Ql-A][6oo1] op type    = NWD_FS
+[   28.535765][Ql-A][6oo1] tz os type = QSEE
+[   28.535809][Ql-A][6oo1] ======================================================
+[   28.535868][Ql-A][6oo1] releaseServiceKeySession start...
+[   28.535918][Ql-A][6oo1]
+[   28.535955][Ql-A][6oo1] UnloadTA (1) success.
+[   28.536001][Ql-A][6oo1]
+[   28.536038][Ql-A][6oo1] releaseServiceKeySession end...[0]
+[   28.536089][Ql-A][6oo1] TZAPP shut down
+[   28.540659][Ql-A][6oo1] milestone: dm_verity full rehash ends.
+[   28.540762][Ql-A][6oo1] : 8732010
+[   28.540832][Ql-A][6oo1] Successfully generated dm-verity hash tree.
+[   28.545959][Ql-A][6oo1] remove marker...
+[   28.606877][Ql-A][6oo1] remove marker
+[   28.606970][Ql-A][6oo1] TZAPP send cmd successful
+[   28.607031][Ql-A][6oo1] TZAPP shut down
+[   28.607126][Ql-A][6oo1] running dm-verity time : 8.816s
+[   28.607181][Ql-A][6oo1] end dm_verity in recovery.
+[   28.610976][Ql-A][6oo1] milestone: dm_verity_recovery_end done
+[   28.611074][Ql-A][6oo1] : 3114
+[   28.611132][Ql-A][6oo1] Rebooting...
+[   30.615340][Ql-A][6oo1] ## finish_recovery_terminate(del=1, reboot_cmd=reboot,, clear_BCB=1)
+[   30.615477][Ql-A][6oo1] ## finish_recovery(delcmd=1, clearBCB=1)
+[   30.615555][Ql-A][6oo1] I:Saving locale "en-US"
+[   30.615711][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[   30.624144][Ql-A][6oo1] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[   30.625504][Ql-A][6oo1] I:## unlink /cache/recovery/command
+[   30.631391][Ql-A][6oo1] copy_logs
+[   30.632711][Ql-A][6oo1] I:fs_type "ext4" for /cache
+[   30.635749][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/log' 
+[   30.640260][Ql-A][6oo1] copy_log_file :: create recovery log file '/cache/recovery/last_log' 
